@@ -18,11 +18,29 @@ Line Trace has to be started from Actor's[In this case, Ball's] current position
 After collision with ground, all the Break Hit Result information can be obtained.
 Select and CTR+W- To duplicate cell in Event Graph
 In Material, Hold V+Left-Click to create Vector Parameter.
-*******Imapct Normal, under Break Hit Result is the direction in world space of the trace test.
 For the player character, there are normally aspects: Controller and Pawn
 Controller kinda refers to the brain of the object. In the context of player, controller handles all of the inputs.
 Pawn is kinda like the body of the object.
 Controller sends messages to the pawn and the pawn knows what to do.
 Player pawn is not required for a Pinball game.
 For Camera, Auto Player Activation is set to Player 0.
+--------------------
+For Bumpers, new blueprint needs to be created.
+Two meshes required for Bumpers: Bump Mechanism and Pop Bumper Base
+*******Imapct Normal, under Break Hit Result is the direction in world space of the trace test.
+To set the Collision of BumperMesh, three types of colliders are added: Thin capsule on the inside, around the top, and the overlap region.
+Whenever the ball enters overlap region, bumper gets activated.
+When something overlaps the given region, check whether it's a Ball.
+Blueprint of Bumper::
+Cast to <Anything> tries to verify that it is that kinda object that's being read into it.
+Add Capsule Collision in the viewport.
+Sound, Movement, Material and Light needs to be added for more effectiveness.
+In Material window, Hold T+Left-Click to create Texture node
+In Material window, Hold L+Left-Click to create Lerp(Linear Interpolation) node
+Create a Custom Event- Bump.
+In Material window, Hold M+Left-Click to create Multiply node
+In Material window, Hold S+Left-Click to create Scalar Parameter node
+It looks nice but reasonably subtle, when something is lighting up beneath the surface, to have a rather smooth level of roughness.
+Make sure by default, Emissive Boost is set to 0.
+Component changes and Adding lights is next.
 
