@@ -1,0 +1,12 @@
+BLUEPRINTS
+Types of Blueprint scripts: Construction Scirpt and Event Grpah
+Construction Scirpt handles all the things one would want to run when the Blueprint class is created.
+Event Graph contains all the code related to the gameplay events. It used in most cases when making something in blueprint.
+Within Event Graph: Begin Play and Tick
+Begin Play is the event that fires the moment game begins or actor enters the already running gameplay.
+Tick functions runs once per frame, per actor. Can be disabled.
+After Begin Play has run, Tick runs. Every single frame, every time the PC is updated, it Ticks every actor again and again and again.
+**********Time between Ticks, time between computer updating all of the actors again and again is called the Delta Time. 
+Time gap between two Ticks is represented by Delta Seconds variable, in Event Graph.
+Delta Second is of float type.
+Velocity change in Impuse says ignore any actual mass of the object and move it at the given speed.
