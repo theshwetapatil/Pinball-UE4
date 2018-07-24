@@ -43,4 +43,32 @@ In Material window, Hold S+Left-Click to create Scalar Parameter node
 It looks nice but reasonably subtle, when something is lighting up beneath the surface, to have a rather smooth level of roughness.
 Make sure by default, Emissive Boost is set to 0.
 Component changes and Adding lights is next.
+--------------------------
+Bumper is setup to send the Ball away from it.
+Timeline is developer's way creating a mini-graph of time vs variable and letting it drive parameters within any blueprint created.
+To set timetine transition to auto, Press 1.
+*****Update in Timeline is used to derive different parameters within a bumper. Very useful technique used all the time within different areas of Unreal.
+Blowing up the top of bumper requires one extra step.
+It involves creating a Material Instance Dynamic(MID).
+Because all the bumpers are using the same shader, changing the variable to be brighter and darker again, it's not gonna work.
+Because we need to create a Dynamic Instance that solely applies to that one bumper.
+So each bumper has an individual set of parameters, so that there can be different brighness levels to each other according to where they are when they're getting hit.
+To do so, modify costruction script of bumper blueprint.
+*******Make sure to use element index 1 and not 0. Otherwise it won't work, because they're different material channels.
+Store reference to the dynamic material into variable.
+To add sound, create Spawn sound attached node between Add Impuse(Impulse) and Bump Lerp(Timeline). Because, if added after update/ attached to the update parameter, it will be played at every frame, which would be horrible.
+*****Sound waves are imported, but it's more useful to play sound ***cues in the game.
+Sound cue is a way of setting up sounds, so that they can be a little bit more dynamic just playing the prerecorded sound.
+By selecting multiple sound waves in content browser, sound editor gives options to create Random Multiple Waves(On Right-Click).
+With this, multiple sounds can be played dyanamically, at different times.
+Modulator, added between Random Multiple Waves and Sound Cue/ Output, slightly modifies the pitch and the volume, every time sounds are played, so that it doesn't sound like large range of sounds being randomly selected. 
+Set newly created Sound Cue in Spawn Sound Attached of Bumper blueprint.
+Attach to Component is attached to the Bumper Mesh.
+
+
+
+
+
+
+
 
