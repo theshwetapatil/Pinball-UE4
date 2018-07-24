@@ -10,3 +10,19 @@ After Begin Play has run, Tick runs. Every single frame, every time the PC is up
 Time gap between two Ticks is represented by Delta Seconds variable, in Event Graph.
 Delta Second is of float type.
 Velocity change in Impuse says ignore any actual mass of the object and move it at the given speed.
+--------------------
+Line Check is done to check what's beneath the ball itself.
+Line Trace- Whenever something hits between start position and end position, it returns a value to inspect it more closely and get information from it.
+Line Trace has to be started from Actor's[In this case, Ball's] current position.
+****Within Unreal, X-Forwards, Y-Sideways, Z-Up and Down
+After collision with ground, all the Break Hit Result information can be obtained.
+Select and CTR+W- To duplicate cell in Event Graph
+In Material, Hold V+Left-Click to create Vector Parameter.
+*******Imapct Normal, under Break Hit Result is the direction in world space of the trace test.
+For the player character, there are normally aspects: Controller and Pawn
+Controller kinda refers to the brain of the object. In the context of player, controller handles all of the inputs.
+Pawn is kinda like the body of the object.
+Controller sends messages to the pawn and the pawn knows what to do.
+Player pawn is not required for a Pinball game.
+For Camera, Auto Player Activation is set to Player 0.
+
