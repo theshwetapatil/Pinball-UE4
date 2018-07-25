@@ -75,6 +75,23 @@ Hold CTR for get and ALT for set, when creating variable node in blueprints.
 Move Component To node, Within the given period moves the component
 from it's location to the target location
 Material instance is the exact same material already created. But it allows to change any of the parameters in it into anything else.
+--------------
+Create a player controller that will detect the Flippers and then move them when the buttons are pressed.
+Player controller created is the player controller to be used by default.
+Set up some inputs that will bind the buttons correctly to left Flipper and right Flipepr.
+In the player controller blueprint, create a function/event that will detect all Flippers in the map.
+Then break it into two buckets, left Flippers and right Flippers. These will be two arrays/list of Flippers.
+Create inputs for the Flippers.
+In Edit->Project Settings, Input
+********Left Flipper will be bound to Left Ctrl
+********Right Flipper will be bound to Right Ctrl
+********Create a Game Mode, and set player controller blueprint as the default player controller of that game mode.
+Game Mode Base is where all the gamemode instructions are done. Eg. calculating overall team scores.
+In Edit->Project Settings, Maps and Modes
+Set default gamemode as pinball gamemode blueprint.
+In player controller blueprint, attach Detect Flippers function to Event BeginPlay.
+
+
 
 
 
