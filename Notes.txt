@@ -64,7 +64,17 @@ With this, multiple sounds can be played dyanamically, at different times.
 Modulator, added between Random Multiple Waves and Sound Cue/ Output, slightly modifies the pitch and the volume, every time sounds are played, so that it doesn't sound like large range of sounds being randomly selected. 
 Set newly created Sound Cue in Spawn Sound Attached of Bumper blueprint.
 Attach to Component is attached to the Bumper Mesh.
-
+--------------
+Flippers
+Create Left/Right Flipper with the construction script.
+****Flipper is NOT the root component of the blueprint. Because, DefaultSceneRoot is going to be the stable anchor point that the flipper is going to be rotating from.
+Construction script should control scale as well as roation of the Flipper.
+Set current relative location to be whatever the start roation has been set as.
+Hold CTR for get and ALT for set, when creating variable node in blueprints.
+*****Move Component To is very useful function, blueprint node.
+Move Component To node, Within the given period moves the component
+from it's location to the target location
+Material instance is the exact same material already created. But it allows to change any of the parameters in it into anything else.
 
 
 
