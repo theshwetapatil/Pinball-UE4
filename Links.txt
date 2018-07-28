@@ -4,3 +4,6 @@ https://docs.unrealengine.com/en-us/Engine/Rendering/Materials
 Official Unreal Engine Documentation on Event Dispatchers
 https://docs.unrealengine.com/en-us/Engine/Blueprints/UserGuide/EventDispatcher
 
+Official Unreal Engine Documentation on UMG
+https://docs.unrealengine.com/en-us/Engine/UMG/UserGuide
+
