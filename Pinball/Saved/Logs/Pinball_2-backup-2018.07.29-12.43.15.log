@@ -1,4 +1,4 @@
-﻿Log file open, 07/28/18 17:59:21
+﻿Log file open, 07/29/18 12:42:31
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -7,12 +7,12 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: Pinball
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(719233951) SRandInit(719233951).
+LogInit: Display: RandInit(-1384379176) SRandInit(-1384379176).
 LogInit: Read version file with build ID '3944462'
 LogInit: Overriding engine version to CL 4033788, compatible CL 3944462
 LogInit: Registered custom module enumerator with build ID '3944462'
 LogTaskGraph: Started task graph with 5 named threads and 11 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.295002
+LogStats: Stats thread started at 0.370101
 LogD3D11RHI: Aftermath initialized
 LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +5:30, Platform Override: ''
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3944462).
@@ -168,7 +168,7 @@ LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogStreaming: Display: Took  4.885s to configure plugins.
+LogStreaming: Display: Took  4.804s to configure plugins.
 LogInit: Using libcurl 7.47.1
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2g
@@ -219,148 +219,69 @@ LogInit: Branch Name: ++UE4+Release-4.19
 LogInit: Command Line:  /Game/Ball_Setup_Map -game -PIEVIACONSOLE -ResX=1280 -ResY=720  -Multiprocess -messaging -SessionName="Play in Standalone Game" -windowed 
 LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.19/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
-LogStreaming: Display: Took  0.473s to delete old logs.
+LogStreaming: Display: Took  0.003s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.07.28-12.29.28:651][  0]LogInit: Selected Device Profile: [Windows]
-[2018.07.28-12.29.28:651][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.07.28-12.29.28:716][  0]LogInit: Computer: LAPTOP-SNI5BBA7
-[2018.07.28-12.29.28:716][  0]LogInit: User: Shweta
-[2018.07.28-12.29.28:716][  0]LogInit: CPU Page size=4096, Cores=2
-[2018.07.28-12.29.28:716][  0]LogInit: High frequency timer resolution =2.835940 MHz
-[2018.07.28-12.29.28:716][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
-[2018.07.28-12.29.28:716][  0]LogMemory: Platform Memory Stats for Windows
-[2018.07.28-12.29.28:716][  0]LogMemory: Process Physical Memory: 273.60 MB used, 273.60 MB peak
-[2018.07.28-12.29.28:717][  0]LogMemory: Process Virtual Memory: 264.01 MB used, 264.01 MB peak
-[2018.07.28-12.29.28:717][  0]LogMemory: Physical Memory: 7065.23 MB used,  1009.18 MB free, 8074.41 MB total
-[2018.07.28-12.29.28:717][  0]LogMemory: Virtual Memory: 4779.77 MB used,  1009.18 MB free, 134217728.00 MB total
-[2018.07.28-12.29.29:198][  0]LogInit: Using OS detected language (en-US).
-[2018.07.28-12.29.29:198][  0]LogInit: Using OS detected locale (en-US).
-[2018.07.28-12.29.29:198][  0]LogTextLocalizationManager: No localization for 'en-US' exists, so 'en' will be used for the language.
-[2018.07.28-12.29.29:198][  0]LogTextLocalizationManager: No localization for 'en-US' exists, so 'en' will be used for the locale.
-[2018.07.28-12.29.30:388][  0]LogStreaming: Display: Took  1.190s to EndInitTextLocalization.
-[2018.07.28-12.29.31:222][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2018.07.28-12.29.31:222][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2018.07.28-12.29.31:228][  0]LogD3D11RHI: D3D11 adapters:
-[2018.07.28-12.29.31:384][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics 620' (Feature Level 11_0)
-[2018.07.28-12.29.31:384][  0]LogD3D11RHI:       128/0/4037 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
-[2018.07.28-12.29.31:433][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2018.07.28-12.29.31:433][  0]LogD3D11RHI:       0/0/4037 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2018.07.28-12.29.31:433][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.07.28-12.29.31:440][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.07.28-12.29.31:440][  0]LogD3D11RHI:     GPU DeviceId: 0x5916 (for the marketing name, search the web for "GPU Device Id")
-[2018.07.28-12.29.31:440][  0]LogWindows: EnumDisplayDevices:
-[2018.07.28-12.29.31:440][  0]LogWindows:    0. 'Intel(R) HD Graphics 620' (P:1 D:1)
-[2018.07.28-12.29.31:440][  0]LogWindows:    1. 'Intel(R) HD Graphics 620' (P:0 D:0)
-[2018.07.28-12.29.31:441][  0]LogWindows:    2. 'Intel(R) HD Graphics 620' (P:0 D:0)
-[2018.07.28-12.29.31:441][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2018.07.28-12.29.31:441][  0]LogD3D11RHI:     Adapter Name: Intel(R) HD Graphics 620
-[2018.07.28-12.29.31:441][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2018.07.28-12.29.31:441][  0]LogD3D11RHI:      Driver Date: Unknown
-[2018.07.28-12.29.31:441][  0]LogRHI: Texture pool is 1502 MB (70% of 2146 MB)
-[2018.07.28-12.29.31:446][  0]LogD3D11RHI: Async texture creation enabled
-[2018.07.28-12.29.31:451][  0]LogD3D11RHI: GPU Timing Frequency: 12.000000 (Debug: 2 0)
-[2018.07.28-12.29.31:454][  0]LogShaderCompilers: Guid format shader working directory is -36 characters bigger than the processId version (../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Intermediate/Shaders/WorkingDirectory/10936/).
-[2018.07.28-12.29.31:454][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Shweta/AppData/Local/Temp/UnrealShaderWorkingDir/9CF3ADF6498E6CA964C232875286397E/'.
-[2018.07.28-12.29.33:761][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2018.07.28-12.29.33:819][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.07.28-12.29.33:834][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2018.07.28-12.29.33:849][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2018.07.28-12.29.33:849][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2018.07.28-12.29.34:818][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2018.07.28-12.29.34:818][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2018.07.28-12.29.34:818][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2018.07.28-12.29.38:396][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2018.07.28-12.29.39:690][  0]LogDerivedDataCache: Loaded boot cache 1.28s 74MB C:/Users/Shweta/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
-[2018.07.28-12.29.39:690][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Shweta/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc
-[2018.07.28-12.29.39:690][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.07.28-12.29.39:690][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.07.28-12.29.39:690][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.07.28-12.29.39:690][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2018.07.28-12.29.39:732][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2018.07.28-12.29.39:745][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Shweta/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2018.07.28-12.29.39:745][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2018.07.28-12.29.39:745][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2018.07.28-12.29.39:758][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2018.07.28-12.29.39:820][  0]LogSlate: Using Freetype 2.6.0
-[2018.07.28-12.29.39:893][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.07.28-12.29.39:893][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.07.28-12.29.48:442][  0]LogAssetRegistry: FAssetRegistry took 0.0123 seconds to start up
-[2018.07.28-12.29.50:733][  0]LogPackageLocalizationCache: Processed 9 localized package path(s) for 1 prioritized culture(s) in 0.036857 seconds
-[2018.07.28-12.29.50:981][  0]LogInit: Selected Device Profile: [Windows]
-[2018.07.28-12.29.51:872][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2018.07.28-12.29.51:960][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2018.07.28-12.29.51:967][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.07.28-12.29.51:967][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2018.07.28-12.29.51:967][  0]LogMeshReduction: No automatic mesh merging module available
-[2018.07.28-12.29.51:967][  0]LogMeshMerging: No automatic mesh merging module available
-[2018.07.28-12.29.52:220][  0]LogNetVersion: Pinball , NetCL: 3944462, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3476590221)
-[2018.07.28-12.29.57:249][  0]LogMoviePlayer: Initializing movie player
-[2018.07.28-12.29.58:468][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2018.07.28-12.29.58:554][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.07.28-12.29.59:202][  0]SourceControl: Source control is disabled
-[2018.07.28-12.29.59:203][  0]SourceControl: Source control is disabled
-[2018.07.28-12.29.59:268][  0]SourceControl: Source control is disabled
-[2018.07.28-12.30.00:783][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2018.07.28-12.30.01:443][  0]LogOcInput: OculusInput pre-init called
-[2018.07.28-12.30.01:562][  0]LogUObjectArray: 40124 objects as part of root set at end of initial load.
-[2018.07.28-12.30.01:562][  0]LogUObjectAllocator: 8364208 out of 0 bytes used by permanent object pool.
-[2018.07.28-12.30.01:562][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.07.28-12.30.02:777][  0]LogEngine: Initializing Engine...
-[2018.07.28-12.30.02:866][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2018.07.28-12.30.02:892][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.07.28-12.30.02:892][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.07.28-12.30.04:016][  0]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.07.28-12.30.04:200][  0]LogInit: FAudioDevice initialized.
-[2018.07.28-12.30.04:364][  0]LogInit: Texture streaming: Enabled
-[2018.07.28-12.30.05:392][  0]LogInit: Display: Game Engine Initialized.
-[2018.07.28-12.30.05:392][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2018.07.28-12.30.05:392][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.07.28-12.30.05:392][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.07.28-12.30.05:975][  0]LogInit: Display: Starting Game.
-[2018.07.28-12.30.05:994][  0]LogNet: Browse: /Game/Ball_Setup_Map?Name=Player
-[2018.07.28-12.30.05:995][  0]LogLoad: LoadMap: /Game/Ball_Setup_Map?Name=Player
-[2018.07.28-12.30.06:401][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000027c351e07c0, Size=32, Default__Ball_Reset_Zone_Blueprint_C Function /Game/Blueprints/Ball_Reset_Zone_Blueprint.Ball_Reset_Zone_Blueprint_C:ExecuteUbergraph_Ball_Reset_Zone_Blueprint
-[2018.07.28-12.30.06:437][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000027c351d1180, Size=368, Default__Ball_Blueprint_C Function /Game/Blueprints/Ball_Blueprint.Ball_Blueprint_C:ExecuteUbergraph_Ball_Blueprint
-[2018.07.28-12.30.06:498][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000027c351d1180, Size=368
-[2018.07.28-12.30.06:499][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000027c35223400, Size=368, Default__Ball_Blueprint_C Function /Engine/Transient.REINST_Ball_Blueprint_C_1:ExecuteUbergraph_Ball_Blueprint
-[2018.07.28-12.30.06:501][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000027c351e07c0, Size=32
-[2018.07.28-12.30.06:501][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000027c351e07c0, Size=32, Default__Ball_Reset_Zone_Blueprint_C Function /Engine/Transient.REINST_Ball_Reset_Zone_Blueprint_C_2:ExecuteUbergraph_Ball_Reset_Zone_Blueprint
-[2018.07.28-12.30.06:517][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000027c35251900, Size=368, Default__Ball_Blueprint_C Function /Game/Blueprints/Ball_Blueprint.Ball_Blueprint_C:ExecuteUbergraph_Ball_Blueprint
-[2018.07.28-12.30.06:518][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000027c351e3860, Size=32, Default__Ball_Reset_Zone_Blueprint_C Function /Game/Blueprints/Ball_Reset_Zone_Blueprint.Ball_Reset_Zone_Blueprint_C:ExecuteUbergraph_Ball_Reset_Zone_Blueprint
-[2018.07.28-12.30.06:971][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000027c25a96700, Size=304, Default__Bumper_Blueprint_C Function /Game/Blueprints/Bumper_Blueprint.Bumper_Blueprint_C:ExecuteUbergraph_Bumper_Blueprint
-[2018.07.28-12.30.07:082][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000027c2fca1a80, Size=144, Default__Pinball_Game_Mode_Blueprint_C Function /Game/Blueprints/Pinball_Game_Mode_Blueprint.Pinball_Game_Mode_Blueprint_C:ExecuteUbergraph_Pinball_Game_Mode_Blueprint
-[2018.07.28-12.30.07:094][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000027c2783e200, Size=164, Default__Plunger_Blueprint_C Function /Game/Blueprints/Plunger_Blueprint.Plunger_Blueprint_C:ExecuteUbergraph_Plunger_Blueprint
-[2018.07.28-12.30.07:121][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000027c22dd5400, Size=496, Default__Pinball_Player_Controller_Blueprint_C Function /Game/Blueprints/Pinball_Player_Controller_Blueprint.Pinball_Player_Controller_Blueprint_C:ExecuteUbergraph_Pinball_Player_Controller_Blueprint
-[2018.07.28-12.30.07:150][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000027c2fdd4fb0, Size=8, Default__Flipper_Blueprint_C Function /Game/Blueprints/Flipper_Blueprint.Flipper_Blueprint_C:ExecuteUbergraph_Flipper_Blueprint
-[2018.07.28-12.30.07:223][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000027c25a96700, Size=304
-[2018.07.28-12.30.07:223][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000027c25a96700, Size=304, Default__Bumper_Blueprint_C Function /Engine/Transient.REINST_Bumper_Blueprint_C_9:ExecuteUbergraph_Bumper_Blueprint
-[2018.07.28-12.30.07:223][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000027c2fdd4fb0, Size=8
-[2018.07.28-12.30.07:223][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000027c2fdd4fb0, Size=8, Default__Flipper_Blueprint_C Function /Engine/Transient.REINST_Flipper_Blueprint_C_10:ExecuteUbergraph_Flipper_Blueprint
-[2018.07.28-12.30.07:224][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000027c2783e200, Size=164
-[2018.07.28-12.30.07:224][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000027c34aeb640, Size=164, Default__Plunger_Blueprint_C Function /Engine/Transient.REINST_Plunger_Blueprint_C_11:ExecuteUbergraph_Plunger_Blueprint
-[2018.07.28-12.30.07:224][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000027c2fca1a80, Size=144
-[2018.07.28-12.30.07:224][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000027c34a99c60, Size=144, Default__Pinball_Game_Mode_Blueprint_C Function /Engine/Transient.REINST_Pinball_Game_Mode_Blueprint_C_12:ExecuteUbergraph_Pinball_Game_Mode_Blueprint
-[2018.07.28-12.30.07:224][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000027c22dd5400, Size=496
-[2018.07.28-12.30.07:224][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000027c3526f800, Size=496, Default__Pinball_Player_Controller_Blueprint_C Function /Engine/Transient.REINST_Pinball_Player_Controller_Blueprint_C_13:ExecuteUbergraph_Pinball_Player_Controller_Blueprint
-[2018.07.28-12.30.07:260][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000027c349abc40, Size=304, Default__Bumper_Blueprint_C Function /Game/Blueprints/Bumper_Blueprint.Bumper_Blueprint_C:ExecuteUbergraph_Bumper_Blueprint
-[2018.07.28-12.30.07:266][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000027c2fdd48b0, Size=8, Default__Flipper_Blueprint_C Function /Game/Blueprints/Flipper_Blueprint.Flipper_Blueprint_C:ExecuteUbergraph_Flipper_Blueprint
-[2018.07.28-12.30.07:267][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000027c3499a680, Size=164, Default__Plunger_Blueprint_C Function /Game/Blueprints/Plunger_Blueprint.Plunger_Blueprint_C:ExecuteUbergraph_Plunger_Blueprint
-[2018.07.28-12.30.07:268][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000027c349958a0, Size=144, Default__Pinball_Game_Mode_Blueprint_C Function /Game/Blueprints/Pinball_Game_Mode_Blueprint.Pinball_Game_Mode_Blueprint_C:ExecuteUbergraph_Pinball_Game_Mode_Blueprint
-[2018.07.28-12.30.07:274][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000027c34a25000, Size=504, Default__Pinball_Player_Controller_Blueprint_C Function /Game/Blueprints/Pinball_Player_Controller_Blueprint.Pinball_Player_Controller_Blueprint_C:ExecuteUbergraph_Pinball_Player_Controller_Blueprint
-[2018.07.28-12.30.09:744][  0]LogAIModule: Creating AISystem for world Ball_Setup_Map
-[2018.07.28-12.30.09:757][  0]LogLoad: Game class is 'Pinball_Game_Mode_Blueprint_C'
-[2018.07.28-12.30.09:819][  0]LogWorld: Bringing World /Game/Ball_Setup_Map.Ball_Setup_Map up for play (max tick rate 0) at 2018.07.28-18.00.09
-[2018.07.28-12.30.09:908][  0]LogWorld: Bringing up level for play took: 0.102432
-[2018.07.28-12.30.10:390][  0]LogLoad: Took 4.395345 seconds to LoadMap(/Game/Ball_Setup_Map)
-[2018.07.28-12.30.11:301][  0]LogRenderer: Reallocating scene render targets to support 1280x720 Format 10 NumSamples 1 (Frame:1).
-[2018.07.28-12.30.11:301][  0]LogLoad: (Engine Initialization) Total time: 73.78 seconds
-[2018.07.28-12.30.11:301][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2018.07.28-12.30.12:507][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2018.07.28-12.30.43:304][725]LogSlate: Window 'Pinball (64-bit, PCD3D_SM5) ' being destroyed
-[2018.07.28-12.30.43:305][725]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2018.07.28-12.30.43:358][726]LogEngine: All Windows Closed
-[2018.07.28-12.30.43:358][726]LogWindows: FPlatformMisc::RequestExit(0)
-[2018.07.28-12.30.43:938][727]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
-[2018.07.28-12.30.43:946][727]LogExit: Preparing to exit.
-[2018.07.28-12.30.43:946][727]LogMoviePlayer: Shutting down movie player
+[2018.07.29-07.12.36:226][  0]LogInit: Selected Device Profile: [Windows]
+[2018.07.29-07.12.36:226][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.07.29-07.12.36:242][  0]LogInit: Computer: LAPTOP-SNI5BBA7
+[2018.07.29-07.12.36:242][  0]LogInit: User: Shweta
+[2018.07.29-07.12.36:242][  0]LogInit: CPU Page size=4096, Cores=2
+[2018.07.29-07.12.36:243][  0]LogInit: High frequency timer resolution =2.835940 MHz
+[2018.07.29-07.12.36:243][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2018.07.29-07.12.36:243][  0]LogMemory: Platform Memory Stats for Windows
+[2018.07.29-07.12.36:243][  0]LogMemory: Process Physical Memory: 273.84 MB used, 273.84 MB peak
+[2018.07.29-07.12.36:243][  0]LogMemory: Process Virtual Memory: 264.08 MB used, 264.08 MB peak
+[2018.07.29-07.12.36:243][  0]LogMemory: Physical Memory: 6855.46 MB used,  1218.95 MB free, 8074.41 MB total
+[2018.07.29-07.12.36:243][  0]LogMemory: Virtual Memory: 4779.77 MB used,  1218.95 MB free, 134217728.00 MB total
+[2018.07.29-07.12.36:274][  0]LogInit: Using OS detected language (en-US).
+[2018.07.29-07.12.36:274][  0]LogInit: Using OS detected locale (en-US).
+[2018.07.29-07.12.36:274][  0]LogTextLocalizationManager: No localization for 'en-US' exists, so 'en' will be used for the language.
+[2018.07.29-07.12.36:274][  0]LogTextLocalizationManager: No localization for 'en-US' exists, so 'en' will be used for the locale.
+[2018.07.29-07.12.36:737][  0]LogStreaming: Display: Took  0.463s to EndInitTextLocalization.
+[2018.07.29-07.12.36:755][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.07.29-07.12.36:755][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.07.29-07.12.36:757][  0]LogD3D11RHI: D3D11 adapters:
+[2018.07.29-07.12.36:764][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics 620' (Feature Level 11_0)
+[2018.07.29-07.12.36:765][  0]LogD3D11RHI:       128/0/4037 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
+[2018.07.29-07.12.36:766][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.07.29-07.12.36:766][  0]LogD3D11RHI:       0/0/4037 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.07.29-07.12.36:766][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.07.29-07.12.36:773][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.07.29-07.12.36:773][  0]LogD3D11RHI:     GPU DeviceId: 0x5916 (for the marketing name, search the web for "GPU Device Id")
+[2018.07.29-07.12.36:773][  0]LogWindows: EnumDisplayDevices:
+[2018.07.29-07.12.36:773][  0]LogWindows:    0. 'Intel(R) HD Graphics 620' (P:1 D:1)
+[2018.07.29-07.12.36:773][  0]LogWindows:    1. 'Intel(R) HD Graphics 620' (P:0 D:0)
+[2018.07.29-07.12.36:773][  0]LogWindows:    2. 'Intel(R) HD Graphics 620' (P:0 D:0)
+[2018.07.29-07.12.36:774][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.07.29-07.12.36:774][  0]LogD3D11RHI:     Adapter Name: Intel(R) HD Graphics 620
+[2018.07.29-07.12.36:774][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.07.29-07.12.36:774][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.07.29-07.12.36:774][  0]LogRHI: Texture pool is 1502 MB (70% of 2146 MB)
+[2018.07.29-07.12.36:780][  0]LogD3D11RHI: Async texture creation enabled
+[2018.07.29-07.12.36:784][  0]LogD3D11RHI: GPU Timing Frequency: 12.000000 (Debug: 2 0)
+[2018.07.29-07.12.36:785][  0]LogShaderCompilers: Guid format shader working directory is -36 characters bigger than the processId version (../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Intermediate/Shaders/WorkingDirectory/18932/).
+[2018.07.29-07.12.36:785][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Shweta/AppData/Local/Temp/UnrealShaderWorkingDir/E660809342B022759884FD921E986284/'.
+[2018.07.29-07.12.39:329][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.07.29-07.12.39:345][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.07.29-07.12.39:360][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.07.29-07.12.39:381][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.07.29-07.12.39:381][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.07.29-07.12.47:437][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.07.29-07.12.47:437][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.07.29-07.12.47:437][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.07.29-07.12.55:323][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.07.29-07.12.56:461][  0]LogDerivedDataCache: Loaded boot cache 1.10s 74MB C:/Users/Shweta/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2018.07.29-07.12.56:461][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Shweta/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc
+[2018.07.29-07.12.56:461][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.07.29-07.12.56:461][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.07.29-07.12.56:461][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.07.29-07.12.56:461][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.07.29-07.12.56:591][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.07.29-07.12.56:629][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Shweta/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.07.29-07.12.56:629][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.07.29-07.12.56:629][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.07.29-07.12.56:752][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.07.29-07.12.56:808][  0]LogSlate: Using Freetype 2.6.0
+[2018.07.29-07.12.57:015][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.07.29-07.12.57:015][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1

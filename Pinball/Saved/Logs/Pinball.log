@@ -4617,3 +4617,331 @@ LogInit: Object subsystem initialized
 [2018.07.29-05.45.47:660][759]LogTemp: Repeating last play command: Standalone Game
 [2018.07.29-05.45.49:060][795]LogTemp: Repeating last play command: Standalone Game
 [2018.07.29-05.45.51:278][855]LogTemp: Repeating last play command: Standalone Game
+[2018.07.29-06.37.49:440][348]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.07.29-06.38.02:004][629]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.07.29-06.44.33:635][450]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_182' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.07.29-06.44.33:848][450]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_184' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.07.29-06.44.33:856][450]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_186' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.07.29-06.44.33:881][451]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_188' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.07.29-06.44.33:905][452]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_190' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.07.29-06.44.33:931][453]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_192' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.07.29-06.44.33:948][454]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_194' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.07.29-06.44.33:965][455]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_196' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.07.29-06.44.33:981][456]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_198' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.07.29-06.44.33:998][457]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_200' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.07.29-06.44.34:015][458]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_202' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.07.29-06.44.34:032][459]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_204' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.07.29-06.44.34:051][460]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_206' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.07.29-06.44.34:067][461]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_208' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.07.29-06.44.34:085][462]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_210' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.07.29-06.44.34:101][463]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_212' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.07.29-06.44.34:132][464]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_214' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.07.29-06.44.34:148][465]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_216' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.07.29-06.44.34:187][466]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_218' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.07.29-06.44.34:198][467]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_220' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.07.29-06.44.34:244][468]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_222' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.07.29-06.44.34:272][469]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_224' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.07.29-06.44.34:281][470]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_226' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.07.29-06.44.34:301][471]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_228' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.07.29-06.44.34:318][472]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_230' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.07.29-06.44.34:336][473]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_232' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.07.29-06.44.34:352][474]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_234' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.07.29-06.44.34:370][475]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_236' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.07.29-06.44.34:385][476]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_238' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.07.29-06.44.34:403][477]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_240' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.07.29-06.44.34:419][478]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_242' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.07.29-06.44.34:437][479]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_244' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.07.29-06.44.34:454][480]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_246' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.07.29-06.44.34:470][481]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_248' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.07.29-06.44.34:485][482]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_250' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.07.29-06.44.34:503][483]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_252' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.07.29-06.44.34:518][484]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_254' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.07.29-06.44.34:554][485]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_256' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.07.29-06.44.34:564][486]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_258' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.07.29-06.44.34:583][487]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_260' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.07.29-06.44.34:597][488]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_262' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.07.29-06.44.34:614][489]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_264' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.07.29-06.44.34:631][490]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_266' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.07.29-06.44.34:650][491]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_268' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.07.29-06.44.34:663][492]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_270' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.07.29-06.44.34:689][493]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_272' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.07.29-06.44.34:702][494]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_274' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.07.29-06.44.34:719][495]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_276' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.07.29-06.44.34:735][496]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_278' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.07.29-06.44.34:752][497]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_280' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.07.29-06.44.34:769][498]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_282' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.07.29-06.44.34:785][499]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_284' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.07.29-06.44.34:803][500]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.Button_286' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.07.29-06.44.36:167][566]LogEditorTransaction: Undo Move Widget
+[2018.07.29-06.44.40:794][781]LogEditorTransaction: Undo Edit Right
+[2018.07.29-06.44.42:903][888]LogEditorTransaction: Redo Edit Right
+[2018.07.29-06.45.37:602][802]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Ball_Setup_Map' took 4.853
+[2018.07.29-06.45.37:773][802]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Main_Menu_WidgetBlueprint] ([1] browsable assets)...
+[2018.07.29-06.45.37:793][802]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Main_Menu_WidgetBlueprint]
+[2018.07.29-06.45.38:874][802]LogSavePackage: Save=827.57ms
+[2018.07.29-06.45.38:875][802]LogSavePackage: Moving '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Main_Menu_WidgetBlueprint_Auto91A1FC2634D170C93EBC2B0B5925255A7.tmp' to '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Autosaves/Game/Blueprints/Main_Menu_WidgetBlueprint_Auto9.uasset'
+[2018.07.29-06.45.38:945][802]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Autosaves/Game/Blueprints/Main_Menu_WidgetBlueprint_Auto9.uasset
+[2018.07.29-06.45.38:945][802]LogFileHelpers: Auto-saving content packages took 1.323
+[2018.07.29-06.48.22:346][165]LogUObjectGlobals: Created PersistentFrame Addr=0x00000215967c5518, Size=4, Default__SKEL_Main_Menu_WidgetBlueprint_C Function /Game/Blueprints/Main_Menu_WidgetBlueprint.SKEL_Main_Menu_WidgetBlueprint_C:ExecuteUbergraph_Main_Menu_WidgetBlueprint
+[2018.07.29-06.51.00:107][770]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021675b044f8, Size=4, Default__SKEL_Pinball_Game_Mode_Blueprint_C Function /Game/Blueprints/Pinball_Game_Mode_Blueprint.SKEL_Pinball_Game_Mode_Blueprint_C:ExecuteUbergraph_Pinball_Game_Mode_Blueprint
+[2018.07.29-06.51.06:062][ 86]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021675b044f8, Size=4
+[2018.07.29-06.51.06:062][ 86]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021674bae760, Size=4, Default__SKEL_Pinball_Game_Mode_Blueprint_C Function /Engine/Transient.REINST_SKEL_Pinball_Game_Mode_Blueprint_C_201:ExecuteUbergraph_Pinball_Game_Mode_Blueprint
+[2018.07.29-06.51.06:130][ 86]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021674baf110, Size=4, Default__SKEL_Pinball_Game_Mode_Blueprint_C Function /Game/Blueprints/Pinball_Game_Mode_Blueprint.SKEL_Pinball_Game_Mode_Blueprint_C:ExecuteUbergraph_Pinball_Game_Mode_Blueprint
+[2018.07.29-06.56.28:268][773]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021674bae760, Size=4
+[2018.07.29-06.56.28:287][773]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Ball_Setup_Map' took 0.134
+[2018.07.29-06.56.28:291][773]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Pinball_Game_Mode_Blueprint] ([1] browsable assets)...
+[2018.07.29-06.56.28:291][773]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Pinball_Game_Mode_Blueprint]
+[2018.07.29-06.56.29:585][773]LogSavePackage: Save=811.33ms
+[2018.07.29-06.56.29:585][773]LogSavePackage: Moving '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Pinball_Game_Mode_Blueprint_Auto2432D9BE437E4B65870F8ABE1F7217D2.tmp' to '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Autosaves/Game/Blueprints/Pinball_Game_Mode_Blueprint_Auto0.uasset'
+[2018.07.29-06.56.29:587][773]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Autosaves/Game/Blueprints/Pinball_Game_Mode_Blueprint_Auto0.uasset
+[2018.07.29-06.56.29:588][773]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Main_Menu_WidgetBlueprint] ([1] browsable assets)...
+[2018.07.29-06.56.29:588][773]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Main_Menu_WidgetBlueprint]
+[2018.07.29-06.56.29:624][773]LogSavePackage: Save=29.68ms
+[2018.07.29-06.56.29:625][773]LogSavePackage: Moving '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Main_Menu_WidgetBlueprint_Auto02B1A53994EB75D59F47F45BD9556A0B3.tmp' to '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Autosaves/Game/Blueprints/Main_Menu_WidgetBlueprint_Auto0.uasset'
+[2018.07.29-06.56.29:630][773]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Autosaves/Game/Blueprints/Main_Menu_WidgetBlueprint_Auto0.uasset
+[2018.07.29-06.56.29:630][773]LogFileHelpers: Auto-saving content packages took 1.341
+[2018.07.29-06.57.10:711][742]LogHttp: Warning: 0000021585F59D80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.07.29-06.57.10:711][742]LogHttp: Warning: 0000021585F59D80: libcurl info message cache 0 (Connection 69 seems to be dead!)
+[2018.07.29-06.57.10:711][742]LogHttp: Warning: 0000021585F59D80: libcurl info message cache 1 (Closing connection 69)
+[2018.07.29-06.57.10:711][742]LogHttp: Warning: 0000021585F59D80: libcurl info message cache 2 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2018.07.29-06.57.10:711][742]LogHttp: Warning: 0000021585F59D80: libcurl info message cache 3 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.07.29-06.57.10:711][742]LogHttp: Warning: 0000021585F59D80: libcurl info message cache 4 (Closing connection 70)
+[2018.07.29-07.02.51:583][618]LogRenderer: Reallocating scene render targets to support 884x588 Format 10 NumSamples 1 (Frame:1).
+[2018.07.29-07.02.55:812][706]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.29-07.03.07:953][142]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.29-07.05.39:603][632]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.07.29-07.06.46:141][785]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Ball_Setup_Map' took 0.136
+[2018.07.29-07.06.46:148][785]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Pinball_Game_Mode_Blueprint] ([1] browsable assets)...
+[2018.07.29-07.06.46:148][785]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Pinball_Game_Mode_Blueprint]
+[2018.07.29-07.06.46:741][785]LogSavePackage: Save=461.97ms
+[2018.07.29-07.06.46:741][785]LogSavePackage: Moving '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Pinball_Game_Mode_Blueprint_Auto5F4E9A80402754AB00945DA27F50450B.tmp' to '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Autosaves/Game/Blueprints/Pinball_Game_Mode_Blueprint_Auto1.uasset'
+[2018.07.29-07.06.46:756][785]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Autosaves/Game/Blueprints/Pinball_Game_Mode_Blueprint_Auto1.uasset
+[2018.07.29-07.06.46:756][785]LogFileHelpers: Auto-saving content packages took 0.612
+[2018.07.29-07.07.00:184][876]BlueprintLog: New page: Compile Pinball_Game_Mode_Blueprint
+[2018.07.29-07.07.00:395][876]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021674baf110, Size=4
+[2018.07.29-07.07.00:395][876]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021606da1b18, Size=4, Default__SKEL_Pinball_Game_Mode_Blueprint_C Function /Engine/Transient.REINST_SKEL_Pinball_Game_Mode_Blueprint_C_204:ExecuteUbergraph_Pinball_Game_Mode_Blueprint
+[2018.07.29-07.07.00:680][876]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021676708900, Size=288
+[2018.07.29-07.07.00:687][876]LogUObjectGlobals: Created PersistentFrame Addr=0x00000216372ef740, Size=288, Default__Pinball_Game_Mode_Blueprint_C Function /Engine/Transient.REINST_Pinball_Game_Mode_Blueprint_C_210:ExecuteUbergraph_Pinball_Game_Mode_Blueprint
+[2018.07.29-07.07.00:953][876]LogUObjectGlobals: Created PersistentFrame Addr=0x00000216372ef600, Size=304, Default__Pinball_Game_Mode_Blueprint_C Function /Game/Blueprints/Pinball_Game_Mode_Blueprint.Pinball_Game_Mode_Blueprint_C:ExecuteUbergraph_Pinball_Game_Mode_Blueprint
+[2018.07.29-07.07.02:686][876]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021606da1b18, Size=4
+[2018.07.29-07.07.04:456][921]LogSavePackage: Save=215.09ms
+[2018.07.29-07.07.04:456][921]LogSavePackage: Moving '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Pinball_Game_Mode_BlueprintDB89CD084776247A7EE0CBA0366CA79C.tmp' to '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Blueprints/Pinball_Game_Mode_Blueprint.uasset'
+[2018.07.29-07.07.04:469][921]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Blueprints/Pinball_Game_Mode_Blueprint.uasset
+[2018.07.29-07.07.07:152][ 54]BlueprintLog: New page: Compile Main_Menu_WidgetBlueprint
+[2018.07.29-07.07.07:155][ 54]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000215967c5518, Size=4
+[2018.07.29-07.07.07:155][ 54]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021607df6858, Size=4, Default__SKEL_Main_Menu_WidgetBlueprint_C Function /Engine/Transient.REINST_SKEL_Main_Menu_WidgetBlueprint_C_91:ExecuteUbergraph_Main_Menu_WidgetBlueprint
+[2018.07.29-07.07.07:173][ 54]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021607df7498, Size=4, Default__Main_Menu_WidgetBlueprint_C Function /Game/Blueprints/Main_Menu_WidgetBlueprint.Main_Menu_WidgetBlueprint_C:ExecuteUbergraph_Main_Menu_WidgetBlueprint
+[2018.07.29-07.07.07:296][ 54]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000216372ef740, Size=288
+[2018.07.29-07.07.07:297][ 54]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021607df6858, Size=4
+[2018.07.29-07.07.08:206][ 88]LogSavePackage: Save=12.21ms
+[2018.07.29-07.07.08:206][ 88]LogSavePackage: Moving '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Main_Menu_WidgetBlueprint04EBACCA44AE2F8936B900A3B2EAC2CD.tmp' to '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Blueprints/Main_Menu_WidgetBlueprint.uasset'
+[2018.07.29-07.07.08:211][ 88]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Blueprints/Main_Menu_WidgetBlueprint.uasset
+[2018.07.29-07.10.35:605][658]BlueprintLog: New page: Compile High_Score_Entry_WidgetBlueprint
+[2018.07.29-07.10.35:630][658]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002164f2e6010, Size=104
+[2018.07.29-07.10.35:630][658]LogUObjectGlobals: Created PersistentFrame Addr=0x000002159ce80cd0, Size=104, Default__High_Score_Entry_WidgetBlueprint_C Function /Engine/Transient.REINST_High_Score_Entry_WidgetBlueprint_C_94:ExecuteUbergraph_High_Score_Entry_WidgetBlueprint
+[2018.07.29-07.10.35:633][658]LogUObjectGlobals: Created PersistentFrame Addr=0x00000216086e1360, Size=104, Default__High_Score_Entry_WidgetBlueprint_C Function /Game/Blueprints/High_Score_Entry_WidgetBlueprint.High_Score_Entry_WidgetBlueprint_C:ExecuteUbergraph_High_Score_Entry_WidgetBlueprint
+[2018.07.29-07.10.36:933][701]LogSavePackage: Save=69.40ms
+[2018.07.29-07.10.36:935][701]LogSavePackage: Moving '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/High_Score_Entry_WidgetBlueprint013149D1430226FB8D89BCB1C66F7F2A.tmp' to '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Blueprints/High_Score_Entry_WidgetBlueprint.uasset'
+[2018.07.29-07.10.36:945][701]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Blueprints/High_Score_Entry_WidgetBlueprint.uasset
+[2018.07.29-07.10.41:990][993]BlueprintLog: New page: Compile High_Score_Entry_WidgetBlueprint
+[2018.07.29-07.10.42:002][993]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000216086e1360, Size=104
+[2018.07.29-07.10.42:002][993]LogUObjectGlobals: Created PersistentFrame Addr=0x000002159ce839e0, Size=104, High_Score_Entry_WidgetBlueprint_C_101 Function /Engine/Transient.REINST_High_Score_Entry_WidgetBlueprint_C_96:ExecuteUbergraph_High_Score_Entry_WidgetBlueprint
+[2018.07.29-07.10.42:005][993]LogUObjectGlobals: Created PersistentFrame Addr=0x000002158593d750, Size=104, Default__High_Score_Entry_WidgetBlueprint_C Function /Game/Blueprints/High_Score_Entry_WidgetBlueprint.High_Score_Entry_WidgetBlueprint_C:ExecuteUbergraph_High_Score_Entry_WidgetBlueprint
+[2018.07.29-07.10.42:038][993]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002159ce80cd0, Size=104
+[2018.07.29-07.10.42:811][ 22]LogSavePackage: Save=18.12ms
+[2018.07.29-07.10.42:811][ 22]LogSavePackage: Moving '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/High_Score_Entry_WidgetBlueprint648B4D0C4764FAF9B41099B78FBE90F3.tmp' to '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Blueprints/High_Score_Entry_WidgetBlueprint.uasset'
+[2018.07.29-07.10.42:814][ 22]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Blueprints/High_Score_Entry_WidgetBlueprint.uasset
+[2018.07.29-07.10.54:318][284]LogTemp: Repeating last play command: Standalone Game
+[2018.07.29-07.10.54:542][284]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002159ce839e0, Size=104
+[2018.07.29-07.10.59:187][284]LogSlate: Window 'Save Content' being destroyed
+[2018.07.29-07.10.59:287][284]LogSavePackage: Save=61.09ms
+[2018.07.29-07.10.59:287][284]LogSavePackage: Moving '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Pinball_Game_Mode_Blueprint60F11923457ECA188EB91F8EF6E18168.tmp' to '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Blueprints/Pinball_Game_Mode_Blueprint.uasset'
+[2018.07.29-07.10.59:290][284]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Blueprints/Pinball_Game_Mode_Blueprint.uasset
+[2018.07.29-07.11.09:291][480]BlueprintLog: New page: Compile Pinball_Game_Mode_Blueprint
+[2018.07.29-07.11.09:571][480]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000216372ef600, Size=304
+[2018.07.29-07.11.09:572][480]LogUObjectGlobals: Created PersistentFrame Addr=0x000002159a04d580, Size=304, Default__Pinball_Game_Mode_Blueprint_C Function /Engine/Transient.REINST_Pinball_Game_Mode_Blueprint_C_231:ExecuteUbergraph_Pinball_Game_Mode_Blueprint
+[2018.07.29-07.11.09:607][480]LogUObjectGlobals: Created PersistentFrame Addr=0x000002159b9ec2c0, Size=304, Default__Pinball_Game_Mode_Blueprint_C Function /Game/Blueprints/Pinball_Game_Mode_Blueprint.Pinball_Game_Mode_Blueprint_C:ExecuteUbergraph_Pinball_Game_Mode_Blueprint
+[2018.07.29-07.11.11:157][493]LogSavePackage: Save=393.88ms
+[2018.07.29-07.11.11:160][493]LogSavePackage: Moving '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Pinball_Game_Mode_Blueprint414307414898B939773B9A9CD2D8D63B.tmp' to '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Blueprints/Pinball_Game_Mode_Blueprint.uasset'
+[2018.07.29-07.11.11:174][493]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Blueprints/Pinball_Game_Mode_Blueprint.uasset
+[2018.07.29-07.11.16:669][732]LogTemp: Repeating last play command: Standalone Game
+[2018.07.29-07.11.16:724][732]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002159a04d580, Size=304
+[2018.07.29-07.12.26:946][ 46]LogTemp: Repeating last play command: Standalone Game
+[2018.07.29-07.13.12:227][410]LogTemp: Repeating last play command: Standalone Game
+[2018.07.29-07.13.12:494][416]LogTemp: Repeating last play command: Standalone Game
+[2018.07.29-07.14.34:174][696]LogTemp: Repeating last play command: Standalone Game
+[2018.07.29-07.14.36:727][696]LogSlate: Window 'Save Content' being destroyed
+[2018.07.29-07.14.37:112][696]LogSavePackage: Save=48.24ms
+[2018.07.29-07.14.37:112][696]LogSavePackage: Moving '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Main_Menu_WidgetBlueprint3D9E15C147BBBD09190A098CA73955FF.tmp' to '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Blueprints/Main_Menu_WidgetBlueprint.uasset'
+[2018.07.29-07.14.37:119][696]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Blueprints/Main_Menu_WidgetBlueprint.uasset
+[2018.07.29-07.14.39:226][744]LogTemp: Repeating last play command: Standalone Game
+[2018.07.29-07.15.59:699][178]BlueprintLog: New page: Compile Main_Menu_WidgetBlueprint
+[2018.07.29-07.15.59:868][178]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021607df7498, Size=4
+[2018.07.29-07.15.59:868][178]LogUObjectGlobals: Created PersistentFrame Addr=0x00000215967c67a8, Size=4, Main_Menu_WidgetBlueprint_C_28 Function /Engine/Transient.REINST_Main_Menu_WidgetBlueprint_C_101:ExecuteUbergraph_Main_Menu_WidgetBlueprint
+[2018.07.29-07.15.59:871][178]LogUObjectGlobals: Created PersistentFrame Addr=0x000002163d36a340, Size=32, Default__Main_Menu_WidgetBlueprint_C Function /Game/Blueprints/Main_Menu_WidgetBlueprint.Main_Menu_WidgetBlueprint_C:ExecuteUbergraph_Main_Menu_WidgetBlueprint
+[2018.07.29-07.16.00:730][252]LogSavePackage: Save=81.41ms
+[2018.07.29-07.16.00:730][252]LogSavePackage: Moving '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Main_Menu_WidgetBlueprint070BD4414EC70BEAB146B6A0DB209423.tmp' to '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Blueprints/Main_Menu_WidgetBlueprint.uasset'
+[2018.07.29-07.16.00:735][252]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Blueprints/Main_Menu_WidgetBlueprint.uasset
+[2018.07.29-07.16.13:839][424]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000215967c67a8, Size=4
+[2018.07.29-07.16.19:314][424]LogSlate: Window 'Save Content' being destroyed
+[2018.07.29-07.16.19:381][424]LogPlayLevel: Warning: PIE failed because map save was canceled
+[2018.07.29-07.16.19:388][424]PIE: Warning: PIE failed because map save was canceled
+[2018.07.29-07.16.22:347][494]LogSlate: Window 'Message Log' being destroyed
+[2018.07.29-07.16.22:354][494]LogSlate: Window 'Message Log' being destroyed
+[2018.07.29-07.16.26:194][817]BlueprintLog: New page: Compile Pinball_Game_Mode_Blueprint
+[2018.07.29-07.16.26:443][817]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002159b9ec2c0, Size=304
+[2018.07.29-07.16.26:443][817]LogUObjectGlobals: Created PersistentFrame Addr=0x000002159a107ec0, Size=304, Default__Pinball_Game_Mode_Blueprint_C Function /Engine/Transient.REINST_Pinball_Game_Mode_Blueprint_C_245:ExecuteUbergraph_Pinball_Game_Mode_Blueprint
+[2018.07.29-07.16.26:470][817]LogUObjectGlobals: Created PersistentFrame Addr=0x000002159a107380, Size=304, Default__Pinball_Game_Mode_Blueprint_C Function /Game/Blueprints/Pinball_Game_Mode_Blueprint.Pinball_Game_Mode_Blueprint_C:ExecuteUbergraph_Pinball_Game_Mode_Blueprint
+[2018.07.29-07.16.29:363][ 76]LogSavePackage: Save=115.84ms
+[2018.07.29-07.16.29:363][ 76]LogSavePackage: Moving '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Pinball_Game_Mode_Blueprint66BFF2334B452578EB243596EEDBFF69.tmp' to '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Blueprints/Pinball_Game_Mode_Blueprint.uasset'
+[2018.07.29-07.16.29:367][ 76]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Blueprints/Pinball_Game_Mode_Blueprint.uasset
+[2018.07.29-07.17.32:343][119]LogTemp: Repeating last play command: Standalone Game
+[2018.07.29-07.17.32:420][119]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002159a107ec0, Size=304
+[2018.07.29-07.22.41:123][299]BlueprintLog: New page: Compile Pinball_Player_Controller_Blueprint
+[2018.07.29-07.22.41:886][299]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021596881c00, Size=504
+[2018.07.29-07.22.41:886][299]LogUObjectGlobals: Created PersistentFrame Addr=0x000002158659dc00, Size=504, Default__Pinball_Player_Controller_Blueprint_C Function /Engine/Transient.REINST_Pinball_Player_Controller_Blueprint_C_251:ExecuteUbergraph_Pinball_Player_Controller_Blueprint
+[2018.07.29-07.22.42:042][299]LogUObjectGlobals: Created PersistentFrame Addr=0x000002159a113400, Size=504, Default__Pinball_Player_Controller_Blueprint_C Function /Game/Blueprints/Pinball_Player_Controller_Blueprint.Pinball_Player_Controller_Blueprint_C:ExecuteUbergraph_Pinball_Player_Controller_Blueprint
+[2018.07.29-07.22.45:367][378]LogSavePackage: Save=261.58ms
+[2018.07.29-07.22.45:367][378]LogSavePackage: Moving '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Pinball_Player_Controller_Bluepr96BA1A65415B2081D80F0684384C7786.tmp' to '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Blueprints/Pinball_Player_Controller_Blueprint.uasset'
+[2018.07.29-07.22.45:393][378]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Blueprints/Pinball_Player_Controller_Blueprint.uasset
+[2018.07.29-07.22.49:749][603]LogTemp: Repeating last play command: Standalone Game
+[2018.07.29-07.22.49:867][603]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002158659dc00, Size=504
+[2018.07.29-07.22.53:863][603]LogSlate: Window 'Save Content' being destroyed
+[2018.07.29-07.22.54:070][603]LogSavePackage: Save=172.21ms
+[2018.07.29-07.22.54:070][603]LogSavePackage: Moving '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Pinball_Game_Mode_BlueprintEBFE2FC543A1497AC8B1A8A731037840.tmp' to '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Blueprints/Pinball_Game_Mode_Blueprint.uasset'
+[2018.07.29-07.22.54:073][603]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Blueprints/Pinball_Game_Mode_Blueprint.uasset
+[2018.07.29-07.23.11:094][930]LogTemp: Repeating last play command: Standalone Game
+[2018.07.29-07.23.11:434][938]LogTemp: Repeating last play command: Standalone Game
+[2018.07.29-07.30.04:397][855]BlueprintLog: New page: Compile Pinball_Game_Mode_Blueprint
+[2018.07.29-07.30.04:452][855]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002159a107380, Size=304
+[2018.07.29-07.30.04:452][855]LogUObjectGlobals: Created PersistentFrame Addr=0x00000215874b3c40, Size=304, Default__Pinball_Game_Mode_Blueprint_C Function /Engine/Transient.REINST_Pinball_Game_Mode_Blueprint_C_261:ExecuteUbergraph_Pinball_Game_Mode_Blueprint
+[2018.07.29-07.30.04:459][855]LogUObjectGlobals: Created PersistentFrame Addr=0x00000215874b11c0, Size=304, Default__Pinball_Game_Mode_Blueprint_C Function /Game/Blueprints/Pinball_Game_Mode_Blueprint.Pinball_Game_Mode_Blueprint_C:ExecuteUbergraph_Pinball_Game_Mode_Blueprint
+[2018.07.29-07.30.05:398][909]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000215874b3c40, Size=304
+[2018.07.29-07.30.05:399][909]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Ball_Setup_Map' took 0.038
+[2018.07.29-07.30.05:401][909]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Pinball_Game_Mode_Blueprint] ([1] browsable assets)...
+[2018.07.29-07.30.05:401][909]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Pinball_Game_Mode_Blueprint]
+[2018.07.29-07.30.05:537][909]LogSavePackage: Save=103.17ms
+[2018.07.29-07.30.05:537][909]LogSavePackage: Moving '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Pinball_Game_Mode_Blueprint_AutoB5690D0F43CEB3A36041C385455C4061.tmp' to '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Autosaves/Game/Blueprints/Pinball_Game_Mode_Blueprint_Auto2.uasset'
+[2018.07.29-07.30.05:556][909]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Autosaves/Game/Blueprints/Pinball_Game_Mode_Blueprint_Auto2.uasset
+[2018.07.29-07.30.05:556][909]LogFileHelpers: Auto-saving content packages took 0.155
+[2018.07.29-07.30.45:385][467]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021674e88af0, Size=4, Default__SKEL_Main_Menu_WidgetBlueprint_C Function /Game/Blueprints/Main_Menu_WidgetBlueprint.SKEL_Main_Menu_WidgetBlueprint_C:ExecuteUbergraph_Main_Menu_WidgetBlueprint
+[2018.07.29-07.31.52:481][890]BlueprintLog: New page: Compile Main_Menu_WidgetBlueprint
+[2018.07.29-07.31.52:484][890]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021674e88af0, Size=4
+[2018.07.29-07.31.52:484][890]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021675b05f78, Size=4, Default__SKEL_Main_Menu_WidgetBlueprint_C Function /Engine/Transient.REINST_SKEL_Main_Menu_WidgetBlueprint_C_111:ExecuteUbergraph_Main_Menu_WidgetBlueprint
+[2018.07.29-07.31.52:504][890]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002163d36a340, Size=32
+[2018.07.29-07.31.52:504][890]LogUObjectGlobals: Created PersistentFrame Addr=0x00000216827010c0, Size=32, Main_Menu_WidgetBlueprint_C_45 Function /Engine/Transient.REINST_Main_Menu_WidgetBlueprint_C_112:ExecuteUbergraph_Main_Menu_WidgetBlueprint
+[2018.07.29-07.31.52:506][890]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021682700a80, Size=32, Default__Main_Menu_WidgetBlueprint_C Function /Game/Blueprints/Main_Menu_WidgetBlueprint.Main_Menu_WidgetBlueprint_C:ExecuteUbergraph_Main_Menu_WidgetBlueprint
+[2018.07.29-07.31.52:507][890]LogBlueprint: Error: [Compiler Main_Menu_WidgetBlueprint] Unable To Create Template For Widget.
+[2018.07.29-07.31.52:507][890]LogBlueprint: Error: [Compiler Main_Menu_WidgetBlueprint] Fast CreateWidget Warning!  This class can not be created using the fast path, because the property SourceObject on PropertyBinding references High_Score_WidgetBlueprint.  Please add the 'Instanced' flag to this property.
+[2018.07.29-07.31.52:542][890]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021675b05f78, Size=4
+[2018.07.29-07.31.52:668][890]LogBlueprint: Warning: [Compiler Main_Menu_WidgetBlueprint] [3882.36] Compile of Main_Menu_WidgetBlueprint failed. 2 Fatal Issue(s) 0 Warning(s) [in 185 ms] (/Game/Blueprints/Main_Menu_WidgetBlueprint.Main_Menu_WidgetBlueprint)
+[2018.07.29-07.32.00:975][693]LogSavePackage: Save=13.04ms
+[2018.07.29-07.32.00:975][693]LogSavePackage: Moving '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Main_Menu_WidgetBlueprintACC6A84A4ED10FB046A02B94F5A8C5E6.tmp' to '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Blueprints/Main_Menu_WidgetBlueprint.uasset'
+[2018.07.29-07.32.00:978][693]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Blueprints/Main_Menu_WidgetBlueprint.uasset
+[2018.07.29-07.34.41:090][343]BlueprintLog: New page: Compile Pinball_Game_Mode_Blueprint
+[2018.07.29-07.34.41:260][343]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000215874b11c0, Size=304
+[2018.07.29-07.34.41:260][343]LogUObjectGlobals: Created PersistentFrame Addr=0x00000216800c9bc0, Size=304, Default__Pinball_Game_Mode_Blueprint_C Function /Engine/Transient.REINST_Pinball_Game_Mode_Blueprint_C_276:ExecuteUbergraph_Pinball_Game_Mode_Blueprint
+[2018.07.29-07.34.41:282][343]LogUObjectGlobals: Created PersistentFrame Addr=0x000002167fc8bd80, Size=304, Default__Pinball_Game_Mode_Blueprint_C Function /Game/Blueprints/Pinball_Game_Mode_Blueprint.Pinball_Game_Mode_Blueprint_C:ExecuteUbergraph_Pinball_Game_Mode_Blueprint
+[2018.07.29-07.34.42:368][405]LogSavePackage: Save=171.67ms
+[2018.07.29-07.34.42:368][405]LogSavePackage: Moving '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Pinball_Game_Mode_BlueprintE54FC6924FB173CEA11997AA66B7F0AC.tmp' to '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Blueprints/Pinball_Game_Mode_Blueprint.uasset'
+[2018.07.29-07.34.42:370][405]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Blueprints/Pinball_Game_Mode_Blueprint.uasset
+[2018.07.29-07.34.59:466][231]BlueprintLog: New page: Compile Main_Menu_WidgetBlueprint
+[2018.07.29-07.34.59:490][231]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021682700a80, Size=32
+[2018.07.29-07.34.59:490][231]LogUObjectGlobals: Created PersistentFrame Addr=0x000002168095e240, Size=32, Main_Menu_WidgetBlueprint_C_51 Function /Engine/Transient.REINST_Main_Menu_WidgetBlueprint_C_118:ExecuteUbergraph_Main_Menu_WidgetBlueprint
+[2018.07.29-07.34.59:492][231]LogUObjectGlobals: Created PersistentFrame Addr=0x000002168095e6c0, Size=32, Default__Main_Menu_WidgetBlueprint_C Function /Game/Blueprints/Main_Menu_WidgetBlueprint.Main_Menu_WidgetBlueprint_C:ExecuteUbergraph_Main_Menu_WidgetBlueprint
+[2018.07.29-07.34.59:493][231]LogBlueprint: Error: [Compiler Main_Menu_WidgetBlueprint] Unable To Create Template For Widget.
+[2018.07.29-07.34.59:493][231]LogBlueprint: Error: [Compiler Main_Menu_WidgetBlueprint] Fast CreateWidget Warning!  This class can not be created using the fast path, because the property SourceObject on PropertyBinding references High_Score_WidgetBlueprint.  Please add the 'Instanced' flag to this property.
+[2018.07.29-07.34.59:521][231]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000216800c9bc0, Size=304
+[2018.07.29-07.34.59:569][231]LogBlueprint: Warning: [Compiler Main_Menu_WidgetBlueprint] [4069.26] Compile of Main_Menu_WidgetBlueprint failed. 2 Fatal Issue(s) 0 Warning(s) [in 103 ms] (/Game/Blueprints/Main_Menu_WidgetBlueprint.Main_Menu_WidgetBlueprint)
+[2018.07.29-07.35.02:195][483]LogSavePackage: Save=13.13ms
+[2018.07.29-07.35.02:227][483]LogSavePackage: Moving '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Main_Menu_WidgetBlueprint4F247DFC466E6620390BCE84045BE876.tmp' to '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Blueprints/Main_Menu_WidgetBlueprint.uasset'
+[2018.07.29-07.35.02:228][483]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Blueprints/Main_Menu_WidgetBlueprint.uasset
+[2018.07.29-07.35.36:972][130]BlueprintLog: New page: Compile Main_Menu_WidgetBlueprint
+[2018.07.29-07.35.36:979][130]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002168095e6c0, Size=32
+[2018.07.29-07.35.36:980][130]LogUObjectGlobals: Created PersistentFrame Addr=0x000002168095e6c0, Size=32, Main_Menu_WidgetBlueprint_C_55 Function /Engine/Transient.REINST_Main_Menu_WidgetBlueprint_C_120:ExecuteUbergraph_Main_Menu_WidgetBlueprint
+[2018.07.29-07.35.36:981][130]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021586475940, Size=32, Default__Main_Menu_WidgetBlueprint_C Function /Game/Blueprints/Main_Menu_WidgetBlueprint.Main_Menu_WidgetBlueprint_C:ExecuteUbergraph_Main_Menu_WidgetBlueprint
+[2018.07.29-07.35.37:014][130]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002168095e240, Size=32
+[2018.07.29-07.35.37:881][221]LogSavePackage: Save=14.49ms
+[2018.07.29-07.35.37:881][221]LogSavePackage: Moving '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Main_Menu_WidgetBlueprintF92844B54ABC0EF6AA4BD4BD5BBE173D.tmp' to '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Blueprints/Main_Menu_WidgetBlueprint.uasset'
+[2018.07.29-07.35.37:884][221]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Blueprints/Main_Menu_WidgetBlueprint.uasset
+[2018.07.29-07.39.12:709][331]BlueprintLog: New page: Compile High_Score_WidgetBlueprint
+[2018.07.29-07.39.12:854][331]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002158593d750, Size=104
+[2018.07.29-07.39.12:854][331]LogUObjectGlobals: Created PersistentFrame Addr=0x000002167f8da9b0, Size=104, Default__High_Score_Entry_WidgetBlueprint_C Function /Engine/Transient.REINST_High_Score_Entry_WidgetBlueprint_C_125:ExecuteUbergraph_High_Score_Entry_WidgetBlueprint
+[2018.07.29-07.39.12:855][331]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021586475940, Size=32
+[2018.07.29-07.39.12:855][331]LogUObjectGlobals: Created PersistentFrame Addr=0x000002159bc7f3c0, Size=32, Main_Menu_WidgetBlueprint_C_58 Function /Engine/Transient.REINST_Main_Menu_WidgetBlueprint_C_127:ExecuteUbergraph_Main_Menu_WidgetBlueprint
+[2018.07.29-07.39.12:855][331]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002167fc8bd80, Size=304
+[2018.07.29-07.39.12:855][331]LogUObjectGlobals: Created PersistentFrame Addr=0x000002167f193c40, Size=304, Default__Pinball_Game_Mode_Blueprint_C Function /Engine/Transient.REINST_Pinball_Game_Mode_Blueprint_C_292:ExecuteUbergraph_Pinball_Game_Mode_Blueprint
+[2018.07.29-07.39.12:867][331]LogUObjectGlobals: Created PersistentFrame Addr=0x00000216363d0100, Size=104, Default__High_Score_Entry_WidgetBlueprint_C Function /Game/Blueprints/High_Score_Entry_WidgetBlueprint.High_Score_Entry_WidgetBlueprint_C:ExecuteUbergraph_High_Score_Entry_WidgetBlueprint
+[2018.07.29-07.39.12:869][331]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021666914440, Size=32, Default__Main_Menu_WidgetBlueprint_C Function /Game/Blueprints/Main_Menu_WidgetBlueprint.Main_Menu_WidgetBlueprint_C:ExecuteUbergraph_Main_Menu_WidgetBlueprint
+[2018.07.29-07.39.12:871][331]LogUObjectGlobals: Created PersistentFrame Addr=0x000002167f190f40, Size=304, Default__Pinball_Game_Mode_Blueprint_C Function /Game/Blueprints/Pinball_Game_Mode_Blueprint.Pinball_Game_Mode_Blueprint_C:ExecuteUbergraph_Pinball_Game_Mode_Blueprint
+[2018.07.29-07.39.13:144][331]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002168095e6c0, Size=32
+[2018.07.29-07.39.14:836][458]LogSavePackage: Save=389.46ms
+[2018.07.29-07.39.14:837][458]LogSavePackage: Moving '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/High_Score_WidgetBlueprint924A72C84FC5AEB098393FA412989509.tmp' to '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Blueprints/High_Score_WidgetBlueprint.uasset'
+[2018.07.29-07.39.14:843][458]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Blueprints/High_Score_WidgetBlueprint.uasset
+[2018.07.29-07.40.21:586][314]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002167f8da9b0, Size=104
+[2018.07.29-07.40.21:586][314]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002167f193c40, Size=304
+[2018.07.29-07.40.21:586][314]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002159bc7f3c0, Size=32
+[2018.07.29-07.40.21:588][314]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Ball_Setup_Map' took 0.039
+[2018.07.29-07.40.21:591][314]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Pinball_Game_Mode_Blueprint] ([1] browsable assets)...
+[2018.07.29-07.40.21:591][314]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Pinball_Game_Mode_Blueprint]
+[2018.07.29-07.40.21:812][314]LogSavePackage: Save=162.18ms
+[2018.07.29-07.40.21:812][314]LogSavePackage: Moving '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Pinball_Game_Mode_Blueprint_AutoD17388114ED2779C03FF38847DEFEAC4.tmp' to '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Autosaves/Game/Blueprints/Pinball_Game_Mode_Blueprint_Auto3.uasset'
+[2018.07.29-07.40.21:813][314]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Autosaves/Game/Blueprints/Pinball_Game_Mode_Blueprint_Auto3.uasset
+[2018.07.29-07.40.21:814][314]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/High_Score_WidgetBlueprint] ([1] browsable assets)...
+[2018.07.29-07.40.21:814][314]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/High_Score_WidgetBlueprint]
+[2018.07.29-07.40.21:898][314]LogSavePackage: Save=57.77ms
+[2018.07.29-07.40.21:899][314]LogSavePackage: Moving '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/High_Score_WidgetBlueprint_Auto33B1A35284591E98C7A2F5683607834E2.tmp' to '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Autosaves/Game/Blueprints/High_Score_WidgetBlueprint_Auto3.uasset'
+[2018.07.29-07.40.21:901][314]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Autosaves/Game/Blueprints/High_Score_WidgetBlueprint_Auto3.uasset
+[2018.07.29-07.40.21:901][314]LogFileHelpers: Auto-saving content packages took 0.312
+[2018.07.29-07.40.36:372][532]LogUObjectGlobals: Created PersistentFrame Addr=0x00000215967c5d48, Size=4, Default__SKEL_High_Score_WidgetBlueprint_C Function /Game/Blueprints/High_Score_WidgetBlueprint.SKEL_High_Score_WidgetBlueprint_C:ExecuteUbergraph_High_Score_WidgetBlueprint
+[2018.07.29-07.40.55:923][954]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000215967c5d48, Size=4
+[2018.07.29-07.40.55:923][954]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021673871e00, Size=4, Default__SKEL_High_Score_WidgetBlueprint_C Function /Engine/Transient.REINST_SKEL_High_Score_WidgetBlueprint_C_129:ExecuteUbergraph_High_Score_WidgetBlueprint
+[2018.07.29-07.40.55:924][954]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021673873a70, Size=4, Default__SKEL_High_Score_WidgetBlueprint_C Function /Game/Blueprints/High_Score_WidgetBlueprint.SKEL_High_Score_WidgetBlueprint_C:ExecuteUbergraph_High_Score_WidgetBlueprint
+[2018.07.29-07.41.23:073][344]BlueprintLog: New page: Compile High_Score_WidgetBlueprint
+[2018.07.29-07.41.23:080][344]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021673873a70, Size=4
+[2018.07.29-07.41.23:080][344]LogUObjectGlobals: Created PersistentFrame Addr=0x00000215967c7d90, Size=4, Default__SKEL_High_Score_WidgetBlueprint_C Function /Engine/Transient.REINST_SKEL_High_Score_WidgetBlueprint_C_131:ExecuteUbergraph_High_Score_WidgetBlueprint
+[2018.07.29-07.41.23:091][344]LogUObjectGlobals: Created PersistentFrame Addr=0x000002168095cae0, Size=32, Default__High_Score_WidgetBlueprint_C Function /Game/Blueprints/High_Score_WidgetBlueprint.High_Score_WidgetBlueprint_C:ExecuteUbergraph_High_Score_WidgetBlueprint
+[2018.07.29-07.41.23:200][344]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000215967c7d90, Size=4
+[2018.07.29-07.41.23:200][344]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021673871e00, Size=4
+[2018.07.29-07.41.24:041][414]LogSavePackage: Save=20.73ms
+[2018.07.29-07.41.24:041][414]LogSavePackage: Moving '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/High_Score_WidgetBlueprintB3E4227640D5653AA3BC1A911F4F0014.tmp' to '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Blueprints/High_Score_WidgetBlueprint.uasset'
+[2018.07.29-07.41.24:118][414]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Blueprints/High_Score_WidgetBlueprint.uasset
+[2018.07.29-07.41.58:792][236]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021675b05878, Size=4, Default__SKEL_High_Score_WidgetBlueprint_C Function /Game/Blueprints/High_Score_WidgetBlueprint.SKEL_High_Score_WidgetBlueprint_C:ExecuteUbergraph_High_Score_WidgetBlueprint
+[2018.07.29-07.42.03:164][658]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021675b05878, Size=4
+[2018.07.29-07.42.03:164][658]LogUObjectGlobals: Created PersistentFrame Addr=0x00000215d6e51c58, Size=4, Default__SKEL_High_Score_WidgetBlueprint_C Function /Engine/Transient.REINST_SKEL_High_Score_WidgetBlueprint_C_135:ExecuteUbergraph_High_Score_WidgetBlueprint
+[2018.07.29-07.42.03:168][658]LogUObjectGlobals: Created PersistentFrame Addr=0x00000215d6e51450, Size=4, Default__SKEL_High_Score_WidgetBlueprint_C Function /Game/Blueprints/High_Score_WidgetBlueprint.SKEL_High_Score_WidgetBlueprint_C:ExecuteUbergraph_High_Score_WidgetBlueprint
+[2018.07.29-07.42.03:240][658]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000215d6e51450, Size=4
+[2018.07.29-07.42.03:240][658]LogUObjectGlobals: Created PersistentFrame Addr=0x00000215a14b3ca0, Size=4, Default__SKEL_High_Score_WidgetBlueprint_C Function /Engine/Transient.REINST_SKEL_High_Score_WidgetBlueprint_C_136:ExecuteUbergraph_High_Score_WidgetBlueprint
+[2018.07.29-07.42.03:245][658]LogUObjectGlobals: Created PersistentFrame Addr=0x00000215a14b26b8, Size=4, Default__SKEL_High_Score_WidgetBlueprint_C Function /Game/Blueprints/High_Score_WidgetBlueprint.SKEL_High_Score_WidgetBlueprint_C:ExecuteUbergraph_High_Score_WidgetBlueprint
+[2018.07.29-07.42.20:345][862]BlueprintLog: New page: Compile High_Score_WidgetBlueprint
+[2018.07.29-07.42.20:352][862]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000215a14b26b8, Size=4
+[2018.07.29-07.42.20:352][862]LogUObjectGlobals: Created PersistentFrame Addr=0x00000215a14b26b8, Size=4, Default__SKEL_High_Score_WidgetBlueprint_C Function /Engine/Transient.REINST_SKEL_High_Score_WidgetBlueprint_C_138:ExecuteUbergraph_High_Score_WidgetBlueprint
+[2018.07.29-07.42.20:359][862]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002168095cae0, Size=32
+[2018.07.29-07.42.20:359][862]LogUObjectGlobals: Created PersistentFrame Addr=0x000002168095cae0, Size=32, High_Score_WidgetBlueprint_C_831 Function /Engine/Transient.REINST_High_Score_WidgetBlueprint_C_140:ExecuteUbergraph_High_Score_WidgetBlueprint
+[2018.07.29-07.42.20:363][862]LogUObjectGlobals: Created PersistentFrame Addr=0x000002159ac01520, Size=32, Default__High_Score_WidgetBlueprint_C Function /Game/Blueprints/High_Score_WidgetBlueprint.High_Score_WidgetBlueprint_C:ExecuteUbergraph_High_Score_WidgetBlueprint
+[2018.07.29-07.42.20:473][862]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000215a14b3ca0, Size=4
+[2018.07.29-07.42.20:473][862]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000215d6e51c58, Size=4
+[2018.07.29-07.42.20:473][862]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000215a14b26b8, Size=4
+[2018.07.29-07.42.21:213][916]LogSavePackage: Save=21.35ms
+[2018.07.29-07.42.21:213][916]LogSavePackage: Moving '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/High_Score_WidgetBlueprint741310FF4322E2E7778A269CD4CD8938.tmp' to '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Blueprints/High_Score_WidgetBlueprint.uasset'
+[2018.07.29-07.42.21:216][916]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Blueprints/High_Score_WidgetBlueprint.uasset
+[2018.07.29-07.46.54:498][ 69]BlueprintLog: New page: Compile Pinball_Game_Mode_Blueprint
+[2018.07.29-07.46.54:554][ 69]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002167f190f40, Size=304
+[2018.07.29-07.46.54:554][ 69]LogUObjectGlobals: Created PersistentFrame Addr=0x000002160947c180, Size=304, Default__Pinball_Game_Mode_Blueprint_C Function /Engine/Transient.REINST_Pinball_Game_Mode_Blueprint_C_322:ExecuteUbergraph_Pinball_Game_Mode_Blueprint
+[2018.07.29-07.46.54:561][ 69]LogUObjectGlobals: Created PersistentFrame Addr=0x00000216845d3880, Size=320, Default__Pinball_Game_Mode_Blueprint_C Function /Game/Blueprints/Pinball_Game_Mode_Blueprint.Pinball_Game_Mode_Blueprint_C:ExecuteUbergraph_Pinball_Game_Mode_Blueprint
+[2018.07.29-07.46.55:660][130]LogSavePackage: Save=54.85ms
+[2018.07.29-07.46.55:660][130]LogSavePackage: Moving '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Pinball_Game_Mode_Blueprint74DB4B2A4CFBB4D84629B49754831396.tmp' to '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Blueprints/Pinball_Game_Mode_Blueprint.uasset'
+[2018.07.29-07.46.55:662][130]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Blueprints/Pinball_Game_Mode_Blueprint.uasset
+[2018.07.29-07.47.29:667][376]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002160947c180, Size=304
+[2018.07.29-07.47.29:969][376]LogSavePackage: Save=283.21ms
+[2018.07.29-07.47.29:969][376]LogSavePackage: Moving '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Ball_Setup_Map18F27C584D7ECF956D8CB5BB98E4CB0C.tmp' to '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Ball_Setup_Map.umap'
+[2018.07.29-07.47.29:973][376]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Ball_Setup_Map.umap
+[2018.07.29-07.47.30:160][376]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Ball_Setup_Map_BuiltData" FILE="../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Ball_Setup_Map_BuiltData.uasset" SILENT=true
+[2018.07.29-07.47.30:421][376]LogSavePackage: Save=219.63ms
+[2018.07.29-07.47.30:421][376]LogSavePackage: Moving '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Ball_Setup_Map_BuiltData44DBCAA54FBEA57B5A211EBD28893739.tmp' to '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Ball_Setup_Map_BuiltData.uasset'
+[2018.07.29-07.47.30:426][376]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Ball_Setup_Map_BuiltData.uasset
+[2018.07.29-07.47.33:555][455]LogTemp: Repeating last play command: Standalone Game
+[2018.07.29-07.47.33:726][455]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000216827010c0, Size=32
+[2018.07.29-07.47.33:726][455]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002168095cae0, Size=32
+[2018.07.29-07.47.51:540][658]LogTemp: Repeating last play command: Standalone Game
+[2018.07.29-07.47.51:766][663]LogTemp: Repeating last play command: Standalone Game

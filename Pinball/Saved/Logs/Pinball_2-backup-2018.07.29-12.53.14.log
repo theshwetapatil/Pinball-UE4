@@ -1,4 +1,4 @@
-﻿Log file open, 07/29/18 11:10:21
+﻿Log file open, 07/29/18 12:53:00
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -7,12 +7,12 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: Pinball
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(58095195) SRandInit(58095196).
+LogInit: Display: RandInit(393881637) SRandInit(393881637).
 LogInit: Read version file with build ID '3944462'
 LogInit: Overriding engine version to CL 4033788, compatible CL 3944462
 LogInit: Registered custom module enumerator with build ID '3944462'
 LogTaskGraph: Started task graph with 5 named threads and 11 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.294647
+LogStats: Stats thread started at 0.190175
 LogD3D11RHI: Aftermath initialized
 LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +5:30, Platform Override: ''
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3944462).
@@ -168,7 +168,7 @@ LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogStreaming: Display: Took  9.803s to configure plugins.
+LogStreaming: Display: Took  4.690s to configure plugins.
 LogInit: Using libcurl 7.47.1
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2g
@@ -219,54 +219,54 @@ LogInit: Branch Name: ++UE4+Release-4.19
 LogInit: Command Line:  /Game/Ball_Setup_Map -game -PIEVIACONSOLE -ResX=1280 -ResY=720  -Multiprocess -messaging -SessionName="Play in Standalone Game" -windowed 
 LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.19/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
-LogStreaming: Display: Took  0.299s to delete old logs.
+LogStreaming: Display: Took  0.004s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.07.29-05.40.32:469][  0]LogInit: Selected Device Profile: [Windows]
-[2018.07.29-05.40.32:469][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.07.29-05.40.32:763][  0]LogInit: Computer: LAPTOP-SNI5BBA7
-[2018.07.29-05.40.32:763][  0]LogInit: User: Shweta
-[2018.07.29-05.40.32:763][  0]LogInit: CPU Page size=4096, Cores=2
-[2018.07.29-05.40.32:763][  0]LogInit: High frequency timer resolution =2.835940 MHz
-[2018.07.29-05.40.32:764][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
-[2018.07.29-05.40.32:764][  0]LogMemory: Platform Memory Stats for Windows
-[2018.07.29-05.40.32:764][  0]LogMemory: Process Physical Memory: 273.91 MB used, 273.91 MB peak
-[2018.07.29-05.40.32:764][  0]LogMemory: Process Virtual Memory: 264.32 MB used, 264.32 MB peak
-[2018.07.29-05.40.32:764][  0]LogMemory: Physical Memory: 6943.16 MB used,  1131.25 MB free, 8074.41 MB total
-[2018.07.29-05.40.32:764][  0]LogMemory: Virtual Memory: 4779.77 MB used,  1131.25 MB free, 134217728.00 MB total
-[2018.07.29-05.40.33:719][  0]LogInit: Using OS detected language (en-US).
-[2018.07.29-05.40.33:719][  0]LogInit: Using OS detected locale (en-US).
-[2018.07.29-05.40.33:719][  0]LogTextLocalizationManager: No localization for 'en-US' exists, so 'en' will be used for the language.
-[2018.07.29-05.40.33:720][  0]LogTextLocalizationManager: No localization for 'en-US' exists, so 'en' will be used for the locale.
-[2018.07.29-05.40.34:877][  0]LogStreaming: Display: Took  1.168s to EndInitTextLocalization.
-[2018.07.29-05.40.35:639][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2018.07.29-05.40.35:640][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2018.07.29-05.40.35:714][  0]LogD3D11RHI: D3D11 adapters:
-[2018.07.29-05.40.35:889][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics 620' (Feature Level 11_0)
-[2018.07.29-05.40.35:889][  0]LogD3D11RHI:       128/0/4037 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
-[2018.07.29-05.40.36:112][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2018.07.29-05.40.36:112][  0]LogD3D11RHI:       0/0/4037 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2018.07.29-05.40.36:112][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.07.29-05.40.36:135][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.07.29-05.40.36:135][  0]LogD3D11RHI:     GPU DeviceId: 0x5916 (for the marketing name, search the web for "GPU Device Id")
-[2018.07.29-05.40.36:135][  0]LogWindows: EnumDisplayDevices:
-[2018.07.29-05.40.36:135][  0]LogWindows:    0. 'Intel(R) HD Graphics 620' (P:1 D:1)
-[2018.07.29-05.40.36:136][  0]LogWindows:    1. 'Intel(R) HD Graphics 620' (P:0 D:0)
-[2018.07.29-05.40.36:136][  0]LogWindows:    2. 'Intel(R) HD Graphics 620' (P:0 D:0)
-[2018.07.29-05.40.36:136][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2018.07.29-05.40.36:136][  0]LogD3D11RHI:     Adapter Name: Intel(R) HD Graphics 620
-[2018.07.29-05.40.36:146][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2018.07.29-05.40.36:146][  0]LogD3D11RHI:      Driver Date: Unknown
-[2018.07.29-05.40.36:154][  0]LogRHI: Texture pool is 1502 MB (70% of 2146 MB)
-[2018.07.29-05.40.36:160][  0]LogD3D11RHI: Async texture creation enabled
-[2018.07.29-05.40.36:339][  0]LogD3D11RHI: GPU Timing Frequency: 12.000000 (Debug: 2 0)
-[2018.07.29-05.40.36:541][  0]LogShaderCompilers: Guid format shader working directory is -35 characters bigger than the processId version (../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Intermediate/Shaders/WorkingDirectory/7104/).
-[2018.07.29-05.40.36:590][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Shweta/AppData/Local/Temp/UnrealShaderWorkingDir/5F2B3F984FAB4A00B249459CFFFDD58C/'.
-[2018.07.29-05.40.45:031][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2018.07.29-05.40.45:120][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.07.29-05.40.45:218][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2018.07.29-05.40.45:282][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2018.07.29-05.40.45:282][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2018.07.29-05.40.47:845][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2018.07.29-05.40.47:845][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2018.07.29-05.40.47:845][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.07.29-07.23.04:766][  0]LogInit: Selected Device Profile: [Windows]
+[2018.07.29-07.23.04:766][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.07.29-07.23.05:027][  0]LogInit: Computer: LAPTOP-SNI5BBA7
+[2018.07.29-07.23.05:027][  0]LogInit: User: Shweta
+[2018.07.29-07.23.05:027][  0]LogInit: CPU Page size=4096, Cores=2
+[2018.07.29-07.23.05:027][  0]LogInit: High frequency timer resolution =2.835940 MHz
+[2018.07.29-07.23.05:028][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2018.07.29-07.23.05:028][  0]LogMemory: Platform Memory Stats for Windows
+[2018.07.29-07.23.05:028][  0]LogMemory: Process Physical Memory: 273.63 MB used, 273.63 MB peak
+[2018.07.29-07.23.05:028][  0]LogMemory: Process Virtual Memory: 263.95 MB used, 263.95 MB peak
+[2018.07.29-07.23.05:028][  0]LogMemory: Physical Memory: 6187.60 MB used,  1886.81 MB free, 8074.41 MB total
+[2018.07.29-07.23.05:028][  0]LogMemory: Virtual Memory: 4779.77 MB used,  1886.81 MB free, 134217728.00 MB total
+[2018.07.29-07.23.05:074][  0]LogInit: Using OS detected language (en-US).
+[2018.07.29-07.23.05:074][  0]LogInit: Using OS detected locale (en-US).
+[2018.07.29-07.23.05:074][  0]LogTextLocalizationManager: No localization for 'en-US' exists, so 'en' will be used for the language.
+[2018.07.29-07.23.05:074][  0]LogTextLocalizationManager: No localization for 'en-US' exists, so 'en' will be used for the locale.
+[2018.07.29-07.23.05:539][  0]LogStreaming: Display: Took  0.465s to EndInitTextLocalization.
+[2018.07.29-07.23.05:623][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.07.29-07.23.05:623][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.07.29-07.23.05:625][  0]LogD3D11RHI: D3D11 adapters:
+[2018.07.29-07.23.05:632][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics 620' (Feature Level 11_0)
+[2018.07.29-07.23.05:632][  0]LogD3D11RHI:       128/0/4037 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
+[2018.07.29-07.23.05:634][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.07.29-07.23.05:634][  0]LogD3D11RHI:       0/0/4037 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.07.29-07.23.05:634][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.07.29-07.23.05:640][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.07.29-07.23.05:640][  0]LogD3D11RHI:     GPU DeviceId: 0x5916 (for the marketing name, search the web for "GPU Device Id")
+[2018.07.29-07.23.05:640][  0]LogWindows: EnumDisplayDevices:
+[2018.07.29-07.23.05:640][  0]LogWindows:    0. 'Intel(R) HD Graphics 620' (P:1 D:1)
+[2018.07.29-07.23.05:641][  0]LogWindows:    1. 'Intel(R) HD Graphics 620' (P:0 D:0)
+[2018.07.29-07.23.05:641][  0]LogWindows:    2. 'Intel(R) HD Graphics 620' (P:0 D:0)
+[2018.07.29-07.23.05:641][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.07.29-07.23.05:641][  0]LogD3D11RHI:     Adapter Name: Intel(R) HD Graphics 620
+[2018.07.29-07.23.05:641][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.07.29-07.23.05:641][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.07.29-07.23.05:641][  0]LogRHI: Texture pool is 1502 MB (70% of 2146 MB)
+[2018.07.29-07.23.05:646][  0]LogD3D11RHI: Async texture creation enabled
+[2018.07.29-07.23.05:651][  0]LogD3D11RHI: GPU Timing Frequency: 12.000000 (Debug: 2 0)
+[2018.07.29-07.23.05:652][  0]LogShaderCompilers: Guid format shader working directory is -35 characters bigger than the processId version (../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Intermediate/Shaders/WorkingDirectory/3352/).
+[2018.07.29-07.23.05:652][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Shweta/AppData/Local/Temp/UnrealShaderWorkingDir/C703BDC24D41CF1BDF6A85BE3811E45D/'.
+[2018.07.29-07.23.05:962][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.07.29-07.23.05:976][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.07.29-07.23.05:989][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.07.29-07.23.06:001][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.07.29-07.23.06:001][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.07.29-07.23.06:108][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.07.29-07.23.06:108][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.07.29-07.23.06:109][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
