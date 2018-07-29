@@ -5249,27 +5249,3 @@ LogInit: Object subsystem initialized
 [2018.07.29-10.37.50:081][101]LogOutputDevice: Error: [Callstack] 0x00000000D2111431 ntdll.dll!UnknownFunction []
 [2018.07.29-10.37.50:081][101]LogOutputDevice: Error: 
 [2018.07.29-10.37.50:089][101]LogStats:                SubmitErrorReport -  0.000 s
-[2018.07.29-10.38.06:051][101]LogStats:                    SendNewReport - 15.962 s
-[2018.07.29-10.38.06:051][101]LogStats:             FDebug::EnsureFailed - 16.754 s
-[2018.07.29-10.38.06:325][101]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionChannel' with an invalid value of ''
-[2018.07.29-10.38.06:325][101]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionChannel' with an invalid value of ''
-[2018.07.29-10.38.06:645][102]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Ball_Setup_Map' took 0.049
-[2018.07.29-10.38.06:647][102]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Rail_Blueprint] ([1] browsable assets)...
-[2018.07.29-10.38.06:647][102]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Rail_Blueprint]
-[2018.07.29-10.38.06:777][102]LogSavePackage: Save=54.98ms
-[2018.07.29-10.38.06:777][102]LogSavePackage: Moving '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Rail_Blueprint_Auto96E674F4D4E76A9DC47AD82A5C16AD9D0.tmp' to '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Autosaves/Game/Blueprints/Rail_Blueprint_Auto9.uasset'
-[2018.07.29-10.38.06:779][102]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Autosaves/Game/Blueprints/Rail_Blueprint_Auto9.uasset
-[2018.07.29-10.38.06:779][102]LogFileHelpers: Auto-saving content packages took 0.133
-[2018.07.29-10.38.10:502][373]BlueprintLog: New page: Compile Rail_Blueprint
-[2018.07.29-10.38.12:341][513]LogSavePackage: Save=25.90ms
-[2018.07.29-10.38.12:341][513]LogSavePackage: Moving '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Rail_Blueprint3913DF3D4FED93358D9F7C8615DA5BB3.tmp' to '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Blueprints/Rail_Blueprint.uasset'
-[2018.07.29-10.38.12:344][513]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Blueprints/Rail_Blueprint.uasset
-[2018.07.29-10.39.31:439][285]LogSlate: Window 'Save Content' being destroyed
-[2018.07.29-10.39.31:614][285]LogSavePackage: Save=84.81ms
-[2018.07.29-10.39.31:614][285]LogSavePackage: Moving '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Simple_Metal_Material4A64EA36483CB6F54DE82AA2F2BB3703.tmp' to '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Assets/Simple_Metal_Material.uasset'
-[2018.07.29-10.39.31:621][285]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Assets/Simple_Metal_Material.uasset
-[2018.07.29-10.39.37:452][285]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
-[2018.07.29-10.39.43:877][285]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
-[2018.07.29-10.39.46:649][285]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
-[2018.07.29-10.39.54:033][285]LogSlate: Window 'Pinball - Unreal Editor' being destroyed
-[2018.07.29-10.39.54:070][285]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
