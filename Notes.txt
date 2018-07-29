@@ -95,7 +95,8 @@ Spline Tool
 One of the most powerful, yet underutilized tool.
 Spline refers to the shape, that's the actual line drawn through the world.
 Spline Mesh is a single mesh that will be kinda bent to follow a line that's given to it. Given a start position, end position and the directions; and it will try and wrap the mesh to it's shape.
-
+-----------------
+Child Actor
 
 
 
