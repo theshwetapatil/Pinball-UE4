@@ -698,3 +698,262 @@ LogInit: Object subsystem initialized
 [2018.07.30-04.43.02:722][791]LogSavePackage: Save=14.94ms
 [2018.07.30-04.43.02:722][791]LogSavePackage: Moving '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Ball_Setup_Map_BuiltDataFE7FAD7840564745924AF18A0497BA17.tmp' to '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Ball_Setup_Map_BuiltData.uasset'
 [2018.07.30-04.43.02:723][791]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Ball_Setup_Map_BuiltData.uasset
+[2018.07.30-05.53.50:756][188]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2018.07.30-06.01.41:896][853]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\Shweta\Desktop\PinballAssets\PinballAssets\SM_BracketTop.FBX)
+[2018.07.30-06.01.42:367][853]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2018.07.30-06.01.42:367][853]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2018.07.30-06.01.42:367][853]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2018.07.30-06.01.42:368][853]LogFbx: ItemName: Model, ItemCount : 1
+[2018.07.30-06.01.42:368][853]LogFbx: ItemName: Geometry, ItemCount : 1
+[2018.07.30-06.01.42:368][853]LogFbx: ItemName: Material, ItemCount : 1
+[2018.07.30-06.01.42:368][853]LogFbx: ItemName: Texture, ItemCount : 1
+[2018.07.30-06.01.42:368][853]LogFbx: ItemName: Video, ItemCount : 1
+[2018.07.30-06.01.42:490][853]LogFbx: Loading FBX Scene from C:\Users\Shweta\Desktop\PinballAssets\PinballAssets\SM_BracketTop.FBX
+[2018.07.30-06.01.42:658][853]LogFbx: FBX Scene Loaded Succesfully
+[2018.07.30-06.01.46:064][853]LogSlate: Window 'FBX Import Options' being destroyed
+[2018.07.30-06.01.46:405][853]LogFbx: Loading FBX Scene from C:\Users\Shweta\Desktop\PinballAssets\PinballAssets\SM_BracketTop.FBX
+[2018.07.30-06.01.46:432][853]LogFbx: FBX Scene Loaded Succesfully
+[2018.07.30-06.01.46:638][853]LogStaticMesh: Building static mesh SM_BracketTop...
+[2018.07.30-06.01.46:745][853]LogStaticMesh: Built static mesh [0.14s] /Game/Assets/SM_BracketTop.SM_BracketTop
+[2018.07.30-06.01.47:230][853]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2018.07.30-06.01.47:442][853]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\Shweta\Desktop\PinballAssets\PinballAssets\SM_LBracket.FBX)
+[2018.07.30-06.01.47:467][853]LogFbx: Loading FBX Scene from C:\Users\Shweta\Desktop\PinballAssets\PinballAssets\SM_LBracket.FBX
+[2018.07.30-06.01.47:568][853]LogFbx: FBX Scene Loaded Succesfully
+[2018.07.30-06.01.47:582][853]LogStaticMesh: Building static mesh SM_LBracket...
+[2018.07.30-06.01.47:593][853]LogStaticMesh: Built static mesh [0.02s] /Game/Assets/SM_LBracket.SM_LBracket
+[2018.07.30-06.01.47:770][853]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2018.07.30-06.01.47:841][853]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\Shweta\Desktop\PinballAssets\PinballAssets\SM_SpinnerTile.FBX)
+[2018.07.30-06.01.47:865][853]LogFbx: Loading FBX Scene from C:\Users\Shweta\Desktop\PinballAssets\PinballAssets\SM_SpinnerTile.FBX
+[2018.07.30-06.01.47:881][853]LogFbx: FBX Scene Loaded Succesfully
+[2018.07.30-06.01.47:954][853]LogStaticMesh: Building static mesh SM_SpinnerTile...
+[2018.07.30-06.01.47:969][853]LogStaticMesh: Built static mesh [0.05s] /Game/Assets/SM_SpinnerTile.SM_SpinnerTile
+[2018.07.30-06.01.48:108][853]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2018.07.30-06.01.53:861][942]LogSlate: Window 'Message Log' being destroyed
+[2018.07.30-06.01.53:872][942]LogSlate: Window 'Message Log' being destroyed
+[2018.07.30-06.02.25:729][389]LogSlate: Window 'Pick Parent Class' being destroyed
+[2018.07.30-06.02.26:149][390]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Ball_Setup_Map' took 0.072
+[2018.07.30-06.02.26:151][390]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/SM_BracketTop] ([1] browsable assets)...
+[2018.07.30-06.02.26:206][390]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Assets/SM_BracketTop.SM_BracketTop]
+[2018.07.30-06.02.26:206][390]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/SM_BracketTop]
+[2018.07.30-06.02.26:253][390]LogSavePackage: Save=42.74ms
+[2018.07.30-06.02.26:253][390]LogSavePackage: Moving '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/SM_BracketTop_Auto369ED2D6949100F99670E07B27F247F91.tmp' to '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Autosaves/Game/Assets/SM_BracketTop_Auto3.uasset'
+[2018.07.30-06.02.26:255][390]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Autosaves/Game/Assets/SM_BracketTop_Auto3.uasset
+[2018.07.30-06.02.26:256][390]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/SM_LBracket] ([1] browsable assets)...
+[2018.07.30-06.02.26:310][390]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Assets/SM_LBracket.SM_LBracket]
+[2018.07.30-06.02.26:310][390]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/SM_LBracket]
+[2018.07.30-06.02.26:343][390]LogSavePackage: Save=29.29ms
+[2018.07.30-06.02.26:343][390]LogSavePackage: Moving '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/SM_LBracket_Auto363D2BF754476A1D836058DBD445D26CD.tmp' to '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Autosaves/Game/Assets/SM_LBracket_Auto3.uasset'
+[2018.07.30-06.02.26:346][390]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Autosaves/Game/Assets/SM_LBracket_Auto3.uasset
+[2018.07.30-06.02.26:347][390]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/SM_SpinnerTile] ([1] browsable assets)...
+[2018.07.30-06.02.26:400][390]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Assets/SM_SpinnerTile.SM_SpinnerTile]
+[2018.07.30-06.02.26:400][390]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/SM_SpinnerTile]
+[2018.07.30-06.02.26:436][390]LogSavePackage: Save=30.66ms
+[2018.07.30-06.02.26:436][390]LogSavePackage: Moving '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/SM_SpinnerTile_Auto39E1AA6A4453B25B2DC1664B74DE30304.tmp' to '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Autosaves/Game/Assets/SM_SpinnerTile_Auto3.uasset'
+[2018.07.30-06.02.26:438][390]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Autosaves/Game/Assets/SM_SpinnerTile_Auto3.uasset
+[2018.07.30-06.02.26:438][390]LogFileHelpers: Auto-saving content packages took 0.288
+[2018.07.30-06.06.12:588][ 61]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.30-06.07.01:863][690]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.30-06.10.00:948][345]LogEditorTransaction: Undo Make New Scene Root
+[2018.07.30-06.12.27:028][502]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Ball_Setup_Map' took 0.047
+[2018.07.30-06.12.27:030][502]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Spinner_Blueprint] ([1] browsable assets)...
+[2018.07.30-06.12.27:085][502]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Spinner_Blueprint.Spinner_Blueprint]
+[2018.07.30-06.12.27:085][502]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Spinner_Blueprint]
+[2018.07.30-06.12.27:228][502]LogSavePackage: Save=139.23ms
+[2018.07.30-06.12.27:228][502]LogSavePackage: Moving '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Spinner_Blueprint_Auto4B9A754AA4769D10DFE5FCF869B624E42.tmp' to '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Autosaves/Game/Blueprints/Spinner_Blueprint_Auto4.uasset'
+[2018.07.30-06.12.27:237][502]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Autosaves/Game/Blueprints/Spinner_Blueprint_Auto4.uasset
+[2018.07.30-06.12.27:237][502]LogFileHelpers: Auto-saving content packages took 0.208
+[2018.07.30-06.12.34:278][524]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.30-06.16.31:981][793]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.30-06.17.18:973][702]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.30-06.17.30:621][855]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.30-06.17.50:363][ 95]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.30-06.18.18:035][573]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.30-06.18.49:793][871]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.30-06.19.11:741][379]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionEnabled' with an invalid value of ''
+[2018.07.30-06.19.11:741][379]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionEnabled' with an invalid value of ''
+[2018.07.30-06.19.11:759][379]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionChannel' with an invalid value of ''
+[2018.07.30-06.19.11:759][379]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionChannel' with an invalid value of ''
+[2018.07.30-06.19.21:310][623]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.30-06.19.48:641][275]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.30-06.20.04:021][589]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.30-06.20.09:281][708]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.30-06.20.18:348][918]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.30-06.20.54:840][341]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.30-06.21.11:752][739]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.30-06.21.16:318][847]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.30-06.21.24:090][ 36]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.30-06.21.25:753][ 80]BlueprintLog: New page: Compile Spinner_Blueprint
+[2018.07.30-06.21.26:918][ 98]LogSavePackage: Save=58.83ms
+[2018.07.30-06.21.26:918][ 98]LogSavePackage: Moving '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Spinner_BlueprintD5E6C7F5487AD3D16D50E0A0D2EE96D3.tmp' to '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Blueprints/Spinner_Blueprint.uasset'
+[2018.07.30-06.21.26:922][ 98]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Blueprints/Spinner_Blueprint.uasset
+[2018.07.30-06.21.43:118][974]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.30-06.21.50:160][393]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.30-06.21.54:250][531]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.30-06.22.07:591][271]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.30-06.22.25:701][155]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.30-06.22.36:001][436]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.30-06.22.42:469][822]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.30-06.22.51:542][324]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.30-06.23.02:686][594]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.30-06.23.49:214][316]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.30-06.23.54:004][598]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.30-06.24.02:327][ 76]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.30-06.24.11:624][271]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.30-06.24.53:189][865]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.30-06.25.17:231][654]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.30-06.25.51:313][ 46]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Ball_Setup_Map' took 0.222
+[2018.07.30-06.25.51:317][ 46]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Spinner_Blueprint] ([1] browsable assets)...
+[2018.07.30-06.25.51:392][ 46]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Spinner_Blueprint.Spinner_Blueprint]
+[2018.07.30-06.25.51:392][ 46]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Spinner_Blueprint]
+[2018.07.30-06.25.52:002][ 46]LogSavePackage: Save=126.13ms
+[2018.07.30-06.25.52:003][ 46]LogSavePackage: Moving '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Spinner_Blueprint_Auto574F1952547C3381EF47A2FA06E8D5B00.tmp' to '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Autosaves/Game/Blueprints/Spinner_Blueprint_Auto5.uasset'
+[2018.07.30-06.25.52:007][ 46]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Autosaves/Game/Blueprints/Spinner_Blueprint_Auto5.uasset
+[2018.07.30-06.25.52:007][ 46]LogFileHelpers: Auto-saving content packages took 0.692
+[2018.07.30-06.26.02:431][114]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.30-06.26.36:239][853]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.30-06.27.08:105][464]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.30-06.27.21:981][290]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.30-06.27.26:120][521]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.30-06.30.38:736][325]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.30-06.30.46:121][463]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.30-06.31.28:676][317]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.30-06.31.29:700][343]BlueprintLog: New page: Compile Spinner_Blueprint
+[2018.07.30-06.31.30:704][359]LogSavePackage: Save=21.96ms
+[2018.07.30-06.31.30:704][359]LogSavePackage: Moving '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Spinner_BlueprintD2824F814D90F086242572ADAC96016B.tmp' to '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Blueprints/Spinner_Blueprint.uasset'
+[2018.07.30-06.31.30:707][359]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Blueprints/Spinner_Blueprint.uasset
+[2018.07.30-06.32.16:505][ 16]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/SM_LBracket" FILE="../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Assets/SM_LBracket.uasset" SILENT=true
+[2018.07.30-06.32.16:576][ 16]LogSavePackage: Save=62.92ms
+[2018.07.30-06.32.16:576][ 16]LogSavePackage: Moving '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/SM_LBracket133305F043BB726CC017A9B8C9D38778.tmp' to '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Assets/SM_LBracket.uasset'
+[2018.07.30-06.32.16:595][ 16]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Assets/SM_LBracket.uasset
+[2018.07.30-06.32.54:516][325]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/SM_BracketTop" FILE="../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Assets/SM_BracketTop.uasset" SILENT=true
+[2018.07.30-06.32.54:586][325]LogSavePackage: Save=62.94ms
+[2018.07.30-06.32.54:586][325]LogSavePackage: Moving '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/SM_BracketTop0F30243F4203E36DE5B9F69168ADF1C5.tmp' to '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Assets/SM_BracketTop.uasset'
+[2018.07.30-06.32.54:607][325]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Assets/SM_BracketTop.uasset
+[2018.07.30-06.33.18:344][449]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.30-06.33.40:810][601]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.30-06.33.49:448][734]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.30-06.34.03:683][850]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.30-06.34.21:347][994]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.30-06.34.45:422][176]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.30-06.35.25:714][532]BlueprintLog: New page: Compile Spinner_Blueprint
+[2018.07.30-06.35.27:731][540]LogSavePackage: Save=56.08ms
+[2018.07.30-06.35.27:732][540]LogSavePackage: Moving '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Spinner_BlueprintF7779972462E212C4CCD8EB25A055DC2.tmp' to '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Blueprints/Spinner_Blueprint.uasset'
+[2018.07.30-06.35.27:738][540]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Blueprints/Spinner_Blueprint.uasset
+[2018.07.30-06.37.02:806][792]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.30-06.37.51:993][ 39]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.30-06.38.03:374][115]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.30-06.38.22:970][228]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.30-06.38.56:043][380]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.30-06.39.04:124][433]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.30-06.39.04:415][433]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Ball_Setup_Map' took 0.092
+[2018.07.30-06.39.04:418][433]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Spinner_Blueprint] ([1] browsable assets)...
+[2018.07.30-06.39.04:466][433]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Spinner_Blueprint.Spinner_Blueprint]
+[2018.07.30-06.39.04:466][433]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Spinner_Blueprint]
+[2018.07.30-06.39.04:652][433]LogSavePackage: Save=64.56ms
+[2018.07.30-06.39.04:652][433]LogSavePackage: Moving '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Spinner_Blueprint_Auto6331FBD3E478868EC5B2606BCB8FA117A.tmp' to '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Autosaves/Game/Blueprints/Spinner_Blueprint_Auto6.uasset'
+[2018.07.30-06.39.04:656][433]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Autosaves/Game/Blueprints/Spinner_Blueprint_Auto6.uasset
+[2018.07.30-06.39.04:656][433]LogFileHelpers: Auto-saving content packages took 0.240
+[2018.07.30-06.39.10:479][474]BlueprintLog: New page: Compile Spinner_Blueprint
+[2018.07.30-06.39.12:537][484]LogSavePackage: Save=96.52ms
+[2018.07.30-06.39.12:537][484]LogSavePackage: Moving '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Spinner_Blueprint65E5B326437E70B73E6BFCAC622F4183.tmp' to '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Blueprints/Spinner_Blueprint.uasset'
+[2018.07.30-06.39.12:548][484]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Blueprints/Spinner_Blueprint.uasset
+[2018.07.30-06.39.20:077][534]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.30-06.40.02:736][940]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.30-06.40.14:402][ 89]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.30-06.40.52:834][310]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.30-06.40.52:973][311]BlueprintLog: New page: Compile Spinner_Blueprint
+[2018.07.30-06.40.58:276][342]LogSavePackage: Save=85.89ms
+[2018.07.30-06.40.58:276][342]LogSavePackage: Moving '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Spinner_Blueprint956FD8C4495DC477B3E0D7BFBCD2DAA8.tmp' to '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Blueprints/Spinner_Blueprint.uasset'
+[2018.07.30-06.40.58:283][342]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Blueprints/Spinner_Blueprint.uasset
+[2018.07.30-06.41.10:289][423]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.30-06.41.34:078][778]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.30-06.41.39:048][875]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.30-06.41.39:049][875]BlueprintLog: New page: Compile Spinner_Blueprint
+[2018.07.30-06.41.41:135][883]LogSavePackage: Save=99.20ms
+[2018.07.30-06.41.41:135][883]LogSavePackage: Moving '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Spinner_Blueprint59BD659D45D255B5BD176C9B6D78EEC3.tmp' to '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Blueprints/Spinner_Blueprint.uasset'
+[2018.07.30-06.41.41:146][883]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Blueprints/Spinner_Blueprint.uasset
+[2018.07.30-06.43.06:510][177]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.30-06.43.15:420][687]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.30-06.43.24:788][749]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.30-06.43.36:274][968]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.30-06.43.53:085][ 99]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.30-06.43.57:094][184]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.30-06.44.19:820][339]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.30-06.44.32:543][400]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.30-06.44.44:850][492]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.30-06.45.03:919][596]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.30-06.48.22:469][529]BlueprintLog: New page: Compile Spinner_Blueprint
+[2018.07.30-06.48.22:852][529]PIE: Warning: Constraint in '/Engine/Transient.World_16:PersistentLevel.Spinner_Blueprint_C_21461.PhysicsConstraint' attempting to create a joint between objects that are both static.  No joint created.
+[2018.07.30-06.49.14:265][958]BlueprintLog: New page: Compile Spinner_Blueprint
+[2018.07.30-06.49.14:625][958]PIE: Warning: Constraint in '/Engine/Transient.World_16:PersistentLevel.Spinner_Blueprint_C_21552.PhysicsConstraint' attempting to create a joint between objects that are both static.  No joint created.
+[2018.07.30-06.49.16:246][969]LogSavePackage: Save=26.20ms
+[2018.07.30-06.49.16:246][969]LogSavePackage: Moving '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Spinner_Blueprint735E3396461CAA5419D29AB7F641B219.tmp' to '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Blueprints/Spinner_Blueprint.uasset'
+[2018.07.30-06.49.16:249][969]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Blueprints/Spinner_Blueprint.uasset
+[2018.07.30-06.50.23:065][532]BlueprintLog: New page: Compile Spinner_Blueprint
+[2018.07.30-06.50.23:418][532]PIE: Warning: Constraint in '/Engine/Transient.World_16:PersistentLevel.Spinner_Blueprint_C_21646.PhysicsConstraint' attempting to create a joint between objects that are both static.  No joint created.
+[2018.07.30-06.50.25:527][545]LogSavePackage: Save=45.45ms
+[2018.07.30-06.50.25:527][545]LogSavePackage: Moving '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Spinner_Blueprint0AF29BAE4E94B6945C94B0A4808485F9.tmp' to '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Blueprints/Spinner_Blueprint.uasset'
+[2018.07.30-06.50.25:532][545]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Blueprints/Spinner_Blueprint.uasset
+[2018.07.30-06.51.29:603][621]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.30-06.51.29:865][621]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Ball_Setup_Map' took 0.068
+[2018.07.30-06.51.29:867][621]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Spinner_Blueprint] ([1] browsable assets)...
+[2018.07.30-06.51.29:917][621]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Spinner_Blueprint.Spinner_Blueprint]
+[2018.07.30-06.51.29:917][621]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Spinner_Blueprint]
+[2018.07.30-06.51.30:006][621]LogSavePackage: Save=42.21ms
+[2018.07.30-06.51.30:007][621]LogSavePackage: Moving '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Spinner_Blueprint_Auto75DEB2EDB4609A053C8E8798B91125C75.tmp' to '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Autosaves/Game/Blueprints/Spinner_Blueprint_Auto7.uasset'
+[2018.07.30-06.51.30:008][621]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Autosaves/Game/Blueprints/Spinner_Blueprint_Auto7.uasset
+[2018.07.30-06.51.30:008][621]LogFileHelpers: Auto-saving content packages took 0.143
+[2018.07.30-06.52.19:420][969]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.30-06.52.26:315][ 15]BlueprintLog: New page: Compile Spinner_Blueprint
+[2018.07.30-06.52.27:020][ 15]PIE: Warning: Constraint in '/Engine/Transient.World_16:PersistentLevel.Spinner_Blueprint_C_21992.PhysicsConstraint' attempting to create a joint between objects that are both static.  No joint created.
+[2018.07.30-06.52.28:282][ 22]LogSavePackage: Save=102.94ms
+[2018.07.30-06.52.28:282][ 22]LogSavePackage: Moving '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Spinner_Blueprint451B5CC54BBF56900C061E862C7CEA93.tmp' to '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Blueprints/Spinner_Blueprint.uasset'
+[2018.07.30-06.52.28:293][ 22]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Blueprints/Spinner_Blueprint.uasset
+[2018.07.30-07.01.50:353][880]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Ball_Setup_Map' took 0.034
+[2018.07.30-07.01.50:355][880]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Ball_Blueprint] ([1] browsable assets)...
+[2018.07.30-07.01.50:417][880]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Ball_Blueprint.Ball_Blueprint]
+[2018.07.30-07.01.50:417][880]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Ball_Blueprint]
+[2018.07.30-07.01.50:774][880]LogSavePackage: Save=200.56ms
+[2018.07.30-07.01.50:776][880]LogSavePackage: Moving '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Ball_Blueprint_Auto89ADE50B644D01D6241AF158B4D2F7654.tmp' to '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Autosaves/Game/Blueprints/Ball_Blueprint_Auto8.uasset'
+[2018.07.30-07.01.50:782][880]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Autosaves/Game/Blueprints/Ball_Blueprint_Auto8.uasset
+[2018.07.30-07.01.50:783][880]LogFileHelpers: Auto-saving content packages took 0.430
+[2018.07.30-07.04.22:654][505]BlueprintLog: New page: Compile Ball_Blueprint
+[2018.07.30-07.04.22:856][505]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000019bc728ee80, Size=408
+[2018.07.30-07.04.22:856][505]LogUObjectGlobals: Created PersistentFrame Addr=0x0000019bb54e6940, Size=408, Default__Ball_Blueprint_C Function /Engine/Transient.REINST_Ball_Blueprint_C_199:ExecuteUbergraph_Ball_Blueprint
+[2018.07.30-07.04.22:877][505]LogUObjectGlobals: Created PersistentFrame Addr=0x0000019bbfef5440, Size=408, Default__Ball_Blueprint_C Function /Game/Blueprints/Ball_Blueprint.Ball_Blueprint_C:ExecuteUbergraph_Ball_Blueprint
+[2018.07.30-07.04.25:700][669]LogSavePackage: Save=49.53ms
+[2018.07.30-07.04.25:700][669]LogSavePackage: Moving '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Ball_Blueprint86C4E2A44B616678186C2BBE960D4D50.tmp' to '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Blueprints/Ball_Blueprint.uasset'
+[2018.07.30-07.04.25:705][669]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Blueprints/Ball_Blueprint.uasset
+[2018.07.30-07.04.50:012][443]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/SM_SpinnerTile" FILE="../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Assets/SM_SpinnerTile.uasset" SILENT=true
+[2018.07.30-07.04.50:084][443]LogSavePackage: Save=62.74ms
+[2018.07.30-07.04.50:084][443]LogSavePackage: Moving '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/SM_SpinnerTile57FD710E44B09211B0003EBAF18655A3.tmp' to '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Assets/SM_SpinnerTile.uasset'
+[2018.07.30-07.04.50:094][443]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Assets/SM_SpinnerTile.uasset
+[2018.07.30-07.06.58:883][893]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/SM_SpinnerTile" FILE="../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Assets/SM_SpinnerTile.uasset" SILENT=true
+[2018.07.30-07.06.58:920][893]LogSavePackage: Save=6.71ms
+[2018.07.30-07.06.58:920][893]LogSavePackage: Moving '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/SM_SpinnerTileBBBB902749F751B5195BC0A478670029.tmp' to '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Assets/SM_SpinnerTile.uasset'
+[2018.07.30-07.06.58:921][893]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Assets/SM_SpinnerTile.uasset
+[2018.07.30-07.07.25:116][563]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.30-07.07.35:979][789]Cmd: SELECT NONE
+[2018.07.30-07.07.42:499][975]LogEditorViewport: Clicking on Actor (LMB): Spinner_Blueprint_C (Spinner_Blueprint)
+[2018.07.30-07.07.51:454][222]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.30-07.08.02:759][537]LogEditorViewport: Clicking on Actor (LMB): Flipper_Blueprint_C (Flipper_Blueprint3)
+[2018.07.30-07.08.07:209][657]Cmd: SELECT NONE
+[2018.07.30-07.08.09:849][731]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.30-07.08.10:090][738]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000019bb54e6940, Size=408
+[2018.07.30-07.08.10:470][738]LogSavePackage: Save=123.17ms
+[2018.07.30-07.08.10:470][738]LogSavePackage: Moving '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Ball_Setup_Map081FFD42429F30118AB532BBBCF3A553.tmp' to '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Ball_Setup_Map.umap'
+[2018.07.30-07.08.10:473][738]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Ball_Setup_Map.umap
+[2018.07.30-07.08.10:547][738]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Ball_Setup_Map_BuiltData" FILE="../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Ball_Setup_Map_BuiltData.uasset" SILENT=true
+[2018.07.30-07.08.10:794][738]LogSavePackage: Save=82.14ms
+[2018.07.30-07.08.10:794][738]LogSavePackage: Moving '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Ball_Setup_Map_BuiltData7E4579D744B866F79B6D7D8A1261C2C7.tmp' to '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Ball_Setup_Map_BuiltData.uasset'
+[2018.07.30-07.08.10:798][738]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Ball_Setup_Map_BuiltData.uasset
+[2018.07.30-07.08.15:436][873]LogTemp: Repeating last play command: Standalone Game
+[2018.07.30-07.10.50:820][828]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.30-07.10.52:765][859]LogTemp: Repeating last play command: Standalone Game
+[2018.07.30-07.12.30:538][915]LogSavePackage: Save=162.31ms
+[2018.07.30-07.12.30:538][915]LogSavePackage: Moving '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Ball_Setup_Map1E0397B248F1D00489DDD2803BB5DDD5.tmp' to '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Ball_Setup_Map.umap'
+[2018.07.30-07.12.30:540][915]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Ball_Setup_Map.umap
+[2018.07.30-07.12.30:575][915]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Ball_Setup_Map_BuiltData" FILE="../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Ball_Setup_Map_BuiltData.uasset" SILENT=true
+[2018.07.30-07.12.30:665][915]LogSavePackage: Save=66.04ms
+[2018.07.30-07.12.30:665][915]LogSavePackage: Moving '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Ball_Setup_Map_BuiltData3525E2984514B37FC261389227B315B4.tmp' to '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Ball_Setup_Map_BuiltData.uasset'
+[2018.07.30-07.12.30:668][915]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Ball_Setup_Map_BuiltData.uasset

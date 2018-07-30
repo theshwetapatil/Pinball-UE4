@@ -101,7 +101,8 @@ Right-Click on blueprint class and select Create Child Blueprint Class
 -----------------
 Shift+Click- To add keyframe in timeline
 Click+3- To add curve to the timeline keyframes
-
-
+-----------------
+For effective collisions, enable CCD(Continuous Collision Detection) in Collision section of the entity
+and increase Position Solver Item and Velocity Solver Item in Physics section of the entity
 
 
