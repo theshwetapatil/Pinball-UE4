@@ -1,4 +1,4 @@
-﻿Log file open, 07/30/18 13:33:41
+﻿Log file open, 07/30/18 17:04:30
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -7,12 +7,12 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: Pinball
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(-1050983770) SRandInit(-1050983770).
+LogInit: Display: RandInit(411913294) SRandInit(411913295).
 LogInit: Read version file with build ID '3944462'
 LogInit: Overriding engine version to CL 4033788, compatible CL 3944462
 LogInit: Registered custom module enumerator with build ID '3944462'
 LogTaskGraph: Started task graph with 5 named threads and 11 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.385033
+LogStats: Stats thread started at 0.282267
 LogD3D11RHI: Aftermath initialized
 LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +5:30, Platform Override: ''
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3944462).
@@ -168,7 +168,7 @@ LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogStreaming: Display: Took  4.210s to configure plugins.
+LogStreaming: Display: Took  4.512s to configure plugins.
 LogInit: Using libcurl 7.47.1
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2g
@@ -216,379 +216,421 @@ LogInit: Compiled (64-bit): Apr 27 2018 02:06:57
 LogInit: Compiled with Visual C++: 19.00.24215.01
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.19
-LogInit: Command Line:  /Game/Ball_Setup_Map -game -PIEVIACONSOLE -ResX=1280 -ResY=720  -Multiprocess -messaging -SessionName="Play in Standalone Game" -windowed 
+LogInit: Command Line: 
 LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.19/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
-LogStreaming: Display: Took  0.019s to delete old logs.
+LogStreaming: Display: Took  0.094s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.07.30-08.03.46:822][  0]LogInit: Selected Device Profile: [Windows]
-[2018.07.30-08.03.46:822][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.07.30-08.03.46:861][  0]LogInit: Computer: LAPTOP-SNI5BBA7
-[2018.07.30-08.03.46:861][  0]LogInit: User: Shweta
-[2018.07.30-08.03.46:861][  0]LogInit: CPU Page size=4096, Cores=2
-[2018.07.30-08.03.46:861][  0]LogInit: High frequency timer resolution =2.835940 MHz
-[2018.07.30-08.03.46:862][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
-[2018.07.30-08.03.46:862][  0]LogMemory: Platform Memory Stats for Windows
-[2018.07.30-08.03.46:862][  0]LogMemory: Process Physical Memory: 273.80 MB used, 273.80 MB peak
-[2018.07.30-08.03.46:862][  0]LogMemory: Process Virtual Memory: 263.95 MB used, 263.95 MB peak
-[2018.07.30-08.03.46:862][  0]LogMemory: Physical Memory: 6399.67 MB used,  1674.74 MB free, 8074.41 MB total
-[2018.07.30-08.03.46:862][  0]LogMemory: Virtual Memory: 4779.77 MB used,  1674.74 MB free, 134217728.00 MB total
-[2018.07.30-08.03.46:935][  0]LogInit: Using OS detected language (en-US).
-[2018.07.30-08.03.46:935][  0]LogInit: Using OS detected locale (en-US).
-[2018.07.30-08.03.46:936][  0]LogTextLocalizationManager: No localization for 'en-US' exists, so 'en' will be used for the language.
-[2018.07.30-08.03.46:937][  0]LogTextLocalizationManager: No localization for 'en-US' exists, so 'en' will be used for the locale.
-[2018.07.30-08.03.48:091][  0]LogStreaming: Display: Took  1.156s to EndInitTextLocalization.
-[2018.07.30-08.03.48:111][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2018.07.30-08.03.48:111][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2018.07.30-08.03.48:116][  0]LogD3D11RHI: D3D11 adapters:
-[2018.07.30-08.03.48:124][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics 620' (Feature Level 11_0)
-[2018.07.30-08.03.48:124][  0]LogD3D11RHI:       128/0/4037 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
-[2018.07.30-08.03.48:126][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2018.07.30-08.03.48:126][  0]LogD3D11RHI:       0/0/4037 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2018.07.30-08.03.48:126][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.07.30-08.03.48:135][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.07.30-08.03.48:135][  0]LogD3D11RHI:     GPU DeviceId: 0x5916 (for the marketing name, search the web for "GPU Device Id")
-[2018.07.30-08.03.48:135][  0]LogWindows: EnumDisplayDevices:
-[2018.07.30-08.03.48:135][  0]LogWindows:    0. 'Intel(R) HD Graphics 620' (P:1 D:1)
-[2018.07.30-08.03.48:135][  0]LogWindows:    1. 'Intel(R) HD Graphics 620' (P:0 D:0)
-[2018.07.30-08.03.48:135][  0]LogWindows:    2. 'Intel(R) HD Graphics 620' (P:0 D:0)
-[2018.07.30-08.03.48:135][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2018.07.30-08.03.48:135][  0]LogD3D11RHI:     Adapter Name: Intel(R) HD Graphics 620
-[2018.07.30-08.03.48:135][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2018.07.30-08.03.48:135][  0]LogD3D11RHI:      Driver Date: Unknown
-[2018.07.30-08.03.48:136][  0]LogRHI: Texture pool is 1502 MB (70% of 2146 MB)
-[2018.07.30-08.03.48:141][  0]LogD3D11RHI: Async texture creation enabled
-[2018.07.30-08.03.48:149][  0]LogD3D11RHI: GPU Timing Frequency: 12.000000 (Debug: 2 0)
-[2018.07.30-08.03.48:150][  0]LogShaderCompilers: Guid format shader working directory is -35 characters bigger than the processId version (../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Intermediate/Shaders/WorkingDirectory/6532/).
-[2018.07.30-08.03.48:150][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Shweta/AppData/Local/Temp/UnrealShaderWorkingDir/80680B0C47E96E39C7E1438702489DD5/'.
-[2018.07.30-08.03.49:091][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2018.07.30-08.03.49:126][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.07.30-08.03.49:201][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2018.07.30-08.03.49:245][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2018.07.30-08.03.49:245][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2018.07.30-08.03.49:727][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2018.07.30-08.03.49:727][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2018.07.30-08.03.49:727][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2018.07.30-08.03.50:632][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2018.07.30-08.03.50:745][  0]LogDerivedDataCache: Loaded boot cache 0.11s 74MB C:/Users/Shweta/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
-[2018.07.30-08.03.50:745][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Shweta/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc
-[2018.07.30-08.03.50:745][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.07.30-08.03.50:745][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.07.30-08.03.50:745][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.07.30-08.03.50:745][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2018.07.30-08.03.50:762][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2018.07.30-08.03.50:774][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Shweta/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2018.07.30-08.03.50:774][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2018.07.30-08.03.50:774][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2018.07.30-08.03.50:788][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2018.07.30-08.03.50:788][  0]LogSlate: Using Freetype 2.6.0
-[2018.07.30-08.03.50:789][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.07.30-08.03.50:789][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.07.30-08.03.50:950][  0]LogAssetRegistry: FAssetRegistry took 0.0046 seconds to start up
-[2018.07.30-08.03.51:180][  0]LogPackageLocalizationCache: Processed 9 localized package path(s) for 1 prioritized culture(s) in 0.014913 seconds
-[2018.07.30-08.03.51:275][  0]LogInit: Selected Device Profile: [Windows]
-[2018.07.30-08.03.51:410][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2018.07.30-08.03.51:412][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2018.07.30-08.03.51:412][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.07.30-08.03.51:412][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2018.07.30-08.03.51:412][  0]LogMeshReduction: No automatic mesh merging module available
-[2018.07.30-08.03.51:412][  0]LogMeshMerging: No automatic mesh merging module available
-[2018.07.30-08.03.51:436][  0]LogNetVersion: Pinball , NetCL: 3944462, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3476590221)
-[2018.07.30-08.03.52:072][  0]LogMoviePlayer: Initializing movie player
-[2018.07.30-08.03.53:577][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2018.07.30-08.03.53:697][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.07.30-08.03.53:977][  0]SourceControl: Source control is disabled
-[2018.07.30-08.03.53:977][  0]SourceControl: Source control is disabled
-[2018.07.30-08.03.53:995][  0]SourceControl: Source control is disabled
-[2018.07.30-08.03.54:398][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2018.07.30-08.03.54:518][  0]LogOcInput: OculusInput pre-init called
-[2018.07.30-08.03.54:564][  0]LogUObjectArray: 40124 objects as part of root set at end of initial load.
-[2018.07.30-08.03.54:564][  0]LogUObjectAllocator: 8364208 out of 0 bytes used by permanent object pool.
-[2018.07.30-08.03.54:564][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.07.30-08.03.54:612][  0]LogEngine: Initializing Engine...
-[2018.07.30-08.03.54:614][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2018.07.30-08.03.54:627][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.07.30-08.03.54:627][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.07.30-08.03.54:823][  0]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.07.30-08.03.54:840][  0]LogInit: FAudioDevice initialized.
-[2018.07.30-08.03.54:871][  0]LogInit: Texture streaming: Enabled
-[2018.07.30-08.03.54:990][  0]LogInit: Display: Game Engine Initialized.
-[2018.07.30-08.03.54:990][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2018.07.30-08.03.54:990][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.07.30-08.03.54:990][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.07.30-08.03.55:079][  0]LogInit: Display: Starting Game.
-[2018.07.30-08.03.55:079][  0]LogNet: Browse: /Game/Ball_Setup_Map?Name=Player
-[2018.07.30-08.03.55:079][  0]LogLoad: LoadMap: /Game/Ball_Setup_Map?Name=Player
-[2018.07.30-08.03.55:094][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021ca777fa00, Size=256, Default__Force_Movement_Zone_Blueprint_C Function /Game/Blueprints/Force_Movement_Zone_Blueprint.Force_Movement_Zone_Blueprint_C:ExecuteUbergraph_Force_Movement_Zone_Blueprint
-[2018.07.30-08.03.55:095][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021ca778fc80, Size=408, Default__Ball_Blueprint_C Function /Game/Blueprints/Ball_Blueprint.Ball_Blueprint_C:ExecuteUbergraph_Ball_Blueprint
-[2018.07.30-08.03.55:117][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021ca778fc80, Size=408
-[2018.07.30-08.03.55:117][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021ca87e6080, Size=408, Default__Ball_Blueprint_C Function /Engine/Transient.REINST_Ball_Blueprint_C_2:ExecuteUbergraph_Ball_Blueprint
-[2018.07.30-08.03.55:118][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021ca777fa00, Size=256
-[2018.07.30-08.03.55:118][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021ca777fa00, Size=256, Default__Force_Movement_Zone_Blueprint_C Function /Engine/Transient.REINST_Force_Movement_Zone_Blueprint_C_3:ExecuteUbergraph_Force_Movement_Zone_Blueprint
-[2018.07.30-08.03.55:123][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021ca87e50c0, Size=408, Default__Ball_Blueprint_C Function /Game/Blueprints/Ball_Blueprint.Ball_Blueprint_C:ExecuteUbergraph_Ball_Blueprint
-[2018.07.30-08.03.55:124][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021ca8563700, Size=256, Default__Force_Movement_Zone_Blueprint_C Function /Game/Blueprints/Force_Movement_Zone_Blueprint.Force_Movement_Zone_Blueprint_C:ExecuteUbergraph_Force_Movement_Zone_Blueprint
-[2018.07.30-08.03.55:134][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021ca851d060, Size=32, Default__Ball_Reset_Zone_Blueprint_C Function /Game/Blueprints/Ball_Reset_Zone_Blueprint.Ball_Reset_Zone_Blueprint_C:ExecuteUbergraph_Ball_Reset_Zone_Blueprint
-[2018.07.30-08.03.55:135][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021ca851d060, Size=32
-[2018.07.30-08.03.55:135][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021ca851d060, Size=32, Default__Ball_Reset_Zone_Blueprint_C Function /Engine/Transient.REINST_Ball_Reset_Zone_Blueprint_C_9:ExecuteUbergraph_Ball_Reset_Zone_Blueprint
-[2018.07.30-08.03.55:136][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021ca851d5e0, Size=32, Default__Ball_Reset_Zone_Blueprint_C Function /Game/Blueprints/Ball_Reset_Zone_Blueprint.Ball_Reset_Zone_Blueprint_C:ExecuteUbergraph_Ball_Reset_Zone_Blueprint
-[2018.07.30-08.03.55:185][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021ca8969580, Size=288, Default__Bumper_Blueprint_C Function /Game/Blueprints/Bumper_Blueprint.Bumper_Blueprint_C:ExecuteUbergraph_Bumper_Blueprint
-[2018.07.30-08.03.55:189][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021ca8969300, Size=320, Default__Pinball_Game_Mode_Blueprint_C Function /Game/Blueprints/Pinball_Game_Mode_Blueprint.Pinball_Game_Mode_Blueprint_C:ExecuteUbergraph_Pinball_Game_Mode_Blueprint
-[2018.07.30-08.03.55:196][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021ca781b000, Size=504, Default__Pinball_Player_Controller_Blueprint_C Function /Game/Blueprints/Pinball_Player_Controller_Blueprint.Pinball_Player_Controller_Blueprint_C:ExecuteUbergraph_Pinball_Player_Controller_Blueprint
-[2018.07.30-08.03.55:198][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021ca848ec50, Size=8, Default__Flipper_Blueprint_C Function /Game/Blueprints/Flipper_Blueprint.Flipper_Blueprint_C:ExecuteUbergraph_Flipper_Blueprint
-[2018.07.30-08.03.55:203][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021cac921cc0, Size=164, Default__Plunger_Blueprint_C Function /Game/Blueprints/Plunger_Blueprint.Plunger_Blueprint_C:ExecuteUbergraph_Plunger_Blueprint
-[2018.07.30-08.03.55:212][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021cac925c20, Size=104, Default__High_Score_Entry_WidgetBlueprint_C Function /Game/Blueprints/High_Score_Entry_WidgetBlueprint.High_Score_Entry_WidgetBlueprint_C:ExecuteUbergraph_High_Score_Entry_WidgetBlueprint
-[2018.07.30-08.03.55:213][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021cac7fb080, Size=32, Default__High_Score_WidgetBlueprint_C Function /Game/Blueprints/High_Score_WidgetBlueprint.High_Score_WidgetBlueprint_C:ExecuteUbergraph_High_Score_WidgetBlueprint
-[2018.07.30-08.03.55:216][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021cac7faf80, Size=32, Default__Main_Menu_WidgetBlueprint_C Function /Game/Blueprints/Main_Menu_WidgetBlueprint.Main_Menu_WidgetBlueprint_C:ExecuteUbergraph_Main_Menu_WidgetBlueprint
-[2018.07.30-08.03.55:241][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021ca8969580, Size=288
-[2018.07.30-08.03.55:241][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021cac7d8900, Size=288, Default__Bumper_Blueprint_C Function /Engine/Transient.REINST_Bumper_Blueprint_C_13:ExecuteUbergraph_Bumper_Blueprint
-[2018.07.30-08.03.55:242][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021ca848ec50, Size=8
-[2018.07.30-08.03.55:242][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021ca848ec50, Size=8, Default__Flipper_Blueprint_C Function /Engine/Transient.REINST_Flipper_Blueprint_C_14:ExecuteUbergraph_Flipper_Blueprint
-[2018.07.30-08.03.55:242][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021cac921cc0, Size=164
-[2018.07.30-08.03.55:242][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021cb3f956c0, Size=164, Default__Plunger_Blueprint_C Function /Engine/Transient.REINST_Plunger_Blueprint_C_16:ExecuteUbergraph_Plunger_Blueprint
-[2018.07.30-08.03.55:243][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021cac925c20, Size=104
-[2018.07.30-08.03.55:243][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021ca77beda0, Size=104, Default__High_Score_Entry_WidgetBlueprint_C Function /Engine/Transient.REINST_High_Score_Entry_WidgetBlueprint_C_0:ExecuteUbergraph_High_Score_Entry_WidgetBlueprint
-[2018.07.30-08.03.55:243][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021cac7fb080, Size=32
-[2018.07.30-08.03.55:243][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021cb3eb7360, Size=32, Default__High_Score_WidgetBlueprint_C Function /Engine/Transient.REINST_High_Score_WidgetBlueprint_C_1:ExecuteUbergraph_High_Score_WidgetBlueprint
-[2018.07.30-08.03.55:243][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021cac7faf80, Size=32
-[2018.07.30-08.03.55:243][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021cb3eb72a0, Size=32, Default__Main_Menu_WidgetBlueprint_C Function /Engine/Transient.REINST_Main_Menu_WidgetBlueprint_C_2:ExecuteUbergraph_Main_Menu_WidgetBlueprint
-[2018.07.30-08.03.55:243][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021ca8969300, Size=320
-[2018.07.30-08.03.55:243][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021cac7d8680, Size=320, Default__Pinball_Game_Mode_Blueprint_C Function /Engine/Transient.REINST_Pinball_Game_Mode_Blueprint_C_17:ExecuteUbergraph_Pinball_Game_Mode_Blueprint
-[2018.07.30-08.03.55:244][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021ca781b000, Size=504
-[2018.07.30-08.03.55:244][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021cb3fcd400, Size=504, Default__Pinball_Player_Controller_Blueprint_C Function /Engine/Transient.REINST_Pinball_Player_Controller_Blueprint_C_18:ExecuteUbergraph_Pinball_Player_Controller_Blueprint
-[2018.07.30-08.03.55:269][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021cace14540, Size=288, Default__Bumper_Blueprint_C Function /Game/Blueprints/Bumper_Blueprint.Bumper_Blueprint_C:ExecuteUbergraph_Bumper_Blueprint
-[2018.07.30-08.03.55:270][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021cb3a33710, Size=8, Default__Flipper_Blueprint_C Function /Game/Blueprints/Flipper_Blueprint.Flipper_Blueprint_C:ExecuteUbergraph_Flipper_Blueprint
-[2018.07.30-08.03.55:272][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021c9f38f700, Size=164, Default__Plunger_Blueprint_C Function /Game/Blueprints/Plunger_Blueprint.Plunger_Blueprint_C:ExecuteUbergraph_Plunger_Blueprint
-[2018.07.30-08.03.55:273][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021c9f377660, Size=104, Default__High_Score_Entry_WidgetBlueprint_C Function /Game/Blueprints/High_Score_Entry_WidgetBlueprint.High_Score_Entry_WidgetBlueprint_C:ExecuteUbergraph_High_Score_Entry_WidgetBlueprint
-[2018.07.30-08.03.55:274][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021c9f383da0, Size=32, Default__High_Score_WidgetBlueprint_C Function /Game/Blueprints/High_Score_WidgetBlueprint.High_Score_WidgetBlueprint_C:ExecuteUbergraph_High_Score_WidgetBlueprint
-[2018.07.30-08.03.55:274][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021c9f383220, Size=32, Default__Main_Menu_WidgetBlueprint_C Function /Game/Blueprints/Main_Menu_WidgetBlueprint.Main_Menu_WidgetBlueprint_C:ExecuteUbergraph_Main_Menu_WidgetBlueprint
-[2018.07.30-08.03.55:276][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021c9f387b00, Size=320, Default__Pinball_Game_Mode_Blueprint_C Function /Game/Blueprints/Pinball_Game_Mode_Blueprint.Pinball_Game_Mode_Blueprint_C:ExecuteUbergraph_Pinball_Game_Mode_Blueprint
-[2018.07.30-08.03.55:278][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021c9f3d6e00, Size=512, Default__Pinball_Player_Controller_Blueprint_C Function /Game/Blueprints/Pinball_Player_Controller_Blueprint.Pinball_Player_Controller_Blueprint_C:ExecuteUbergraph_Pinball_Player_Controller_Blueprint
-[2018.07.30-08.03.55:290][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021c9f2ff890, Size=104, Default__Slingshot_Blueprint_C Function /Game/Blueprints/Slingshot_Blueprint.Slingshot_Blueprint_C:ExecuteUbergraph_Slingshot_Blueprint
-[2018.07.30-08.03.55:294][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021c9f2ff890, Size=104
-[2018.07.30-08.03.55:294][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021c9f2ff890, Size=104, Default__Slingshot_Blueprint_C Function /Engine/Transient.REINST_Slingshot_Blueprint_C_29:ExecuteUbergraph_Slingshot_Blueprint
-[2018.07.30-08.03.55:296][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021c9f2fca30, Size=104, Default__Slingshot_Blueprint_C Function /Game/Blueprints/Slingshot_Blueprint.Slingshot_Blueprint_C:ExecuteUbergraph_Slingshot_Blueprint
-[2018.07.30-08.03.55:309][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021c9f3671c0, Size=88, Default__Drop_Target_Set_Blueprint_Child_C Function /Game/Blueprints/Drop_Target_Set_Blueprint_Child.Drop_Target_Set_Blueprint_Child_C:ExecuteUbergraph_Drop_Target_Set_Blueprint_Child
-[2018.07.30-08.03.55:310][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021c9f386ac0, Size=272, Default__Drop_Target_Blueprint_C Function /Game/Blueprints/Drop_Target_Blueprint.Drop_Target_Blueprint_C:ExecuteUbergraph_Drop_Target_Blueprint
-[2018.07.30-08.03.55:321][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021c9f386ac0, Size=272
-[2018.07.30-08.03.55:321][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021c9f386ac0, Size=272, Default__Drop_Target_Blueprint_C Function /Engine/Transient.REINST_Drop_Target_Blueprint_C_33:ExecuteUbergraph_Drop_Target_Blueprint
-[2018.07.30-08.03.55:322][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021c9f3671c0, Size=88
-[2018.07.30-08.03.55:322][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021c9f3671c0, Size=88, Default__Drop_Target_Set_Blueprint_Child_C Function /Engine/Transient.REINST_Drop_Target_Set_Blueprint_Child_C_34:ExecuteUbergraph_Drop_Target_Set_Blueprint_Child
-[2018.07.30-08.03.55:331][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021cba0bbec0, Size=272, Default__Drop_Target_Blueprint_C Function /Game/Blueprints/Drop_Target_Blueprint.Drop_Target_Blueprint_C:ExecuteUbergraph_Drop_Target_Blueprint
-[2018.07.30-08.03.55:334][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021c9f367a60, Size=96, Default__Drop_Target_Set_Blueprint_Child_C Function /Game/Blueprints/Drop_Target_Set_Blueprint_Child.Drop_Target_Set_Blueprint_Child_C:ExecuteUbergraph_Drop_Target_Set_Blueprint_Child
-[2018.07.30-08.03.57:264][  0]LogAIModule: Creating AISystem for world Ball_Setup_Map
-[2018.07.30-08.03.57:265][  0]LogLoad: Game class is 'Pinball_Game_Mode_Blueprint_C'
-[2018.07.30-08.03.57:305][  0]LogWorld: Bringing World /Game/Ball_Setup_Map.Ball_Setup_Map up for play (max tick rate 0) at 2018.07.30-13.33.57
-[2018.07.30-08.03.57:306][  0]LogWorld: Bringing up level for play took: 0.039328
-[2018.07.30-08.03.57:309][  0]LogLoad: Took 2.230249 seconds to LoadMap(/Game/Ball_Setup_Map)
-[2018.07.30-08.03.57:405][  0]LogLoad: (Engine Initialization) Total time: 18.65 seconds
-[2018.07.30-08.03.57:405][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2018.07.30-08.03.57:448][  0]LogRenderer: Reallocating scene render targets to support 1280x720 Format 10 NumSamples 1 (Frame:1).
-[2018.07.30-08.03.58:063][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2018.07.30-08.03.58:072][  1]LogAudio: Warning: Detected orphaned looping sound 'victoryMusic_loop_01_01'.
-[2018.07.30-08.04.01:547][ 70]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.07.30-08.04.34:853][844]LogSlate: Window 'Pinball (64-bit, PCD3D_SM5) ' being destroyed
-[2018.07.30-08.04.34:854][844]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2018.07.30-08.04.34:864][845]LogEngine: All Windows Closed
-[2018.07.30-08.04.34:864][845]LogWindows: FPlatformMisc::RequestExit(0)
-[2018.07.30-08.04.35:647][846]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
-[2018.07.30-08.04.35:647][846]LogExit: Preparing to exit.
-[2018.07.30-08.04.35:647][846]LogMoviePlayer: Shutting down movie player
-[2018.07.30-08.04.35:779][846]LogExit: Game engine shut down
-[2018.07.30-08.04.35:782][846]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021ca777fa00, Size=256
-[2018.07.30-08.04.35:783][846]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021ca87e6080, Size=408
-[2018.07.30-08.04.35:783][846]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021ca87e50c0, Size=408
-[2018.07.30-08.04.35:783][846]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021ca8563700, Size=256
-[2018.07.30-08.04.35:783][846]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021ca851d060, Size=32
-[2018.07.30-08.04.35:783][846]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021ca851d5e0, Size=32
-[2018.07.30-08.04.35:783][846]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021cac7d8900, Size=288
-[2018.07.30-08.04.35:783][846]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021cac7d8680, Size=320
-[2018.07.30-08.04.35:783][846]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021cb3fcd400, Size=504
-[2018.07.30-08.04.35:784][846]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021ca848ec50, Size=8
-[2018.07.30-08.04.35:784][846]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021cb3f956c0, Size=164
-[2018.07.30-08.04.35:784][846]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021ca77beda0, Size=104
-[2018.07.30-08.04.35:784][846]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021cb3eb7360, Size=32
-[2018.07.30-08.04.35:784][846]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021cb3eb72a0, Size=32
-[2018.07.30-08.04.35:784][846]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021cace14540, Size=288
-[2018.07.30-08.04.35:784][846]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021cb3a33710, Size=8
-[2018.07.30-08.04.35:784][846]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021c9f38f700, Size=164
-[2018.07.30-08.04.35:784][846]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021c9f377660, Size=104
-[2018.07.30-08.04.35:784][846]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021c9f383da0, Size=32
-[2018.07.30-08.04.35:784][846]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021c9f383220, Size=32
-[2018.07.30-08.04.35:784][846]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021c9f387b00, Size=320
-[2018.07.30-08.04.35:784][846]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021c9f3d6e00, Size=512
-[2018.07.30-08.04.35:784][846]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021c9f2ff890, Size=104
-[2018.07.30-08.04.35:784][846]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021c9f2fca30, Size=104
-[2018.07.30-08.04.35:784][846]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021c9f3671c0, Size=88
-[2018.07.30-08.04.35:784][846]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021c9f386ac0, Size=272
-[2018.07.30-08.04.35:784][846]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021cba0bbec0, Size=272
-[2018.07.30-08.04.35:784][846]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021c9f367a60, Size=96
-[2018.07.30-08.04.35:848][846]LogExit: Object subsystem successfully closed.
-[2018.07.30-08.04.35:861][846]LogShaderCompilers: Display: Shaders left to compile 0
-[2018.07.30-08.04.35:864][846]LogD3D11RHI: Shutdown
-[2018.07.30-08.04.35:864][846]LogD3D11RHI: CleanupD3DDevice
-[2018.07.30-08.04.35:875][846]LogD3D11RHI: ~FD3D11DynamicRHI
-[2018.07.30-08.04.35:883][846]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (332)
-[2018.07.30-08.04.35:884][846]LogModuleManager: Shutting down and abandoning module SequenceRecorder (330)
-[2018.07.30-08.04.35:884][846]LogModuleManager: Shutting down and abandoning module AutomationController (328)
-[2018.07.30-08.04.35:884][846]LogModuleManager: Shutting down and abandoning module AutomationWorker (326)
-[2018.07.30-08.04.35:884][846]LogModuleManager: Shutting down and abandoning module AIModule (324)
-[2018.07.30-08.04.35:884][846]LogModuleManager: Shutting down and abandoning module GameplayDebugger (323)
-[2018.07.30-08.04.35:884][846]LogModuleManager: Shutting down and abandoning module AITestSuite (321)
-[2018.07.30-08.04.35:884][846]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (318)
-[2018.07.30-08.04.35:884][846]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (316)
-[2018.07.30-08.04.35:884][846]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (314)
-[2018.07.30-08.04.35:884][846]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (312)
-[2018.07.30-08.04.35:884][846]LogModuleManager: Shutting down and abandoning module CharacterAI (310)
-[2018.07.30-08.04.35:884][846]LogModuleManager: Shutting down and abandoning module SessionServices (308)
-[2018.07.30-08.04.35:884][846]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (306)
-[2018.07.30-08.04.35:884][846]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (304)
-[2018.07.30-08.04.35:884][846]LogModuleManager: Shutting down and abandoning module MovieScene (302)
-[2018.07.30-08.04.35:884][846]LogModuleManager: Shutting down and abandoning module GeometryCache (300)
-[2018.07.30-08.04.35:884][846]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (299)
-[2018.07.30-08.04.35:884][846]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (296)
-[2018.07.30-08.04.35:884][846]LogModuleManager: Shutting down and abandoning module PortalServices (294)
-[2018.07.30-08.04.35:884][846]LogModuleManager: Shutting down and abandoning module PortalRpc (292)
-[2018.07.30-08.04.35:884][846]LogModuleManager: Shutting down and abandoning module MessagingRpc (290)
-[2018.07.30-08.04.35:884][846]LogModuleManager: Shutting down and abandoning module ProfilerService (288)
-[2018.07.30-08.04.35:952][846]LogModuleManager: Shutting down and abandoning module TaskGraph (286)
-[2018.07.30-08.04.35:952][846]LogModuleManager: Shutting down and abandoning module SteamVRController (284)
-[2018.07.30-08.04.35:952][846]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (282)
-[2018.07.30-08.04.35:952][846]LogModuleManager: Shutting down and abandoning module OculusInput (280)
-[2018.07.30-08.04.35:952][846]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (278)
-[2018.07.30-08.04.35:952][846]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (276)
-[2018.07.30-08.04.35:952][846]LogModuleManager: Shutting down and abandoning module CableComponent (274)
-[2018.07.30-08.04.35:952][846]LogModuleManager: Shutting down and abandoning module AudioCapture (272)
-[2018.07.30-08.04.35:952][846]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (270)
-[2018.07.30-08.04.35:952][846]LogModuleManager: Shutting down and abandoning module AndroidPermission (268)
-[2018.07.30-08.04.35:952][846]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (264)
-[2018.07.30-08.04.35:952][846]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (262)
-[2018.07.30-08.04.35:952][846]LogModuleManager: Shutting down and abandoning module MediaCompositing (260)
-[2018.07.30-08.04.35:952][846]LogModuleManager: Shutting down and abandoning module LinearTimecode (258)
-[2018.07.30-08.04.35:952][846]LogModuleManager: Shutting down and abandoning module ImgMedia (256)
-[2018.07.30-08.04.35:961][846]LogModuleManager: Shutting down and abandoning module HTML5Networking (254)
-[2018.07.30-08.04.35:961][846]LogModuleManager: Shutting down and abandoning module DatasmithContent (252)
-[2018.07.30-08.04.35:962][846]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (250)
-[2018.07.30-08.04.35:962][846]LogModuleManager: Shutting down and abandoning module CryptoKeys (248)
-[2018.07.30-08.04.35:962][846]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (246)
-[2018.07.30-08.04.35:962][846]LogModuleManager: Shutting down and abandoning module HotReload (245)
-[2018.07.30-08.04.35:962][846]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (244)
-[2018.07.30-08.04.35:962][846]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (240)
-[2018.07.30-08.04.35:962][846]LogModuleManager: Shutting down and abandoning module UObjectPlugin (238)
-[2018.07.30-08.04.35:962][846]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (236)
-[2018.07.30-08.04.35:962][846]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (234)
-[2018.07.30-08.04.35:963][846]LogModuleManager: Shutting down and abandoning module SourceControl (233)
-[2018.07.30-08.04.35:963][846]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (230)
-[2018.07.30-08.04.35:963][846]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (228)
-[2018.07.30-08.04.35:963][846]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (226)
-[2018.07.30-08.04.35:963][846]LogModuleManager: Shutting down and abandoning module PhysXVehicles (224)
-[2018.07.30-08.04.35:963][846]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (222)
-[2018.07.30-08.04.35:963][846]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (220)
-[2018.07.30-08.04.35:963][846]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (218)
-[2018.07.30-08.04.35:963][846]LogModuleManager: Shutting down and abandoning module ActorSequence (216)
-[2018.07.30-08.04.35:963][846]LogModuleManager: Shutting down and abandoning module UdpMessaging (214)
-[2018.07.30-08.04.36:064][846]LogModuleManager: Shutting down and abandoning module TcpMessaging (212)
-[2018.07.30-08.04.36:603][846]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (210)
-[2018.07.30-08.04.36:603][846]LogModuleManager: Shutting down and abandoning module FacialAnimation (208)
-[2018.07.30-08.04.36:603][846]LogModuleManager: Shutting down and abandoning module DataValidation (206)
-[2018.07.30-08.04.36:603][846]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (204)
-[2018.07.30-08.04.36:603][846]LogModuleManager: Shutting down and abandoning module TreeMap (203)
-[2018.07.30-08.04.36:603][846]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (200)
-[2018.07.30-08.04.36:603][846]LogModuleManager: Shutting down and abandoning module LiveLink (198)
-[2018.07.30-08.04.37:283][846]LogModuleManager: Shutting down and abandoning module Paper2D (196)
-[2018.07.30-08.04.37:283][846]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (194)
-[2018.07.30-08.04.37:283][846]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (192)
-[2018.07.30-08.04.37:283][846]LogModuleManager: Shutting down and abandoning module WmfMedia (190)
-[2018.07.30-08.04.37:296][846]LogModuleManager: Shutting down and abandoning module Media (189)
-[2018.07.30-08.04.37:304][846]LogModuleManager: Shutting down and abandoning module PacketHandler (186)
-[2018.07.30-08.04.37:304][846]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (184)
-[2018.07.30-08.04.37:304][846]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (182)
-[2018.07.30-08.04.37:304][846]LogModuleManager: Shutting down and abandoning module MediaAssets (180)
-[2018.07.30-08.04.37:304][846]LogModuleManager: Shutting down and abandoning module Overlay (178)
-[2018.07.30-08.04.37:304][846]LogModuleManager: Shutting down and abandoning module OverlayEditor (177)
-[2018.07.30-08.04.37:304][846]LogModuleManager: Shutting down and abandoning module VREditor (174)
-[2018.07.30-08.04.37:304][846]LogModuleManager: Shutting down and abandoning module StringTableEditor (172)
-[2018.07.30-08.04.37:304][846]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (170)
-[2018.07.30-08.04.37:304][846]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (168)
-[2018.07.30-08.04.37:304][846]LogModuleManager: Shutting down and abandoning module FunctionalTesting (166)
-[2018.07.30-08.04.37:304][846]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (164)
-[2018.07.30-08.04.37:304][846]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (163)
-[2018.07.30-08.04.37:304][846]LogModuleManager: Shutting down and abandoning module UMG (160)
-[2018.07.30-08.04.37:304][846]LogModuleManager: Shutting down and abandoning module UMGEditor (159)
-[2018.07.30-08.04.37:304][846]LogModuleManager: Shutting down and abandoning module Sequencer (158)
-[2018.07.30-08.04.37:304][846]LogModuleManager: Shutting down and abandoning module MessageLog (155)
-[2018.07.30-08.04.37:304][846]LogModuleManager: Shutting down and abandoning module SlateReflector (150)
-[2018.07.30-08.04.37:304][846]LogModuleManager: Shutting down and abandoning module Slate (148)
-[2018.07.30-08.04.37:304][846]LogModuleManager: Shutting down and abandoning module EditorStyle (146)
-[2018.07.30-08.04.37:307][846]LogModuleManager: Shutting down and abandoning module MRMesh (144)
-[2018.07.30-08.04.37:307][846]LogModuleManager: Shutting down and abandoning module Messaging (142)
-[2018.07.30-08.04.37:307][846]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (140)
-[2018.07.30-08.04.37:307][846]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (138)
-[2018.07.30-08.04.37:307][846]LogModuleManager: Shutting down and abandoning module XAudio2 (136)
-[2018.07.30-08.04.37:307][846]LogModuleManager: Shutting down and abandoning module Networking (134)
-[2018.07.30-08.04.37:307][846]LogModuleManager: Shutting down and abandoning module Core (132)
-[2018.07.30-08.04.37:307][846]LogModuleManager: Shutting down and abandoning module LevelSequence (130)
-[2018.07.30-08.04.37:308][846]LogModuleManager: Shutting down and abandoning module KismetCompiler (128)
-[2018.07.30-08.04.37:308][846]LogModuleManager: Shutting down and abandoning module MeshUtilities (126)
-[2018.07.30-08.04.37:308][846]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (125)
-[2018.07.30-08.04.37:308][846]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (124)
-[2018.07.30-08.04.37:308][846]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (123)
-[2018.07.30-08.04.37:308][846]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (121)
-[2018.07.30-08.04.37:308][846]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (119)
-[2018.07.30-08.04.37:308][846]LogModuleManager: Shutting down and abandoning module MaterialBaking (115)
-[2018.07.30-08.04.37:308][846]LogModuleManager: Shutting down and abandoning module DerivedDataCache (110)
-[2018.07.30-08.04.37:405][846]LogDerivedDataCache: Shutdown
-[2018.07.30-08.04.37:405][846]LogModuleManager: Shutting down and abandoning module XGEController (108)
-[2018.07.30-08.04.37:405][846]LogModuleManager: Shutting down and abandoning module TargetPlatform (106)
-[2018.07.30-08.04.37:405][846]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (105)
-[2018.07.30-08.04.37:405][846]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (103)
-[2018.07.30-08.04.37:406][846]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (101)
-[2018.07.30-08.04.37:406][846]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (99)
-[2018.07.30-08.04.37:406][846]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (97)
-[2018.07.30-08.04.37:406][846]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (95)
-[2018.07.30-08.04.37:406][846]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (93)
-[2018.07.30-08.04.37:406][846]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (91)
-[2018.07.30-08.04.37:406][846]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (89)
-[2018.07.30-08.04.37:407][846]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (87)
-[2018.07.30-08.04.37:407][846]LogModuleManager: Shutting down and abandoning module ImageWrapper (86)
-[2018.07.30-08.04.37:407][846]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (83)
-[2018.07.30-08.04.37:407][846]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (81)
-[2018.07.30-08.04.37:407][846]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (79)
-[2018.07.30-08.04.37:407][846]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (77)
-[2018.07.30-08.04.37:407][846]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (75)
-[2018.07.30-08.04.37:407][846]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (73)
-[2018.07.30-08.04.37:407][846]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (71)
-[2018.07.30-08.04.37:407][846]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (69)
-[2018.07.30-08.04.37:407][846]LogModuleManager: Shutting down and abandoning module InputCore (66)
-[2018.07.30-08.04.37:407][846]LogModuleManager: Shutting down and abandoning module Settings (64)
-[2018.07.30-08.04.37:407][846]LogModuleManager: Shutting down and abandoning module PhysXCooking (62)
-[2018.07.30-08.04.37:407][846]LogModuleManager: Shutting down and abandoning module SteamVR (60)
-[2018.07.30-08.04.37:407][846]LogModuleManager: Shutting down and abandoning module OculusHMD (58)
-[2018.07.30-08.04.37:407][846]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (56)
-[2018.07.30-08.04.37:407][846]LogModuleManager: Shutting down and abandoning module AppleARKit (54)
-[2018.07.30-08.04.37:407][846]LogModuleManager: Shutting down and abandoning module AugmentedReality (51)
-[2018.07.30-08.04.37:407][846]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
-[2018.07.30-08.04.37:407][846]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
-[2018.07.30-08.04.37:407][846]LogModuleManager: Shutting down and abandoning module XMPP (43)
-[2018.07.30-08.04.37:408][846]LogModuleManager: Shutting down and abandoning module HTTP (41)
-[2018.07.30-08.04.37:438][846]LogModuleManager: Shutting down and abandoning module SSL (40)
-[2018.07.30-08.04.37:440][846]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
-[2018.07.30-08.04.37:440][846]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
-[2018.07.30-08.04.37:440][846]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
-[2018.07.30-08.04.37:440][846]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
-[2018.07.30-08.04.37:440][846]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
-[2018.07.30-08.04.37:440][846]LogModuleManager: Shutting down and abandoning module Landscape (26)
-[2018.07.30-08.04.37:440][846]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
-[2018.07.30-08.04.37:441][846]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
-[2018.07.30-08.04.37:441][846]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
-[2018.07.30-08.04.37:441][846]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
-[2018.07.30-08.04.37:441][846]LogModuleManager: Shutting down and abandoning module Renderer (16)
-[2018.07.30-08.04.37:441][846]LogModuleManager: Shutting down and abandoning module Engine (14)
-[2018.07.30-08.04.37:441][846]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
-[2018.07.30-08.04.37:441][846]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
-[2018.07.30-08.04.37:441][846]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
-[2018.07.30-08.04.37:441][846]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
-[2018.07.30-08.04.37:442][846]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
-[2018.07.30-08.04.37:442][846]LogModuleManager: Shutting down and abandoning module PakFile (2)
-[2018.07.30-08.04.37:447][846]LogExit: Exiting.
-[2018.07.30-08.04.37:455][846]Log file closed, 07/30/18 13:34:37
+[2018.07.30-11.34.36:765][  0]LogInit: Selected Device Profile: [Windows]
+[2018.07.30-11.34.36:765][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.07.30-11.34.37:025][  0]LogInit: Computer: LAPTOP-SNI5BBA7
+[2018.07.30-11.34.37:025][  0]LogInit: User: Shweta
+[2018.07.30-11.34.37:026][  0]LogInit: CPU Page size=4096, Cores=2
+[2018.07.30-11.34.37:026][  0]LogInit: High frequency timer resolution =2.835940 MHz
+[2018.07.30-11.34.37:027][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2018.07.30-11.34.37:027][  0]LogMemory: Platform Memory Stats for Windows
+[2018.07.30-11.34.37:027][  0]LogMemory: Process Physical Memory: 273.56 MB used, 273.56 MB peak
+[2018.07.30-11.34.37:027][  0]LogMemory: Process Virtual Memory: 270.19 MB used, 270.19 MB peak
+[2018.07.30-11.34.37:027][  0]LogMemory: Physical Memory: 6512.62 MB used,  1561.79 MB free, 8074.41 MB total
+[2018.07.30-11.34.37:027][  0]LogMemory: Virtual Memory: 4785.95 MB used,  1561.79 MB free, 134217728.00 MB total
+[2018.07.30-11.34.38:181][  0]LogInit: Using OS detected language (en-US).
+[2018.07.30-11.34.38:181][  0]LogInit: Using OS detected locale (en-US).
+[2018.07.30-11.34.38:643][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.07.30-11.34.40:304][  0]LogStreaming: Display: Took  2.148s to EndInitTextLocalization.
+[2018.07.30-11.34.40:304][  0]LogInit: Setting process to per monitor DPI aware
+[2018.07.30-11.34.40:804][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.07.30-11.34.40:804][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.07.30-11.34.49:661][  0]LogD3D11RHI: D3D11 adapters:
+[2018.07.30-11.34.49:730][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics 620' (Feature Level 11_0)
+[2018.07.30-11.34.49:730][  0]LogD3D11RHI:       128/0/4037 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
+[2018.07.30-11.34.49:794][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.07.30-11.34.49:794][  0]LogD3D11RHI:       0/0/4037 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.07.30-11.34.49:794][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.07.30-11.34.49:832][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.07.30-11.34.49:832][  0]LogD3D11RHI:     GPU DeviceId: 0x5916 (for the marketing name, search the web for "GPU Device Id")
+[2018.07.30-11.34.49:833][  0]LogWindows: EnumDisplayDevices:
+[2018.07.30-11.34.49:833][  0]LogWindows:    0. 'Intel(R) HD Graphics 620' (P:1 D:1)
+[2018.07.30-11.34.49:834][  0]LogWindows:    1. 'Intel(R) HD Graphics 620' (P:0 D:0)
+[2018.07.30-11.34.49:835][  0]LogWindows:    2. 'Intel(R) HD Graphics 620' (P:0 D:0)
+[2018.07.30-11.34.49:835][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.07.30-11.34.49:835][  0]LogD3D11RHI:     Adapter Name: Intel(R) HD Graphics 620
+[2018.07.30-11.34.49:835][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.07.30-11.34.49:835][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.07.30-11.34.49:849][  0]LogRHI: Texture pool is 1502 MB (70% of 2146 MB)
+[2018.07.30-11.34.49:872][  0]LogD3D11RHI: Async texture creation enabled
+[2018.07.30-11.34.50:063][  0]LogD3D11RHI: GPU Timing Frequency: 12.000000 (Debug: 2 0)
+[2018.07.30-11.34.50:143][  0]LogShaderCompilers: Guid format shader working directory is -36 characters bigger than the processId version (../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Intermediate/Shaders/WorkingDirectory/11240/).
+[2018.07.30-11.34.50:152][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Shweta/AppData/Local/Temp/UnrealShaderWorkingDir/E14B14FA487CF4E66113038C6032CB32/'.
+[2018.07.30-11.34.53:675][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.07.30-11.34.53:742][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.07.30-11.34.53:820][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.07.30-11.34.53:856][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.07.30-11.34.53:989][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.07.30-11.34.54:043][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.07.30-11.34.54:196][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.07.30-11.34.54:343][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.07.30-11.34.54:487][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.07.30-11.34.54:581][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.07.30-11.34.54:649][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.07.30-11.34.54:818][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.07.30-11.34.54:949][  0]LogTemp: Display: Loaded TP Android_ETC1aTargetPlatform
+[2018.07.30-11.34.55:022][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.07.30-11.34.55:118][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.07.30-11.34.55:293][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.07.30-11.34.55:293][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.07.30-11.34.55:405][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.07.30-11.34.55:497][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.07.30-11.34.55:842][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.07.30-11.34.55:903][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.07.30-11.34.56:022][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.07.30-11.34.56:074][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.07.30-11.34.56:203][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.07.30-11.34.56:339][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.07.30-11.34.56:339][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.07.30-11.35.00:974][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.07.30-11.35.00:974][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.07.30-11.35.00:975][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.07.30-11.35.17:867][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.07.30-11.35.19:977][  0]LogDerivedDataCache: Loaded boot cache 2.07s 74MB C:/Users/Shweta/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2018.07.30-11.35.19:977][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Shweta/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc
+[2018.07.30-11.35.19:977][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.07.30-11.35.19:977][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.07.30-11.35.19:977][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.07.30-11.35.19:977][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.07.30-11.35.20:219][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.07.30-11.35.20:237][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Shweta/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.07.30-11.35.20:237][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.07.30-11.35.20:237][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.07.30-11.35.20:370][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.07.30-11.35.20:426][  0]LogSlate: Using Freetype 2.6.0
+[2018.07.30-11.35.20:449][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.07.30-11.35.20:449][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.07.30-11.35.37:890][  0]LogAssetRegistry: FAssetRegistry took 0.0494 seconds to start up
+[2018.07.30-11.35.50:659][  0]LogInit: Selected Device Profile: [Windows]
+[2018.07.30-11.35.53:044][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.07.30-11.35.53:109][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.07.30-11.35.53:110][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.07.30-11.35.53:110][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.07.30-11.35.53:110][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.07.30-11.35.53:111][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.07.30-11.35.53:516][  0]LogNetVersion: Pinball , NetCL: 3944462, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3476590221)
+[2018.07.30-11.36.02:248][  0]LogPackageLocalizationCache: Processed 9 localized package path(s) for 2 prioritized culture(s) in 0.718196 seconds
+[2018.07.30-11.36.02:338][  0]LogUObjectArray: 36728 objects as part of root set at end of initial load.
+[2018.07.30-11.36.02:338][  0]LogUObjectAllocator: 7314304 out of 0 bytes used by permanent object pool.
+[2018.07.30-11.36.02:338][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.07.30-11.36.54:682][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.07.30-11.36.54:844][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.07.30-11.36.56:889][  0]SourceControl: Source control is disabled
+[2018.07.30-11.36.56:889][  0]SourceControl: Source control is disabled
+[2018.07.30-11.36.57:051][  0]SourceControl: Source control is disabled
+[2018.07.30-11.36.57:183][  0]SourceControl: Source control is disabled
+[2018.07.30-11.37.00:283][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.07.30-11.37.01:228][  0]LogOcInput: OculusInput pre-init called
+[2018.07.30-11.37.02:611][  0]LogEngine: Initializing Engine...
+[2018.07.30-11.37.02:747][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.07.30-11.37.02:808][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.07.30-11.37.02:818][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.001 s
+[2018.07.30-11.37.04:067][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.07.30-11.37.04:227][  0]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.07.30-11.37.04:301][  0]LogInit: FAudioDevice initialized.
+[2018.07.30-11.37.04:551][  0]LogDerivedDataCache: Saved boot cache 0.22s 74MB C:/Users/Shweta/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2018.07.30-11.37.04:608][  0]LogInit: Texture streaming: Enabled
+[2018.07.30-11.37.04:885][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.07.30-11.37.04:885][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Crashed, SessionId={490F7953-499F-42BB-F1C2-60936D399D6D}
+[2018.07.30-11.37.05:089][  0]LogInit: Transaction tracking system initialized
+[2018.07.30-11.37.05:920][  0]BlueprintLog: New page: Editor Load
+[2018.07.30-11.37.07:790][  0]LocalizationService: Localization service is disabled
+[2018.07.30-11.37.09:253][  0]LogConsoleResponse: Display: 
+[2018.07.30-11.37.12:437][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/' took 0.04s
+[2018.07.30-11.37.12:437][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.07.30-11.37.12:485][  0]LogCook: Display: Mobile HDR setting 1
+[2018.07.30-11.37.12:486][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.07.30-11.37.12:486][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.07.30-11.37.12:486][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.07.30-11.37.19:134][  0]SourceControl: Source control is disabled
+[2018.07.30-11.37.19:168][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.07.30-11.37.19:230][  0]LightingResults: New page: Lighting Build
+[2018.07.30-11.37.19:339][  0]MapCheck: New page: Map Check
+[2018.07.30-11.37.19:339][  0]LightingResults: New page: Lighting Build
+[2018.07.30-11.37.21:955][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2018.07.30-11.37.22:048][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.07.30-11.37.22:112][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.07.30-11.37.22:163][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 51.903ms to complete.
+[2018.07.30-11.37.22:163][  0]LogFileHelpers: Loading map 'Template_Default' took 2.996
+[2018.07.30-11.37.23:403][  0]LogCollectionManager: Loaded 0 collections in 0.010264 seconds
+[2018.07.30-11.37.23:619][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Collections/' took 0.01s
+[2018.07.30-11.37.23:619][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Developers/Shweta/Collections/' took 0.01s
+[2018.07.30-11.37.23:619][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Collections/' took 0.02s
+[2018.07.30-11.37.23:619][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2018.07.30-11.37.23:687][  0]LogContentBrowser: Native class hierarchy populated in 0.0655 seconds. Added 2452 classes and 558 folders.
+[2018.07.30-11.37.23:791][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0010 seconds. Added 0 classes and 0 folders.
+[2018.07.30-11.37.26:582][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2018.07.30-11.37.26:615][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2018.07.30-11.37.33:211][  0]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2018.07.30-11.37.33:571][  0]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.Pinball
+[2018.07.30-11.37.33:571][  0]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.19\Engine\Binaries\DotNET\IOS
+[2018.07.30-11.37.33:571][  0]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.19
+[2018.07.30-11.37.33:571][  0]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.19\Engine\Binaries\DotNET\IOS
+[2018.07.30-11.37.33:571][  0]LogTemp: BranchPath = LAPTOP-SNI5BBA7/C/Program Files/Epic Games/UE_4.19/Engine/Binaries --- GameBranchPath = LAPTOP-SNI5BBA7/C/Program Files/Epic Games/UE_4.19/Engine/Binaries
+[2018.07.30-11.37.33:571][  0]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Shweta\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2018.07.30-11.37.33:571][  0]LogSlate: Took 0.000275 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.07.30-11.37.33:578][  0]LogSlate: Took 0.000694 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.07.30-11.37.33:658][  0]LogSlate: Took 0.052921 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.07.30-11.37.34:364][  0]LogRenderer: Reallocating scene render targets to support 884x372 Format 10 NumSamples 1 (Frame:1).
+[2018.07.30-11.37.36:530][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0010 seconds. Added 0 classes and 0 folders.
+[2018.07.30-11.37.36:530][  0]LogLoad: (Engine Initialization) Total time: 205.90 seconds
+[2018.07.30-11.37.36:530][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.07.30-11.37.37:026][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.07.30-11.37.38:958][  6]LogAssetRegistry: Asset discovery search completed in 121.0938 seconds
+[2018.07.30-11.37.38:968][  6]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.07.30-11.37.38:968][  6]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000233 seconds (updated 0 objects)
+[2018.07.30-11.37.41:157][ 21]LogSlate: Took 0.017270 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.07.30-11.38.02:554][236]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.30-11.38.04:185][326]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.30-11.38.06:103][380]Cmd: MAP LOAD FILE="../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Ball_Setup_Map.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.07.30-11.38.06:112][380]LogSlate: Took 0.000572 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.07.30-11.38.06:151][380]LightingResults: New page: Lighting Build
+[2018.07.30-11.38.06:152][380]LoadErrors: New page: Loading map: Ball_Setup_Map.umap
+[2018.07.30-11.38.06:170][380]MapCheck: New page: Map Check
+[2018.07.30-11.38.06:170][380]LightingResults: New page: Lighting Build
+[2018.07.30-11.38.06:503][380]LogUObjectGlobals: Created PersistentFrame Addr=0x000001911a4d2940, Size=408, Default__Ball_Blueprint_C Function /Game/Blueprints/Ball_Blueprint.Ball_Blueprint_C:ExecuteUbergraph_Ball_Blueprint
+[2018.07.30-11.38.06:529][380]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001911a4d2940, Size=408
+[2018.07.30-11.38.06:529][380]LogUObjectGlobals: Created PersistentFrame Addr=0x00000191446af740, Size=408, Default__Ball_Blueprint_C Function /Engine/Transient.REINST_Ball_Blueprint_C_5:ExecuteUbergraph_Ball_Blueprint
+[2018.07.30-11.38.06:562][380]LogUObjectGlobals: Created PersistentFrame Addr=0x00000191446af200, Size=408, Default__Ball_Blueprint_C Function /Game/Blueprints/Ball_Blueprint.Ball_Blueprint_C:ExecuteUbergraph_Ball_Blueprint
+[2018.07.30-11.38.06:596][380]LogUObjectGlobals: Created PersistentFrame Addr=0x0000019161963400, Size=256, Default__Force_Movement_Zone_Blueprint_C Function /Game/Blueprints/Force_Movement_Zone_Blueprint.Force_Movement_Zone_Blueprint_C:ExecuteUbergraph_Force_Movement_Zone_Blueprint
+[2018.07.30-11.38.06:616][380]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000019161963400, Size=256
+[2018.07.30-11.38.06:616][380]LogUObjectGlobals: Created PersistentFrame Addr=0x0000019161963400, Size=256, Default__Force_Movement_Zone_Blueprint_C Function /Engine/Transient.REINST_Force_Movement_Zone_Blueprint_C_7:ExecuteUbergraph_Force_Movement_Zone_Blueprint
+[2018.07.30-11.38.06:630][380]LogUObjectGlobals: Created PersistentFrame Addr=0x0000019161960100, Size=256, Default__Force_Movement_Zone_Blueprint_C Function /Game/Blueprints/Force_Movement_Zone_Blueprint.Force_Movement_Zone_Blueprint_C:ExecuteUbergraph_Force_Movement_Zone_Blueprint
+[2018.07.30-11.38.06:714][380]LogUObjectGlobals: Created PersistentFrame Addr=0x0000019161944dc0, Size=32, Default__Ball_Reset_Zone_Blueprint_C Function /Game/Blueprints/Ball_Reset_Zone_Blueprint.Ball_Reset_Zone_Blueprint_C:ExecuteUbergraph_Ball_Reset_Zone_Blueprint
+[2018.07.30-11.38.06:720][380]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000019161944dc0, Size=32
+[2018.07.30-11.38.06:720][380]LogUObjectGlobals: Created PersistentFrame Addr=0x0000019161944dc0, Size=32, Default__Ball_Reset_Zone_Blueprint_C Function /Engine/Transient.REINST_Ball_Reset_Zone_Blueprint_C_11:ExecuteUbergraph_Ball_Reset_Zone_Blueprint
+[2018.07.30-11.38.06:724][380]LogUObjectGlobals: Created PersistentFrame Addr=0x0000019161946cc0, Size=32, Default__Ball_Reset_Zone_Blueprint_C Function /Game/Blueprints/Ball_Reset_Zone_Blueprint.Ball_Reset_Zone_Blueprint_C:ExecuteUbergraph_Ball_Reset_Zone_Blueprint
+[2018.07.30-11.38.06:988][380]LogUObjectGlobals: Created PersistentFrame Addr=0x000001917d9f10a8, Size=8, Default__Flipper_Blueprint_C Function /Game/Blueprints/Flipper_Blueprint.Flipper_Blueprint_C:ExecuteUbergraph_Flipper_Blueprint
+[2018.07.30-11.38.07:018][380]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001917d9f10a8, Size=8
+[2018.07.30-11.38.07:018][380]LogUObjectGlobals: Created PersistentFrame Addr=0x000001917d9f10a8, Size=8, Default__Flipper_Blueprint_C Function /Engine/Transient.REINST_Flipper_Blueprint_C_15:ExecuteUbergraph_Flipper_Blueprint
+[2018.07.30-11.38.07:032][380]LogUObjectGlobals: Created PersistentFrame Addr=0x000001917d9f12a8, Size=8, Default__Flipper_Blueprint_C Function /Game/Blueprints/Flipper_Blueprint.Flipper_Blueprint_C:ExecuteUbergraph_Flipper_Blueprint
+[2018.07.30-11.38.07:043][380]LogUObjectGlobals: Created PersistentFrame Addr=0x000001914466dd00, Size=320, Default__Pinball_Game_Mode_Blueprint_C Function /Game/Blueprints/Pinball_Game_Mode_Blueprint.Pinball_Game_Mode_Blueprint_C:ExecuteUbergraph_Pinball_Game_Mode_Blueprint
+[2018.07.30-11.38.07:051][380]LogUObjectGlobals: Created PersistentFrame Addr=0x0000019144261a80, Size=568, Default__Pinball_Player_Controller_Blueprint_C Function /Game/Blueprints/Pinball_Player_Controller_Blueprint.Pinball_Player_Controller_Blueprint_C:ExecuteUbergraph_Pinball_Player_Controller_Blueprint
+[2018.07.30-11.38.07:103][380]LogUObjectGlobals: Created PersistentFrame Addr=0x0000019161114e80, Size=164, Default__Plunger_Blueprint_C Function /Game/Blueprints/Plunger_Blueprint.Plunger_Blueprint_C:ExecuteUbergraph_Plunger_Blueprint
+[2018.07.30-11.38.07:172][380]LogUObjectGlobals: Created PersistentFrame Addr=0x00000191441cf3c0, Size=32, Default__High_Score_WidgetBlueprint_C Function /Game/Blueprints/High_Score_WidgetBlueprint.High_Score_WidgetBlueprint_C:ExecuteUbergraph_High_Score_WidgetBlueprint
+[2018.07.30-11.38.07:176][380]LogUObjectGlobals: Created PersistentFrame Addr=0x000001912559e1d0, Size=104, Default__High_Score_Entry_WidgetBlueprint_C Function /Game/Blueprints/High_Score_Entry_WidgetBlueprint.High_Score_Entry_WidgetBlueprint_C:ExecuteUbergraph_High_Score_Entry_WidgetBlueprint
+[2018.07.30-11.38.07:195][380]LogUObjectGlobals: Created PersistentFrame Addr=0x00000191441cf360, Size=32, Default__Main_Menu_WidgetBlueprint_C Function /Game/Blueprints/Main_Menu_WidgetBlueprint.Main_Menu_WidgetBlueprint_C:ExecuteUbergraph_Main_Menu_WidgetBlueprint
+[2018.07.30-11.38.07:434][380]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000019161114e80, Size=164
+[2018.07.30-11.38.07:435][380]LogUObjectGlobals: Created PersistentFrame Addr=0x000001917eb77880, Size=164, Default__Plunger_Blueprint_C Function /Engine/Transient.REINST_Plunger_Blueprint_C_17:ExecuteUbergraph_Plunger_Blueprint
+[2018.07.30-11.38.07:437][380]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001912559e1d0, Size=104
+[2018.07.30-11.38.07:437][380]LogUObjectGlobals: Created PersistentFrame Addr=0x000001912559e1d0, Size=104, Default__High_Score_Entry_WidgetBlueprint_C Function /Engine/Transient.REINST_High_Score_Entry_WidgetBlueprint_C_0:ExecuteUbergraph_High_Score_Entry_WidgetBlueprint
+[2018.07.30-11.38.07:438][380]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000191441cf3c0, Size=32
+[2018.07.30-11.38.07:438][380]LogUObjectGlobals: Created PersistentFrame Addr=0x000001914428cc60, Size=32, Default__High_Score_WidgetBlueprint_C Function /Engine/Transient.REINST_High_Score_WidgetBlueprint_C_1:ExecuteUbergraph_High_Score_WidgetBlueprint
+[2018.07.30-11.38.07:439][380]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000191441cf360, Size=32
+[2018.07.30-11.38.07:439][380]LogUObjectGlobals: Created PersistentFrame Addr=0x000001914428cb60, Size=32, Default__Main_Menu_WidgetBlueprint_C Function /Engine/Transient.REINST_Main_Menu_WidgetBlueprint_C_2:ExecuteUbergraph_Main_Menu_WidgetBlueprint
+[2018.07.30-11.38.07:440][380]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001914466dd00, Size=320
+[2018.07.30-11.38.07:440][380]LogUObjectGlobals: Created PersistentFrame Addr=0x00000191445b9080, Size=320, Default__Pinball_Game_Mode_Blueprint_C Function /Engine/Transient.REINST_Pinball_Game_Mode_Blueprint_C_18:ExecuteUbergraph_Pinball_Game_Mode_Blueprint
+[2018.07.30-11.38.07:444][380]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000019144261a80, Size=568
+[2018.07.30-11.38.07:444][380]LogUObjectGlobals: Created PersistentFrame Addr=0x0000019144524680, Size=568, Default__Pinball_Player_Controller_Blueprint_C Function /Engine/Transient.REINST_Pinball_Player_Controller_Blueprint_C_19:ExecuteUbergraph_Pinball_Player_Controller_Blueprint
+[2018.07.30-11.38.07:626][380]LogUObjectGlobals: Created PersistentFrame Addr=0x000001917e47ed40, Size=164, Default__Plunger_Blueprint_C Function /Game/Blueprints/Plunger_Blueprint.Plunger_Blueprint_C:ExecuteUbergraph_Plunger_Blueprint
+[2018.07.30-11.38.07:629][380]LogUObjectGlobals: Created PersistentFrame Addr=0x00000191617df430, Size=104, Default__High_Score_Entry_WidgetBlueprint_C Function /Game/Blueprints/High_Score_Entry_WidgetBlueprint.High_Score_Entry_WidgetBlueprint_C:ExecuteUbergraph_High_Score_Entry_WidgetBlueprint
+[2018.07.30-11.38.07:633][380]LogUObjectGlobals: Created PersistentFrame Addr=0x0000019161811d00, Size=32, Default__High_Score_WidgetBlueprint_C Function /Game/Blueprints/High_Score_WidgetBlueprint.High_Score_WidgetBlueprint_C:ExecuteUbergraph_High_Score_WidgetBlueprint
+[2018.07.30-11.38.07:634][380]LogUObjectGlobals: Created PersistentFrame Addr=0x0000019161811180, Size=32, Default__Main_Menu_WidgetBlueprint_C Function /Game/Blueprints/Main_Menu_WidgetBlueprint.Main_Menu_WidgetBlueprint_C:ExecuteUbergraph_Main_Menu_WidgetBlueprint
+[2018.07.30-11.38.07:639][380]LogUObjectGlobals: Created PersistentFrame Addr=0x000001916184a340, Size=320, Default__Pinball_Game_Mode_Blueprint_C Function /Game/Blueprints/Pinball_Game_Mode_Blueprint.Pinball_Game_Mode_Blueprint_C:ExecuteUbergraph_Pinball_Game_Mode_Blueprint
+[2018.07.30-11.38.07:648][380]LogUObjectGlobals: Created PersistentFrame Addr=0x00000191617f7d80, Size=568, Default__Pinball_Player_Controller_Blueprint_C Function /Game/Blueprints/Pinball_Player_Controller_Blueprint.Pinball_Player_Controller_Blueprint_C:ExecuteUbergraph_Pinball_Player_Controller_Blueprint
+[2018.07.30-11.38.08:060][380]LogUObjectGlobals: Created PersistentFrame Addr=0x0000019161849440, Size=288, Default__Bumper_Blueprint_C Function /Game/Blueprints/Bumper_Blueprint.Bumper_Blueprint_C:ExecuteUbergraph_Bumper_Blueprint
+[2018.07.30-11.38.08:080][380]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000019161849440, Size=288
+[2018.07.30-11.38.08:081][380]LogUObjectGlobals: Created PersistentFrame Addr=0x0000019161849440, Size=288, Default__Bumper_Blueprint_C Function /Engine/Transient.REINST_Bumper_Blueprint_C_27:ExecuteUbergraph_Bumper_Blueprint
+[2018.07.30-11.38.08:093][380]LogUObjectGlobals: Created PersistentFrame Addr=0x0000019161848b80, Size=288, Default__Bumper_Blueprint_C Function /Game/Blueprints/Bumper_Blueprint.Bumper_Blueprint_C:ExecuteUbergraph_Bumper_Blueprint
+[2018.07.30-11.38.08:135][380]LogUObjectGlobals: Created PersistentFrame Addr=0x0000019161848cc0, Size=272, Default__Drop_Target_Blueprint_C Function /Game/Blueprints/Drop_Target_Blueprint.Drop_Target_Blueprint_C:ExecuteUbergraph_Drop_Target_Blueprint
+[2018.07.30-11.38.08:155][380]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000019161848cc0, Size=272
+[2018.07.30-11.38.08:155][380]LogUObjectGlobals: Created PersistentFrame Addr=0x0000019160c1bd80, Size=272, Default__Drop_Target_Blueprint_C Function /Engine/Transient.REINST_Drop_Target_Blueprint_C_29:ExecuteUbergraph_Drop_Target_Blueprint
+[2018.07.30-11.38.08:170][380]LogUObjectGlobals: Created PersistentFrame Addr=0x0000019160c1b600, Size=272, Default__Drop_Target_Blueprint_C Function /Game/Blueprints/Drop_Target_Blueprint.Drop_Target_Blueprint_C:ExecuteUbergraph_Drop_Target_Blueprint
+[2018.07.30-11.38.08:303][380]LogUObjectGlobals: Created PersistentFrame Addr=0x000001916179f520, Size=88, Default__Drop_Target_Set_Blueprint_Child_C Function /Game/Blueprints/Drop_Target_Set_Blueprint_Child.Drop_Target_Set_Blueprint_Child_C:ExecuteUbergraph_Drop_Target_Set_Blueprint_Child
+[2018.07.30-11.38.08:353][380]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001916179f520, Size=88
+[2018.07.30-11.38.08:353][380]LogUObjectGlobals: Created PersistentFrame Addr=0x000001916179f520, Size=88, Default__Drop_Target_Set_Blueprint_Child_C Function /Engine/Transient.REINST_Drop_Target_Set_Blueprint_Child_C_33:ExecuteUbergraph_Drop_Target_Set_Blueprint_Child
+[2018.07.30-11.38.08:405][380]LogUObjectGlobals: Created PersistentFrame Addr=0x000001916179d6c0, Size=88, Default__Drop_Target_Set_Blueprint_Child_C Function /Game/Blueprints/Drop_Target_Set_Blueprint_Child.Drop_Target_Set_Blueprint_Child_C:ExecuteUbergraph_Drop_Target_Set_Blueprint_Child
+[2018.07.30-11.38.08:540][380]LogUObjectGlobals: Created PersistentFrame Addr=0x00000191617dc870, Size=104, Default__Slingshot_Blueprint_C Function /Game/Blueprints/Slingshot_Blueprint.Slingshot_Blueprint_C:ExecuteUbergraph_Slingshot_Blueprint
+[2018.07.30-11.38.08:549][380]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000191617dc870, Size=104
+[2018.07.30-11.38.08:550][380]LogUObjectGlobals: Created PersistentFrame Addr=0x00000191617dc870, Size=104, Default__Slingshot_Blueprint_C Function /Engine/Transient.REINST_Slingshot_Blueprint_C_35:ExecuteUbergraph_Slingshot_Blueprint
+[2018.07.30-11.38.08:556][380]LogUObjectGlobals: Created PersistentFrame Addr=0x00000191617cfa50, Size=104, Default__Slingshot_Blueprint_C Function /Game/Blueprints/Slingshot_Blueprint.Slingshot_Blueprint_C:ExecuteUbergraph_Slingshot_Blueprint
+[2018.07.30-11.38.08:573][380]LogLinker: Warning: Can't find file '/Game/Blueprints/SM_TableFrame'
+[2018.07.30-11.38.08:573][380]LogLinker: Warning: Can't find file for asset '/Game/Blueprints/SM_TableFrame' while loading ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Ball_Setup_Map.umap.
+[2018.07.30-11.38.08:574][380]LoadErrors: Error: /Game/Ball_Setup_Map : Can't find file for asset. /Game/Blueprints/SM_TableFrame
+[2018.07.30-11.38.08:576][380]LogLinker: Warning: Can't find file '/Game/Blueprints/SM_TableFrame'
+[2018.07.30-11.38.08:576][380]LogLinker: Warning: Can't find file for asset '/Game/Blueprints/SM_TableFrame' while loading ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Ball_Setup_Map.umap.
+[2018.07.30-11.38.08:642][380]LogLinker: Warning: Can't find file '/Game/Blueprints/SM_TableFrame'
+[2018.07.30-11.38.08:642][380]LoadErrors: Failed to load /Game/Blueprints/SM_TableFrame.SM_TableFrame Referenced by SM_TableFrame_2
+[2018.07.30-11.38.08:642][380]LogLinker: Warning: Can't find file for asset '/Game/Blueprints/SM_TableFrame' while loading NULL.
+[2018.07.30-11.38.12:936][380]LogAIModule: Creating AISystem for world Ball_Setup_Map
+[2018.07.30-11.38.13:170][380]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.07.30-11.38.13:202][380]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000019161944dc0, Size=32
+[2018.07.30-11.38.13:202][380]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000019161963400, Size=256
+[2018.07.30-11.38.13:202][380]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000191446af740, Size=408
+[2018.07.30-11.38.13:202][380]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001917d9f10a8, Size=8
+[2018.07.30-11.38.13:202][380]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000191445b9080, Size=320
+[2018.07.30-11.38.13:202][380]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000019144524680, Size=568
+[2018.07.30-11.38.13:202][380]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001917eb77880, Size=164
+[2018.07.30-11.38.13:202][380]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001914428cc60, Size=32
+[2018.07.30-11.38.13:202][380]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001912559e1d0, Size=104
+[2018.07.30-11.38.13:202][380]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001914428cb60, Size=32
+[2018.07.30-11.38.13:202][380]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000019161849440, Size=288
+[2018.07.30-11.38.13:202][380]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000019160c1bd80, Size=272
+[2018.07.30-11.38.13:202][380]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001916179f520, Size=88
+[2018.07.30-11.38.13:202][380]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000191617dc870, Size=104
+[2018.07.30-11.38.13:243][380]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.07.30-11.38.13:297][380]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 53.641ms to complete.
+[2018.07.30-11.38.13:297][380]LogFileHelpers: Loading map 'Ball_Setup_Map' took 7.227
+[2018.07.30-11.38.13:309][380]LogSlate: Window 'Open Level' being destroyed
+[2018.07.30-11.38.14:286][384]PIE: Warning: Constraint in '/Engine/Transient.World_5:PersistentLevel.Spinner_Blueprint_C_0.PhysicsConstraint' attempting to create a joint between objects that are both static.  No joint created.
+[2018.07.30-11.38.20:050][576]LogSlate: Window 'Message Log' being destroyed
+[2018.07.30-11.38.20:054][576]LogSlate: Window 'Message Log' being destroyed
+[2018.07.30-11.38.24:072][687]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.30-11.38.44:370][932]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\Shweta\Desktop\PinballAssets\PinballAssets\SM_TableFrame.FBX)
+[2018.07.30-11.38.44:399][932]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2018.07.30-11.38.44:399][932]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2018.07.30-11.38.44:399][932]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2018.07.30-11.38.44:399][932]LogFbx: ItemName: Model, ItemCount : 1
+[2018.07.30-11.38.44:399][932]LogFbx: ItemName: Geometry, ItemCount : 1
+[2018.07.30-11.38.44:399][932]LogFbx: ItemName: Material, ItemCount : 3
+[2018.07.30-11.38.44:399][932]LogFbx: ItemName: Texture, ItemCount : 2
+[2018.07.30-11.38.44:399][932]LogFbx: ItemName: Video, ItemCount : 2
+[2018.07.30-11.38.44:423][932]LogFbx: Loading FBX Scene from C:\Users\Shweta\Desktop\PinballAssets\PinballAssets\SM_TableFrame.FBX
+[2018.07.30-11.38.44:452][932]LogFbx: FBX Scene Loaded Succesfully
+[2018.07.30-11.38.47:262][932]LogSlate: Window 'FBX Import Options' being destroyed
+[2018.07.30-11.38.47:295][932]LogFbx: Loading FBX Scene from C:\Users\Shweta\Desktop\PinballAssets\PinballAssets\SM_TableFrame.FBX
+[2018.07.30-11.38.47:301][932]LogFbx: FBX Scene Loaded Succesfully
+[2018.07.30-11.38.47:339][932]LogStaticMesh: Building static mesh SM_TableFrame...
+[2018.07.30-11.38.47:342][932]LogStaticMesh: Built static mesh [0.04s] /Game/Blueprints/SM_TableFrame.SM_TableFrame
+[2018.07.30-11.38.47:450][932]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2018.07.30-11.38.49:766][980]LogSlate: Window 'Message Log' being destroyed
+[2018.07.30-11.38.49:770][980]LogSlate: Window 'Message Log' being destroyed
+[2018.07.30-11.38.51:296][ 14]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.30-11.38.58:819][ 90]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/SM_TableFrame" FILE="../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Blueprints/SM_TableFrame.uasset" SILENT=true
+[2018.07.30-11.38.59:086][ 90]LogSavePackage: Save=173.72ms
+[2018.07.30-11.38.59:087][ 90]LogSavePackage: Moving '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/SM_TableFrameCE72C7664D5DB4D5635DE0A813F6F19C.tmp' to '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Blueprints/SM_TableFrame.uasset'
+[2018.07.30-11.38.59:196][ 90]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Blueprints/SM_TableFrame.uasset
+[2018.07.30-11.38.59:869][103]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.30-11.39.00:051][106]LogSlate: Window 'SM_TableFrame' being destroyed
+[2018.07.30-11.39.03:275][162]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.30-11.39.03:596][163]LogActorFactory: Actor Factory created SM_TableFrame
+[2018.07.30-11.39.05:907][226]LogActorFactory: Actor Factory created SM_TableFrame
+[2018.07.30-11.39.10:087][318]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.30-11.39.30:846][958]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.30-11.39.31:945][964]LogSavePackage: Save=279.26ms
+[2018.07.30-11.39.31:945][964]LogSavePackage: Moving '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Ball_Setup_Map95FDACF24B9BE4DC92876590ABBD4E93.tmp' to '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Ball_Setup_Map.umap'
+[2018.07.30-11.39.31:955][964]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Ball_Setup_Map.umap
+[2018.07.30-11.39.32:171][964]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Ball_Setup_Map_BuiltData" FILE="../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Ball_Setup_Map_BuiltData.uasset" SILENT=true
+[2018.07.30-11.39.32:821][964]LogSavePackage: Save=560.75ms
+[2018.07.30-11.39.32:822][964]LogSavePackage: Moving '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Ball_Setup_Map_BuiltData4B1CC09048F129D991596393D3168F2F.tmp' to '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Ball_Setup_Map_BuiltData.uasset'
+[2018.07.30-11.39.32:826][964]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Ball_Setup_Map_BuiltData.uasset
+[2018.07.30-11.39.35:349][ 40]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.30-11.39.36:929][121]MapCheck: New page: Map Check
+[2018.07.30-11.39.37:013][121]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.30-11.39.37:038][121]Cmd: MAP REBUILD ALLVISIBLE
+[2018.07.30-11.39.37:051][121]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2018.07.30-11.39.37:893][121]LightingResults: New page: Lighting Build - Jul 30, 2018, 10:39:37 PM
+[2018.07.30-11.39.38:979][121]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2018.07.30-11.39.40:401][121]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2018.07.30-11.39.43:165][121]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2018.07.30-11.39.47:210][121]LogSwarmInterface: Error: [TryOpenConnection] Waiting for the agent to start up ...
+[2018.07.30-11.39.47:469][121]LogSwarmInterface: Error: System.Net.Sockets.SocketException (0x80004005): No connection could be made because the target machine actively refused it 127.0.0.1:8008
+
+Server stack trace: 
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket(EndPoint ipEndPoint)
+   at System.Runtime.Remoting.Channels.SocketCache.GetSocket(String machinePortAndSid, Boolean openNew)
+   at System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.SendRequestWithRetry(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream)
+   at System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.AsyncProcessRequest(IClientChannelSinkStack sinkStack, IMessage msg, ITransportHeaders headers, Stream stream)
+   at System.Runtime.Remoting.Channels.BinaryClientFormatterSink.AsyncProcessMessage(IMessage msg, IMessageSink replySink)
+
+Exception rethrown at [0]: 
+   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   at NSwarm.IAgentInterfaceWrapper.MethodDelegate.EndInvoke(Hashtable& OutParameters, IAsyncResult result)
+   at NSwarm.FSwarmInterface.TryOpenConnection(FConnectionCallback CallbackFunc, IntPtr CallbackData, ELogFlags LoggingFlags)
+[2018.07.30-11.39.53:523][121]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2018.07.30-11.39.53:523][121]LogSwarmInterface: [TryOpenConnection] Local Process ID is 11240
+[2018.07.30-11.40.04:948][121]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2018.07.30-11.40.05:006][121]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2018.07.30-11.40.05:006][121]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2018.07.30-11.40.05:006][121]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2018.07.30-11.40.05:006][121]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2018.07.30-11.40.05:006][121]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2018.07.30-11.40.07:504][121]LogEditorBuildUtils: Build time 0:30
+[2018.07.30-11.40.21:977][154]Job is a success!
+[2018.07.30-11.40.22:550][155]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.057s
+[2018.07.30-11.40.22:550][155]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2018.07.30-11.40.22:550][155]LogVolumetricLightmapImport:      BrickData 225x5x5 = 0.2Mb (trimmed 0.1Mb due to 0.010000 MinBrickError)
+[2018.07.30-11.40.22:551][155]LogVolumetricLightmapImport:      Bricks at Level
+[2018.07.30-11.40.22:551][155]LogVolumetricLightmapImport:          0: 2.2% covering 100.0% of volume
+[2018.07.30-11.40.22:551][155]LogVolumetricLightmapImport:          1: 8.9% covering 6.3% of volume
+[2018.07.30-11.40.22:551][155]LogVolumetricLightmapImport:          2: 88.9% covering 1.0% of volume
+[2018.07.30-11.40.23:497][155]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 1024X1024)
+[2018.07.30-11.40.23:498][155]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 1024X1024)
+[2018.07.30-11.40.23:498][155]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 128X128)
+[2018.07.30-11.40.23:498][155]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 128X128)
+[2018.07.30-11.40.24:097][155]LogTexture: Display: Building textures: ShadowMapTexture2D_1 (G8, 64X64)
+[2018.07.30-11.40.24:168][155]LogTexture: Display: Building textures: ShadowMapTexture2D_0 (G8, 512X512)
+[2018.07.30-11.40.25:544][155]Lightmass on LAPTOP-SNI5BBA7: 10.5 sec total, 5.45 sec importing, 68 ms setup, 482 ms photons, 3.61 sec processing, 0 ms extra exporting [30/30 mappings]. Threads: 14.4 sec total, 1.32 sec processing.
+[2018.07.30-11.40.26:119][155]LogStaticLightingSystem: Illumination: 47.8 sec (672 ms encoding lightmaps, 668 ms encoding shadowmaps)
+[2018.07.30-11.40.26:131][155]LogStaticLightingSystem: Lightmap texture memory:  2.0 MB (0.0 MB streaming, 2.0 MB non-streaming), 4 textures
+[2018.07.30-11.40.26:131][155]LogStaticLightingSystem: Shadowmap texture memory: 0.3 MB (0.0 MB streaming, 0.3 MB non-streaming), 2 textures
+[2018.07.30-11.40.33:879][155]DumpUnbuiltLightIteractions
+[2018.07.30-11.40.33:879][155]Lights with unbuilt interactions: 0
+[2018.07.30-11.40.33:879][155]
+[2018.07.30-11.40.33:879][155]Primitives with unbuilt interactions: 0
+[2018.07.30-11.40.34:165][156]Cmd: MAP CHECK NOTIFYRESULTS
+[2018.07.30-11.40.34:166][156]MapCheck: New page: Ball_Setup_Map - Jul 30, 2018, 10:40:34 PM
+[2018.07.30-11.40.34:191][156]MapCheck: Warning: SM_TableFrame_2 Static mesh actor has NULL StaticMesh property 
+[2018.07.30-11.40.34:191][156]MapCheck: Warning: SM_TableFrame_2 Static mesh actor SM_TableFrame_2 has NULL StaticMesh property 
+[2018.07.30-11.40.34:527][156]MapCheck: Map check complete: 0 Error(s), 2 Warning(s), took 361.654ms to complete.
+[2018.07.30-11.40.47:077][355]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.30-11.40.47:437][361]LogSavePackage: Save=181.85ms
+[2018.07.30-11.40.47:439][361]LogSavePackage: Moving '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Ball_Setup_Map7DF3563D4E0C3F296BE149992D390B1C.tmp' to '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Ball_Setup_Map.umap'
+[2018.07.30-11.40.47:454][361]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Ball_Setup_Map.umap
+[2018.07.30-11.40.47:579][361]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Ball_Setup_Map_BuiltData" FILE="../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Ball_Setup_Map_BuiltData.uasset" SILENT=true
+[2018.07.30-11.40.47:948][361]LogSavePackage: Save=307.11ms
+[2018.07.30-11.40.47:948][361]LogSavePackage: Moving '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Ball_Setup_Map_BuiltDataD7D9F844493D2DC978C5BCAADF9EA14D.tmp' to '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Ball_Setup_Map_BuiltData.uasset'
+[2018.07.30-11.40.47:955][361]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Ball_Setup_Map_BuiltData.uasset
+[2018.07.30-11.40.50:942][451]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.30-11.40.51:641][486]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.30-11.41.38:751][  3]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.07.30-11.41.39:438][  3]LogD3D11RHI: Error: Result failed 
+ at D:\Build\++UE4+Release-4.19+Compile\Sync\Engine\Source\Runtime\Windows\D3D11RHI\Private\D3D11Viewport.cpp:303 
+ with error DXGI_ERROR_DEVICE_REMOVED DXGI_ERROR_DEVICE_HUNG
+[2018.07.30-11.41.39:656][  3]LogWindows: Windows GetLastError: The operation completed successfully. (0)
+[2018.07.30-11.42.14:260][  3]LogWindows: Windows GetLastError: The operation completed successfully. (0)
+[2018.07.30-11.42.15:129][  3]LogWindows: Error: === Critical error: ===
+[2018.07.30-11.42.15:130][  3]LogWindows: Error: 
+[2018.07.30-11.42.15:130][  3]LogWindows: Error: Fatal error: [File:D:\Build\++UE4+Release-4.19+Compile\Sync\Engine\Source\Runtime\RenderCore\Private\RenderingThread.cpp] [Line: 819] 
+[2018.07.30-11.42.15:130][  3]LogWindows: Error: Rendering thread exception:
+[2018.07.30-11.42.15:130][  3]LogWindows: Error: Fatal error: [File:D:\Build\++UE4+Release-4.19+Compile\Sync\Engine\Source\Runtime\Windows\D3D11RHI\Private\D3D11Util.cpp] [Line: 182] 
+[2018.07.30-11.42.15:130][  3]LogWindows: Error: Unreal Engine is exiting due to D3D device being lost. (Error: 0x887A0006 - 'HUNG')
+[2018.07.30-11.42.15:130][  3]LogWindows: Error: 
+[2018.07.30-11.42.15:130][  3]LogWindows: Error: 
+[2018.07.30-11.42.15:131][  3]LogWindows: Error: [Callstack] 0x00000000CE55A388 KERNELBASE.dll!UnknownFunction []
+[2018.07.30-11.42.15:131][  3]LogWindows: Error: [Callstack] 0x00000000A2D27884 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.07.30-11.42.15:131][  3]LogWindows: Error: [Callstack] 0x0000000091676D9B UE4Editor-Core.dll!UnknownFunction []
+[2018.07.30-11.42.15:131][  3]LogWindows: Error: [Callstack] 0x00000000915B1949 UE4Editor-Core.dll!UnknownFunction []
+[2018.07.30-11.42.15:131][  3]LogWindows: Error: [Callstack] 0x0000000066FBA0CF UE4Editor-D3D11RHI.dll!UnknownFunction []
+[2018.07.30-11.42.15:131][  3]LogWindows: Error: [Callstack] 0x0000000066FBE5E0 UE4Editor-D3D11RHI.dll!UnknownFunction []
+[2018.07.30-11.42.15:131][  3]LogWindows: Error: [Callstack] 0x0000000066F9D62A UE4Editor-D3D11RHI.dll!UnknownFunction []
+[2018.07.30-11.42.15:133][  3]LogWindows: Error: [Callstack] 0x0000000066F9D58C UE4Editor-D3D11RHI.dll!UnknownFunction []
+[2018.07.30-11.42.15:133][  3]LogWindows: Error: [Callstack] 0x0000000066FAAADF UE4Editor-D3D11RHI.dll!UnknownFunction []
+[2018.07.30-11.42.15:133][  3]LogWindows: Error: [Callstack] 0x00000000A099F0B6 UE4Editor-RHI.dll!UnknownFunction []
+[2018.07.30-11.42.15:133][  3]LogWindows: Error: [Callstack] 0x00000000612D1FF8 UE4Editor-SlateRHIRenderer.dll!UnknownFunction []
+[2018.07.30-11.42.15:133][  3]LogWindows: Error: [Callstack] 0x00000000612D7C4C UE4Editor-SlateRHIRenderer.dll!UnknownFunction []
+[2018.07.30-11.42.15:133][  3]LogWindows: Error: [Callstack] 0x000000009148B713 UE4Editor-Core.dll!UnknownFunction []
+[2018.07.30-11.42.15:134][  3]LogWindows: Error: [Callstack] 0x000000009148BD3A UE4Editor-Core.dll!UnknownFunction []
+[2018.07.30-11.42.15:134][  3]LogWindows: Error: [Callstack] 0x00000000A2E73CC9 UE4Editor-RenderCore.dll!UnknownFunction []
+[2018.07.30-11.42.15:134][  3]LogWindows: Error: [Callstack] 0x00000000A2E74CF6 UE4Editor-RenderCore.dll!UnknownFunction []
+[2018.07.30-11.42.15:134][  3]LogWindows: Error: [Callstack] 0x0000000091859FFC UE4Editor-Core.dll!UnknownFunction []
+[2018.07.30-11.42.15:134][  3]LogWindows: Error: [Callstack] 0x000000009184ED63 UE4Editor-Core.dll!UnknownFunction []
+[2018.07.30-11.42.15:134][  3]LogWindows: Error: [Callstack] 0x00000000D1163034 KERNEL32.DLL!UnknownFunction []
+[2018.07.30-11.42.15:134][  3]LogWindows: Error: [Callstack] 0x00000000D2111431 ntdll.dll!UnknownFunction []
+[2018.07.30-11.42.15:134][  3]LogWindows: Error: [Callstack] 0x00000000D2111431 ntdll.dll!UnknownFunction []
+[2018.07.30-11.42.15:135][  3]LogWindows: Error: 
+[2018.07.30-11.42.15:135][  3]LogWindows: Error: 
+[2018.07.30-11.42.15:135][  3]LogWindows: Error: 
+[2018.07.30-11.42.15:135][  3]LogWindows: Error: 
+[2018.07.30-11.42.15:138][  3]LogExit: Executing StaticShutdownAfterError
+[2018.07.30-11.42.16:234][  3]LogWindows: FPlatformMisc::RequestExit(1)
+[2018.07.30-11.42.16:331][  3]Log file closed, 07/30/18 17:12:16
