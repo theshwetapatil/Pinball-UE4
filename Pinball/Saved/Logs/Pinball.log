@@ -1,4 +1,4 @@
-﻿Log file open, 07/30/18 09:28:06
+﻿Log file open, 07/30/18 13:49:27
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -7,12 +7,12 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: Pinball
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(29011792) SRandInit(29011793).
+LogInit: Display: RandInit(1622490762) SRandInit(1622490762).
 LogInit: Read version file with build ID '3944462'
 LogInit: Overriding engine version to CL 4033788, compatible CL 3944462
 LogInit: Registered custom module enumerator with build ID '3944462'
 LogTaskGraph: Started task graph with 5 named threads and 11 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.140349
+LogStats: Stats thread started at 0.152022
 LogD3D11RHI: Aftermath initialized
 LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +5:30, Platform Override: ''
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3944462).
@@ -168,7 +168,7 @@ LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogStreaming: Display: Took  4.912s to configure plugins.
+LogStreaming: Display: Took  1.254s to configure plugins.
 LogInit: Using libcurl 7.47.1
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2g
@@ -219,741 +219,264 @@ LogInit: Branch Name: ++UE4+Release-4.19
 LogInit: Command Line: 
 LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.19/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
-LogStreaming: Display: Took  0.356s to delete old logs.
+LogStreaming: Display: Took  0.004s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.07.30-03.58.13:901][  0]LogInit: Selected Device Profile: [Windows]
-[2018.07.30-03.58.13:901][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.07.30-03.58.14:083][  0]LogInit: Computer: LAPTOP-SNI5BBA7
-[2018.07.30-03.58.14:083][  0]LogInit: User: Shweta
-[2018.07.30-03.58.14:083][  0]LogInit: CPU Page size=4096, Cores=2
-[2018.07.30-03.58.14:083][  0]LogInit: High frequency timer resolution =2.835940 MHz
-[2018.07.30-03.58.14:084][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
-[2018.07.30-03.58.14:084][  0]LogMemory: Platform Memory Stats for Windows
-[2018.07.30-03.58.14:084][  0]LogMemory: Process Physical Memory: 273.20 MB used, 273.20 MB peak
-[2018.07.30-03.58.14:084][  0]LogMemory: Process Virtual Memory: 268.10 MB used, 268.10 MB peak
-[2018.07.30-03.58.14:084][  0]LogMemory: Physical Memory: 5387.51 MB used,  2686.90 MB free, 8074.41 MB total
-[2018.07.30-03.58.14:084][  0]LogMemory: Virtual Memory: 4783.89 MB used,  2686.90 MB free, 134217728.00 MB total
-[2018.07.30-03.58.15:017][  0]LogInit: Using OS detected language (en-US).
-[2018.07.30-03.58.15:017][  0]LogInit: Using OS detected locale (en-US).
-[2018.07.30-03.58.15:385][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2018.07.30-03.58.20:081][  0]LogStreaming: Display: Took  5.074s to EndInitTextLocalization.
-[2018.07.30-03.58.20:081][  0]LogInit: Setting process to per monitor DPI aware
-[2018.07.30-03.58.20:624][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2018.07.30-03.58.20:624][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2018.07.30-03.58.26:605][  0]LogD3D11RHI: D3D11 adapters:
-[2018.07.30-03.58.26:653][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics 620' (Feature Level 11_0)
-[2018.07.30-03.58.26:653][  0]LogD3D11RHI:       128/0/4037 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
-[2018.07.30-03.58.26:729][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2018.07.30-03.58.26:729][  0]LogD3D11RHI:       0/0/4037 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2018.07.30-03.58.26:729][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.07.30-03.58.26:788][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.07.30-03.58.26:788][  0]LogD3D11RHI:     GPU DeviceId: 0x5916 (for the marketing name, search the web for "GPU Device Id")
-[2018.07.30-03.58.26:788][  0]LogWindows: EnumDisplayDevices:
-[2018.07.30-03.58.26:788][  0]LogWindows:    0. 'Intel(R) HD Graphics 620' (P:1 D:1)
-[2018.07.30-03.58.26:788][  0]LogWindows:    1. 'Intel(R) HD Graphics 620' (P:0 D:0)
-[2018.07.30-03.58.26:789][  0]LogWindows:    2. 'Intel(R) HD Graphics 620' (P:0 D:0)
-[2018.07.30-03.58.26:789][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2018.07.30-03.58.26:789][  0]LogD3D11RHI:     Adapter Name: Intel(R) HD Graphics 620
-[2018.07.30-03.58.26:809][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2018.07.30-03.58.26:809][  0]LogD3D11RHI:      Driver Date: Unknown
-[2018.07.30-03.58.26:839][  0]LogRHI: Texture pool is 1502 MB (70% of 2146 MB)
-[2018.07.30-03.58.26:861][  0]LogD3D11RHI: Async texture creation enabled
-[2018.07.30-03.58.27:156][  0]LogD3D11RHI: GPU Timing Frequency: 12.000000 (Debug: 2 0)
-[2018.07.30-03.58.27:197][  0]LogShaderCompilers: Guid format shader working directory is -36 characters bigger than the processId version (../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Intermediate/Shaders/WorkingDirectory/14764/).
-[2018.07.30-03.58.27:220][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Shweta/AppData/Local/Temp/UnrealShaderWorkingDir/340EBD5845544FD4083643AEEB007B98/'.
-[2018.07.30-03.58.31:208][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2018.07.30-03.58.31:256][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2018.07.30-03.58.31:288][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2018.07.30-03.58.31:319][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2018.07.30-03.58.31:411][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2018.07.30-03.58.31:545][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2018.07.30-03.58.31:602][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.07.30-03.58.31:698][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2018.07.30-03.58.31:733][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2018.07.30-03.58.31:848][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2018.07.30-03.58.31:913][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2018.07.30-03.58.31:994][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2018.07.30-03.58.32:059][  0]LogTemp: Display: Loaded TP Android_ETC1aTargetPlatform
-[2018.07.30-03.58.32:148][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2018.07.30-03.58.32:266][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2018.07.30-03.58.32:397][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2018.07.30-03.58.32:397][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2018.07.30-03.58.32:527][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.07.30-03.58.32:580][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2018.07.30-03.58.32:914][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.07.30-03.58.32:966][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.07.30-03.58.33:030][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2018.07.30-03.58.33:120][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2018.07.30-03.58.33:213][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2018.07.30-03.58.33:347][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2018.07.30-03.58.33:347][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2018.07.30-03.58.41:209][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2018.07.30-03.58.41:209][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2018.07.30-03.58.41:209][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2018.07.30-03.59.06:448][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2018.07.30-03.59.11:749][  0]LogDerivedDataCache: Loaded boot cache 5.30s 74MB C:/Users/Shweta/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
-[2018.07.30-03.59.11:749][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Shweta/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc
-[2018.07.30-03.59.11:750][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.07.30-03.59.11:750][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.07.30-03.59.11:750][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.07.30-03.59.11:750][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2018.07.30-03.59.11:805][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2018.07.30-03.59.11:828][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Shweta/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2018.07.30-03.59.11:828][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2018.07.30-03.59.11:828][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2018.07.30-03.59.11:856][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2018.07.30-03.59.11:907][  0]LogSlate: Using Freetype 2.6.0
-[2018.07.30-03.59.11:910][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.07.30-03.59.11:910][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.07.30-03.59.18:928][  0]LogAssetRegistry: FAssetRegistry took 0.0447 seconds to start up
-[2018.07.30-03.59.25:526][  0]LogInit: Selected Device Profile: [Windows]
-[2018.07.30-03.59.26:810][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2018.07.30-03.59.26:866][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2018.07.30-03.59.26:867][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.07.30-03.59.26:867][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2018.07.30-03.59.26:867][  0]LogMeshReduction: No automatic mesh merging module available
-[2018.07.30-03.59.26:867][  0]LogMeshMerging: No automatic mesh merging module available
-[2018.07.30-03.59.27:048][  0]LogNetVersion: Pinball , NetCL: 3944462, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3476590221)
-[2018.07.30-03.59.32:513][  0]LogPackageLocalizationCache: Processed 9 localized package path(s) for 2 prioritized culture(s) in 0.412565 seconds
-[2018.07.30-03.59.32:554][  0]LogUObjectArray: 36728 objects as part of root set at end of initial load.
-[2018.07.30-03.59.32:554][  0]LogUObjectAllocator: 7314312 out of 0 bytes used by permanent object pool.
-[2018.07.30-03.59.32:554][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.07.30-04.00.14:989][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2018.07.30-04.00.15:107][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.07.30-04.00.16:455][  0]SourceControl: Source control is disabled
-[2018.07.30-04.00.16:456][  0]SourceControl: Source control is disabled
-[2018.07.30-04.00.16:549][  0]SourceControl: Source control is disabled
-[2018.07.30-04.00.16:608][  0]SourceControl: Source control is disabled
-[2018.07.30-04.00.19:171][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2018.07.30-04.00.19:853][  0]LogOcInput: OculusInput pre-init called
-[2018.07.30-04.00.20:906][  0]LogEngine: Initializing Engine...
-[2018.07.30-04.00.21:010][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2018.07.30-04.00.21:071][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.07.30-04.00.21:072][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.07.30-04.00.21:739][  0]LogAIModule: Creating AISystem for world Untitled
-[2018.07.30-04.00.21:861][  0]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.07.30-04.00.22:009][  0]LogInit: FAudioDevice initialized.
-[2018.07.30-04.00.22:337][  0]LogDerivedDataCache: Saved boot cache 0.30s 74MB C:/Users/Shweta/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
-[2018.07.30-04.00.22:383][  0]LogInit: Texture streaming: Enabled
-[2018.07.30-04.00.22:612][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2018.07.30-04.00.22:634][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Crashed, SessionId={70DB0EDE-45DC-EC41-DF9B-EAAA178ACE99}
-[2018.07.30-04.00.22:798][  0]LogInit: Transaction tracking system initialized
-[2018.07.30-04.00.23:495][  0]BlueprintLog: New page: Editor Load
-[2018.07.30-04.00.25:442][  0]LocalizationService: Localization service is disabled
-[2018.07.30-04.00.26:435][  0]LogConsoleResponse: Display: 
-[2018.07.30-04.00.27:874][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2018.07.30-04.00.27:875][  0]LogCook: Display: Mobile HDR setting 1
-[2018.07.30-04.00.27:888][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/' took 0.02s
-[2018.07.30-04.00.27:888][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2018.07.30-04.00.27:888][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.07.30-04.00.27:888][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.07.30-04.00.31:876][  0]SourceControl: Source control is disabled
-[2018.07.30-04.00.31:877][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.07.30-04.00.32:024][  0]LightingResults: New page: Lighting Build
-[2018.07.30-04.00.32:266][  0]MapCheck: New page: Map Check
-[2018.07.30-04.00.32:266][  0]LightingResults: New page: Lighting Build
-[2018.07.30-04.00.33:468][  0]LogAIModule: Creating AISystem for world Untitled_1
-[2018.07.30-04.00.33:494][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.07.30-04.00.33:531][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.07.30-04.00.33:575][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 44.238ms to complete.
-[2018.07.30-04.00.33:575][  0]LogFileHelpers: Loading map 'Template_Default' took 1.698
-[2018.07.30-04.00.34:265][  0]LogCollectionManager: Loaded 0 collections in 0.004683 seconds
-[2018.07.30-04.00.34:340][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Collections/' took 0.01s
-[2018.07.30-04.00.34:340][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Developers/Shweta/Collections/' took 0.01s
-[2018.07.30-04.00.34:340][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Collections/' took 0.01s
-[2018.07.30-04.00.34:340][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
-[2018.07.30-04.00.34:382][  0]LogContentBrowser: Native class hierarchy populated in 0.0411 seconds. Added 2452 classes and 558 folders.
-[2018.07.30-04.00.34:458][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2018.07.30-04.00.37:182][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0011 seconds. Added 0 classes and 0 folders.
-[2018.07.30-04.00.37:225][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
-[2018.07.30-04.00.40:878][  0]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
-[2018.07.30-04.00.40:936][  0]LogSlate: Took 0.000182 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.07.30-04.00.40:938][  0]LogSlate: Took 0.000217 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2018.07.30-04.00.40:971][  0]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.Pinball
-[2018.07.30-04.00.40:971][  0]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.19\Engine\Binaries\DotNET\IOS
-[2018.07.30-04.00.40:971][  0]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.19
-[2018.07.30-04.00.40:971][  0]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.19\Engine\Binaries\DotNET\IOS
-[2018.07.30-04.00.40:971][  0]LogTemp: BranchPath = LAPTOP-SNI5BBA7/C/Program Files/Epic Games/UE_4.19/Engine/Binaries --- GameBranchPath = LAPTOP-SNI5BBA7/C/Program Files/Epic Games/UE_4.19/Engine/Binaries
-[2018.07.30-04.00.40:971][  0]LogSlate: Took 0.026399 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2018.07.30-04.00.41:120][  0]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Shweta\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
-[2018.07.30-04.00.41:121][  0]LogRenderer: Reallocating scene render targets to support 884x372 Format 10 NumSamples 1 (Frame:1).
-[2018.07.30-04.00.41:785][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2018.07.30-04.00.41:785][  0]LogLoad: (Engine Initialization) Total time: 186.73 seconds
-[2018.07.30-04.00.41:785][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2018.07.30-04.00.42:162][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2018.07.30-04.00.43:228][  3]LogSlate: Took 0.075194 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2018.07.30-04.00.43:799][  5]LogAssetRegistry: Asset discovery search completed in 84.8962 seconds
-[2018.07.30-04.00.43:802][  5]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2018.07.30-04.00.43:802][  5]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000072 seconds (updated 0 objects)
-[2018.07.30-04.00.46:485][ 13]LogSlate: Took 0.000496 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2018.07.30-04.00.57:464][135]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.07.30-04.00.57:692][155]LogUObjectGlobals: Created PersistentFrame Addr=0x0000019b5657e500, Size=368, Default__Ball_Blueprint_C Function /Game/Blueprints/Ball_Blueprint.Ball_Blueprint_C:ExecuteUbergraph_Ball_Blueprint
-[2018.07.30-04.00.57:696][155]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000019b5657e500, Size=368
-[2018.07.30-04.00.57:696][155]LogUObjectGlobals: Created PersistentFrame Addr=0x0000019b7096eb00, Size=368, Default__Ball_Blueprint_C Function /Engine/Transient.REINST_Ball_Blueprint_C_5:ExecuteUbergraph_Ball_Blueprint
-[2018.07.30-04.00.57:698][155]LogUObjectGlobals: Created PersistentFrame Addr=0x0000019b70955780, Size=368, Default__Ball_Blueprint_C Function /Game/Blueprints/Ball_Blueprint.Ball_Blueprint_C:ExecuteUbergraph_Ball_Blueprint
-[2018.07.30-04.00.57:808][155]LogUObjectGlobals: Created PersistentFrame Addr=0x0000019b19ecd3b8, Size=8, Default__Flipper_Blueprint_C Function /Game/Blueprints/Flipper_Blueprint.Flipper_Blueprint_C:ExecuteUbergraph_Flipper_Blueprint
-[2018.07.30-04.00.57:822][155]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000019b19ecd3b8, Size=8
-[2018.07.30-04.00.57:822][155]LogUObjectGlobals: Created PersistentFrame Addr=0x0000019b19ecd3b8, Size=8, Default__Flipper_Blueprint_C Function /Engine/Transient.REINST_Flipper_Blueprint_C_9:ExecuteUbergraph_Flipper_Blueprint
-[2018.07.30-04.00.57:833][155]LogUObjectGlobals: Created PersistentFrame Addr=0x0000019b19ece738, Size=8, Default__Flipper_Blueprint_C Function /Game/Blueprints/Flipper_Blueprint.Flipper_Blueprint_C:ExecuteUbergraph_Flipper_Blueprint
-[2018.07.30-04.00.57:861][155]LogUObjectGlobals: Created PersistentFrame Addr=0x0000019b70883b80, Size=164, Default__Plunger_Blueprint_C Function /Game/Blueprints/Plunger_Blueprint.Plunger_Blueprint_C:ExecuteUbergraph_Plunger_Blueprint
-[2018.07.30-04.00.57:871][155]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000019b70883b80, Size=164
-[2018.07.30-04.00.57:871][155]LogUObjectGlobals: Created PersistentFrame Addr=0x0000019b70883b80, Size=164, Default__Plunger_Blueprint_C Function /Engine/Transient.REINST_Plunger_Blueprint_C_11:ExecuteUbergraph_Plunger_Blueprint
-[2018.07.30-04.00.57:880][155]LogUObjectGlobals: Created PersistentFrame Addr=0x0000019b70882680, Size=164, Default__Plunger_Blueprint_C Function /Game/Blueprints/Plunger_Blueprint.Plunger_Blueprint_C:ExecuteUbergraph_Plunger_Blueprint
-[2018.07.30-04.00.57:896][155]LogUObjectGlobals: Created PersistentFrame Addr=0x0000019b708ab100, Size=320, Default__Pinball_Game_Mode_Blueprint_C Function /Game/Blueprints/Pinball_Game_Mode_Blueprint.Pinball_Game_Mode_Blueprint_C:ExecuteUbergraph_Pinball_Game_Mode_Blueprint
-[2018.07.30-04.00.57:899][155]LogUObjectGlobals: Created PersistentFrame Addr=0x0000019b7091d400, Size=504, Default__Pinball_Player_Controller_Blueprint_C Function /Game/Blueprints/Pinball_Player_Controller_Blueprint.Pinball_Player_Controller_Blueprint_C:ExecuteUbergraph_Pinball_Player_Controller_Blueprint
-[2018.07.30-04.00.57:936][155]LogUObjectGlobals: Created PersistentFrame Addr=0x0000019b708764c0, Size=32, Default__High_Score_WidgetBlueprint_C Function /Game/Blueprints/High_Score_WidgetBlueprint.High_Score_WidgetBlueprint_C:ExecuteUbergraph_High_Score_WidgetBlueprint
-[2018.07.30-04.00.57:936][155]LogUObjectGlobals: Created PersistentFrame Addr=0x0000019b708b6160, Size=104, Default__High_Score_Entry_WidgetBlueprint_C Function /Game/Blueprints/High_Score_Entry_WidgetBlueprint.High_Score_Entry_WidgetBlueprint_C:ExecuteUbergraph_High_Score_Entry_WidgetBlueprint
-[2018.07.30-04.00.57:941][155]LogUObjectGlobals: Created PersistentFrame Addr=0x0000019b70876480, Size=32, Default__Main_Menu_WidgetBlueprint_C Function /Game/Blueprints/Main_Menu_WidgetBlueprint.Main_Menu_WidgetBlueprint_C:ExecuteUbergraph_Main_Menu_WidgetBlueprint
-[2018.07.30-04.00.57:960][155]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000019b708b6160, Size=104
-[2018.07.30-04.00.57:960][155]LogUObjectGlobals: Created PersistentFrame Addr=0x0000019b6c772320, Size=104, Default__High_Score_Entry_WidgetBlueprint_C Function /Engine/Transient.REINST_High_Score_Entry_WidgetBlueprint_C_0:ExecuteUbergraph_High_Score_Entry_WidgetBlueprint
-[2018.07.30-04.00.57:961][155]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000019b708764c0, Size=32
-[2018.07.30-04.00.57:961][155]LogUObjectGlobals: Created PersistentFrame Addr=0x0000019b70779de0, Size=32, Default__High_Score_WidgetBlueprint_C Function /Engine/Transient.REINST_High_Score_WidgetBlueprint_C_1:ExecuteUbergraph_High_Score_WidgetBlueprint
-[2018.07.30-04.00.57:961][155]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000019b70876480, Size=32
-[2018.07.30-04.00.57:961][155]LogUObjectGlobals: Created PersistentFrame Addr=0x0000019b70779ce0, Size=32, Default__Main_Menu_WidgetBlueprint_C Function /Engine/Transient.REINST_Main_Menu_WidgetBlueprint_C_2:ExecuteUbergraph_Main_Menu_WidgetBlueprint
-[2018.07.30-04.00.57:961][155]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000019b708ab100, Size=320
-[2018.07.30-04.00.57:961][155]LogUObjectGlobals: Created PersistentFrame Addr=0x0000019b7075bb00, Size=320, Default__Pinball_Game_Mode_Blueprint_C Function /Engine/Transient.REINST_Pinball_Game_Mode_Blueprint_C_13:ExecuteUbergraph_Pinball_Game_Mode_Blueprint
-[2018.07.30-04.00.57:962][155]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000019b7091d400, Size=504
-[2018.07.30-04.00.57:962][155]LogUObjectGlobals: Created PersistentFrame Addr=0x0000019b7082ce00, Size=504, Default__Pinball_Player_Controller_Blueprint_C Function /Engine/Transient.REINST_Pinball_Player_Controller_Blueprint_C_14:ExecuteUbergraph_Pinball_Player_Controller_Blueprint
-[2018.07.30-04.00.57:979][155]LogUObjectGlobals: Created PersistentFrame Addr=0x0000019b6d55a860, Size=104, Default__High_Score_Entry_WidgetBlueprint_C Function /Game/Blueprints/High_Score_Entry_WidgetBlueprint.High_Score_Entry_WidgetBlueprint_C:ExecuteUbergraph_High_Score_Entry_WidgetBlueprint
-[2018.07.30-04.00.57:981][155]LogUObjectGlobals: Created PersistentFrame Addr=0x0000019b6d5721c0, Size=32, Default__High_Score_WidgetBlueprint_C Function /Game/Blueprints/High_Score_WidgetBlueprint.High_Score_WidgetBlueprint_C:ExecuteUbergraph_High_Score_WidgetBlueprint
-[2018.07.30-04.00.57:982][155]LogUObjectGlobals: Created PersistentFrame Addr=0x0000019b6d571640, Size=32, Default__Main_Menu_WidgetBlueprint_C Function /Game/Blueprints/Main_Menu_WidgetBlueprint.Main_Menu_WidgetBlueprint_C:ExecuteUbergraph_Main_Menu_WidgetBlueprint
-[2018.07.30-04.00.57:983][155]LogUObjectGlobals: Created PersistentFrame Addr=0x0000019b6d58df80, Size=320, Default__Pinball_Game_Mode_Blueprint_C Function /Game/Blueprints/Pinball_Game_Mode_Blueprint.Pinball_Game_Mode_Blueprint_C:ExecuteUbergraph_Pinball_Game_Mode_Blueprint
-[2018.07.30-04.00.57:986][155]LogUObjectGlobals: Created PersistentFrame Addr=0x0000019b6d591c00, Size=504, Default__Pinball_Player_Controller_Blueprint_C Function /Game/Blueprints/Pinball_Player_Controller_Blueprint.Pinball_Player_Controller_Blueprint_C:ExecuteUbergraph_Pinball_Player_Controller_Blueprint
-[2018.07.30-04.00.58:024][155]LogUObjectGlobals: Created PersistentFrame Addr=0x0000019b6d4a3eb0, Size=104, Default__Slingshot_Blueprint_C Function /Game/Blueprints/Slingshot_Blueprint.Slingshot_Blueprint_C:ExecuteUbergraph_Slingshot_Blueprint
-[2018.07.30-04.00.58:027][155]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000019b6d4a3eb0, Size=104
-[2018.07.30-04.00.58:027][155]LogUObjectGlobals: Created PersistentFrame Addr=0x0000019b6d4a3eb0, Size=104, Default__Slingshot_Blueprint_C Function /Engine/Transient.REINST_Slingshot_Blueprint_C_21:ExecuteUbergraph_Slingshot_Blueprint
-[2018.07.30-04.00.58:029][155]LogUObjectGlobals: Created PersistentFrame Addr=0x0000019b6d4c1050, Size=104, Default__Slingshot_Blueprint_C Function /Game/Blueprints/Slingshot_Blueprint.Slingshot_Blueprint_C:ExecuteUbergraph_Slingshot_Blueprint
-[2018.07.30-04.00.59:530][155]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 116 classes and 0 folders.
-[2018.07.30-04.00.59:817][155]LogUObjectGlobals: Created PersistentFrame Addr=0x0000019b3bc5db18, Size=4, Default__SKEL_PROTO_BP_AnimBlueprint_0_C Function /Engine/Transient.SKEL_PROTO_BP_AnimBlueprint_0_C:ExecuteUbergraph_PROTO_BP_AnimBlueprint_0
-[2018.07.30-04.00.59:817][155]LogUObjectGlobals: Created PersistentFrame Addr=0x0000019b3bc5db10, Size=4, Default__PROTO_BP_AnimBlueprint_0_C Function /Engine/Transient.PROTO_BP_AnimBlueprint_0_C:ExecuteUbergraph_PROTO_BP_AnimBlueprint_0
-[2018.07.30-04.01.00:398][155]LogMaterial: Missing cached shader map for material Morph_Band_Material, compiling. 
-[2018.07.30-04.01.01:084][155]LogMaterial: Missing cached shader map for material Morph_Band_Material, compiling. 
-[2018.07.30-04.01.01:172][155]LogMaterial: Missing cached shader map for material Morph_Band_Material, compiling. 
-[2018.07.30-04.01.01:215][155]LogShaderCompilers: Display: Shaders left to compile 29
-[2018.07.30-04.01.01:215][155]LogShaderCompilers: Display: Shaders left to compile 28
-[2018.07.30-04.01.01:215][155]LogShaderCompilers: Display: Shaders left to compile 27
-[2018.07.30-04.01.01:267][155]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
-[2018.07.30-04.01.05:355][205]LogSlate: Took 0.000479 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2018.07.30-04.01.05:922][206]LogSlate: Took 0.000216 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2018.07.30-04.01.10:985][406]LogShaderCompilers: Display: Shaders left to compile 28
-[2018.07.30-04.01.11:452][417]LogRenderer: Reallocating scene render targets to support 1016x612 Format 10 NumSamples 1 (Frame:120).
-[2018.07.30-04.01.11:535][418]LogShaderCompilers: Display: Shaders left to compile 27
-[2018.07.30-04.01.11:549][418]LogShaderCompilers: Display: Shaders left to compile 26
-[2018.07.30-04.01.11:844][437]LogShaderCompilers: Display: Shaders left to compile 25
-[2018.07.30-04.01.11:949][449]LogShaderCompilers: Display: Shaders left to compile 24
-[2018.07.30-04.01.11:983][453]LogShaderCompilers: Display: Shaders left to compile 23
-[2018.07.30-04.01.12:254][483]LogSlate: Window 'SM_SlingbandMT' being destroyed
-[2018.07.30-04.01.12:443][488]LogShaderCompilers: Display: Shaders left to compile 22
-[2018.07.30-04.01.12:747][494]LogShaderCompilers: Display: Shaders left to compile 21
-[2018.07.30-04.01.13:044][500]LogShaderCompilers: Display: Shaders left to compile 20
-[2018.07.30-04.01.13:418][505]LogShaderCompilers: Display: Shaders left to compile 19
-[2018.07.30-04.01.13:418][505]LogShaderCompilers: Display: Shaders left to compile 18
-[2018.07.30-04.01.13:418][505]LogShaderCompilers: Display: Shaders left to compile 17
-[2018.07.30-04.01.13:566][505]LogShaderCompilers: Display: Shaders left to compile 16
-[2018.07.30-04.01.13:566][505]LogShaderCompilers: Display: Shaders left to compile 15
-[2018.07.30-04.01.14:133][512]LogShaderCompilers: Display: Shaders left to compile 14
-[2018.07.30-04.01.14:563][517]LogShaderCompilers: Display: Shaders left to compile 13
-[2018.07.30-04.01.14:963][522]LogShaderCompilers: Display: Shaders left to compile 12
-[2018.07.30-04.01.15:116][524]LogShaderCompilers: Display: Shaders left to compile 11
-[2018.07.30-04.01.16:477][526]LogShaderCompilers: Display: Shaders left to compile 10
-[2018.07.30-04.01.16:477][526]LogShaderCompilers: Display: Shaders left to compile 9
-[2018.07.30-04.01.18:147][654]LogShaderCompilers: Display: Shaders left to compile 8
-[2018.07.30-04.01.18:161][655]LogShaderCompilers: Display: Shaders left to compile 7
-[2018.07.30-04.01.18:162][655]LogShaderCompilers: Display: Shaders left to compile 6
-[2018.07.30-04.01.18:756][694]LogShaderCompilers: Display: Shaders left to compile 5
-[2018.07.30-04.01.19:085][718]LogShaderCompilers: Display: Shaders left to compile 4
-[2018.07.30-04.01.19:227][723]LogShaderCompilers: Display: Shaders left to compile 3
-[2018.07.30-04.01.19:554][723]LogShaderCompilers: Display: Shaders left to compile 2
-[2018.07.30-04.01.19:554][723]LogShaderCompilers: Display: Shaders left to compile 1
-[2018.07.30-04.01.20:511][727]MaterialEditorStats: Base pass shader: 101 instructions
-[2018.07.30-04.01.20:512][727]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 174 instructions
-[2018.07.30-04.01.20:512][727]MaterialEditorStats: Vertex shader: 43 instructions
-[2018.07.30-04.01.20:512][727]MaterialEditorStats: Texture samplers: 2/16
-[2018.07.30-04.01.23:015][746]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000019b70883b80, Size=164
-[2018.07.30-04.01.23:125][746]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000019b19ecd3b8, Size=8
-[2018.07.30-04.01.23:125][746]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000019b7096eb00, Size=368
-[2018.07.30-04.01.23:125][746]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000019b7075bb00, Size=320
-[2018.07.30-04.01.23:126][746]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000019b7082ce00, Size=504
-[2018.07.30-04.01.23:126][746]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000019b70779de0, Size=32
-[2018.07.30-04.01.23:126][746]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000019b6c772320, Size=104
-[2018.07.30-04.01.23:126][746]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000019b70779ce0, Size=32
-[2018.07.30-04.01.23:126][746]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000019b6d4a3eb0, Size=104
-[2018.07.30-04.01.23:900][746]Cmd: MAP LOAD FILE="../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Ball_Setup_Map.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.07.30-04.01.23:934][746]LightingResults: New page: Lighting Build
-[2018.07.30-04.01.23:938][746]LoadErrors: New page: Loading map: Ball_Setup_Map.umap
-[2018.07.30-04.01.23:982][746]MapCheck: New page: Map Check
-[2018.07.30-04.01.23:982][746]LightingResults: New page: Lighting Build
-[2018.07.30-04.01.24:465][746]LogUObjectGlobals: Created PersistentFrame Addr=0x0000019ba20b1040, Size=32, Default__Ball_Reset_Zone_Blueprint_C Function /Game/Blueprints/Ball_Reset_Zone_Blueprint.Ball_Reset_Zone_Blueprint_C:ExecuteUbergraph_Ball_Reset_Zone_Blueprint
-[2018.07.30-04.01.24:471][746]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000019ba20b1040, Size=32
-[2018.07.30-04.01.24:471][746]LogUObjectGlobals: Created PersistentFrame Addr=0x0000019ba20b1040, Size=32, Default__Ball_Reset_Zone_Blueprint_C Function /Engine/Transient.REINST_Ball_Reset_Zone_Blueprint_C_35:ExecuteUbergraph_Ball_Reset_Zone_Blueprint
-[2018.07.30-04.01.24:475][746]LogUObjectGlobals: Created PersistentFrame Addr=0x0000019ba20b0860, Size=32, Default__Ball_Reset_Zone_Blueprint_C Function /Game/Blueprints/Ball_Reset_Zone_Blueprint.Ball_Reset_Zone_Blueprint_C:ExecuteUbergraph_Ball_Reset_Zone_Blueprint
-[2018.07.30-04.01.25:217][746]LogUObjectGlobals: Created PersistentFrame Addr=0x0000019b540ea980, Size=288, Default__Bumper_Blueprint_C Function /Game/Blueprints/Bumper_Blueprint.Bumper_Blueprint_C:ExecuteUbergraph_Bumper_Blueprint
-[2018.07.30-04.01.25:240][746]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000019b540ea980, Size=288
-[2018.07.30-04.01.25:240][746]LogUObjectGlobals: Created PersistentFrame Addr=0x0000019b540ea980, Size=288, Default__Bumper_Blueprint_C Function /Engine/Transient.REINST_Bumper_Blueprint_C_37:ExecuteUbergraph_Bumper_Blueprint
-[2018.07.30-04.01.25:248][746]LogUObjectGlobals: Created PersistentFrame Addr=0x0000019b540ea0c0, Size=288, Default__Bumper_Blueprint_C Function /Game/Blueprints/Bumper_Blueprint.Bumper_Blueprint_C:ExecuteUbergraph_Bumper_Blueprint
-[2018.07.30-04.01.25:378][746]LogUObjectGlobals: Created PersistentFrame Addr=0x0000019b540ea840, Size=272, Default__Drop_Target_Blueprint_C Function /Game/Blueprints/Drop_Target_Blueprint.Drop_Target_Blueprint_C:ExecuteUbergraph_Drop_Target_Blueprint
-[2018.07.30-04.01.25:405][746]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000019b540ea840, Size=272
-[2018.07.30-04.01.25:405][746]LogUObjectGlobals: Created PersistentFrame Addr=0x0000019b2975ae80, Size=272, Default__Drop_Target_Blueprint_C Function /Engine/Transient.REINST_Drop_Target_Blueprint_C_39:ExecuteUbergraph_Drop_Target_Blueprint
-[2018.07.30-04.01.25:413][746]LogUObjectGlobals: Created PersistentFrame Addr=0x0000019b4eb0dbc0, Size=272, Default__Drop_Target_Blueprint_C Function /Game/Blueprints/Drop_Target_Blueprint.Drop_Target_Blueprint_C:ExecuteUbergraph_Drop_Target_Blueprint
-[2018.07.30-04.01.25:714][746]LogUObjectGlobals: Created PersistentFrame Addr=0x0000019b1a875c60, Size=88, Default__Drop_Target_Set_Blueprint_Child_C Function /Game/Blueprints/Drop_Target_Set_Blueprint_Child.Drop_Target_Set_Blueprint_Child_C:ExecuteUbergraph_Drop_Target_Set_Blueprint_Child
-[2018.07.30-04.01.25:759][746]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000019b1a875c60, Size=88
-[2018.07.30-04.01.25:759][746]LogUObjectGlobals: Created PersistentFrame Addr=0x0000019b1a875c60, Size=88, Default__Drop_Target_Set_Blueprint_Child_C Function /Engine/Transient.REINST_Drop_Target_Set_Blueprint_Child_C_43:ExecuteUbergraph_Drop_Target_Set_Blueprint_Child
-[2018.07.30-04.01.25:825][746]LogUObjectGlobals: Created PersistentFrame Addr=0x0000019b1a62d4e0, Size=88, Default__Drop_Target_Set_Blueprint_Child_C Function /Game/Blueprints/Drop_Target_Set_Blueprint_Child.Drop_Target_Set_Blueprint_Child_C:ExecuteUbergraph_Drop_Target_Set_Blueprint_Child
-[2018.07.30-04.01.27:868][746]LogAIModule: Creating AISystem for world Ball_Setup_Map
-[2018.07.30-04.01.28:292][746]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.07.30-04.01.28:339][746]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000019ba20b1040, Size=32
-[2018.07.30-04.01.28:339][746]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000019b1a875c60, Size=88
-[2018.07.30-04.01.28:339][746]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000019b2975ae80, Size=272
-[2018.07.30-04.01.28:339][746]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000019b540ea980, Size=288
-[2018.07.30-04.01.28:408][746]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.07.30-04.01.28:478][746]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 70.139ms to complete.
-[2018.07.30-04.01.28:478][746]LogFileHelpers: Loading map 'Ball_Setup_Map' took 4.693
-[2018.07.30-04.01.28:494][746]LogSlate: Window 'Open Level' being destroyed
-[2018.07.30-04.01.36:605][838]LogEditorViewport: Clicking on Actor (LMB): Drop_Target_Set_Blueprint_Child_C (Drop_Target_Set_Blueprint_Child)
-[2018.07.30-04.01.48:826][990]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.07.30-04.01.50:587][992]LogSavePackage: Save=265.51ms
-[2018.07.30-04.01.50:587][992]LogSavePackage: Moving '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Ball_Setup_MapBF93B45F416F1D03A3EA00A7BEDEE30C.tmp' to '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Ball_Setup_Map.umap'
-[2018.07.30-04.01.50:682][992]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Ball_Setup_Map.umap
-[2018.07.30-04.01.50:797][992]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Ball_Setup_Map_BuiltData" FILE="../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Ball_Setup_Map_BuiltData.uasset" SILENT=true
-[2018.07.30-04.01.50:886][992]LogSavePackage: Save=48.83ms
-[2018.07.30-04.01.50:886][992]LogSavePackage: Moving '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Ball_Setup_Map_BuiltDataC5718B404E961789CF5BA187C7A42F48.tmp' to '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Ball_Setup_Map_BuiltData.uasset'
-[2018.07.30-04.01.50:887][992]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Ball_Setup_Map_BuiltData.uasset
-[2018.07.30-04.02.04:510][521]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.07.30-04.02.22:270][751]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.07.30-04.02.32:360][886]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.07.30-04.02.57:926][223]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.07.30-04.02.58:215][227]LogSavePackage: Save=56.44ms
-[2018.07.30-04.02.58:215][227]LogSavePackage: Moving '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Ball_Setup_Map21EA8CDA4A105C2BDFD18186EC8A7118.tmp' to '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Ball_Setup_Map.umap'
-[2018.07.30-04.02.58:217][227]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Ball_Setup_Map.umap
-[2018.07.30-04.02.58:252][227]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Ball_Setup_Map_BuiltData" FILE="../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Ball_Setup_Map_BuiltData.uasset" SILENT=true
-[2018.07.30-04.02.58:289][227]LogSavePackage: Save=14.98ms
-[2018.07.30-04.02.58:289][227]LogSavePackage: Moving '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Ball_Setup_Map_BuiltData614FFBEE49A2AE7B4F08CD8664C962C4.tmp' to '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Ball_Setup_Map_BuiltData.uasset'
-[2018.07.30-04.02.58:290][227]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Ball_Setup_Map_BuiltData.uasset
-[2018.07.30-04.03.08:700][487]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.07.30-04.03.28:579][850]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.07.30-04.03.43:779][194]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.07.30-04.03.52:120][304]LogEditorViewport: Clicking on Actor (LMB): Slingshot_Blueprint_C (Slingshot_Blueprint)
-[2018.07.30-04.03.53:923][329]Cmd: SELECT NONE
-[2018.07.30-04.03.55:333][346]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.07.30-04.03.57:736][380]LogEditorViewport: Clicking on Actor (LMB): Slingshot_Blueprint_C (Slingshot_Blueprint)
-[2018.07.30-04.04.07:453][503]LogEditorViewport: Clicking on Actor (context menu): Slingshot_Blueprint_C (Slingshot_Blueprint2)
-[2018.07.30-04.04.07:847][503]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.07.30-04.04.16:274][180]Cmd: ACTOR MIRROR X=-1
-[2018.07.30-04.04.27:737][315]LogEditorViewport: Clicking on Actor (LMB): Slingshot_Blueprint_C (Slingshot_Blueprint)
-[2018.07.30-04.04.33:447][383]LogEditorViewport: Clicking on Actor (LMB): Slingshot_Blueprint_C (Slingshot_Blueprint2)
-[2018.07.30-04.04.40:825][473]LogEditorViewport: Clicking on Actor (LMB): Slingshot_Blueprint_C (Slingshot_Blueprint)
-[2018.07.30-04.04.49:176][580]LogEditorViewport: Clicking on Actor (LMB): Drop_Target_Set_Blueprint_Child_C (Drop_Target_Set_Blueprint_Child)
-[2018.07.30-04.04.54:854][653]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.07.30-04.04.55:275][657]LogSavePackage: Save=94.10ms
-[2018.07.30-04.04.55:275][657]LogSavePackage: Moving '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Ball_Setup_Map5D89C123437165413AEA6F98A7E3397D.tmp' to '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Ball_Setup_Map.umap'
-[2018.07.30-04.04.55:278][657]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Ball_Setup_Map.umap
-[2018.07.30-04.04.55:309][657]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Ball_Setup_Map_BuiltData" FILE="../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Ball_Setup_Map_BuiltData.uasset" SILENT=true
-[2018.07.30-04.04.55:347][657]LogSavePackage: Save=15.05ms
-[2018.07.30-04.04.55:347][657]LogSavePackage: Moving '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Ball_Setup_Map_BuiltDataE2182D4946015A3F67DD419921202C0E.tmp' to '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Ball_Setup_Map_BuiltData.uasset'
-[2018.07.30-04.04.55:348][657]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Ball_Setup_Map_BuiltData.uasset
-[2018.07.30-04.05.01:364][737]LogEditorViewport: Clicking on Actor (LMB): Drop_Target_Set_Blueprint_Child_C (Drop_Target_Set_Blueprint_Child)
-[2018.07.30-04.05.13:166][889]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.07.30-04.05.13:445][891]LogSavePackage: Save=65.78ms
-[2018.07.30-04.05.13:446][891]LogSavePackage: Moving '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Ball_Setup_MapABADF12443E53C699CCEB5A4B032A31D.tmp' to '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Ball_Setup_Map.umap'
-[2018.07.30-04.05.13:448][891]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Ball_Setup_Map.umap
-[2018.07.30-04.05.13:482][891]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Ball_Setup_Map_BuiltData" FILE="../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Ball_Setup_Map_BuiltData.uasset" SILENT=true
-[2018.07.30-04.05.13:522][891]LogSavePackage: Save=16.15ms
-[2018.07.30-04.05.13:522][891]LogSavePackage: Moving '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Ball_Setup_Map_BuiltData2485304E4CFE65035EF20183577CF95A.tmp' to '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Ball_Setup_Map_BuiltData.uasset'
-[2018.07.30-04.05.13:523][891]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Ball_Setup_Map_BuiltData.uasset
-[2018.07.30-04.05.18:184][947]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.07.30-04.05.18:472][949]LogSavePackage: Save=69.97ms
-[2018.07.30-04.05.18:472][949]LogSavePackage: Moving '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Ball_Setup_MapDEDFA95D4A6CA7882306E8874AA300A5.tmp' to '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Ball_Setup_Map.umap'
-[2018.07.30-04.05.18:474][949]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Ball_Setup_Map.umap
-[2018.07.30-04.05.18:509][949]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Ball_Setup_Map_BuiltData" FILE="../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Ball_Setup_Map_BuiltData.uasset" SILENT=true
-[2018.07.30-04.05.18:555][949]LogSavePackage: Save=19.82ms
-[2018.07.30-04.05.18:556][949]LogSavePackage: Moving '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Ball_Setup_Map_BuiltData373490884DD28BED70344B99F2F85B85.tmp' to '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Ball_Setup_Map_BuiltData.uasset'
-[2018.07.30-04.05.18:557][949]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Ball_Setup_Map_BuiltData.uasset
-[2018.07.30-04.07.50:076][493]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.07.30-04.08.38:201][749]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.07.30-04.08.45:107][945]LogAudioDerivedData: Display: Building compressed audio format OGG wave victoryMusic_loop_01_01...
-[2018.07.30-04.08.47:187][945]LogAudioDerivedData: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/Assets/Sounds/victoryMusic_loop_01_01.victoryMusic_loop_01_01.
-[2018.07.30-04.08.52:221][ 56]LogSavePackage: Save=94.92ms
-[2018.07.30-04.08.52:223][ 56]LogSavePackage: Moving '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/victoryMusic_loop_01_0120883B7D441B5852A6A6AE87423A86AA.tmp' to '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Assets/Sounds/victoryMusic_loop_01_01.uasset'
-[2018.07.30-04.08.52:236][ 56]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Assets/Sounds/victoryMusic_loop_01_01.uasset
-[2018.07.30-04.09.56:892][701]BlueprintLog: New page: Compile Pinball_Game_Mode_Blueprint
-[2018.07.30-04.09.57:042][701]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000019b6d58df80, Size=320
-[2018.07.30-04.09.57:042][701]LogUObjectGlobals: Created PersistentFrame Addr=0x0000019bc29bccc0, Size=320, Default__Pinball_Game_Mode_Blueprint_C Function /Engine/Transient.REINST_Pinball_Game_Mode_Blueprint_C_59:ExecuteUbergraph_Pinball_Game_Mode_Blueprint
-[2018.07.30-04.09.57:049][701]LogUObjectGlobals: Created PersistentFrame Addr=0x0000019bbf896980, Size=320, Default__Pinball_Game_Mode_Blueprint_C Function /Game/Blueprints/Pinball_Game_Mode_Blueprint.Pinball_Game_Mode_Blueprint_C:ExecuteUbergraph_Pinball_Game_Mode_Blueprint
-[2018.07.30-04.09.59:206][722]LogSavePackage: Save=268.59ms
-[2018.07.30-04.09.59:206][722]LogSavePackage: Moving '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Pinball_Game_Mode_BlueprintC3B64EA74527AB9BD6CBC4A7D6A36294.tmp' to '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Blueprints/Pinball_Game_Mode_Blueprint.uasset'
-[2018.07.30-04.09.59:212][722]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Blueprints/Pinball_Game_Mode_Blueprint.uasset
-[2018.07.30-04.10.02:324][781]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000019bc29bccc0, Size=320
-[2018.07.30-04.10.02:427][781]LogSavePackage: Save=76.81ms
-[2018.07.30-04.10.02:427][781]LogSavePackage: Moving '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Ball_Setup_MapF6ED9C094477278EAB09AF95BE1770AD.tmp' to '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Ball_Setup_Map.umap'
-[2018.07.30-04.10.02:430][781]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Ball_Setup_Map.umap
-[2018.07.30-04.10.02:473][781]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Ball_Setup_Map_BuiltData" FILE="../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Ball_Setup_Map_BuiltData.uasset" SILENT=true
-[2018.07.30-04.10.02:515][781]LogSavePackage: Save=15.14ms
-[2018.07.30-04.10.02:515][781]LogSavePackage: Moving '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Ball_Setup_Map_BuiltDataB56154A646B1A1429BC75BAC6CA6A436.tmp' to '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Ball_Setup_Map_BuiltData.uasset'
-[2018.07.30-04.10.02:517][781]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Ball_Setup_Map_BuiltData.uasset
-[2018.07.30-04.10.04:109][804]LogTemp: Repeating last play command: Standalone Game
-[2018.07.30-04.14.49:207][108]LogSavePackage: Save=4.68ms
-[2018.07.30-04.14.49:207][108]LogSavePackage: Moving '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Pinball_SoundAttenuation457C540242F950E3DD174C9356265EEA.tmp' to '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Assets/Sounds/Pinball_SoundAttenuation.uasset'
-[2018.07.30-04.14.49:213][108]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Assets/Sounds/Pinball_SoundAttenuation.uasset
-[2018.07.30-04.14.52:458][176]LogSavePackage: Save=6.69ms
-[2018.07.30-04.14.52:459][176]LogSavePackage: Moving '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Pinball_SoundAttenuation03F943F1414328555A33BF8229995C2F.tmp' to '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Assets/Sounds/Pinball_SoundAttenuation.uasset'
-[2018.07.30-04.14.52:460][176]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Assets/Sounds/Pinball_SoundAttenuation.uasset
-[2018.07.30-04.15.26:371][828]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Sounds/Bumper_Hit" FILE="../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Assets/Sounds/Bumper_Hit.uasset" SILENT=true
-[2018.07.30-04.15.26:491][828]LogSavePackage: Save=91.47ms
-[2018.07.30-04.15.26:491][828]LogSavePackage: Moving '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Bumper_Hit58CB701645B79518DC44B385925C9CA9.tmp' to '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Assets/Sounds/Bumper_Hit.uasset'
-[2018.07.30-04.15.26:497][828]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Assets/Sounds/Bumper_Hit.uasset
-[2018.07.30-04.16.29:618][889]LogAudioDerivedData: Display: Building compressed audio format OGG wave Pinball_BallLoose...
-[2018.07.30-04.16.29:688][889]LogAudioDerivedData: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/Assets/Sounds/Pinball_BallLoose.Pinball_BallLoose.
-[2018.07.30-04.17.15:013][ 58]LogSavePackage: Save=5.42ms
-[2018.07.30-04.17.15:014][ 58]LogSavePackage: Moving '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Pinball_BallLoose_Cue956311A44480CA1A566AADB1E91F3D1B.tmp' to '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Assets/Sounds/Pinball_BallLoose_Cue.uasset'
-[2018.07.30-04.17.15:016][ 58]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Assets/Sounds/Pinball_BallLoose_Cue.uasset
-[2018.07.30-04.19.02:385][147]BlueprintLog: New page: Compile Ball_Blueprint
-[2018.07.30-04.19.02:435][147]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000019b70955780, Size=368
-[2018.07.30-04.19.02:435][147]LogUObjectGlobals: Created PersistentFrame Addr=0x0000019bc037ae00, Size=368, Default__Ball_Blueprint_C Function /Engine/Transient.REINST_Ball_Blueprint_C_71:ExecuteUbergraph_Ball_Blueprint
-[2018.07.30-04.19.02:438][147]LogUObjectGlobals: Created PersistentFrame Addr=0x0000019b945b5a80, Size=376, Default__Ball_Blueprint_C Function /Game/Blueprints/Ball_Blueprint.Ball_Blueprint_C:ExecuteUbergraph_Ball_Blueprint
-[2018.07.30-04.19.03:552][199]LogSavePackage: Save=161.79ms
-[2018.07.30-04.19.03:552][199]LogSavePackage: Moving '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Ball_BlueprintC6FEEA514D9944BBFE008A9E328AD074.tmp' to '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Blueprints/Ball_Blueprint.uasset'
-[2018.07.30-04.19.03:556][199]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Blueprints/Ball_Blueprint.uasset
-[2018.07.30-04.20.03:654][ 89]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000019bc037ae00, Size=368
-[2018.07.30-04.20.03:655][ 89]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Ball_Setup_Map' took 0.034
-[2018.07.30-04.20.03:752][ 89]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Pinball_Game_Mode_Blueprint] ([1] browsable assets)...
-[2018.07.30-04.20.03:752][ 89]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Pinball_Game_Mode_Blueprint]
-[2018.07.30-04.20.03:993][ 89]LogSavePackage: Save=170.78ms
-[2018.07.30-04.20.03:993][ 89]LogSavePackage: Moving '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Pinball_Game_Mode_Blueprint_AutoB34FD8134676212E94309D8C5AF4189B.tmp' to '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Autosaves/Game/Blueprints/Pinball_Game_Mode_Blueprint_Auto1.uasset'
-[2018.07.30-04.20.04:001][ 89]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Autosaves/Game/Blueprints/Pinball_Game_Mode_Blueprint_Auto1.uasset
-[2018.07.30-04.20.04:001][ 89]LogFileHelpers: Auto-saving content packages took 0.346
-[2018.07.30-04.21.25:166][674]BlueprintLog: New page: Compile Pinball_Game_Mode_Blueprint
-[2018.07.30-04.21.25:232][674]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000019bbf896980, Size=320
-[2018.07.30-04.21.25:232][674]LogUObjectGlobals: Created PersistentFrame Addr=0x0000019bc6c1bc40, Size=320, Default__Pinball_Game_Mode_Blueprint_C Function /Engine/Transient.REINST_Pinball_Game_Mode_Blueprint_C_87:ExecuteUbergraph_Pinball_Game_Mode_Blueprint
-[2018.07.30-04.21.25:242][674]LogUObjectGlobals: Created PersistentFrame Addr=0x0000019bc6c1b740, Size=320, Default__Pinball_Game_Mode_Blueprint_C Function /Game/Blueprints/Pinball_Game_Mode_Blueprint.Pinball_Game_Mode_Blueprint_C:ExecuteUbergraph_Pinball_Game_Mode_Blueprint
-[2018.07.30-04.21.26:241][729]LogSavePackage: Save=141.81ms
-[2018.07.30-04.21.26:241][729]LogSavePackage: Moving '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Pinball_Game_Mode_BlueprintC3FBE04A4656A9A2BE5F3287FDA88BCD.tmp' to '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Blueprints/Pinball_Game_Mode_Blueprint.uasset'
-[2018.07.30-04.21.26:246][729]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Blueprints/Pinball_Game_Mode_Blueprint.uasset
-[2018.07.30-04.21.49:185][235]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000019bc6c1bc40, Size=320
-[2018.07.30-04.21.49:269][235]LogSavePackage: Save=57.12ms
-[2018.07.30-04.21.49:269][235]LogSavePackage: Moving '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Ball_Setup_MapF66317124FBC5CE3034B248D00BFE102.tmp' to '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Ball_Setup_Map.umap'
-[2018.07.30-04.21.49:270][235]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Ball_Setup_Map.umap
-[2018.07.30-04.21.49:304][235]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Ball_Setup_Map_BuiltData" FILE="../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Ball_Setup_Map_BuiltData.uasset" SILENT=true
-[2018.07.30-04.21.49:347][235]LogSavePackage: Save=14.99ms
-[2018.07.30-04.21.49:347][235]LogSavePackage: Moving '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Ball_Setup_Map_BuiltData33717CA04E408DDFFDC8D3886D03D849.tmp' to '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Ball_Setup_Map_BuiltData.uasset'
-[2018.07.30-04.21.49:348][235]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Ball_Setup_Map_BuiltData.uasset
-[2018.07.30-04.24.57:206][197]LogAudioDerivedData: Display: Building compressed audio format OGG wave Pinball_Rolling01...
-[2018.07.30-04.24.57:343][197]LogAudioDerivedData: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/Assets/Sounds/Pinball_Rolling01.Pinball_Rolling01.
-[2018.07.30-04.26.26:618][288]LogSavePackage: Save=7.43ms
-[2018.07.30-04.26.26:619][288]LogSavePackage: Moving '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Pinball_Rolling_Cue4CC3BDD544B1362EA43141993CB0B7A5.tmp' to '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Assets/Sounds/Pinball_Rolling_Cue.uasset'
-[2018.07.30-04.26.26:621][288]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Assets/Sounds/Pinball_Rolling_Cue.uasset
-[2018.07.30-04.26.42:625][207]LogSavePackage: Save=5.82ms
-[2018.07.30-04.26.42:625][207]LogSavePackage: Moving '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Pinball_Rolling_Cue4125C19A4125AB3668690BB140473FA2.tmp' to '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Assets/Sounds/Pinball_Rolling_Cue.uasset'
-[2018.07.30-04.26.42:627][207]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Assets/Sounds/Pinball_Rolling_Cue.uasset
-[2018.07.30-04.27.58:801][548]LogUObjectGlobals: Created PersistentFrame Addr=0x0000019bc1131d98, Size=4, Default__SKEL_Ball_Blueprint_C Function /Game/Blueprints/Ball_Blueprint.SKEL_Ball_Blueprint_C:ExecuteUbergraph_Ball_Blueprint
-[2018.07.30-04.28.18:066][737]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000019bc1131d98, Size=4
-[2018.07.30-04.28.18:067][737]LogUObjectGlobals: Created PersistentFrame Addr=0x0000019bc1b41bc8, Size=4, Default__SKEL_Ball_Blueprint_C Function /Engine/Transient.REINST_SKEL_Ball_Blueprint_C_91:ExecuteUbergraph_Ball_Blueprint
-[2018.07.30-04.28.18:072][737]LogUObjectGlobals: Created PersistentFrame Addr=0x0000019bc1b40430, Size=4, Default__SKEL_Ball_Blueprint_C Function /Game/Blueprints/Ball_Blueprint.SKEL_Ball_Blueprint_C:ExecuteUbergraph_Ball_Blueprint
-[2018.07.30-04.28.39:387][421]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000019bc1b40430, Size=4
-[2018.07.30-04.28.39:388][421]LogUObjectGlobals: Created PersistentFrame Addr=0x0000019bc1b40430, Size=4, Default__SKEL_Ball_Blueprint_C Function /Engine/Transient.REINST_SKEL_Ball_Blueprint_C_93:ExecuteUbergraph_Ball_Blueprint
-[2018.07.30-04.28.39:391][421]LogUObjectGlobals: Created PersistentFrame Addr=0x0000019bc1b41c00, Size=4, Default__SKEL_Ball_Blueprint_C Function /Game/Blueprints/Ball_Blueprint.SKEL_Ball_Blueprint_C:ExecuteUbergraph_Ball_Blueprint
-[2018.07.30-04.32.08:740][443]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000019bc1b40430, Size=4
-[2018.07.30-04.32.08:740][443]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000019bc1b41bc8, Size=4
-[2018.07.30-04.32.08:741][443]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Ball_Setup_Map' took 0.027
-[2018.07.30-04.32.08:743][443]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Ball_Blueprint] ([1] browsable assets)...
-[2018.07.30-04.32.08:819][443]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Ball_Blueprint.Ball_Blueprint]
-[2018.07.30-04.32.08:819][443]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Ball_Blueprint]
-[2018.07.30-04.32.08:900][443]LogSavePackage: Save=41.66ms
-[2018.07.30-04.32.08:900][443]LogSavePackage: Moving '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Ball_Blueprint_Auto282DE3FA44CAA4CC512FE48B2EB252C8D.tmp' to '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Autosaves/Game/Blueprints/Ball_Blueprint_Auto2.uasset'
-[2018.07.30-04.32.08:903][443]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Autosaves/Game/Blueprints/Ball_Blueprint_Auto2.uasset
-[2018.07.30-04.32.08:904][443]LogFileHelpers: Auto-saving content packages took 0.163
-[2018.07.30-04.38.05:714][987]BlueprintLog: New page: Compile Ball_Blueprint
-[2018.07.30-04.38.05:724][987]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000019bc1b41c00, Size=4
-[2018.07.30-04.38.05:724][987]LogUObjectGlobals: Created PersistentFrame Addr=0x0000019b06996730, Size=4, Default__SKEL_Ball_Blueprint_C Function /Engine/Transient.REINST_SKEL_Ball_Blueprint_C_95:ExecuteUbergraph_Ball_Blueprint
-[2018.07.30-04.38.05:752][987]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000019b945b5a80, Size=376
-[2018.07.30-04.38.05:752][987]LogUObjectGlobals: Created PersistentFrame Addr=0x0000019bc0692200, Size=376, Default__Ball_Blueprint_C Function /Engine/Transient.REINST_Ball_Blueprint_C_105:ExecuteUbergraph_Ball_Blueprint
-[2018.07.30-04.38.05:755][987]LogUObjectGlobals: Created PersistentFrame Addr=0x0000019bc728ee80, Size=408, Default__Ball_Blueprint_C Function /Game/Blueprints/Ball_Blueprint.Ball_Blueprint_C:ExecuteUbergraph_Ball_Blueprint
-[2018.07.30-04.38.05:985][987]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000019b06996730, Size=4
-[2018.07.30-04.38.06:727][ 16]LogSavePackage: Save=46.21ms
-[2018.07.30-04.38.06:727][ 16]LogSavePackage: Moving '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Ball_BlueprintEC09000C48E4C2E2E4FD2399F949F6BB.tmp' to '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Blueprints/Ball_Blueprint.uasset'
-[2018.07.30-04.38.06:729][ 16]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Blueprints/Ball_Blueprint.uasset
-[2018.07.30-04.40.44:249][907]LogSavePackage: Save=19.67ms
-[2018.07.30-04.40.44:249][907]LogSavePackage: Moving '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Pinball_Rolling_Cue782044CF44D89F173FF7F28729E5A4BF.tmp' to '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Assets/Sounds/Pinball_Rolling_Cue.uasset'
-[2018.07.30-04.40.44:251][907]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Assets/Sounds/Pinball_Rolling_Cue.uasset
-[2018.07.30-04.40.48:593][167]BlueprintLog: New page: Compile Pinball_Game_Mode_Blueprint
-[2018.07.30-04.40.48:646][167]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000019bc6c1b740, Size=320
-[2018.07.30-04.40.48:646][167]LogUObjectGlobals: Created PersistentFrame Addr=0x0000019b945ff9c0, Size=320, Default__Pinball_Game_Mode_Blueprint_C Function /Engine/Transient.REINST_Pinball_Game_Mode_Blueprint_C_121:ExecuteUbergraph_Pinball_Game_Mode_Blueprint
-[2018.07.30-04.40.48:654][167]LogUObjectGlobals: Created PersistentFrame Addr=0x0000019b945fe200, Size=320, Default__Pinball_Game_Mode_Blueprint_C Function /Game/Blueprints/Pinball_Game_Mode_Blueprint.Pinball_Game_Mode_Blueprint_C:ExecuteUbergraph_Pinball_Game_Mode_Blueprint
-[2018.07.30-04.40.48:817][167]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000019bc0692200, Size=376
-[2018.07.30-04.40.49:800][214]LogSavePackage: Save=83.16ms
-[2018.07.30-04.40.49:800][214]LogSavePackage: Moving '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Pinball_Game_Mode_Blueprint92008A3648916873DF3A4E827369F0DD.tmp' to '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Blueprints/Pinball_Game_Mode_Blueprint.uasset'
-[2018.07.30-04.40.49:803][214]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Blueprints/Pinball_Game_Mode_Blueprint.uasset
-[2018.07.30-04.40.52:781][342]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000019b945ff9c0, Size=320
-[2018.07.30-04.40.52:866][342]LogSavePackage: Save=58.68ms
-[2018.07.30-04.40.52:866][342]LogSavePackage: Moving '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Ball_Setup_Map6DC388FA469525CC5EF9DAA8C44BB6A2.tmp' to '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Ball_Setup_Map.umap'
-[2018.07.30-04.40.52:867][342]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Ball_Setup_Map.umap
-[2018.07.30-04.40.52:899][342]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Ball_Setup_Map_BuiltData" FILE="../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Ball_Setup_Map_BuiltData.uasset" SILENT=true
-[2018.07.30-04.40.52:943][342]LogSavePackage: Save=16.06ms
-[2018.07.30-04.40.52:943][342]LogSavePackage: Moving '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Ball_Setup_Map_BuiltData3D69E86B4DC04C8D688EFFADF894470A.tmp' to '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Ball_Setup_Map_BuiltData.uasset'
-[2018.07.30-04.40.52:944][342]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Ball_Setup_Map_BuiltData.uasset
-[2018.07.30-04.43.02:651][791]LogSavePackage: Save=57.61ms
-[2018.07.30-04.43.02:651][791]LogSavePackage: Moving '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Ball_Setup_Map3647647A4C3CA311F051488A1E6670DF.tmp' to '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Ball_Setup_Map.umap'
-[2018.07.30-04.43.02:652][791]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Ball_Setup_Map.umap
-[2018.07.30-04.43.02:683][791]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Ball_Setup_Map_BuiltData" FILE="../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Ball_Setup_Map_BuiltData.uasset" SILENT=true
-[2018.07.30-04.43.02:722][791]LogSavePackage: Save=14.94ms
-[2018.07.30-04.43.02:722][791]LogSavePackage: Moving '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Ball_Setup_Map_BuiltDataFE7FAD7840564745924AF18A0497BA17.tmp' to '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Ball_Setup_Map_BuiltData.uasset'
-[2018.07.30-04.43.02:723][791]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Ball_Setup_Map_BuiltData.uasset
-[2018.07.30-05.53.50:756][188]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
-[2018.07.30-06.01.41:896][853]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\Shweta\Desktop\PinballAssets\PinballAssets\SM_BracketTop.FBX)
-[2018.07.30-06.01.42:367][853]LogFbx: ItemName: GlobalSettings, ItemCount : 1
-[2018.07.30-06.01.42:367][853]LogFbx: ItemName: AnimationStack, ItemCount : 1
-[2018.07.30-06.01.42:367][853]LogFbx: ItemName: AnimationLayer, ItemCount : 1
-[2018.07.30-06.01.42:368][853]LogFbx: ItemName: Model, ItemCount : 1
-[2018.07.30-06.01.42:368][853]LogFbx: ItemName: Geometry, ItemCount : 1
-[2018.07.30-06.01.42:368][853]LogFbx: ItemName: Material, ItemCount : 1
-[2018.07.30-06.01.42:368][853]LogFbx: ItemName: Texture, ItemCount : 1
-[2018.07.30-06.01.42:368][853]LogFbx: ItemName: Video, ItemCount : 1
-[2018.07.30-06.01.42:490][853]LogFbx: Loading FBX Scene from C:\Users\Shweta\Desktop\PinballAssets\PinballAssets\SM_BracketTop.FBX
-[2018.07.30-06.01.42:658][853]LogFbx: FBX Scene Loaded Succesfully
-[2018.07.30-06.01.46:064][853]LogSlate: Window 'FBX Import Options' being destroyed
-[2018.07.30-06.01.46:405][853]LogFbx: Loading FBX Scene from C:\Users\Shweta\Desktop\PinballAssets\PinballAssets\SM_BracketTop.FBX
-[2018.07.30-06.01.46:432][853]LogFbx: FBX Scene Loaded Succesfully
-[2018.07.30-06.01.46:638][853]LogStaticMesh: Building static mesh SM_BracketTop...
-[2018.07.30-06.01.46:745][853]LogStaticMesh: Built static mesh [0.14s] /Game/Assets/SM_BracketTop.SM_BracketTop
-[2018.07.30-06.01.47:230][853]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
-[2018.07.30-06.01.47:442][853]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\Shweta\Desktop\PinballAssets\PinballAssets\SM_LBracket.FBX)
-[2018.07.30-06.01.47:467][853]LogFbx: Loading FBX Scene from C:\Users\Shweta\Desktop\PinballAssets\PinballAssets\SM_LBracket.FBX
-[2018.07.30-06.01.47:568][853]LogFbx: FBX Scene Loaded Succesfully
-[2018.07.30-06.01.47:582][853]LogStaticMesh: Building static mesh SM_LBracket...
-[2018.07.30-06.01.47:593][853]LogStaticMesh: Built static mesh [0.02s] /Game/Assets/SM_LBracket.SM_LBracket
-[2018.07.30-06.01.47:770][853]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
-[2018.07.30-06.01.47:841][853]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\Shweta\Desktop\PinballAssets\PinballAssets\SM_SpinnerTile.FBX)
-[2018.07.30-06.01.47:865][853]LogFbx: Loading FBX Scene from C:\Users\Shweta\Desktop\PinballAssets\PinballAssets\SM_SpinnerTile.FBX
-[2018.07.30-06.01.47:881][853]LogFbx: FBX Scene Loaded Succesfully
-[2018.07.30-06.01.47:954][853]LogStaticMesh: Building static mesh SM_SpinnerTile...
-[2018.07.30-06.01.47:969][853]LogStaticMesh: Built static mesh [0.05s] /Game/Assets/SM_SpinnerTile.SM_SpinnerTile
-[2018.07.30-06.01.48:108][853]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
-[2018.07.30-06.01.53:861][942]LogSlate: Window 'Message Log' being destroyed
-[2018.07.30-06.01.53:872][942]LogSlate: Window 'Message Log' being destroyed
-[2018.07.30-06.02.25:729][389]LogSlate: Window 'Pick Parent Class' being destroyed
-[2018.07.30-06.02.26:149][390]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Ball_Setup_Map' took 0.072
-[2018.07.30-06.02.26:151][390]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/SM_BracketTop] ([1] browsable assets)...
-[2018.07.30-06.02.26:206][390]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Assets/SM_BracketTop.SM_BracketTop]
-[2018.07.30-06.02.26:206][390]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/SM_BracketTop]
-[2018.07.30-06.02.26:253][390]LogSavePackage: Save=42.74ms
-[2018.07.30-06.02.26:253][390]LogSavePackage: Moving '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/SM_BracketTop_Auto369ED2D6949100F99670E07B27F247F91.tmp' to '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Autosaves/Game/Assets/SM_BracketTop_Auto3.uasset'
-[2018.07.30-06.02.26:255][390]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Autosaves/Game/Assets/SM_BracketTop_Auto3.uasset
-[2018.07.30-06.02.26:256][390]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/SM_LBracket] ([1] browsable assets)...
-[2018.07.30-06.02.26:310][390]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Assets/SM_LBracket.SM_LBracket]
-[2018.07.30-06.02.26:310][390]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/SM_LBracket]
-[2018.07.30-06.02.26:343][390]LogSavePackage: Save=29.29ms
-[2018.07.30-06.02.26:343][390]LogSavePackage: Moving '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/SM_LBracket_Auto363D2BF754476A1D836058DBD445D26CD.tmp' to '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Autosaves/Game/Assets/SM_LBracket_Auto3.uasset'
-[2018.07.30-06.02.26:346][390]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Autosaves/Game/Assets/SM_LBracket_Auto3.uasset
-[2018.07.30-06.02.26:347][390]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/SM_SpinnerTile] ([1] browsable assets)...
-[2018.07.30-06.02.26:400][390]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Assets/SM_SpinnerTile.SM_SpinnerTile]
-[2018.07.30-06.02.26:400][390]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/SM_SpinnerTile]
-[2018.07.30-06.02.26:436][390]LogSavePackage: Save=30.66ms
-[2018.07.30-06.02.26:436][390]LogSavePackage: Moving '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/SM_SpinnerTile_Auto39E1AA6A4453B25B2DC1664B74DE30304.tmp' to '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Autosaves/Game/Assets/SM_SpinnerTile_Auto3.uasset'
-[2018.07.30-06.02.26:438][390]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Autosaves/Game/Assets/SM_SpinnerTile_Auto3.uasset
-[2018.07.30-06.02.26:438][390]LogFileHelpers: Auto-saving content packages took 0.288
-[2018.07.30-06.06.12:588][ 61]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.07.30-06.07.01:863][690]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.07.30-06.10.00:948][345]LogEditorTransaction: Undo Make New Scene Root
-[2018.07.30-06.12.27:028][502]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Ball_Setup_Map' took 0.047
-[2018.07.30-06.12.27:030][502]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Spinner_Blueprint] ([1] browsable assets)...
-[2018.07.30-06.12.27:085][502]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Spinner_Blueprint.Spinner_Blueprint]
-[2018.07.30-06.12.27:085][502]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Spinner_Blueprint]
-[2018.07.30-06.12.27:228][502]LogSavePackage: Save=139.23ms
-[2018.07.30-06.12.27:228][502]LogSavePackage: Moving '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Spinner_Blueprint_Auto4B9A754AA4769D10DFE5FCF869B624E42.tmp' to '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Autosaves/Game/Blueprints/Spinner_Blueprint_Auto4.uasset'
-[2018.07.30-06.12.27:237][502]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Autosaves/Game/Blueprints/Spinner_Blueprint_Auto4.uasset
-[2018.07.30-06.12.27:237][502]LogFileHelpers: Auto-saving content packages took 0.208
-[2018.07.30-06.12.34:278][524]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.07.30-06.16.31:981][793]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.07.30-06.17.18:973][702]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.07.30-06.17.30:621][855]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.07.30-06.17.50:363][ 95]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.07.30-06.18.18:035][573]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.07.30-06.18.49:793][871]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.07.30-06.19.11:741][379]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionEnabled' with an invalid value of ''
-[2018.07.30-06.19.11:741][379]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionEnabled' with an invalid value of ''
-[2018.07.30-06.19.11:759][379]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionChannel' with an invalid value of ''
-[2018.07.30-06.19.11:759][379]LogClass: Warning: In asset 'None', there is an enum property of type 'ECollisionChannel' with an invalid value of ''
-[2018.07.30-06.19.21:310][623]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.07.30-06.19.48:641][275]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.07.30-06.20.04:021][589]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.07.30-06.20.09:281][708]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.07.30-06.20.18:348][918]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.07.30-06.20.54:840][341]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.07.30-06.21.11:752][739]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.07.30-06.21.16:318][847]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.07.30-06.21.24:090][ 36]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.07.30-06.21.25:753][ 80]BlueprintLog: New page: Compile Spinner_Blueprint
-[2018.07.30-06.21.26:918][ 98]LogSavePackage: Save=58.83ms
-[2018.07.30-06.21.26:918][ 98]LogSavePackage: Moving '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Spinner_BlueprintD5E6C7F5487AD3D16D50E0A0D2EE96D3.tmp' to '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Blueprints/Spinner_Blueprint.uasset'
-[2018.07.30-06.21.26:922][ 98]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Blueprints/Spinner_Blueprint.uasset
-[2018.07.30-06.21.43:118][974]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.07.30-06.21.50:160][393]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.07.30-06.21.54:250][531]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.07.30-06.22.07:591][271]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.07.30-06.22.25:701][155]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.07.30-06.22.36:001][436]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.07.30-06.22.42:469][822]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.07.30-06.22.51:542][324]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.07.30-06.23.02:686][594]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.07.30-06.23.49:214][316]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.07.30-06.23.54:004][598]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.07.30-06.24.02:327][ 76]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.07.30-06.24.11:624][271]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.07.30-06.24.53:189][865]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.07.30-06.25.17:231][654]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.07.30-06.25.51:313][ 46]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Ball_Setup_Map' took 0.222
-[2018.07.30-06.25.51:317][ 46]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Spinner_Blueprint] ([1] browsable assets)...
-[2018.07.30-06.25.51:392][ 46]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Spinner_Blueprint.Spinner_Blueprint]
-[2018.07.30-06.25.51:392][ 46]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Spinner_Blueprint]
-[2018.07.30-06.25.52:002][ 46]LogSavePackage: Save=126.13ms
-[2018.07.30-06.25.52:003][ 46]LogSavePackage: Moving '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Spinner_Blueprint_Auto574F1952547C3381EF47A2FA06E8D5B00.tmp' to '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Autosaves/Game/Blueprints/Spinner_Blueprint_Auto5.uasset'
-[2018.07.30-06.25.52:007][ 46]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Autosaves/Game/Blueprints/Spinner_Blueprint_Auto5.uasset
-[2018.07.30-06.25.52:007][ 46]LogFileHelpers: Auto-saving content packages took 0.692
-[2018.07.30-06.26.02:431][114]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.07.30-06.26.36:239][853]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.07.30-06.27.08:105][464]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.07.30-06.27.21:981][290]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.07.30-06.27.26:120][521]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.07.30-06.30.38:736][325]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.07.30-06.30.46:121][463]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.07.30-06.31.28:676][317]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.07.30-06.31.29:700][343]BlueprintLog: New page: Compile Spinner_Blueprint
-[2018.07.30-06.31.30:704][359]LogSavePackage: Save=21.96ms
-[2018.07.30-06.31.30:704][359]LogSavePackage: Moving '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Spinner_BlueprintD2824F814D90F086242572ADAC96016B.tmp' to '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Blueprints/Spinner_Blueprint.uasset'
-[2018.07.30-06.31.30:707][359]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Blueprints/Spinner_Blueprint.uasset
-[2018.07.30-06.32.16:505][ 16]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/SM_LBracket" FILE="../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Assets/SM_LBracket.uasset" SILENT=true
-[2018.07.30-06.32.16:576][ 16]LogSavePackage: Save=62.92ms
-[2018.07.30-06.32.16:576][ 16]LogSavePackage: Moving '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/SM_LBracket133305F043BB726CC017A9B8C9D38778.tmp' to '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Assets/SM_LBracket.uasset'
-[2018.07.30-06.32.16:595][ 16]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Assets/SM_LBracket.uasset
-[2018.07.30-06.32.54:516][325]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/SM_BracketTop" FILE="../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Assets/SM_BracketTop.uasset" SILENT=true
-[2018.07.30-06.32.54:586][325]LogSavePackage: Save=62.94ms
-[2018.07.30-06.32.54:586][325]LogSavePackage: Moving '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/SM_BracketTop0F30243F4203E36DE5B9F69168ADF1C5.tmp' to '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Assets/SM_BracketTop.uasset'
-[2018.07.30-06.32.54:607][325]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Assets/SM_BracketTop.uasset
-[2018.07.30-06.33.18:344][449]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.07.30-06.33.40:810][601]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.07.30-06.33.49:448][734]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.07.30-06.34.03:683][850]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.07.30-06.34.21:347][994]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.07.30-06.34.45:422][176]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.07.30-06.35.25:714][532]BlueprintLog: New page: Compile Spinner_Blueprint
-[2018.07.30-06.35.27:731][540]LogSavePackage: Save=56.08ms
-[2018.07.30-06.35.27:732][540]LogSavePackage: Moving '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Spinner_BlueprintF7779972462E212C4CCD8EB25A055DC2.tmp' to '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Blueprints/Spinner_Blueprint.uasset'
-[2018.07.30-06.35.27:738][540]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Blueprints/Spinner_Blueprint.uasset
-[2018.07.30-06.37.02:806][792]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.07.30-06.37.51:993][ 39]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.07.30-06.38.03:374][115]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.07.30-06.38.22:970][228]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.07.30-06.38.56:043][380]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.07.30-06.39.04:124][433]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.07.30-06.39.04:415][433]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Ball_Setup_Map' took 0.092
-[2018.07.30-06.39.04:418][433]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Spinner_Blueprint] ([1] browsable assets)...
-[2018.07.30-06.39.04:466][433]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Spinner_Blueprint.Spinner_Blueprint]
-[2018.07.30-06.39.04:466][433]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Spinner_Blueprint]
-[2018.07.30-06.39.04:652][433]LogSavePackage: Save=64.56ms
-[2018.07.30-06.39.04:652][433]LogSavePackage: Moving '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Spinner_Blueprint_Auto6331FBD3E478868EC5B2606BCB8FA117A.tmp' to '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Autosaves/Game/Blueprints/Spinner_Blueprint_Auto6.uasset'
-[2018.07.30-06.39.04:656][433]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Autosaves/Game/Blueprints/Spinner_Blueprint_Auto6.uasset
-[2018.07.30-06.39.04:656][433]LogFileHelpers: Auto-saving content packages took 0.240
-[2018.07.30-06.39.10:479][474]BlueprintLog: New page: Compile Spinner_Blueprint
-[2018.07.30-06.39.12:537][484]LogSavePackage: Save=96.52ms
-[2018.07.30-06.39.12:537][484]LogSavePackage: Moving '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Spinner_Blueprint65E5B326437E70B73E6BFCAC622F4183.tmp' to '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Blueprints/Spinner_Blueprint.uasset'
-[2018.07.30-06.39.12:548][484]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Blueprints/Spinner_Blueprint.uasset
-[2018.07.30-06.39.20:077][534]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.07.30-06.40.02:736][940]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.07.30-06.40.14:402][ 89]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.07.30-06.40.52:834][310]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.07.30-06.40.52:973][311]BlueprintLog: New page: Compile Spinner_Blueprint
-[2018.07.30-06.40.58:276][342]LogSavePackage: Save=85.89ms
-[2018.07.30-06.40.58:276][342]LogSavePackage: Moving '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Spinner_Blueprint956FD8C4495DC477B3E0D7BFBCD2DAA8.tmp' to '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Blueprints/Spinner_Blueprint.uasset'
-[2018.07.30-06.40.58:283][342]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Blueprints/Spinner_Blueprint.uasset
-[2018.07.30-06.41.10:289][423]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.07.30-06.41.34:078][778]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.07.30-06.41.39:048][875]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.07.30-06.41.39:049][875]BlueprintLog: New page: Compile Spinner_Blueprint
-[2018.07.30-06.41.41:135][883]LogSavePackage: Save=99.20ms
-[2018.07.30-06.41.41:135][883]LogSavePackage: Moving '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Spinner_Blueprint59BD659D45D255B5BD176C9B6D78EEC3.tmp' to '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Blueprints/Spinner_Blueprint.uasset'
-[2018.07.30-06.41.41:146][883]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Blueprints/Spinner_Blueprint.uasset
-[2018.07.30-06.43.06:510][177]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.07.30-06.43.15:420][687]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.07.30-06.43.24:788][749]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.07.30-06.43.36:274][968]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.07.30-06.43.53:085][ 99]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.07.30-06.43.57:094][184]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.07.30-06.44.19:820][339]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.07.30-06.44.32:543][400]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.07.30-06.44.44:850][492]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.07.30-06.45.03:919][596]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.07.30-06.48.22:469][529]BlueprintLog: New page: Compile Spinner_Blueprint
-[2018.07.30-06.48.22:852][529]PIE: Warning: Constraint in '/Engine/Transient.World_16:PersistentLevel.Spinner_Blueprint_C_21461.PhysicsConstraint' attempting to create a joint between objects that are both static.  No joint created.
-[2018.07.30-06.49.14:265][958]BlueprintLog: New page: Compile Spinner_Blueprint
-[2018.07.30-06.49.14:625][958]PIE: Warning: Constraint in '/Engine/Transient.World_16:PersistentLevel.Spinner_Blueprint_C_21552.PhysicsConstraint' attempting to create a joint between objects that are both static.  No joint created.
-[2018.07.30-06.49.16:246][969]LogSavePackage: Save=26.20ms
-[2018.07.30-06.49.16:246][969]LogSavePackage: Moving '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Spinner_Blueprint735E3396461CAA5419D29AB7F641B219.tmp' to '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Blueprints/Spinner_Blueprint.uasset'
-[2018.07.30-06.49.16:249][969]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Blueprints/Spinner_Blueprint.uasset
-[2018.07.30-06.50.23:065][532]BlueprintLog: New page: Compile Spinner_Blueprint
-[2018.07.30-06.50.23:418][532]PIE: Warning: Constraint in '/Engine/Transient.World_16:PersistentLevel.Spinner_Blueprint_C_21646.PhysicsConstraint' attempting to create a joint between objects that are both static.  No joint created.
-[2018.07.30-06.50.25:527][545]LogSavePackage: Save=45.45ms
-[2018.07.30-06.50.25:527][545]LogSavePackage: Moving '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Spinner_Blueprint0AF29BAE4E94B6945C94B0A4808485F9.tmp' to '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Blueprints/Spinner_Blueprint.uasset'
-[2018.07.30-06.50.25:532][545]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Blueprints/Spinner_Blueprint.uasset
-[2018.07.30-06.51.29:603][621]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.07.30-06.51.29:865][621]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Ball_Setup_Map' took 0.068
-[2018.07.30-06.51.29:867][621]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Spinner_Blueprint] ([1] browsable assets)...
-[2018.07.30-06.51.29:917][621]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Spinner_Blueprint.Spinner_Blueprint]
-[2018.07.30-06.51.29:917][621]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Spinner_Blueprint]
-[2018.07.30-06.51.30:006][621]LogSavePackage: Save=42.21ms
-[2018.07.30-06.51.30:007][621]LogSavePackage: Moving '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Spinner_Blueprint_Auto75DEB2EDB4609A053C8E8798B91125C75.tmp' to '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Autosaves/Game/Blueprints/Spinner_Blueprint_Auto7.uasset'
-[2018.07.30-06.51.30:008][621]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Autosaves/Game/Blueprints/Spinner_Blueprint_Auto7.uasset
-[2018.07.30-06.51.30:008][621]LogFileHelpers: Auto-saving content packages took 0.143
-[2018.07.30-06.52.19:420][969]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.07.30-06.52.26:315][ 15]BlueprintLog: New page: Compile Spinner_Blueprint
-[2018.07.30-06.52.27:020][ 15]PIE: Warning: Constraint in '/Engine/Transient.World_16:PersistentLevel.Spinner_Blueprint_C_21992.PhysicsConstraint' attempting to create a joint between objects that are both static.  No joint created.
-[2018.07.30-06.52.28:282][ 22]LogSavePackage: Save=102.94ms
-[2018.07.30-06.52.28:282][ 22]LogSavePackage: Moving '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Spinner_Blueprint451B5CC54BBF56900C061E862C7CEA93.tmp' to '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Blueprints/Spinner_Blueprint.uasset'
-[2018.07.30-06.52.28:293][ 22]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Blueprints/Spinner_Blueprint.uasset
-[2018.07.30-07.01.50:353][880]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Ball_Setup_Map' took 0.034
-[2018.07.30-07.01.50:355][880]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Ball_Blueprint] ([1] browsable assets)...
-[2018.07.30-07.01.50:417][880]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Ball_Blueprint.Ball_Blueprint]
-[2018.07.30-07.01.50:417][880]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Ball_Blueprint]
-[2018.07.30-07.01.50:774][880]LogSavePackage: Save=200.56ms
-[2018.07.30-07.01.50:776][880]LogSavePackage: Moving '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Ball_Blueprint_Auto89ADE50B644D01D6241AF158B4D2F7654.tmp' to '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Autosaves/Game/Blueprints/Ball_Blueprint_Auto8.uasset'
-[2018.07.30-07.01.50:782][880]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Autosaves/Game/Blueprints/Ball_Blueprint_Auto8.uasset
-[2018.07.30-07.01.50:783][880]LogFileHelpers: Auto-saving content packages took 0.430
-[2018.07.30-07.04.22:654][505]BlueprintLog: New page: Compile Ball_Blueprint
-[2018.07.30-07.04.22:856][505]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000019bc728ee80, Size=408
-[2018.07.30-07.04.22:856][505]LogUObjectGlobals: Created PersistentFrame Addr=0x0000019bb54e6940, Size=408, Default__Ball_Blueprint_C Function /Engine/Transient.REINST_Ball_Blueprint_C_199:ExecuteUbergraph_Ball_Blueprint
-[2018.07.30-07.04.22:877][505]LogUObjectGlobals: Created PersistentFrame Addr=0x0000019bbfef5440, Size=408, Default__Ball_Blueprint_C Function /Game/Blueprints/Ball_Blueprint.Ball_Blueprint_C:ExecuteUbergraph_Ball_Blueprint
-[2018.07.30-07.04.25:700][669]LogSavePackage: Save=49.53ms
-[2018.07.30-07.04.25:700][669]LogSavePackage: Moving '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Ball_Blueprint86C4E2A44B616678186C2BBE960D4D50.tmp' to '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Blueprints/Ball_Blueprint.uasset'
-[2018.07.30-07.04.25:705][669]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Blueprints/Ball_Blueprint.uasset
-[2018.07.30-07.04.50:012][443]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/SM_SpinnerTile" FILE="../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Assets/SM_SpinnerTile.uasset" SILENT=true
-[2018.07.30-07.04.50:084][443]LogSavePackage: Save=62.74ms
-[2018.07.30-07.04.50:084][443]LogSavePackage: Moving '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/SM_SpinnerTile57FD710E44B09211B0003EBAF18655A3.tmp' to '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Assets/SM_SpinnerTile.uasset'
-[2018.07.30-07.04.50:094][443]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Assets/SM_SpinnerTile.uasset
-[2018.07.30-07.06.58:883][893]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/SM_SpinnerTile" FILE="../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Assets/SM_SpinnerTile.uasset" SILENT=true
-[2018.07.30-07.06.58:920][893]LogSavePackage: Save=6.71ms
-[2018.07.30-07.06.58:920][893]LogSavePackage: Moving '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/SM_SpinnerTileBBBB902749F751B5195BC0A478670029.tmp' to '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Assets/SM_SpinnerTile.uasset'
-[2018.07.30-07.06.58:921][893]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Assets/SM_SpinnerTile.uasset
-[2018.07.30-07.07.25:116][563]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.07.30-07.07.35:979][789]Cmd: SELECT NONE
-[2018.07.30-07.07.42:499][975]LogEditorViewport: Clicking on Actor (LMB): Spinner_Blueprint_C (Spinner_Blueprint)
-[2018.07.30-07.07.51:454][222]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.07.30-07.08.02:759][537]LogEditorViewport: Clicking on Actor (LMB): Flipper_Blueprint_C (Flipper_Blueprint3)
-[2018.07.30-07.08.07:209][657]Cmd: SELECT NONE
-[2018.07.30-07.08.09:849][731]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.07.30-07.08.10:090][738]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000019bb54e6940, Size=408
-[2018.07.30-07.08.10:470][738]LogSavePackage: Save=123.17ms
-[2018.07.30-07.08.10:470][738]LogSavePackage: Moving '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Ball_Setup_Map081FFD42429F30118AB532BBBCF3A553.tmp' to '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Ball_Setup_Map.umap'
-[2018.07.30-07.08.10:473][738]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Ball_Setup_Map.umap
-[2018.07.30-07.08.10:547][738]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Ball_Setup_Map_BuiltData" FILE="../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Ball_Setup_Map_BuiltData.uasset" SILENT=true
-[2018.07.30-07.08.10:794][738]LogSavePackage: Save=82.14ms
-[2018.07.30-07.08.10:794][738]LogSavePackage: Moving '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Ball_Setup_Map_BuiltData7E4579D744B866F79B6D7D8A1261C2C7.tmp' to '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Ball_Setup_Map_BuiltData.uasset'
-[2018.07.30-07.08.10:798][738]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Ball_Setup_Map_BuiltData.uasset
-[2018.07.30-07.08.15:436][873]LogTemp: Repeating last play command: Standalone Game
-[2018.07.30-07.10.50:820][828]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.07.30-07.10.52:765][859]LogTemp: Repeating last play command: Standalone Game
-[2018.07.30-07.12.30:538][915]LogSavePackage: Save=162.31ms
-[2018.07.30-07.12.30:538][915]LogSavePackage: Moving '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Ball_Setup_Map1E0397B248F1D00489DDD2803BB5DDD5.tmp' to '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Ball_Setup_Map.umap'
-[2018.07.30-07.12.30:540][915]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Ball_Setup_Map.umap
-[2018.07.30-07.12.30:575][915]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Ball_Setup_Map_BuiltData" FILE="../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Ball_Setup_Map_BuiltData.uasset" SILENT=true
-[2018.07.30-07.12.30:665][915]LogSavePackage: Save=66.04ms
-[2018.07.30-07.12.30:665][915]LogSavePackage: Moving '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Ball_Setup_Map_BuiltData3525E2984514B37FC261389227B315B4.tmp' to '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Ball_Setup_Map_BuiltData.uasset'
-[2018.07.30-07.12.30:668][915]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Ball_Setup_Map_BuiltData.uasset
+[2018.07.30-08.19.29:136][  0]LogInit: Selected Device Profile: [Windows]
+[2018.07.30-08.19.29:136][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.07.30-08.19.29:225][  0]LogInit: Computer: LAPTOP-SNI5BBA7
+[2018.07.30-08.19.29:225][  0]LogInit: User: Shweta
+[2018.07.30-08.19.29:225][  0]LogInit: CPU Page size=4096, Cores=2
+[2018.07.30-08.19.29:225][  0]LogInit: High frequency timer resolution =2.835940 MHz
+[2018.07.30-08.19.29:225][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2018.07.30-08.19.29:225][  0]LogMemory: Platform Memory Stats for Windows
+[2018.07.30-08.19.29:225][  0]LogMemory: Process Physical Memory: 273.61 MB used, 273.61 MB peak
+[2018.07.30-08.19.29:225][  0]LogMemory: Process Virtual Memory: 270.20 MB used, 270.20 MB peak
+[2018.07.30-08.19.29:225][  0]LogMemory: Physical Memory: 4896.55 MB used,  3177.86 MB free, 8074.41 MB total
+[2018.07.30-08.19.29:225][  0]LogMemory: Virtual Memory: 4785.95 MB used,  3177.86 MB free, 134217728.00 MB total
+[2018.07.30-08.19.29:252][  0]LogInit: Using OS detected language (en-US).
+[2018.07.30-08.19.29:252][  0]LogInit: Using OS detected locale (en-US).
+[2018.07.30-08.19.29:505][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.07.30-08.19.30:065][  0]LogStreaming: Display: Took  0.813s to EndInitTextLocalization.
+[2018.07.30-08.19.30:065][  0]LogInit: Setting process to per monitor DPI aware
+[2018.07.30-08.19.30:096][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.07.30-08.19.30:096][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.07.30-08.19.37:154][  0]LogD3D11RHI: D3D11 adapters:
+[2018.07.30-08.19.37:171][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics 620' (Feature Level 11_0)
+[2018.07.30-08.19.37:171][  0]LogD3D11RHI:       128/0/4037 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
+[2018.07.30-08.19.37:176][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.07.30-08.19.37:177][  0]LogD3D11RHI:       0/0/4037 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.07.30-08.19.37:177][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.07.30-08.19.37:191][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.07.30-08.19.37:191][  0]LogD3D11RHI:     GPU DeviceId: 0x5916 (for the marketing name, search the web for "GPU Device Id")
+[2018.07.30-08.19.37:191][  0]LogWindows: EnumDisplayDevices:
+[2018.07.30-08.19.37:191][  0]LogWindows:    0. 'Intel(R) HD Graphics 620' (P:1 D:1)
+[2018.07.30-08.19.37:192][  0]LogWindows:    1. 'Intel(R) HD Graphics 620' (P:0 D:0)
+[2018.07.30-08.19.37:192][  0]LogWindows:    2. 'Intel(R) HD Graphics 620' (P:0 D:0)
+[2018.07.30-08.19.37:193][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.07.30-08.19.37:193][  0]LogD3D11RHI:     Adapter Name: Intel(R) HD Graphics 620
+[2018.07.30-08.19.37:193][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.07.30-08.19.37:193][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.07.30-08.19.37:193][  0]LogRHI: Texture pool is 1502 MB (70% of 2146 MB)
+[2018.07.30-08.19.37:203][  0]LogD3D11RHI: Async texture creation enabled
+[2018.07.30-08.19.37:210][  0]LogD3D11RHI: GPU Timing Frequency: 12.000000 (Debug: 2 0)
+[2018.07.30-08.19.37:211][  0]LogShaderCompilers: Guid format shader working directory is -36 characters bigger than the processId version (../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Intermediate/Shaders/WorkingDirectory/17200/).
+[2018.07.30-08.19.37:212][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Shweta/AppData/Local/Temp/UnrealShaderWorkingDir/CC90A09540FDDDD5C3DDFF90EB503F1E/'.
+[2018.07.30-08.19.37:707][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.07.30-08.19.37:721][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.07.30-08.19.37:734][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.07.30-08.19.37:746][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.07.30-08.19.37:783][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.07.30-08.19.37:799][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.07.30-08.19.37:819][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.07.30-08.19.37:834][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.07.30-08.19.37:840][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.07.30-08.19.37:851][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.07.30-08.19.37:862][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.07.30-08.19.37:873][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.07.30-08.19.37:884][  0]LogTemp: Display: Loaded TP Android_ETC1aTargetPlatform
+[2018.07.30-08.19.37:896][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.07.30-08.19.37:907][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.07.30-08.19.37:930][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.07.30-08.19.37:930][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.07.30-08.19.37:984][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.07.30-08.19.37:986][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.07.30-08.19.38:098][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.07.30-08.19.38:142][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.07.30-08.19.38:164][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.07.30-08.19.38:176][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.07.30-08.19.38:191][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.07.30-08.19.38:268][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.07.30-08.19.38:269][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.07.30-08.19.38:436][  0]LogXGEController: Cleaning working directory: C:/Users/Shweta/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2018.07.30-08.19.38:436][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.07.30-08.19.38:436][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.07.30-08.19.38:436][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.07.30-08.19.42:990][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.07.30-08.19.43:079][  0]LogDerivedDataCache: Loaded boot cache 0.09s 74MB C:/Users/Shweta/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2018.07.30-08.19.43:079][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Shweta/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc
+[2018.07.30-08.19.43:079][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.07.30-08.19.43:079][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.07.30-08.19.43:079][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.07.30-08.19.43:079][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.07.30-08.19.43:096][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.07.30-08.19.43:109][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Shweta/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.07.30-08.19.43:109][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.07.30-08.19.43:109][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.07.30-08.19.43:122][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.07.30-08.19.43:122][  0]LogSlate: Using Freetype 2.6.0
+[2018.07.30-08.19.43:123][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.07.30-08.19.43:123][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.07.30-08.19.43:245][  0]LogAssetRegistry: FAssetRegistry took 0.0259 seconds to start up
+[2018.07.30-08.19.43:571][  0]LogInit: Selected Device Profile: [Windows]
+[2018.07.30-08.19.43:729][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.07.30-08.19.43:731][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.07.30-08.19.43:731][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.07.30-08.19.43:731][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.07.30-08.19.43:731][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.07.30-08.19.43:731][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.07.30-08.19.43:758][  0]LogNetVersion: Pinball , NetCL: 3944462, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3476590221)
+[2018.07.30-08.19.44:263][  0]LogPackageLocalizationCache: Processed 9 localized package path(s) for 2 prioritized culture(s) in 0.096470 seconds
+[2018.07.30-08.19.44:270][  0]LogUObjectArray: 36728 objects as part of root set at end of initial load.
+[2018.07.30-08.19.44:270][  0]LogUObjectAllocator: 7314304 out of 0 bytes used by permanent object pool.
+[2018.07.30-08.19.44:270][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.07.30-08.20.16:034][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.07.30-08.20.16:062][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.07.30-08.20.17:920][  0]SourceControl: Source control is disabled
+[2018.07.30-08.20.17:920][  0]SourceControl: Source control is disabled
+[2018.07.30-08.20.17:936][  0]SourceControl: Source control is disabled
+[2018.07.30-08.20.17:950][  0]SourceControl: Source control is disabled
+[2018.07.30-08.20.18:760][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.07.30-08.20.18:887][  0]LogOcInput: OculusInput pre-init called
+[2018.07.30-08.20.19:164][  0]LogEngine: Initializing Engine...
+[2018.07.30-08.20.19:165][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.07.30-08.20.19:167][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.07.30-08.20.19:167][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.07.30-08.20.19:425][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.07.30-08.20.19:444][  0]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.07.30-08.20.20:262][  0]LogInit: FAudioDevice initialized.
+[2018.07.30-08.20.21:314][  0]LogDerivedDataCache: Saved boot cache 1.05s 74MB C:/Users/Shweta/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2018.07.30-08.20.21:358][  0]LogInit: Texture streaming: Enabled
+[2018.07.30-08.20.21:393][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.07.30-08.20.21:393][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Crashed, SessionId={A97FE0D9-4B0A-170E-B101-868BE435F747}
+[2018.07.30-08.20.21:425][  0]LogInit: Transaction tracking system initialized
+[2018.07.30-08.20.21:447][  0]BlueprintLog: New page: Editor Load
+[2018.07.30-08.20.21:515][  0]LocalizationService: Localization service is disabled
+[2018.07.30-08.20.21:760][  0]LogConsoleResponse: Display: 
+[2018.07.30-08.20.22:090][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.07.30-08.20.22:090][  0]LogCook: Display: Mobile HDR setting 1
+[2018.07.30-08.20.22:090][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.07.30-08.20.22:090][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.07.30-08.20.22:090][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.07.30-08.20.22:778][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/' took 0.01s
+[2018.07.30-08.20.23:781][  0]SourceControl: Source control is disabled
+[2018.07.30-08.20.23:782][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.07.30-08.20.23:782][  0]LightingResults: New page: Lighting Build
+[2018.07.30-08.20.23:788][  0]MapCheck: New page: Map Check
+[2018.07.30-08.20.23:788][  0]LightingResults: New page: Lighting Build
+[2018.07.30-08.20.23:978][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2018.07.30-08.20.23:984][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.07.30-08.20.24:003][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.07.30-08.20.24:046][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 42.811ms to complete.
+[2018.07.30-08.20.24:046][  0]LogFileHelpers: Loading map 'Template_Default' took 0.265
+[2018.07.30-08.20.24:369][  0]LogCollectionManager: Loaded 0 collections in 0.001970 seconds
+[2018.07.30-08.20.24:409][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Collections/' took 0.01s
+[2018.07.30-08.20.24:409][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Developers/Shweta/Collections/' took 0.01s
+[2018.07.30-08.20.24:409][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Collections/' took 0.01s
+[2018.07.30-08.20.24:409][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.07.30-08.20.24:417][  0]LogContentBrowser: Native class hierarchy populated in 0.0079 seconds. Added 2452 classes and 558 folders.
+[2018.07.30-08.20.24:425][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.07.30-08.20.25:467][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2018.07.30-08.20.25:487][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0009 seconds. Added 1 classes and 2 folders.
+[2018.07.30-08.20.28:189][  0]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2018.07.30-08.20.28:303][  0]LogSlate: Took 0.000197 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.07.30-08.20.28:306][  0]LogSlate: Took 0.000315 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.07.30-08.20.28:350][  0]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.Pinball
+[2018.07.30-08.20.28:350][  0]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.19\Engine\Binaries\DotNET\IOS
+[2018.07.30-08.20.28:350][  0]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.19
+[2018.07.30-08.20.28:350][  0]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.19\Engine\Binaries\DotNET\IOS
+[2018.07.30-08.20.28:350][  0]LogTemp: BranchPath = LAPTOP-SNI5BBA7/C/Program Files/Epic Games/UE_4.19/Engine/Binaries --- GameBranchPath = LAPTOP-SNI5BBA7/C/Program Files/Epic Games/UE_4.19/Engine/Binaries
+[2018.07.30-08.20.28:350][  0]LogSlate: Took 0.037002 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.07.30-08.20.28:608][  0]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Shweta\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2018.07.30-08.20.28:608][  0]LogRenderer: Reallocating scene render targets to support 884x372 Format 10 NumSamples 1 (Frame:1).
+[2018.07.30-08.20.29:406][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.07.30-08.20.29:407][  0]LogLoad: (Engine Initialization) Total time: 67.71 seconds
+[2018.07.30-08.20.29:407][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.07.30-08.20.29:791][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.07.30-08.20.30:833][  5]LogAssetRegistry: Asset discovery search completed in 47.6092 seconds
+[2018.07.30-08.20.30:835][  5]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.07.30-08.20.30:835][  5]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000080 seconds (updated 0 objects)
+[2018.07.30-08.20.33:898][111]LogSlate: Took 0.000160 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.07.30-08.20.36:599][200]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.30-08.20.38:326][380]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.30-08.20.39:820][433]Cmd: MAP LOAD FILE="../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Ball_Setup_Map.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.07.30-08.20.39:830][433]LogSlate: Took 0.000793 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.07.30-08.20.39:861][433]LightingResults: New page: Lighting Build
+[2018.07.30-08.20.39:863][433]LoadErrors: New page: Loading map: Ball_Setup_Map.umap
+[2018.07.30-08.20.39:914][433]MapCheck: New page: Map Check
+[2018.07.30-08.20.39:914][433]LightingResults: New page: Lighting Build
+[2018.07.30-08.20.39:950][433]LogUObjectGlobals: Created PersistentFrame Addr=0x00000241089b02c0, Size=408, Default__Ball_Blueprint_C Function /Game/Blueprints/Ball_Blueprint.Ball_Blueprint_C:ExecuteUbergraph_Ball_Blueprint
+[2018.07.30-08.20.39:955][433]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000241089b02c0, Size=408
+[2018.07.30-08.20.39:955][433]LogUObjectGlobals: Created PersistentFrame Addr=0x00000241089b02c0, Size=408, Default__Ball_Blueprint_C Function /Engine/Transient.REINST_Ball_Blueprint_C_5:ExecuteUbergraph_Ball_Blueprint
+[2018.07.30-08.20.39:959][433]LogUObjectGlobals: Created PersistentFrame Addr=0x000002415d906780, Size=408, Default__Ball_Blueprint_C Function /Game/Blueprints/Ball_Blueprint.Ball_Blueprint_C:ExecuteUbergraph_Ball_Blueprint
+[2018.07.30-08.20.39:963][433]LogUObjectGlobals: Created PersistentFrame Addr=0x000002416b0ff700, Size=256, Default__Force_Movement_Zone_Blueprint_C Function /Game/Blueprints/Force_Movement_Zone_Blueprint.Force_Movement_Zone_Blueprint_C:ExecuteUbergraph_Force_Movement_Zone_Blueprint
+[2018.07.30-08.20.39:966][433]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002416b0ff700, Size=256
+[2018.07.30-08.20.39:966][433]LogUObjectGlobals: Created PersistentFrame Addr=0x000002416b0ff700, Size=256, Default__Force_Movement_Zone_Blueprint_C Function /Engine/Transient.REINST_Force_Movement_Zone_Blueprint_C_7:ExecuteUbergraph_Force_Movement_Zone_Blueprint
+[2018.07.30-08.20.39:969][433]LogUObjectGlobals: Created PersistentFrame Addr=0x000002416b0fc100, Size=256, Default__Force_Movement_Zone_Blueprint_C Function /Game/Blueprints/Force_Movement_Zone_Blueprint.Force_Movement_Zone_Blueprint_C:ExecuteUbergraph_Force_Movement_Zone_Blueprint
+[2018.07.30-08.20.39:986][433]LogUObjectGlobals: Created PersistentFrame Addr=0x000002411021cc60, Size=32, Default__Ball_Reset_Zone_Blueprint_C Function /Game/Blueprints/Ball_Reset_Zone_Blueprint.Ball_Reset_Zone_Blueprint_C:ExecuteUbergraph_Ball_Reset_Zone_Blueprint
+[2018.07.30-08.20.39:987][433]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002411021cc60, Size=32
+[2018.07.30-08.20.39:987][433]LogUObjectGlobals: Created PersistentFrame Addr=0x000002411021cc60, Size=32, Default__Ball_Reset_Zone_Blueprint_C Function /Engine/Transient.REINST_Ball_Reset_Zone_Blueprint_C_11:ExecuteUbergraph_Ball_Reset_Zone_Blueprint
+[2018.07.30-08.20.39:988][433]LogUObjectGlobals: Created PersistentFrame Addr=0x000002411021e700, Size=32, Default__Ball_Reset_Zone_Blueprint_C Function /Game/Blueprints/Ball_Reset_Zone_Blueprint.Ball_Reset_Zone_Blueprint_C:ExecuteUbergraph_Ball_Reset_Zone_Blueprint
+[2018.07.30-08.20.40:019][433]LogUObjectGlobals: Created PersistentFrame Addr=0x000002414d3e0e48, Size=8, Default__Flipper_Blueprint_C Function /Game/Blueprints/Flipper_Blueprint.Flipper_Blueprint_C:ExecuteUbergraph_Flipper_Blueprint
+[2018.07.30-08.20.40:022][433]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002414d3e0e48, Size=8
+[2018.07.30-08.20.40:022][433]LogUObjectGlobals: Created PersistentFrame Addr=0x000002414d3e0e48, Size=8, Default__Flipper_Blueprint_C Function /Engine/Transient.REINST_Flipper_Blueprint_C_15:ExecuteUbergraph_Flipper_Blueprint
+[2018.07.30-08.20.40:024][433]LogUObjectGlobals: Created PersistentFrame Addr=0x000002414d3e1048, Size=8, Default__Flipper_Blueprint_C Function /Game/Blueprints/Flipper_Blueprint.Flipper_Blueprint_C:ExecuteUbergraph_Flipper_Blueprint
+[2018.07.30-08.20.40:030][433]LogUObjectGlobals: Created PersistentFrame Addr=0x000002414e91d600, Size=164, Default__Plunger_Blueprint_C Function /Game/Blueprints/Plunger_Blueprint.Plunger_Blueprint_C:ExecuteUbergraph_Plunger_Blueprint
+[2018.07.30-08.20.40:033][433]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002414e91d600, Size=164
+[2018.07.30-08.20.40:033][433]LogUObjectGlobals: Created PersistentFrame Addr=0x000002414e91d600, Size=164, Default__Plunger_Blueprint_C Function /Engine/Transient.REINST_Plunger_Blueprint_C_17:ExecuteUbergraph_Plunger_Blueprint
+[2018.07.30-08.20.40:035][433]LogUObjectGlobals: Created PersistentFrame Addr=0x000002414d57b640, Size=164, Default__Plunger_Blueprint_C Function /Game/Blueprints/Plunger_Blueprint.Plunger_Blueprint_C:ExecuteUbergraph_Plunger_Blueprint
+[2018.07.30-08.20.40:039][433]LogUObjectGlobals: Created PersistentFrame Addr=0x000002410ef26980, Size=320, Default__Pinball_Game_Mode_Blueprint_C Function /Game/Blueprints/Pinball_Game_Mode_Blueprint.Pinball_Game_Mode_Blueprint_C:ExecuteUbergraph_Pinball_Game_Mode_Blueprint
+[2018.07.30-08.20.40:040][433]LogUObjectGlobals: Created PersistentFrame Addr=0x00000241089c5200, Size=504, Default__Pinball_Player_Controller_Blueprint_C Function /Game/Blueprints/Pinball_Player_Controller_Blueprint.Pinball_Player_Controller_Blueprint_C:ExecuteUbergraph_Pinball_Player_Controller_Blueprint
+[2018.07.30-08.20.40:052][433]LogUObjectGlobals: Created PersistentFrame Addr=0x000002416afdefe0, Size=32, Default__High_Score_WidgetBlueprint_C Function /Game/Blueprints/High_Score_WidgetBlueprint.High_Score_WidgetBlueprint_C:ExecuteUbergraph_High_Score_WidgetBlueprint
+[2018.07.30-08.20.40:053][433]LogUObjectGlobals: Created PersistentFrame Addr=0x000002410aef9750, Size=104, Default__High_Score_Entry_WidgetBlueprint_C Function /Game/Blueprints/High_Score_Entry_WidgetBlueprint.High_Score_Entry_WidgetBlueprint_C:ExecuteUbergraph_High_Score_Entry_WidgetBlueprint
+[2018.07.30-08.20.40:057][433]LogUObjectGlobals: Created PersistentFrame Addr=0x000002416afdefc0, Size=32, Default__Main_Menu_WidgetBlueprint_C Function /Game/Blueprints/Main_Menu_WidgetBlueprint.Main_Menu_WidgetBlueprint_C:ExecuteUbergraph_Main_Menu_WidgetBlueprint
+[2018.07.30-08.20.40:077][433]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002410aef9750, Size=104
+[2018.07.30-08.20.40:078][433]LogUObjectGlobals: Created PersistentFrame Addr=0x0000024102a4acc0, Size=104, Default__High_Score_Entry_WidgetBlueprint_C Function /Engine/Transient.REINST_High_Score_Entry_WidgetBlueprint_C_0:ExecuteUbergraph_High_Score_Entry_WidgetBlueprint
+[2018.07.30-08.20.40:078][433]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002416afdefe0, Size=32
+[2018.07.30-08.20.40:078][433]LogUObjectGlobals: Created PersistentFrame Addr=0x000002416aefe360, Size=32, Default__High_Score_WidgetBlueprint_C Function /Engine/Transient.REINST_High_Score_WidgetBlueprint_C_1:ExecuteUbergraph_High_Score_WidgetBlueprint
+[2018.07.30-08.20.40:078][433]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002416afdefc0, Size=32
+[2018.07.30-08.20.40:078][433]LogUObjectGlobals: Created PersistentFrame Addr=0x000002416aefe260, Size=32, Default__Main_Menu_WidgetBlueprint_C Function /Engine/Transient.REINST_Main_Menu_WidgetBlueprint_C_2:ExecuteUbergraph_Main_Menu_WidgetBlueprint
+[2018.07.30-08.20.40:079][433]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002410ef26980, Size=320
+[2018.07.30-08.20.40:079][433]LogUObjectGlobals: Created PersistentFrame Addr=0x000002416af36d40, Size=320, Default__Pinball_Game_Mode_Blueprint_C Function /Engine/Transient.REINST_Pinball_Game_Mode_Blueprint_C_19:ExecuteUbergraph_Pinball_Game_Mode_Blueprint
+[2018.07.30-08.20.40:079][433]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000241089c5200, Size=504
+[2018.07.30-08.20.40:079][433]LogUObjectGlobals: Created PersistentFrame Addr=0x000002416afa9000, Size=504, Default__Pinball_Player_Controller_Blueprint_C Function /Engine/Transient.REINST_Pinball_Player_Controller_Blueprint_C_20:ExecuteUbergraph_Pinball_Player_Controller_Blueprint
+[2018.07.30-08.20.40:098][433]LogUObjectGlobals: Created PersistentFrame Addr=0x000002416ae84560, Size=104, Default__High_Score_Entry_WidgetBlueprint_C Function /Game/Blueprints/High_Score_Entry_WidgetBlueprint.High_Score_Entry_WidgetBlueprint_C:ExecuteUbergraph_High_Score_Entry_WidgetBlueprint
+[2018.07.30-08.20.40:099][433]LogUObjectGlobals: Created PersistentFrame Addr=0x000002411e8d2740, Size=32, Default__High_Score_WidgetBlueprint_C Function /Game/Blueprints/High_Score_WidgetBlueprint.High_Score_WidgetBlueprint_C:ExecuteUbergraph_High_Score_WidgetBlueprint
+[2018.07.30-08.20.40:099][433]LogUObjectGlobals: Created PersistentFrame Addr=0x000002411e8d1bc0, Size=32, Default__Main_Menu_WidgetBlueprint_C Function /Game/Blueprints/Main_Menu_WidgetBlueprint.Main_Menu_WidgetBlueprint_C:ExecuteUbergraph_Main_Menu_WidgetBlueprint
+[2018.07.30-08.20.40:101][433]LogUObjectGlobals: Created PersistentFrame Addr=0x000002416ae191c0, Size=320, Default__Pinball_Game_Mode_Blueprint_C Function /Game/Blueprints/Pinball_Game_Mode_Blueprint.Pinball_Game_Mode_Blueprint_C:ExecuteUbergraph_Pinball_Game_Mode_Blueprint
+[2018.07.30-08.20.40:104][433]LogUObjectGlobals: Created PersistentFrame Addr=0x000002411e8f5e00, Size=504, Default__Pinball_Player_Controller_Blueprint_C Function /Game/Blueprints/Pinball_Player_Controller_Blueprint.Pinball_Player_Controller_Blueprint_C:ExecuteUbergraph_Pinball_Player_Controller_Blueprint
+[2018.07.30-08.20.40:133][433]LogUObjectGlobals: Created PersistentFrame Addr=0x000002416ae18540, Size=288, Default__Bumper_Blueprint_C Function /Game/Blueprints/Bumper_Blueprint.Bumper_Blueprint_C:ExecuteUbergraph_Bumper_Blueprint
+[2018.07.30-08.20.40:138][433]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002416ae18540, Size=288
+[2018.07.30-08.20.40:138][433]LogUObjectGlobals: Created PersistentFrame Addr=0x000002410ef7bec0, Size=288, Default__Bumper_Blueprint_C Function /Engine/Transient.REINST_Bumper_Blueprint_C_27:ExecuteUbergraph_Bumper_Blueprint
+[2018.07.30-08.20.40:141][433]LogUObjectGlobals: Created PersistentFrame Addr=0x000002410ef7b880, Size=288, Default__Bumper_Blueprint_C Function /Game/Blueprints/Bumper_Blueprint.Bumper_Blueprint_C:ExecuteUbergraph_Bumper_Blueprint
+[2018.07.30-08.20.40:147][433]LogUObjectGlobals: Created PersistentFrame Addr=0x000002410ef7b9c0, Size=272, Default__Drop_Target_Blueprint_C Function /Game/Blueprints/Drop_Target_Blueprint.Drop_Target_Blueprint_C:ExecuteUbergraph_Drop_Target_Blueprint
+[2018.07.30-08.20.40:151][433]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002410ef7b9c0, Size=272
+[2018.07.30-08.20.40:151][433]LogUObjectGlobals: Created PersistentFrame Addr=0x000002410ef7b9c0, Size=272, Default__Drop_Target_Blueprint_C Function /Engine/Transient.REINST_Drop_Target_Blueprint_C_29:ExecuteUbergraph_Drop_Target_Blueprint
+[2018.07.30-08.20.40:154][433]LogUObjectGlobals: Created PersistentFrame Addr=0x000002410ef7a5c0, Size=272, Default__Drop_Target_Blueprint_C Function /Game/Blueprints/Drop_Target_Blueprint.Drop_Target_Blueprint_C:ExecuteUbergraph_Drop_Target_Blueprint
+[2018.07.30-08.20.40:174][433]LogUObjectGlobals: Created PersistentFrame Addr=0x000002416ae2f7c0, Size=88, Default__Drop_Target_Set_Blueprint_Child_C Function /Game/Blueprints/Drop_Target_Set_Blueprint_Child.Drop_Target_Set_Blueprint_Child_C:ExecuteUbergraph_Drop_Target_Set_Blueprint_Child
+[2018.07.30-08.20.40:180][433]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002416ae2f7c0, Size=88
+[2018.07.30-08.20.40:180][433]LogUObjectGlobals: Created PersistentFrame Addr=0x000002416ae2f7c0, Size=88, Default__Drop_Target_Set_Blueprint_Child_C Function /Engine/Transient.REINST_Drop_Target_Set_Blueprint_Child_C_33:ExecuteUbergraph_Drop_Target_Set_Blueprint_Child
+[2018.07.30-08.20.40:186][433]LogUObjectGlobals: Created PersistentFrame Addr=0x000002416ae2ee00, Size=88, Default__Drop_Target_Set_Blueprint_Child_C Function /Game/Blueprints/Drop_Target_Set_Blueprint_Child.Drop_Target_Set_Blueprint_Child_C:ExecuteUbergraph_Drop_Target_Set_Blueprint_Child
+[2018.07.30-08.20.40:196][433]LogUObjectGlobals: Created PersistentFrame Addr=0x000002411e7bfcf0, Size=104, Default__Slingshot_Blueprint_C Function /Game/Blueprints/Slingshot_Blueprint.Slingshot_Blueprint_C:ExecuteUbergraph_Slingshot_Blueprint
+[2018.07.30-08.20.40:198][433]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002411e7bfcf0, Size=104
+[2018.07.30-08.20.40:199][433]LogUObjectGlobals: Created PersistentFrame Addr=0x000002411e7bfcf0, Size=104, Default__Slingshot_Blueprint_C Function /Engine/Transient.REINST_Slingshot_Blueprint_C_35:ExecuteUbergraph_Slingshot_Blueprint
+[2018.07.30-08.20.40:201][433]LogUObjectGlobals: Created PersistentFrame Addr=0x000002410ef30a30, Size=104, Default__Slingshot_Blueprint_C Function /Game/Blueprints/Slingshot_Blueprint.Slingshot_Blueprint_C:ExecuteUbergraph_Slingshot_Blueprint
+[2018.07.30-08.20.42:010][433]LogAIModule: Creating AISystem for world Ball_Setup_Map
+[2018.07.30-08.20.42:132][433]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.07.30-08.20.42:179][433]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002411021cc60, Size=32
+[2018.07.30-08.20.42:179][433]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002416b0ff700, Size=256
+[2018.07.30-08.20.42:179][433]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000241089b02c0, Size=408
+[2018.07.30-08.20.42:179][433]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002414d3e0e48, Size=8
+[2018.07.30-08.20.42:179][433]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002414e91d600, Size=164
+[2018.07.30-08.20.42:179][433]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002416af36d40, Size=320
+[2018.07.30-08.20.42:179][433]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002416afa9000, Size=504
+[2018.07.30-08.20.42:179][433]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002416aefe360, Size=32
+[2018.07.30-08.20.42:179][433]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000024102a4acc0, Size=104
+[2018.07.30-08.20.42:179][433]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002416aefe260, Size=32
+[2018.07.30-08.20.42:179][433]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002410ef7bec0, Size=288
+[2018.07.30-08.20.42:179][433]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002410ef7b9c0, Size=272
+[2018.07.30-08.20.42:179][433]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002416ae2f7c0, Size=88
+[2018.07.30-08.20.42:179][433]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002411e7bfcf0, Size=104
+[2018.07.30-08.20.42:213][433]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.07.30-08.20.42:264][433]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 50.502ms to complete.
+[2018.07.30-08.20.42:264][433]LogFileHelpers: Loading map 'Ball_Setup_Map' took 2.446
+[2018.07.30-08.20.42:266][433]LogSlate: Window 'Open Level' being destroyed
+[2018.07.30-08.20.42:273][433]PIE: Warning: Constraint in '/Engine/Transient.World_1:PersistentLevel.Spinner_Blueprint_C_0.PhysicsConstraint' attempting to create a joint between objects that are both static.  No joint created.
+[2018.07.30-08.20.45:772][523]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.30-08.20.50:032][529]LogSavePackage: Save=1673.48ms
+[2018.07.30-08.20.50:036][529]LogSavePackage: Moving '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Ball_Setup_MapC70FA4D74B95159CAA3807846F558547.tmp' to '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Ball_Setup_Map.umap'
+[2018.07.30-08.20.50:085][529]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Ball_Setup_Map.umap
+[2018.07.30-08.20.50:356][529]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Ball_Setup_Map_BuiltData" FILE="../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Ball_Setup_Map_BuiltData.uasset" SILENT=true
+[2018.07.30-08.20.50:699][529]LogSavePackage: Save=260.22ms
+[2018.07.30-08.20.50:699][529]LogSavePackage: Moving '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Ball_Setup_Map_BuiltDataD6175DCB48552FE8680DA89F6AFC5E62.tmp' to '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Ball_Setup_Map_BuiltData.uasset'
+[2018.07.30-08.20.50:704][529]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Ball_Setup_Map_BuiltData.uasset
