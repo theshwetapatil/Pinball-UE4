@@ -107,4 +107,5 @@ and increase Position Solver Item and Velocity Solver Item in Physics section of
 -----------------
 To add Decal- Search Deferred Decal in Places
 Decal can modify color, metalic and roughness(using dbuffer decal).
+Decal blend mode of Normal and Roughness are incredibly useful. Decals can be used add a very subtle bump to the surface.
 
