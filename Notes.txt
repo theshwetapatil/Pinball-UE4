@@ -98,7 +98,9 @@ Spline Mesh is a single mesh that will be kinda bent to follow a line that's giv
 -----------------
 Child Actor
 Right-Click on blueprint class and select Create Child Blueprint Class
-
+-----------------
+Shift+Click- To add keyframe in timeline
+Click+3- To add curve to the timeline keyframes
 
 
 

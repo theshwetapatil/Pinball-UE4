@@ -1,0 +1,1229 @@
+﻿Log file open, 07/30/18 08:23:06
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: Pinball
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(1878498338) SRandInit(1878498338).
+LogInit: Read version file with build ID '3944462'
+LogInit: Overriding engine version to CL 4033788, compatible CL 3944462
+LogInit: Registered custom module enumerator with build ID '3944462'
+LogTaskGraph: Started task graph with 5 named threads and 11 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.152857
+LogD3D11RHI: Aftermath initialized
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +5:30, Platform Override: ''
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperSpriteSheetImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperTiledImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-SmartSnapping.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeRuntime.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/CLionSourceCodeAccess/Binaries/Win64/UE4Editor-CLionSourceCodeAccess.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/GitSourceControl/Binaries/Win64/UE4Editor-GitSourceControl.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/PerforceSourceControl/Binaries/Win64/UE4Editor-PerforceSourceControl.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/SubversionSourceControl/Binaries/Win64/UE4Editor-SubversionSourceControl.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/UObjectPlugin/Binaries/Win64/UE4Editor-UObjectPlugin.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioCodeSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioCodeSourceCodeAccess.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioSourceCodeAccess.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AssetManagerEditor/Binaries/Win64/UE4Editor-AssetManagerEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/CryptoKeys/Binaries/Win64/UE4Editor-CryptoKeys.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/CryptoKeys/Binaries/Win64/UE4Editor-CryptoKeysOpenSSL.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/DataValidation/Binaries/Win64/UE4Editor-DataValidation.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimation.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimationEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/GameplayTagsEditor/Binaries/Win64/UE4Editor-GameplayTagsEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/MobileLauncherProfileWizard/Binaries/Win64/UE4Editor-MobileLauncherProfileWizard.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/PluginBrowser/Binaries/Win64/UE4Editor-PluginBrowser.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/SpeedTreeImporter/Binaries/Win64/UE4Editor-SpeedTreeImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Enterprise/DatasmithContent/Binaries/Win64/UE4Editor-DatasmithContent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicLibrary.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/CharacterAI/Binaries/Win64/UE4Editor-CharacterAI.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/HTML5Networking/Binaries/Win64/UE4Editor-HTML5Networking.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMedia.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-OpenExrWrapper.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/LinearTimecode/Binaries/Win64/UE4Editor-LinearTimecode.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositing.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositingEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaPlayerEditor/Binaries/Win64/UE4Editor-MediaPlayerEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMedia.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/TcpMessaging/Binaries/Win64/UE4Editor-TcpMessaging.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/UdpMessaging/Binaries/Win64/UE4Editor-UdpMessaging.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/ActorSequence/Binaries/Win64/UE4Editor-ActorSequence.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/LevelSequenceEditor/Binaries/Win64/UE4Editor-LevelSequenceEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/MatineeToLevelSequence/Binaries/Win64/UE4Editor-MatineeToLevelSequence.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/NetcodeUnitTest/NetcodeUnitTest/Binaries/Win64/UE4Editor-NetcodeUnitTest.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/NetcodeUnitTest/NUTUnrealEngine4/Binaries/Win64/UE4Editor-NUTUnrealEngine4.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystem/Binaries/Win64/UE4Editor-OnlineSubsystem.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidPermission/Binaries/Win64/UE4Editor-AndroidPermission.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemNull/Binaries/Win64/UE4Editor-OnlineSubsystemNull.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineSubsystemUtils.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineBlueprintSupport.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidDeviceProfileSelector/Binaries/Win64/UE4Editor-AndroidDeviceProfileSelector.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AppleARKit/Binaries/Win64/UE4Editor-AppleARKit.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponentEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Animation/LiveLink/Binaries/Win64/UE4Editor-LiveLink.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Animation/LiveLink/Binaries/Win64/UE4Editor-LiveLinkEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ArchVisCharacter/Binaries/Win64/UE4Editor-ArchVisCharacter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AudioCapture/Binaries/Win64/UE4Editor-AudioCapture.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AudioCapture/Binaries/Win64/UE4Editor-AudioCaptureEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CableComponent/Binaries/Win64/UE4Editor-CableComponent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CustomMeshComponent/Binaries/Win64/UE4Editor-CustomMeshComponent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ExampleDeviceProfileSelector/Binaries/Win64/UE4Editor-ExampleDeviceProfileSelector.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysics.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysicsEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/LocationServicesBPLibrary/Binaries/Win64/UE4Editor-LocationServicesBPLibrary.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/MobilePatchingUtils/Binaries/Win64/UE4Editor-MobilePatchingUtils.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusHMD.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusInput.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehicles.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehiclesEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/RuntimePhysXCooking/Binaries/Win64/UE4Editor-RuntimePhysXCooking.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVR.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVRController.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/WindowsMoviePlayer/Binaries/Win64/UE4Editor-WindowsMoviePlayer.dll (API version 3944462).
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LiveLink
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleARKit
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  3.338s to configure plugins.
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: WinSock: I am LAPTOP-SNI5BBA7 (192.168.0.21:0)
+LogInit: Build: ++UE4+Release-4.19-CL-4033788
+LogInit: Engine Version: 4.19.2-4033788+++UE4+Release-4.19
+LogInit: Compatible Engine Version: 4.19.0-3944462+++UE4+Release-4.19
+LogInit: Net CL: 3944462
+LogDevObjectVersion: Number of dev versions registered: 18
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 23
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 33
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 25
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 6
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 1
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 2
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 16
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogInit: Compiled (64-bit): Apr 27 2018 02:06:57
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.19
+LogInit: Command Line:  
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.19/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogStreaming: Display: Took  0.036s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.07.30-02.53.14:840][  0]LogInit: Selected Device Profile: [Windows]
+[2018.07.30-02.53.14:840][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.07.30-02.53.16:196][  0]LogInit: Computer: LAPTOP-SNI5BBA7
+[2018.07.30-02.53.16:196][  0]LogInit: User: Shweta
+[2018.07.30-02.53.16:196][  0]LogInit: CPU Page size=4096, Cores=2
+[2018.07.30-02.53.16:196][  0]LogInit: High frequency timer resolution =2.835940 MHz
+[2018.07.30-02.53.16:196][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2018.07.30-02.53.16:196][  0]LogMemory: Platform Memory Stats for Windows
+[2018.07.30-02.53.16:196][  0]LogMemory: Process Physical Memory: 273.77 MB used, 273.77 MB peak
+[2018.07.30-02.53.16:196][  0]LogMemory: Process Virtual Memory: 270.18 MB used, 270.18 MB peak
+[2018.07.30-02.53.16:196][  0]LogMemory: Physical Memory: 6966.15 MB used,  1108.26 MB free, 8074.41 MB total
+[2018.07.30-02.53.16:196][  0]LogMemory: Virtual Memory: 4785.95 MB used,  1108.26 MB free, 134217728.00 MB total
+[2018.07.30-02.53.19:975][  0]LogInit: Using OS detected language (en-US).
+[2018.07.30-02.53.19:975][  0]LogInit: Using OS detected locale (en-US).
+[2018.07.30-02.53.20:317][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.07.30-02.53.21:521][  0]LogStreaming: Display: Took  1.567s to EndInitTextLocalization.
+[2018.07.30-02.53.21:521][  0]LogInit: Setting process to per monitor DPI aware
+[2018.07.30-02.53.22:577][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.07.30-02.53.22:578][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.07.30-02.53.45:743][  0]LogD3D11RHI: D3D11 adapters:
+[2018.07.30-02.53.45:811][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics 620' (Feature Level 11_0)
+[2018.07.30-02.53.45:811][  0]LogD3D11RHI:       128/0/4037 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
+[2018.07.30-02.53.45:867][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.07.30-02.53.45:867][  0]LogD3D11RHI:       0/0/4037 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.07.30-02.53.45:867][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.07.30-02.53.45:938][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.07.30-02.53.45:938][  0]LogD3D11RHI:     GPU DeviceId: 0x5916 (for the marketing name, search the web for "GPU Device Id")
+[2018.07.30-02.53.45:938][  0]LogWindows: EnumDisplayDevices:
+[2018.07.30-02.53.45:938][  0]LogWindows:    0. 'Intel(R) HD Graphics 620' (P:1 D:1)
+[2018.07.30-02.53.45:939][  0]LogWindows:    1. 'Intel(R) HD Graphics 620' (P:0 D:0)
+[2018.07.30-02.53.45:939][  0]LogWindows:    2. 'Intel(R) HD Graphics 620' (P:0 D:0)
+[2018.07.30-02.53.45:939][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.07.30-02.53.45:939][  0]LogD3D11RHI:     Adapter Name: Intel(R) HD Graphics 620
+[2018.07.30-02.53.45:940][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.07.30-02.53.45:940][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.07.30-02.53.45:940][  0]LogRHI: Texture pool is 1502 MB (70% of 2146 MB)
+[2018.07.30-02.53.45:971][  0]LogD3D11RHI: Async texture creation enabled
+[2018.07.30-02.53.46:151][  0]LogD3D11RHI: GPU Timing Frequency: 12.000000 (Debug: 2 0)
+[2018.07.30-02.53.46:242][  0]LogShaderCompilers: Guid format shader working directory is -36 characters bigger than the processId version (../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Intermediate/Shaders/WorkingDirectory/17276/).
+[2018.07.30-02.53.46:248][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Shweta/AppData/Local/Temp/UnrealShaderWorkingDir/FEC173344231B79D80E6F1994C43543D/'.
+[2018.07.30-02.53.49:064][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.07.30-02.53.49:129][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.07.30-02.53.49:175][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.07.30-02.53.49:257][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.07.30-02.53.49:353][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.07.30-02.53.49:418][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.07.30-02.53.49:497][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.07.30-02.53.49:554][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.07.30-02.53.49:686][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.07.30-02.53.49:848][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.07.30-02.53.49:933][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.07.30-02.53.49:977][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.07.30-02.53.50:022][  0]LogTemp: Display: Loaded TP Android_ETC1aTargetPlatform
+[2018.07.30-02.53.50:079][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.07.30-02.53.50:122][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.07.30-02.53.50:205][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.07.30-02.53.50:205][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.07.30-02.53.50:297][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.07.30-02.53.50:330][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.07.30-02.53.50:523][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.07.30-02.53.50:560][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.07.30-02.53.50:604][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.07.30-02.53.50:672][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.07.30-02.53.50:739][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.07.30-02.53.50:789][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.07.30-02.53.50:789][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.07.30-02.53.52:178][  0]LogXGEController: Cleaning working directory: C:/Users/Shweta/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2018.07.30-02.53.52:179][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.07.30-02.53.52:179][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.07.30-02.53.52:179][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.07.30-02.54.00:103][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.07.30-02.54.08:436][  0]LogDerivedDataCache: Loaded boot cache 8.29s 74MB C:/Users/Shweta/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2018.07.30-02.54.08:436][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Shweta/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc
+[2018.07.30-02.54.08:461][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.07.30-02.54.08:461][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.07.30-02.54.08:461][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.07.30-02.54.08:461][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.07.30-02.54.08:556][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.07.30-02.54.08:638][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Shweta/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.07.30-02.54.08:638][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.07.30-02.54.08:638][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.07.30-02.54.08:780][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.07.30-02.54.08:895][  0]LogSlate: Using Freetype 2.6.0
+[2018.07.30-02.54.09:055][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.07.30-02.54.09:055][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.07.30-02.55.05:381][  0]LogAssetRegistry: FAssetRegistry took 0.0369 seconds to start up
+[2018.07.30-02.55.13:887][  0]LogInit: Selected Device Profile: [Windows]
+[2018.07.30-02.55.16:049][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.07.30-02.55.16:112][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.07.30-02.55.16:155][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.07.30-02.55.16:176][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.07.30-02.55.16:176][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.07.30-02.55.16:176][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.07.30-02.55.16:843][  0]LogNetVersion: Pinball , NetCL: 3944462, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3476590221)
+[2018.07.30-02.55.26:972][  0]LogPackageLocalizationCache: Processed 9 localized package path(s) for 2 prioritized culture(s) in 0.289593 seconds
+[2018.07.30-02.55.27:004][  0]LogUObjectArray: 36728 objects as part of root set at end of initial load.
+[2018.07.30-02.55.27:004][  0]LogUObjectAllocator: 7314304 out of 0 bytes used by permanent object pool.
+[2018.07.30-02.55.27:004][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.07.30-02.56.16:273][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.07.30-02.56.16:440][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.07.30-02.56.19:298][  0]SourceControl: Source control is disabled
+[2018.07.30-02.56.19:298][  0]SourceControl: Source control is disabled
+[2018.07.30-02.56.19:512][  0]SourceControl: Source control is disabled
+[2018.07.30-02.56.19:625][  0]SourceControl: Source control is disabled
+[2018.07.30-02.56.23:463][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.07.30-02.56.24:355][  0]LogOcInput: OculusInput pre-init called
+[2018.07.30-02.56.26:035][  0]LogEngine: Initializing Engine...
+[2018.07.30-02.56.26:216][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.07.30-02.56.26:257][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.07.30-02.56.26:258][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.07.30-02.56.31:291][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.07.30-02.56.32:269][  0]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.07.30-02.56.32:454][  0]LogInit: FAudioDevice initialized.
+[2018.07.30-02.56.33:534][  0]LogDerivedDataCache: Saved boot cache 0.96s 74MB C:/Users/Shweta/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2018.07.30-02.56.33:565][  0]LogInit: Texture streaming: Enabled
+[2018.07.30-02.56.34:595][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.07.30-02.56.35:102][  0]LogInit: Transaction tracking system initialized
+[2018.07.30-02.56.40:227][  0]BlueprintLog: New page: Editor Load
+[2018.07.30-02.56.50:214][  0]LocalizationService: Localization service is disabled
+[2018.07.30-02.56.52:814][  0]LogConsoleResponse: Display: 
+[2018.07.30-02.56.58:389][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/' took 0.02s
+[2018.07.30-02.56.58:389][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.07.30-02.56.58:413][  0]LogCook: Display: Mobile HDR setting 1
+[2018.07.30-02.56.58:436][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.07.30-02.56.58:437][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.07.30-02.56.58:437][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.07.30-02.57.10:043][  0]SourceControl: Source control is disabled
+[2018.07.30-02.57.10:068][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.07.30-02.57.10:161][  0]LightingResults: New page: Lighting Build
+[2018.07.30-02.57.10:309][  0]MapCheck: New page: Map Check
+[2018.07.30-02.57.10:309][  0]LightingResults: New page: Lighting Build
+[2018.07.30-02.57.12:144][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2018.07.30-02.57.12:646][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.07.30-02.57.12:771][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.07.30-02.57.12:889][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 117.562ms to complete.
+[2018.07.30-02.57.12:889][  0]LogFileHelpers: Loading map 'Template_Default' took 2.820
+[2018.07.30-02.57.15:512][  0]LogCollectionManager: Loaded 0 collections in 0.011156 seconds
+[2018.07.30-02.57.15:949][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Collections/' took 0.01s
+[2018.07.30-02.57.15:949][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Developers/Shweta/Collections/' took 0.01s
+[2018.07.30-02.57.15:949][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Collections/' took 0.01s
+[2018.07.30-02.57.15:949][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2018.07.30-02.57.16:024][  0]LogContentBrowser: Native class hierarchy populated in 0.0556 seconds. Added 2452 classes and 558 folders.
+[2018.07.30-02.57.16:275][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2018.07.30-02.57.18:574][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.07.30-02.57.18:675][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0010 seconds. Added 1 classes and 2 folders.
+[2018.07.30-02.57.26:514][  0]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2018.07.30-02.57.27:152][  0]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.Pinball
+[2018.07.30-02.57.27:152][  0]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.19\Engine\Binaries\DotNET\IOS
+[2018.07.30-02.57.27:152][  0]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.19
+[2018.07.30-02.57.27:152][  0]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.19\Engine\Binaries\DotNET\IOS
+[2018.07.30-02.57.27:152][  0]LogTemp: BranchPath = LAPTOP-SNI5BBA7/C/Program Files/Epic Games/UE_4.19/Engine/Binaries --- GameBranchPath = LAPTOP-SNI5BBA7/C/Program Files/Epic Games/UE_4.19/Engine/Binaries
+[2018.07.30-02.57.27:152][  0]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Shweta\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2018.07.30-02.57.27:152][  0]LogSlate: Took 0.036056 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.07.30-02.57.27:348][  0]LogSlate: Took 0.042043 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.07.30-02.57.27:604][  0]LogSlate: Took 0.044857 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.07.30-02.57.29:613][  0]LogRenderer: Reallocating scene render targets to support 884x372 Format 10 NumSamples 1 (Frame:1).
+[2018.07.30-02.57.34:815][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0012 seconds. Added 0 classes and 0 folders.
+[2018.07.30-02.57.34:815][  0]LogLoad: (Engine Initialization) Total time: 291.05 seconds
+[2018.07.30-02.57.34:815][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.07.30-02.57.36:701][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.07.30-02.57.39:379][  2]LogSlate: Took 0.024326 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.07.30-02.57.40:675][  6]LogAssetRegistry: Asset discovery search completed in 155.3159 seconds
+[2018.07.30-02.57.40:716][  6]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.07.30-02.57.40:717][  6]LogCollectionManager: Fixed up redirectors for 0 collections in 0.014230 seconds (updated 0 objects)
+[2018.07.30-02.57.41:834][  8]LogSlate: Took 0.000438 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.07.30-02.58.23:413][243]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.30-02.58.24:316][253]LogUObjectGlobals: Created PersistentFrame Addr=0x000002943c25da80, Size=368, Default__Ball_Blueprint_C Function /Game/Blueprints/Ball_Blueprint.Ball_Blueprint_C:ExecuteUbergraph_Ball_Blueprint
+[2018.07.30-02.58.24:361][253]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002943c25da80, Size=368
+[2018.07.30-02.58.24:361][253]LogUObjectGlobals: Created PersistentFrame Addr=0x000002940fcc3a00, Size=368, Default__Ball_Blueprint_C Function /Engine/Transient.REINST_Ball_Blueprint_C_7:ExecuteUbergraph_Ball_Blueprint
+[2018.07.30-02.58.24:455][253]LogUObjectGlobals: Created PersistentFrame Addr=0x000002940fcaeb00, Size=368, Default__Ball_Blueprint_C Function /Game/Blueprints/Ball_Blueprint.Ball_Blueprint_C:ExecuteUbergraph_Ball_Blueprint
+[2018.07.30-02.58.24:850][253]LogUObjectGlobals: Created PersistentFrame Addr=0x0000029463a3fb00, Size=8, Default__Flipper_Blueprint_C Function /Game/Blueprints/Flipper_Blueprint.Flipper_Blueprint_C:ExecuteUbergraph_Flipper_Blueprint
+[2018.07.30-02.58.24:922][253]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000029463a3fb00, Size=8
+[2018.07.30-02.58.24:922][253]LogUObjectGlobals: Created PersistentFrame Addr=0x0000029463a3fb00, Size=8, Default__Flipper_Blueprint_C Function /Engine/Transient.REINST_Flipper_Blueprint_C_9:ExecuteUbergraph_Flipper_Blueprint
+[2018.07.30-02.58.24:932][253]LogUObjectGlobals: Created PersistentFrame Addr=0x0000029463a3fd00, Size=8, Default__Flipper_Blueprint_C Function /Game/Blueprints/Flipper_Blueprint.Flipper_Blueprint_C:ExecuteUbergraph_Flipper_Blueprint
+[2018.07.30-02.58.25:056][253]LogUObjectGlobals: Created PersistentFrame Addr=0x00000294029a3ac0, Size=164, Default__Plunger_Blueprint_C Function /Game/Blueprints/Plunger_Blueprint.Plunger_Blueprint_C:ExecuteUbergraph_Plunger_Blueprint
+[2018.07.30-02.58.25:090][253]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000294029a3ac0, Size=164
+[2018.07.30-02.58.25:090][253]LogUObjectGlobals: Created PersistentFrame Addr=0x00000294029a3ac0, Size=164, Default__Plunger_Blueprint_C Function /Engine/Transient.REINST_Plunger_Blueprint_C_11:ExecuteUbergraph_Plunger_Blueprint
+[2018.07.30-02.58.25:144][253]LogUObjectGlobals: Created PersistentFrame Addr=0x00000294029a2680, Size=164, Default__Plunger_Blueprint_C Function /Game/Blueprints/Plunger_Blueprint.Plunger_Blueprint_C:ExecuteUbergraph_Plunger_Blueprint
+[2018.07.30-02.58.25:228][253]LogUObjectGlobals: Created PersistentFrame Addr=0x00000294029b7600, Size=320, Default__Pinball_Game_Mode_Blueprint_C Function /Game/Blueprints/Pinball_Game_Mode_Blueprint.Pinball_Game_Mode_Blueprint_C:ExecuteUbergraph_Pinball_Game_Mode_Blueprint
+[2018.07.30-02.58.25:245][253]LogUObjectGlobals: Created PersistentFrame Addr=0x00000294029c7400, Size=504, Default__Pinball_Player_Controller_Blueprint_C Function /Game/Blueprints/Pinball_Player_Controller_Blueprint.Pinball_Player_Controller_Blueprint_C:ExecuteUbergraph_Pinball_Player_Controller_Blueprint
+[2018.07.30-02.58.25:382][253]LogUObjectGlobals: Created PersistentFrame Addr=0x0000029402973780, Size=32, Default__High_Score_WidgetBlueprint_C Function /Game/Blueprints/High_Score_WidgetBlueprint.High_Score_WidgetBlueprint_C:ExecuteUbergraph_High_Score_WidgetBlueprint
+[2018.07.30-02.58.25:385][253]LogUObjectGlobals: Created PersistentFrame Addr=0x000002940fccb270, Size=104, Default__High_Score_Entry_WidgetBlueprint_C Function /Game/Blueprints/High_Score_Entry_WidgetBlueprint.High_Score_Entry_WidgetBlueprint_C:ExecuteUbergraph_High_Score_Entry_WidgetBlueprint
+[2018.07.30-02.58.25:442][253]LogUObjectGlobals: Created PersistentFrame Addr=0x0000029402973760, Size=32, Default__Main_Menu_WidgetBlueprint_C Function /Game/Blueprints/Main_Menu_WidgetBlueprint.Main_Menu_WidgetBlueprint_C:ExecuteUbergraph_Main_Menu_WidgetBlueprint
+[2018.07.30-02.58.25:915][253]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002940fccb270, Size=104
+[2018.07.30-02.58.25:915][253]LogUObjectGlobals: Created PersistentFrame Addr=0x0000029420dc2a20, Size=104, Default__High_Score_Entry_WidgetBlueprint_C Function /Engine/Transient.REINST_High_Score_Entry_WidgetBlueprint_C_0:ExecuteUbergraph_High_Score_Entry_WidgetBlueprint
+[2018.07.30-02.58.25:917][253]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000029402973780, Size=32
+[2018.07.30-02.58.25:917][253]LogUObjectGlobals: Created PersistentFrame Addr=0x000002940fbb2c80, Size=32, Default__High_Score_WidgetBlueprint_C Function /Engine/Transient.REINST_High_Score_WidgetBlueprint_C_1:ExecuteUbergraph_High_Score_WidgetBlueprint
+[2018.07.30-02.58.25:917][253]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000029402973760, Size=32
+[2018.07.30-02.58.25:918][253]LogUObjectGlobals: Created PersistentFrame Addr=0x000002940fbb2b80, Size=32, Default__Main_Menu_WidgetBlueprint_C Function /Engine/Transient.REINST_Main_Menu_WidgetBlueprint_C_2:ExecuteUbergraph_Main_Menu_WidgetBlueprint
+[2018.07.30-02.58.25:920][253]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000294029b7600, Size=320
+[2018.07.30-02.58.25:920][253]LogUObjectGlobals: Created PersistentFrame Addr=0x00000294029b7600, Size=320, Default__Pinball_Game_Mode_Blueprint_C Function /Engine/Transient.REINST_Pinball_Game_Mode_Blueprint_C_13:ExecuteUbergraph_Pinball_Game_Mode_Blueprint
+[2018.07.30-02.58.25:922][253]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000294029c7400, Size=504
+[2018.07.30-02.58.25:922][253]LogUObjectGlobals: Created PersistentFrame Addr=0x000002940fc06e00, Size=504, Default__Pinball_Player_Controller_Blueprint_C Function /Engine/Transient.REINST_Pinball_Player_Controller_Blueprint_C_14:ExecuteUbergraph_Pinball_Player_Controller_Blueprint
+[2018.07.30-02.58.26:180][253]LogUObjectGlobals: Created PersistentFrame Addr=0x000002940fb209c0, Size=104, Default__High_Score_Entry_WidgetBlueprint_C Function /Game/Blueprints/High_Score_Entry_WidgetBlueprint.High_Score_Entry_WidgetBlueprint_C:ExecuteUbergraph_High_Score_Entry_WidgetBlueprint
+[2018.07.30-02.58.26:216][253]LogUObjectGlobals: Created PersistentFrame Addr=0x0000029403d370a0, Size=32, Default__High_Score_WidgetBlueprint_C Function /Game/Blueprints/High_Score_WidgetBlueprint.High_Score_WidgetBlueprint_C:ExecuteUbergraph_High_Score_WidgetBlueprint
+[2018.07.30-02.58.26:219][253]LogUObjectGlobals: Created PersistentFrame Addr=0x0000029403d36520, Size=32, Default__Main_Menu_WidgetBlueprint_C Function /Game/Blueprints/Main_Menu_WidgetBlueprint.Main_Menu_WidgetBlueprint_C:ExecuteUbergraph_Main_Menu_WidgetBlueprint
+[2018.07.30-02.58.26:230][253]LogUObjectGlobals: Created PersistentFrame Addr=0x0000029403d62700, Size=320, Default__Pinball_Game_Mode_Blueprint_C Function /Game/Blueprints/Pinball_Game_Mode_Blueprint.Pinball_Game_Mode_Blueprint_C:ExecuteUbergraph_Pinball_Game_Mode_Blueprint
+[2018.07.30-02.58.26:235][253]LogUObjectGlobals: Created PersistentFrame Addr=0x0000029403ca3c00, Size=504, Default__Pinball_Player_Controller_Blueprint_C Function /Game/Blueprints/Pinball_Player_Controller_Blueprint.Pinball_Player_Controller_Blueprint_C:ExecuteUbergraph_Pinball_Player_Controller_Blueprint
+[2018.07.30-02.58.36:020][253]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0018 seconds. Added 116 classes and 0 folders.
+[2018.07.30-02.58.37:102][253]LogUObjectGlobals: Created PersistentFrame Addr=0x000002943db51b18, Size=4, Default__SKEL_PROTO_BP_AnimBlueprint_0_C Function /Engine/Transient.SKEL_PROTO_BP_AnimBlueprint_0_C:ExecuteUbergraph_PROTO_BP_AnimBlueprint_0
+[2018.07.30-02.58.37:144][253]LogUObjectGlobals: Created PersistentFrame Addr=0x000002943db51b10, Size=4, Default__PROTO_BP_AnimBlueprint_0_C Function /Engine/Transient.PROTO_BP_AnimBlueprint_0_C:ExecuteUbergraph_PROTO_BP_AnimBlueprint_0
+[2018.07.30-02.58.42:483][253]LogUObjectGlobals: Created PersistentFrame Addr=0x000002944601bb00, Size=272, Default__Drop_Target_Blueprint_C Function /Game/Blueprints/Drop_Target_Blueprint.Drop_Target_Blueprint_C:ExecuteUbergraph_Drop_Target_Blueprint
+[2018.07.30-02.58.42:511][253]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002944601bb00, Size=272
+[2018.07.30-02.58.42:511][253]LogUObjectGlobals: Created PersistentFrame Addr=0x000002944601bb00, Size=272, Default__Drop_Target_Blueprint_C Function /Engine/Transient.REINST_Drop_Target_Blueprint_C_35:ExecuteUbergraph_Drop_Target_Blueprint
+[2018.07.30-02.58.42:518][253]LogUObjectGlobals: Created PersistentFrame Addr=0x000002944601a840, Size=272, Default__Drop_Target_Blueprint_C Function /Game/Blueprints/Drop_Target_Blueprint.Drop_Target_Blueprint_C:ExecuteUbergraph_Drop_Target_Blueprint
+[2018.07.30-02.58.43:512][253]LogUObjectGlobals: Created PersistentFrame Addr=0x000002944c64e440, Size=88, Default__Drop_Target_Set_Blueprint_Child_C Function /Game/Blueprints/Drop_Target_Set_Blueprint_Child.Drop_Target_Set_Blueprint_Child_C:ExecuteUbergraph_Drop_Target_Set_Blueprint_Child
+[2018.07.30-02.58.43:587][253]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002944c64e440, Size=88
+[2018.07.30-02.58.43:587][253]LogUObjectGlobals: Created PersistentFrame Addr=0x000002944c64e440, Size=88, Default__Drop_Target_Set_Blueprint_Child_C Function /Engine/Transient.REINST_Drop_Target_Set_Blueprint_Child_C_37:ExecuteUbergraph_Drop_Target_Set_Blueprint_Child
+[2018.07.30-02.58.43:638][253]LogUObjectGlobals: Created PersistentFrame Addr=0x000002944c64cee0, Size=88, Default__Drop_Target_Set_Blueprint_Child_C Function /Game/Blueprints/Drop_Target_Set_Blueprint_Child.Drop_Target_Set_Blueprint_Child_C:ExecuteUbergraph_Drop_Target_Set_Blueprint_Child
+[2018.07.30-02.58.45:203][253]LogSlate: Took 0.039420 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.07.30-02.58.47:299][254]LogSlate: Took 0.036314 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.07.30-02.59.00:479][472]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000294029a3ac0, Size=164
+[2018.07.30-02.59.00:510][472]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000029463a3fb00, Size=8
+[2018.07.30-02.59.00:510][472]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002940fcc3a00, Size=368
+[2018.07.30-02.59.00:511][472]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000294029b7600, Size=320
+[2018.07.30-02.59.00:511][472]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002940fc06e00, Size=504
+[2018.07.30-02.59.00:511][472]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002940fbb2c80, Size=32
+[2018.07.30-02.59.00:511][472]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000029420dc2a20, Size=104
+[2018.07.30-02.59.00:511][472]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002940fbb2b80, Size=32
+[2018.07.30-02.59.00:511][472]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002944601bb00, Size=272
+[2018.07.30-02.59.00:511][472]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002944c64e440, Size=88
+[2018.07.30-02.59.00:797][472]Cmd: MAP LOAD FILE="../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Ball_Setup_Map.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.07.30-02.59.00:832][472]LightingResults: New page: Lighting Build
+[2018.07.30-02.59.00:836][472]LoadErrors: New page: Loading map: Ball_Setup_Map.umap
+[2018.07.30-02.59.00:987][472]MapCheck: New page: Map Check
+[2018.07.30-02.59.00:987][472]LightingResults: New page: Lighting Build
+[2018.07.30-02.59.01:522][472]LogUObjectGlobals: Created PersistentFrame Addr=0x000002949a264f80, Size=32, Default__Ball_Reset_Zone_Blueprint_C Function /Game/Blueprints/Ball_Reset_Zone_Blueprint.Ball_Reset_Zone_Blueprint_C:ExecuteUbergraph_Ball_Reset_Zone_Blueprint
+[2018.07.30-02.59.01:527][472]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002949a264f80, Size=32
+[2018.07.30-02.59.01:528][472]LogUObjectGlobals: Created PersistentFrame Addr=0x000002949a264f80, Size=32, Default__Ball_Reset_Zone_Blueprint_C Function /Engine/Transient.REINST_Ball_Reset_Zone_Blueprint_C_39:ExecuteUbergraph_Ball_Reset_Zone_Blueprint
+[2018.07.30-02.59.01:531][472]LogUObjectGlobals: Created PersistentFrame Addr=0x000002949a2647a0, Size=32, Default__Ball_Reset_Zone_Blueprint_C Function /Game/Blueprints/Ball_Reset_Zone_Blueprint.Ball_Reset_Zone_Blueprint_C:ExecuteUbergraph_Ball_Reset_Zone_Blueprint
+[2018.07.30-02.59.02:179][472]LogUObjectGlobals: Created PersistentFrame Addr=0x000002941ff16e80, Size=288, Default__Bumper_Blueprint_C Function /Game/Blueprints/Bumper_Blueprint.Bumper_Blueprint_C:ExecuteUbergraph_Bumper_Blueprint
+[2018.07.30-02.59.02:197][472]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002941ff16e80, Size=288
+[2018.07.30-02.59.02:197][472]LogUObjectGlobals: Created PersistentFrame Addr=0x000002941ff16e80, Size=288, Default__Bumper_Blueprint_C Function /Engine/Transient.REINST_Bumper_Blueprint_C_41:ExecuteUbergraph_Bumper_Blueprint
+[2018.07.30-02.59.02:209][472]LogUObjectGlobals: Created PersistentFrame Addr=0x000002941ff16700, Size=288, Default__Bumper_Blueprint_C Function /Game/Blueprints/Bumper_Blueprint.Bumper_Blueprint_C:ExecuteUbergraph_Bumper_Blueprint
+[2018.07.30-02.59.04:290][472]LogAIModule: Creating AISystem for world Ball_Setup_Map
+[2018.07.30-02.59.04:935][472]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.07.30-02.59.04:995][472]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002949a264f80, Size=32
+[2018.07.30-02.59.04:995][472]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002941ff16e80, Size=288
+[2018.07.30-02.59.05:059][472]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.07.30-02.59.05:110][472]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 50.258ms to complete.
+[2018.07.30-02.59.05:110][472]LogFileHelpers: Loading map 'Ball_Setup_Map' took 4.434
+[2018.07.30-02.59.05:164][472]LogSlate: Window 'Open Level' being destroyed
+[2018.07.30-02.59.21:162][275]LogSlate: Window 'Drop_Target_Blueprint' being destroyed
+[2018.07.30-02.59.43:634][606]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\Shweta\Desktop\PinballAssets\PinballAssets\SK_Slingband.FBX)
+[2018.07.30-02.59.44:384][606]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2018.07.30-02.59.44:384][606]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2018.07.30-02.59.44:385][606]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2018.07.30-02.59.44:385][606]LogFbx: ItemName: Model, ItemCount : 6
+[2018.07.30-02.59.44:385][606]LogFbx: ItemName: NodeAttribute, ItemCount : 4
+[2018.07.30-02.59.44:385][606]LogFbx: ItemName: Geometry, ItemCount : 1
+[2018.07.30-02.59.44:385][606]LogFbx: ItemName: Material, ItemCount : 1
+[2018.07.30-02.59.44:385][606]LogFbx: ItemName: Deformer, ItemCount : 5
+[2018.07.30-02.59.44:385][606]LogFbx: ItemName: Pose, ItemCount : 1
+[2018.07.30-02.59.44:489][606]LogFbx: Loading FBX Scene from C:\Users\Shweta\Desktop\PinballAssets\PinballAssets\SK_Slingband.FBX
+[2018.07.30-02.59.44:770][606]LogFbx: FBX Scene Loaded Succesfully
+[2018.07.30-02.59.47:395][606]LogSlate: Window 'FBX Import Options' being destroyed
+[2018.07.30-02.59.47:545][606]LogFbx: Loading FBX Scene from C:\Users\Shweta\Desktop\PinballAssets\PinballAssets\SK_Slingband.FBX
+[2018.07.30-02.59.47:565][606]LogFbx: FBX Scene Loaded Succesfully
+[2018.07.30-02.59.47:577][606]LogFbx: =================================================
+[2018.07.30-02.59.47:577][606]LogFbx: Dumping Node START [SK_Slingband] 
+[2018.07.30-02.59.47:577][606]LogFbx: 	Total Deformer Count 1684815792.
+[2018.07.30-02.59.47:577][606]LogFbx: 		[Node 1]  (Type Skin).
+[2018.07.30-02.59.47:577][606]LogFbx: =================================================
+[2018.07.30-02.59.47:577][606]LogFbx: 	Attribute (SK_Slingband) Type (4).
+[2018.07.30-02.59.47:577][606]LogFbx: 		[Node Attribute Child 1] SK_Slingband (Type Mesh).
+[2018.07.30-02.59.47:577][606]LogFbx: Dumping Node END [SK_Slingband]
+[2018.07.30-02.59.47:577][606]LogFbx: =================================================
+[2018.07.30-02.59.47:577][606]LogFbx: Dumping Node START [SK_Slingband] 
+[2018.07.30-02.59.47:577][606]LogFbx: 	Total Deformer Count 1684815792.
+[2018.07.30-02.59.47:577][606]LogFbx: 		[Node 1]  (Type Skin).
+[2018.07.30-02.59.47:577][606]LogFbx: =================================================
+[2018.07.30-02.59.47:577][606]LogFbx: 	Attribute (SK_Slingband) Type (4).
+[2018.07.30-02.59.47:577][606]LogFbx: 		[Node Attribute Child 1] SK_Slingband (Type Mesh).
+[2018.07.30-02.59.47:577][606]LogFbx: Dumping Node END [SK_Slingband]
+[2018.07.30-02.59.47:577][606]LogFbx: =================================================
+[2018.07.30-02.59.47:577][606]LogFbx: Dumping Node START [SK_Slingband] 
+[2018.07.30-02.59.47:577][606]LogFbx: 	Total Deformer Count 1684815152.
+[2018.07.30-02.59.47:577][606]LogFbx: 		[Node 1]  (Type Skin).
+[2018.07.30-02.59.47:577][606]LogFbx: =================================================
+[2018.07.30-02.59.47:578][606]LogFbx: 	Attribute (SK_Slingband) Type (4).
+[2018.07.30-02.59.47:578][606]LogFbx: 		[Node Attribute Child 1] SK_Slingband (Type Mesh).
+[2018.07.30-02.59.47:578][606]LogFbx: Dumping Node END [SK_Slingband]
+[2018.07.30-02.59.47:585][606]LogFbx: Valid bind pose for Pose (SK_Slingband) - SK_Slingband
+[2018.07.30-02.59.47:736][606]LogFbx: Warning: Bones digested - 4  Depth of hierarchy - 3
+[2018.07.30-02.59.47:943][606]LogSkeletalMesh: Section 0: 360 vertices, 1 active bones
+[2018.07.30-02.59.47:945][606]LogSkeletalMesh: Section 0: Material=0, 624 triangles
+[2018.07.30-02.59.48:075][606]LogSkeletalMesh: Building Skeletal Mesh SK_Slingband...
+[2018.07.30-02.59.48:131][606]LogSkeletalMesh: Built Skeletal Mesh [0.13s] /Game/Assets/SK_Slingband.SK_Slingband
+[2018.07.30-02.59.48:198][606]LogLinker: Can't find file '/Game/Assets/SK_Slingband_Skeleton'
+[2018.07.30-02.59.48:198][606]LogLinker: Can't find file '/Game/Assets/SK_Slingband_Skeleton'
+[2018.07.30-02.59.48:275][606]LogLinker: Can't find file '/Game/Assets/SK_Slingband_PhysicsAsset'
+[2018.07.30-02.59.48:276][606]LogLinker: Can't find file '/Game/Assets/SK_Slingband_PhysicsAsset'
+[2018.07.30-02.59.48:769][606]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2018.07.30-02.59.48:950][606]LogSkeletalMesh: Building Skeletal Mesh SK_Slingband...
+[2018.07.30-02.59.48:953][606]LogSkeletalMesh: Built Skeletal Mesh [0.08s] /Game/Assets/SK_Slingband.SK_Slingband
+[2018.07.30-03.00.15:150][684]LogSlate: Window 'Message Log' being destroyed
+[2018.07.30-03.00.15:154][684]LogSlate: Window 'Message Log' being destroyed
+[2018.07.30-03.00.35:392][956]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0014 seconds. Added 1 classes and 2 folders.
+[2018.07.30-03.00.37:666][956]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_16:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.07.30-03.00.37:923][956]LogContentBrowser: Native class hierarchy updated for 'PinnedCommandList' in 0.0012 seconds. Added 1 classes and 0 folders.
+[2018.07.30-03.00.38:583][956]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_16:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2018.07.30-03.00.42:947][956]LogContentBrowser: Native class hierarchy updated for 'ClothingSystemEditorInterface' in 0.0007 seconds. Added 1 classes and 0 folders.
+[2018.07.30-03.00.43:192][957]LogRenderer: Reallocating scene render targets to support 884x576 Format 10 NumSamples 1 (Frame:1).
+[2018.07.30-03.01.06:892][404]LogSlate: Window 'Delete Assets' being destroyed
+[2018.07.30-03.01.07:370][404]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.07.30-03.01.07:510][404]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.07.30-03.01.07:609][404]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.07.30-03.01.10:766][404]LogSkeletalMesh: Building Skeletal Mesh SK_Slingband...
+[2018.07.30-03.01.10:767][404]LogSkeletalMesh: Built Skeletal Mesh [0.02s] /Game/Assets/SK_Slingband.SK_Slingband
+[2018.07.30-03.01.10:811][404]LogSkeletalMesh: Building Skeletal Mesh SK_Slingband...
+[2018.07.30-03.01.10:814][404]LogSkeletalMesh: Built Skeletal Mesh [0.05s] /Game/Assets/SK_Slingband.SK_Slingband
+[2018.07.30-03.02.08:609][947]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\Shweta\Desktop\PinballAssets\PinballAssets\SM_SlingbandMT.FBX)
+[2018.07.30-03.02.08:616][947]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2018.07.30-03.02.08:617][947]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2018.07.30-03.02.08:617][947]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2018.07.30-03.02.08:617][947]LogFbx: ItemName: Model, ItemCount : 1
+[2018.07.30-03.02.08:617][947]LogFbx: ItemName: Geometry, ItemCount : 1
+[2018.07.30-03.02.08:617][947]LogFbx: ItemName: Material, ItemCount : 3
+[2018.07.30-03.02.08:617][947]LogFbx: ItemName: Texture, ItemCount : 1
+[2018.07.30-03.02.08:617][947]LogFbx: ItemName: AnimationCurve, ItemCount : 3
+[2018.07.30-03.02.08:617][947]LogFbx: ItemName: AnimationCurveNode, ItemCount : 1
+[2018.07.30-03.02.08:617][947]LogFbx: ItemName: Video, ItemCount : 1
+[2018.07.30-03.02.08:625][947]LogFbx: Loading FBX Scene from C:\Users\Shweta\Desktop\PinballAssets\PinballAssets\SM_SlingbandMT.FBX
+[2018.07.30-03.02.09:044][947]LogFbx: FBX Scene Loaded Succesfully
+[2018.07.30-03.02.11:390][947]LogSlate: Window 'FBX Import Options' being destroyed
+[2018.07.30-03.02.11:428][947]LogFbx: Loading FBX Scene from C:\Users\Shweta\Desktop\PinballAssets\PinballAssets\SM_SlingbandMT.FBX
+[2018.07.30-03.02.11:441][947]LogFbx: FBX Scene Loaded Succesfully
+[2018.07.30-03.02.12:774][947]LogStaticMesh: Building static mesh SM_SlingbandMT...
+[2018.07.30-03.02.13:136][947]LogStaticMesh: Built static mesh [0.67s] /Game/Assets/SM_SlingbandMT.SM_SlingbandMT
+[2018.07.30-03.02.24:523][ 32]LogRenderer: Reallocating scene render targets to support 1016x612 Format 10 NumSamples 1 (Frame:38).
+[2018.07.30-03.02.25:409][ 63]LogSlate: Window 'SM_SlingbandMT*' being destroyed
+[2018.07.30-03.03.16:707][557]LogMaterial: Missing cached shader map for material Morph_Band_Material, compiling. 
+[2018.07.30-03.03.17:328][557]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.07.30-03.03.17:329][557]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.07.30-03.03.17:329][557]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.07.30-03.03.17:919][557]LogMaterial: Missing cached shader map for material Morph_Band_Material, compiling. 
+[2018.07.30-03.03.18:240][557]LogMaterial: Missing cached shader map for material Morph_Band_Material, compiling. 
+[2018.07.30-03.03.24:482][662]LogMaterial: Missing cached shader map for material Morph_Band_Material, compiling. 
+[2018.07.30-03.03.24:690][662]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.07.30-03.03.27:704][700]LogMaterial: Missing cached shader map for material Morph_Band_Material, compiling. 
+[2018.07.30-03.03.27:767][700]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.07.30-03.03.31:592][758]LogMaterial: Missing cached shader map for material Morph_Band_Material, compiling. 
+[2018.07.30-03.03.34:170][797]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.07.30-03.03.34:461][798]LogShaderCompilers: Display: Shaders left to compile 17
+[2018.07.30-03.03.34:461][798]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.07.30-03.03.34:461][798]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.07.30-03.03.36:296][798]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.07.30-03.03.36:296][798]LogShaderCompilers: Display: Shaders left to compile 13
+[2018.07.30-03.03.36:296][798]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.07.30-03.03.36:296][798]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.07.30-03.03.36:296][798]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.07.30-03.03.36:296][798]LogShaderCompilers: Display: Shaders left to compile 9
+[2018.07.30-03.03.36:296][798]LogShaderCompilers: Display: Shaders left to compile 8
+[2018.07.30-03.03.36:296][798]LogShaderCompilers: Display: Shaders left to compile 7
+[2018.07.30-03.03.36:296][798]LogShaderCompilers: Display: Shaders left to compile 6
+[2018.07.30-03.03.36:296][798]LogShaderCompilers: Display: Shaders left to compile 5
+[2018.07.30-03.03.36:296][798]LogShaderCompilers: Display: Shaders left to compile 4
+[2018.07.30-03.03.36:296][798]LogShaderCompilers: Display: Shaders left to compile 3
+[2018.07.30-03.03.36:296][798]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.07.30-03.03.36:439][799]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.07.30-03.03.38:678][833]MaterialEditorStats: Base pass shader: 99 instructions
+[2018.07.30-03.03.38:678][833]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 172 instructions
+[2018.07.30-03.03.38:678][833]MaterialEditorStats: Vertex shader: 34 instructions
+[2018.07.30-03.03.38:678][833]MaterialEditorStats: Texture samplers: 2/16
+[2018.07.30-03.03.42:491][891]LogMaterial: Missing cached shader map for material Morph_Band_Material, compiling. 
+[2018.07.30-03.03.42:675][891]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.07.30-03.03.42:675][891]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.07.30-03.03.42:675][891]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.07.30-03.03.42:675][891]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.07.30-03.03.42:804][891]LogMaterial: Missing cached shader map for material Morph_Band_Material, compiling. 
+[2018.07.30-03.03.42:813][891]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.07.30-03.03.42:835][892]LogShaderCompilers: Display: Shaders left to compile 17
+[2018.07.30-03.03.42:835][892]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.07.30-03.03.44:252][913]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.07.30-03.03.44:281][913]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.07.30-03.03.44:523][917]LogShaderCompilers: Display: Shaders left to compile 13
+[2018.07.30-03.03.45:842][933]LogMaterial: Missing cached shader map for material Morph_Band_Material, compiling. 
+[2018.07.30-03.03.45:870][933]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.07.30-03.03.45:911][935]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.07.30-03.03.45:941][937]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.07.30-03.03.46:347][961]LogShaderCompilers: Display: Shaders left to compile 13
+[2018.07.30-03.03.46:382][963]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.07.30-03.03.46:415][965]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.07.30-03.03.46:661][979]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.07.30-03.03.46:693][981]LogShaderCompilers: Display: Shaders left to compile 9
+[2018.07.30-03.03.46:795][987]LogShaderCompilers: Display: Shaders left to compile 8
+[2018.07.30-03.03.46:966][997]LogShaderCompilers: Display: Shaders left to compile 7
+[2018.07.30-03.03.47:378][ 21]LogShaderCompilers: Display: Shaders left to compile 6
+[2018.07.30-03.03.47:429][ 24]LogShaderCompilers: Display: Shaders left to compile 5
+[2018.07.30-03.03.47:561][ 32]LogShaderCompilers: Display: Shaders left to compile 4
+[2018.07.30-03.03.47:961][ 55]LogShaderCompilers: Display: Shaders left to compile 3
+[2018.07.30-03.03.48:221][ 70]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.07.30-03.03.48:279][ 72]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.07.30-03.03.48:355][ 72]LogMaterial: Missing cached shader map for material Morph_Band_Material, compiling. 
+[2018.07.30-03.03.48:405][ 72]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.07.30-03.03.48:405][ 72]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.07.30-03.03.49:386][ 87]LogShaderCompilers: Display: Shaders left to compile 17
+[2018.07.30-03.03.50:257][ 99]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.07.30-03.03.50:308][100]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.07.30-03.03.50:382][100]LogMaterial: Missing cached shader map for material Morph_Band_Material, compiling. 
+[2018.07.30-03.03.50:463][100]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.07.30-03.03.50:588][103]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.07.30-03.03.51:287][113]LogShaderCompilers: Display: Shaders left to compile 17
+[2018.07.30-03.03.51:474][116]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.07.30-03.03.52:558][137]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.07.30-03.03.52:748][148]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.07.30-03.03.52:816][152]LogShaderCompilers: Display: Shaders left to compile 13
+[2018.07.30-03.03.53:088][168]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.07.30-03.03.53:300][180]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.07.30-03.03.53:366][184]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.07.30-03.03.53:467][190]LogShaderCompilers: Display: Shaders left to compile 9
+[2018.07.30-03.03.54:101][227]LogShaderCompilers: Display: Shaders left to compile 8
+[2018.07.30-03.03.54:465][248]LogShaderCompilers: Display: Shaders left to compile 7
+[2018.07.30-03.03.54:518][251]LogShaderCompilers: Display: Shaders left to compile 6
+[2018.07.30-03.03.54:747][263]LogMaterial: Missing cached shader map for material Morph_Band_Material, compiling. 
+[2018.07.30-03.03.54:783][263]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.07.30-03.03.55:657][276]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.07.30-03.03.56:133][290]LogShaderCompilers: Display: Shaders left to compile 17
+[2018.07.30-03.03.56:463][309]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.07.30-03.03.56:545][314]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.07.30-03.03.56:817][330]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.07.30-03.03.57:035][335]LogShaderCompilers: Display: Shaders left to compile 13
+[2018.07.30-03.03.57:035][335]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.07.30-03.03.57:265][349]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.07.30-03.03.57:542][365]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.07.30-03.03.57:627][370]LogShaderCompilers: Display: Shaders left to compile 9
+[2018.07.30-03.03.58:330][411]LogShaderCompilers: Display: Shaders left to compile 8
+[2018.07.30-03.03.58:380][414]LogShaderCompilers: Display: Shaders left to compile 7
+[2018.07.30-03.03.58:573][424]LogMaterial: Missing cached shader map for material Morph_Band_Material, compiling. 
+[2018.07.30-03.03.58:613][424]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.07.30-03.03.58:660][425]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.07.30-03.04.00:311][462]LogShaderCompilers: Display: Shaders left to compile 17
+[2018.07.30-03.04.00:504][473]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.07.30-03.04.00:589][478]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.07.30-03.04.00:979][501]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.07.30-03.04.01:153][511]LogShaderCompilers: Display: Shaders left to compile 13
+[2018.07.30-03.04.01:153][511]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.07.30-03.04.01:543][534]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.07.30-03.04.01:651][540]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.07.30-03.04.01:702][543]LogShaderCompilers: Display: Shaders left to compile 9
+[2018.07.30-03.04.02:390][583]LogShaderCompilers: Display: Shaders left to compile 8
+[2018.07.30-03.04.02:580][594]LogShaderCompilers: Display: Shaders left to compile 7
+[2018.07.30-03.04.02:669][599]LogShaderCompilers: Display: Shaders left to compile 6
+[2018.07.30-03.04.03:312][637]LogShaderCompilers: Display: Shaders left to compile 5
+[2018.07.30-03.04.03:570][652]LogShaderCompilers: Display: Shaders left to compile 4
+[2018.07.30-03.04.03:775][664]LogShaderCompilers: Display: Shaders left to compile 3
+[2018.07.30-03.04.04:204][689]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.07.30-03.04.04:446][703]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.07.30-03.04.10:754][ 72]LogMaterial: Missing cached shader map for material Morph_Band_Material, compiling. 
+[2018.07.30-03.04.10:787][ 72]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.07.30-03.04.10:787][ 72]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.07.30-03.04.10:788][ 72]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.07.30-03.04.10:829][ 72]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.07.30-03.04.12:366][ 95]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.07.30-03.04.12:451][ 98]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.07.30-03.04.12:468][ 99]LogShaderCompilers: Display: Shaders left to compile 13
+[2018.07.30-03.04.12:756][116]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.07.30-03.04.12:821][120]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.07.30-03.04.12:839][121]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.07.30-03.04.13:189][141]LogShaderCompilers: Display: Shaders left to compile 9
+[2018.07.30-03.04.13:754][174]LogShaderCompilers: Display: Shaders left to compile 8
+[2018.07.30-03.04.13:874][181]LogShaderCompilers: Display: Shaders left to compile 7
+[2018.07.30-03.04.13:874][181]LogShaderCompilers: Display: Shaders left to compile 6
+[2018.07.30-03.04.14:661][227]LogShaderCompilers: Display: Shaders left to compile 5
+[2018.07.30-03.04.14:785][234]LogShaderCompilers: Display: Shaders left to compile 4
+[2018.07.30-03.04.15:020][248]LogShaderCompilers: Display: Shaders left to compile 3
+[2018.07.30-03.04.15:689][283]LogMaterial: Missing cached shader map for material Morph_Band_Material, compiling. 
+[2018.07.30-03.04.15:711][283]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.07.30-03.04.17:051][302]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.07.30-03.04.17:052][302]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.07.30-03.04.17:052][302]LogMaterial: Missing cached shader map for material Morph_Band_Material, compiling. 
+[2018.07.30-03.04.17:062][302]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.07.30-03.04.17:105][302]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.07.30-03.04.17:133][302]LogSlate: Window 'Color Picker' being destroyed
+[2018.07.30-03.04.17:800][313]LogShaderCompilers: Display: Shaders left to compile 17
+[2018.07.30-03.04.18:273][320]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.07.30-03.04.18:571][324]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.07.30-03.04.19:484][337]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.07.30-03.04.19:972][344]LogShaderCompilers: Display: Shaders left to compile 13
+[2018.07.30-03.04.20:009][344]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.07.30-03.04.20:417][355]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.07.30-03.04.20:568][364]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.07.30-03.04.20:586][365]LogShaderCompilers: Display: Shaders left to compile 9
+[2018.07.30-03.04.20:817][373]LogMaterial: Missing cached shader map for material Morph_Band_Material, compiling. 
+[2018.07.30-03.04.20:836][373]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.07.30-03.04.21:497][384]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.07.30-03.04.22:160][393]LogShaderCompilers: Display: Shaders left to compile 17
+[2018.07.30-03.04.22:340][401]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.07.30-03.04.22:526][412]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.07.30-03.04.22:753][425]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.07.30-03.04.22:905][434]LogShaderCompilers: Display: Shaders left to compile 13
+[2018.07.30-03.04.22:957][437]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.07.30-03.04.23:093][445]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.07.30-03.04.23:861][460]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.07.30-03.04.24:000][462]LogShaderCompilers: Display: Shaders left to compile 9
+[2018.07.30-03.04.25:485][483]LogShaderCompilers: Display: Shaders left to compile 8
+[2018.07.30-03.04.26:346][495]LogShaderCompilers: Display: Shaders left to compile 7
+[2018.07.30-03.04.26:751][500]LogMaterial: Missing cached shader map for material Morph_Band_Material, compiling. 
+[2018.07.30-03.04.26:847][501]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.07.30-03.04.27:905][518]LogShaderCompilers: Display: Shaders left to compile 17
+[2018.07.30-03.04.28:862][531]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.07.30-03.04.29:164][541]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.07.30-03.04.29:265][545]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.07.30-03.04.29:529][561]LogShaderCompilers: Display: Shaders left to compile 13
+[2018.07.30-03.04.29:734][573]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.07.30-03.04.29:752][574]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.07.30-03.04.29:874][581]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.07.30-03.04.30:078][593]LogShaderCompilers: Display: Shaders left to compile 9
+[2018.07.30-03.04.30:114][595]LogShaderCompilers: Display: Shaders left to compile 8
+[2018.07.30-03.04.30:267][604]LogShaderCompilers: Display: Shaders left to compile 7
+[2018.07.30-03.04.30:698][629]LogShaderCompilers: Display: Shaders left to compile 6
+[2018.07.30-03.04.30:753][629]LogMaterial: Missing cached shader map for material Morph_Band_Material, compiling. 
+[2018.07.30-03.04.30:900][632]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.07.30-03.04.31:190][636]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.07.30-03.04.32:437][661]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.07.30-03.04.32:487][664]LogShaderCompilers: Display: Shaders left to compile 13
+[2018.07.30-03.04.32:728][678]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.07.30-03.04.32:860][686]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.07.30-03.04.32:929][690]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.07.30-03.04.33:048][697]LogShaderCompilers: Display: Shaders left to compile 9
+[2018.07.30-03.04.33:219][707]LogShaderCompilers: Display: Shaders left to compile 8
+[2018.07.30-03.04.33:269][710]LogShaderCompilers: Display: Shaders left to compile 7
+[2018.07.30-03.04.33:648][732]LogShaderCompilers: Display: Shaders left to compile 6
+[2018.07.30-03.04.34:329][745]LogShaderCompilers: Display: Shaders left to compile 5
+[2018.07.30-03.04.35:417][757]LogShaderCompilers: Display: Shaders left to compile 4
+[2018.07.30-03.04.35:759][758]LogShaderCompilers: Display: Shaders left to compile 3
+[2018.07.30-03.04.35:759][758]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.07.30-03.04.35:759][758]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.07.30-03.04.36:420][759]MaterialEditorStats: Base pass shader: 101 instructions
+[2018.07.30-03.04.36:420][759]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 174 instructions
+[2018.07.30-03.04.36:420][759]MaterialEditorStats: Vertex shader: 34 instructions
+[2018.07.30-03.04.36:420][759]MaterialEditorStats: Texture samplers: 2/16
+[2018.07.30-03.05.09:398][660]LogMaterial: Missing cached shader map for material Morph_Band_Material, compiling. 
+[2018.07.30-03.05.09:588][661]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.07.30-03.05.09:588][661]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.07.30-03.05.09:588][661]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.07.30-03.05.09:633][661]LogMaterial: Missing cached shader map for material Material_0, compiling. 
+[2018.07.30-03.05.11:631][696]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.07.30-03.05.11:665][698]LogShaderCompilers: Display: Shaders left to compile 17
+[2018.07.30-03.05.11:682][699]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.07.30-03.05.11:975][716]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.07.30-03.05.11:996][717]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.07.30-03.05.11:996][717]LogShaderCompilers: Display: Shaders left to compile 13
+[2018.07.30-03.05.12:280][734]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.07.30-03.05.13:614][764]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.07.30-03.05.13:686][765]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.07.30-03.05.14:135][771]LogShaderCompilers: Display: Shaders left to compile 9
+[2018.07.30-03.05.14:797][773]LogShaderCompilers: Display: Shaders left to compile 8
+[2018.07.30-03.05.14:797][773]LogShaderCompilers: Display: Shaders left to compile 7
+[2018.07.30-03.05.14:797][773]LogShaderCompilers: Display: Shaders left to compile 6
+[2018.07.30-03.05.15:626][775]LogShaderCompilers: Display: Shaders left to compile 5
+[2018.07.30-03.05.15:948][775]MaterialEditorStats: Base pass shader: 101 instructions
+[2018.07.30-03.05.15:948][775]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 174 instructions
+[2018.07.30-03.05.15:948][775]MaterialEditorStats: Vertex shader: 34 instructions
+[2018.07.30-03.05.15:948][775]MaterialEditorStats: Texture samplers: 2/16
+[2018.07.30-03.05.36:824][883]LogMaterialEditor: Applying material Morph_Band_Material
+[2018.07.30-03.05.42:683][883]LogMaterial: Missing cached shader map for material Morph_Band_Material, compiling. 
+[2018.07.30-03.05.42:833][883]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.07.30-03.05.42:833][883]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.07.30-03.05.42:833][883]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.07.30-03.05.42:996][883]LogMaterial: Missing cached shader map for material Morph_Band_Material, compiling. 
+[2018.07.30-03.05.43:036][883]LogMaterial: Missing cached shader map for material Morph_Band_Material, compiling. 
+[2018.07.30-03.05.43:147][883]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Morph_Band_Material, compiling. 
+[2018.07.30-03.05.44:925][883]LogShaderCompilers: Display: Shaders left to compile 36
+[2018.07.30-03.05.44:925][883]LogShaderCompilers: Display: Shaders left to compile 35
+[2018.07.30-03.05.44:925][883]LogShaderCompilers: Display: Shaders left to compile 34
+[2018.07.30-03.05.44:925][883]LogShaderCompilers: Display: Shaders left to compile 33
+[2018.07.30-03.05.44:925][883]LogShaderCompilers: Display: Shaders left to compile 32
+[2018.07.30-03.05.44:925][883]LogShaderCompilers: Display: Shaders left to compile 31
+[2018.07.30-03.05.44:925][883]LogShaderCompilers: Display: Shaders left to compile 30
+[2018.07.30-03.05.44:925][883]LogShaderCompilers: Display: Shaders left to compile 29
+[2018.07.30-03.05.44:925][883]LogShaderCompilers: Display: Shaders left to compile 28
+[2018.07.30-03.05.44:925][883]LogShaderCompilers: Display: Shaders left to compile 27
+[2018.07.30-03.05.44:925][883]LogShaderCompilers: Display: Shaders left to compile 26
+[2018.07.30-03.05.44:925][883]LogShaderCompilers: Display: Shaders left to compile 25
+[2018.07.30-03.05.44:925][883]LogShaderCompilers: Display: Shaders left to compile 24
+[2018.07.30-03.05.44:925][883]LogShaderCompilers: Display: Shaders left to compile 23
+[2018.07.30-03.05.44:925][883]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.07.30-03.05.44:925][883]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.07.30-03.05.44:925][883]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.07.30-03.05.44:945][883]TextureStreamingBuild: Display: Compiling optional shaders took 1.843 seconds.
+[2018.07.30-03.05.53:347][ 18]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.30-03.05.57:680][ 83]MaterialEditorStats: Base pass shader: 101 instructions
+[2018.07.30-03.05.57:680][ 83]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 174 instructions
+[2018.07.30-03.05.57:680][ 83]MaterialEditorStats: Vertex shader: 34 instructions
+[2018.07.30-03.05.57:680][ 83]MaterialEditorStats: Texture samplers: 3/16
+[2018.07.30-03.06.03:391][178]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.30-03.06.07:866][337]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.30-03.06.08:279][341]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/SM_SlingbandMT" FILE="../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Assets/SM_SlingbandMT.uasset" SILENT=true
+[2018.07.30-03.06.08:489][341]LogSavePackage: Save=154.56ms
+[2018.07.30-03.06.08:489][341]LogSavePackage: Moving '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/SM_SlingbandMT9C25DCDD4A7EF3861053B1876999FD17.tmp' to '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Assets/SM_SlingbandMT.uasset'
+[2018.07.30-03.06.08:509][341]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Assets/SM_SlingbandMT.uasset
+[2018.07.30-03.06.09:749][369]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.30-03.06.40:408][100]LogMaterial: Missing cached shader map for material Morph_Band_Material, compiling. 
+[2018.07.30-03.06.40:474][101]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.07.30-03.06.40:474][101]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.07.30-03.06.40:474][101]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.07.30-03.06.41:961][137]LogShaderCompilers: Display: Shaders left to compile 13
+[2018.07.30-03.06.41:977][138]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.07.30-03.06.41:994][139]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.07.30-03.06.42:291][156]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.07.30-03.06.42:291][156]LogShaderCompilers: Display: Shaders left to compile 9
+[2018.07.30-03.06.42:308][157]LogShaderCompilers: Display: Shaders left to compile 8
+[2018.07.30-03.06.42:552][171]LogShaderCompilers: Display: Shaders left to compile 7
+[2018.07.30-03.06.44:274][195]LogShaderCompilers: Display: Shaders left to compile 6
+[2018.07.30-03.06.44:274][195]LogShaderCompilers: Display: Shaders left to compile 5
+[2018.07.30-03.06.44:274][195]LogShaderCompilers: Display: Shaders left to compile 4
+[2018.07.30-03.06.44:622][196]LogShaderCompilers: Display: Shaders left to compile 3
+[2018.07.30-03.06.44:622][196]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.07.30-03.06.44:941][197]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.07.30-03.06.45:271][197]MaterialEditorStats: Base pass shader: 101 instructions
+[2018.07.30-03.06.45:271][197]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 174 instructions
+[2018.07.30-03.06.45:271][197]MaterialEditorStats: Vertex shader: 34 instructions
+[2018.07.30-03.06.45:271][197]MaterialEditorStats: Texture samplers: 2/16
+[2018.07.30-03.06.52:926][286]LogMaterial: Missing cached shader map for material Morph_Band_Material, compiling. 
+[2018.07.30-03.06.52:967][287]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.07.30-03.06.52:967][287]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.07.30-03.06.52:968][287]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.07.30-03.06.54:389][305]LogShaderCompilers: Display: Shaders left to compile 13
+[2018.07.30-03.06.54:389][305]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.07.30-03.06.54:389][305]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.07.30-03.06.54:808][306]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.07.30-03.06.54:809][306]LogShaderCompilers: Display: Shaders left to compile 9
+[2018.07.30-03.06.54:809][306]LogShaderCompilers: Display: Shaders left to compile 8
+[2018.07.30-03.06.55:084][307]LogShaderCompilers: Display: Shaders left to compile 7
+[2018.07.30-03.06.55:411][308]LogShaderCompilers: Display: Shaders left to compile 6
+[2018.07.30-03.06.55:411][308]LogShaderCompilers: Display: Shaders left to compile 5
+[2018.07.30-03.06.55:411][308]LogShaderCompilers: Display: Shaders left to compile 4
+[2018.07.30-03.06.55:765][309]LogShaderCompilers: Display: Shaders left to compile 3
+[2018.07.30-03.06.56:088][310]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.07.30-03.06.56:089][310]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.07.30-03.06.56:755][311]MaterialEditorStats: Base pass shader: 101 instructions
+[2018.07.30-03.06.56:755][311]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 174 instructions
+[2018.07.30-03.06.56:755][311]MaterialEditorStats: Vertex shader: 34 instructions
+[2018.07.30-03.06.56:755][311]MaterialEditorStats: Texture samplers: 2/16
+[2018.07.30-03.07.14:866][397]LogMaterial: Missing cached shader map for material Morph_Band_Material, compiling. 
+[2018.07.30-03.07.15:022][398]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.07.30-03.07.15:022][398]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.07.30-03.07.15:022][398]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.07.30-03.07.16:629][421]LogShaderCompilers: Display: Shaders left to compile 13
+[2018.07.30-03.07.16:691][422]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.07.30-03.07.16:869][424]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.07.30-03.07.17:571][434]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.07.30-03.07.17:653][435]LogShaderCompilers: Display: Shaders left to compile 9
+[2018.07.30-03.07.17:862][438]LogShaderCompilers: Display: Shaders left to compile 8
+[2018.07.30-03.07.18:515][447]LogShaderCompilers: Display: Shaders left to compile 7
+[2018.07.30-03.07.19:685][463]LogShaderCompilers: Display: Shaders left to compile 6
+[2018.07.30-03.07.20:041][468]LogShaderCompilers: Display: Shaders left to compile 5
+[2018.07.30-03.07.20:165][470]LogShaderCompilers: Display: Shaders left to compile 4
+[2018.07.30-03.07.21:416][487]LogShaderCompilers: Display: Shaders left to compile 3
+[2018.07.30-03.07.22:227][498]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.07.30-03.07.22:660][504]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.07.30-03.07.24:133][524]MaterialEditorStats: Base pass shader: 101 instructions
+[2018.07.30-03.07.24:134][524]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 174 instructions
+[2018.07.30-03.07.24:134][524]MaterialEditorStats: Vertex shader: 34 instructions
+[2018.07.30-03.07.24:134][524]MaterialEditorStats: Texture samplers: 2/16
+[2018.07.30-03.07.31:405][787]LogMaterial: Missing cached shader map for material Morph_Band_Material, compiling. 
+[2018.07.30-03.07.31:434][787]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.07.30-03.07.31:435][787]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.07.30-03.07.31:435][787]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.07.30-03.07.32:761][804]LogShaderCompilers: Display: Shaders left to compile 13
+[2018.07.30-03.07.32:761][804]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.07.30-03.07.32:761][804]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.07.30-03.07.33:094][805]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.07.30-03.07.33:094][805]LogShaderCompilers: Display: Shaders left to compile 9
+[2018.07.30-03.07.33:094][805]LogShaderCompilers: Display: Shaders left to compile 8
+[2018.07.30-03.07.33:462][806]LogShaderCompilers: Display: Shaders left to compile 7
+[2018.07.30-03.07.33:816][807]LogShaderCompilers: Display: Shaders left to compile 6
+[2018.07.30-03.07.33:816][807]LogShaderCompilers: Display: Shaders left to compile 5
+[2018.07.30-03.07.33:816][807]LogShaderCompilers: Display: Shaders left to compile 4
+[2018.07.30-03.07.34:149][808]LogShaderCompilers: Display: Shaders left to compile 3
+[2018.07.30-03.07.34:149][808]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.07.30-03.07.34:149][808]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.07.30-03.07.34:817][809]MaterialEditorStats: Base pass shader: 101 instructions
+[2018.07.30-03.07.34:818][809]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 174 instructions
+[2018.07.30-03.07.34:818][809]MaterialEditorStats: Vertex shader: 34 instructions
+[2018.07.30-03.07.34:818][809]MaterialEditorStats: Texture samplers: 2/16
+[2018.07.30-03.07.46:670][941]LogMaterial: Missing cached shader map for material Morph_Band_Material, compiling. 
+[2018.07.30-03.07.46:812][942]LogShaderCompilers: Display: Shaders left to compile 29
+[2018.07.30-03.07.46:812][942]LogShaderCompilers: Display: Shaders left to compile 28
+[2018.07.30-03.07.46:812][942]LogShaderCompilers: Display: Shaders left to compile 27
+[2018.07.30-03.07.48:022][958]LogShaderCompilers: Display: Shaders left to compile 26
+[2018.07.30-03.07.48:823][969]LogShaderCompilers: Display: Shaders left to compile 25
+[2018.07.30-03.07.49:045][972]LogShaderCompilers: Display: Shaders left to compile 24
+[2018.07.30-03.07.49:510][978]LogShaderCompilers: Display: Shaders left to compile 23
+[2018.07.30-03.07.49:774][981]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.07.30-03.07.49:922][985]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.07.30-03.07.50:026][991]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.07.30-03.07.50:130][997]LogShaderCompilers: Display: Shaders left to compile 19
+[2018.07.30-03.07.50:368][ 11]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.07.30-03.07.50:452][ 16]LogShaderCompilers: Display: Shaders left to compile 17
+[2018.07.30-03.07.50:452][ 16]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.07.30-03.07.50:570][ 23]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.07.30-03.07.50:764][ 34]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.07.30-03.07.50:780][ 35]LogShaderCompilers: Display: Shaders left to compile 13
+[2018.07.30-03.07.51:035][ 50]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.07.30-03.07.51:122][ 55]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.07.30-03.07.51:261][ 63]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.07.30-03.07.51:296][ 65]LogShaderCompilers: Display: Shaders left to compile 9
+[2018.07.30-03.07.51:415][ 72]LogShaderCompilers: Display: Shaders left to compile 8
+[2018.07.30-03.07.51:922][101]LogShaderCompilers: Display: Shaders left to compile 7
+[2018.07.30-03.07.52:099][104]LogShaderCompilers: Display: Shaders left to compile 6
+[2018.07.30-03.07.52:404][108]LogShaderCompilers: Display: Shaders left to compile 5
+[2018.07.30-03.07.53:816][128]LogShaderCompilers: Display: Shaders left to compile 4
+[2018.07.30-03.07.54:751][141]LogShaderCompilers: Display: Shaders left to compile 3
+[2018.07.30-03.07.55:007][145]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.07.30-03.07.55:828][156]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.07.30-03.07.57:028][172]MaterialEditorStats: Base pass shader: 101 instructions
+[2018.07.30-03.07.57:029][172]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 174 instructions
+[2018.07.30-03.07.57:029][172]MaterialEditorStats: Vertex shader: 43 instructions
+[2018.07.30-03.07.57:029][172]MaterialEditorStats: Texture samplers: 2/16
+[2018.07.30-03.07.58:708][200]LogMaterialEditor: Applying material Morph_Band_Material
+[2018.07.30-03.07.59:184][200]LogMaterial: Missing cached shader map for material Morph_Band_Material, compiling. 
+[2018.07.30-03.07.59:246][200]LogShaderCompilers: Display: Shaders left to compile 29
+[2018.07.30-03.07.59:246][200]LogShaderCompilers: Display: Shaders left to compile 28
+[2018.07.30-03.07.59:246][200]LogShaderCompilers: Display: Shaders left to compile 27
+[2018.07.30-03.07.59:299][200]LogMaterial: Missing cached shader map for material Morph_Band_Material, compiling. 
+[2018.07.30-03.07.59:390][200]LogMaterial: Missing cached shader map for material Morph_Band_Material, compiling. 
+[2018.07.30-03.07.59:464][200]LogShaderCompilers: Display: Shaders left to compile 68
+[2018.07.30-03.07.59:464][200]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Morph_Band_Material, compiling. 
+[2018.07.30-03.08.01:731][200]LogShaderCompilers: Display: Shaders left to compile 68
+[2018.07.30-03.08.01:731][200]LogShaderCompilers: Display: Shaders left to compile 67
+[2018.07.30-03.08.01:731][200]LogShaderCompilers: Display: Shaders left to compile 66
+[2018.07.30-03.08.01:731][200]LogShaderCompilers: Display: Shaders left to compile 65
+[2018.07.30-03.08.01:731][200]LogShaderCompilers: Display: Shaders left to compile 64
+[2018.07.30-03.08.01:731][200]LogShaderCompilers: Display: Shaders left to compile 63
+[2018.07.30-03.08.01:731][200]LogShaderCompilers: Display: Shaders left to compile 62
+[2018.07.30-03.08.01:731][200]LogShaderCompilers: Display: Shaders left to compile 61
+[2018.07.30-03.08.01:731][200]LogShaderCompilers: Display: Shaders left to compile 60
+[2018.07.30-03.08.01:731][200]LogShaderCompilers: Display: Shaders left to compile 59
+[2018.07.30-03.08.01:731][200]LogShaderCompilers: Display: Shaders left to compile 58
+[2018.07.30-03.08.01:731][200]LogShaderCompilers: Display: Shaders left to compile 57
+[2018.07.30-03.08.01:731][200]LogShaderCompilers: Display: Shaders left to compile 56
+[2018.07.30-03.08.01:731][200]LogShaderCompilers: Display: Shaders left to compile 55
+[2018.07.30-03.08.01:731][200]LogShaderCompilers: Display: Shaders left to compile 54
+[2018.07.30-03.08.01:731][200]LogShaderCompilers: Display: Shaders left to compile 53
+[2018.07.30-03.08.01:731][200]LogShaderCompilers: Display: Shaders left to compile 52
+[2018.07.30-03.08.01:731][200]LogShaderCompilers: Display: Shaders left to compile 51
+[2018.07.30-03.08.01:731][200]LogShaderCompilers: Display: Shaders left to compile 50
+[2018.07.30-03.08.01:731][200]LogShaderCompilers: Display: Shaders left to compile 49
+[2018.07.30-03.08.01:731][200]LogShaderCompilers: Display: Shaders left to compile 48
+[2018.07.30-03.08.01:731][200]LogShaderCompilers: Display: Shaders left to compile 47
+[2018.07.30-03.08.01:731][200]LogShaderCompilers: Display: Shaders left to compile 46
+[2018.07.30-03.08.01:732][200]LogShaderCompilers: Display: Shaders left to compile 45
+[2018.07.30-03.08.01:732][200]LogShaderCompilers: Display: Shaders left to compile 44
+[2018.07.30-03.08.01:732][200]LogShaderCompilers: Display: Shaders left to compile 43
+[2018.07.30-03.08.01:732][200]LogShaderCompilers: Display: Shaders left to compile 42
+[2018.07.30-03.08.01:732][200]LogShaderCompilers: Display: Shaders left to compile 32
+[2018.07.30-03.08.01:734][200]TextureStreamingBuild: Display: Compiling optional shaders took 2.296 seconds.
+[2018.07.30-03.08.01:757][200]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.07.30-03.08.03:344][223]LogMaterialEditor: Saving and Compiling material Morph_Band_Material
+[2018.07.30-03.08.07:382][223]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.07.30-03.08.07:382][223]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.07.30-03.08.07:455][223]LogSavePackage: Save=21.69ms
+[2018.07.30-03.08.07:455][223]LogSavePackage: Moving '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Morph_Band_Material43B0A945499CDAB1E2EE0F910E733764.tmp' to '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Assets/Morph_Band_Material.uasset'
+[2018.07.30-03.08.07:458][223]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Assets/Morph_Band_Material.uasset
+[2018.07.30-03.08.07:467][223]MaterialEditorStats: Base pass shader: 101 instructions
+[2018.07.30-03.08.07:467][223]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 174 instructions
+[2018.07.30-03.08.07:467][223]MaterialEditorStats: Vertex shader: 46 instructions
+[2018.07.30-03.08.07:467][223]MaterialEditorStats: Texture samplers: 3/16
+[2018.07.30-03.08.46:277][505]LogSlate: Window 'Pick Parent Class' being destroyed
+[2018.07.30-03.09.07:910][719]LogMetaData: Removing '/Game/Blueprints/Slingshot_Blueprint.Slingshot_Blueprint:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Blueprints/NewBlueprint.PackageMetaData'
+[2018.07.30-03.09.07:910][719]LogMetaData: Removing '/Game/Blueprints/Slingshot_Blueprint.SKEL_Slingshot_Blueprint_C' ref from Metadata '/Game/Blueprints/NewBlueprint.PackageMetaData'
+[2018.07.30-03.09.07:910][719]LogMetaData: Removing '/Game/Blueprints/Slingshot_Blueprint.Slingshot_Blueprint_C' ref from Metadata '/Game/Blueprints/NewBlueprint.PackageMetaData'
+[2018.07.30-03.09.07:910][719]LogMetaData: Removing '/Game/Blueprints/Slingshot_Blueprint.Slingshot_Blueprint:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Blueprints/NewBlueprint.PackageMetaData'
+[2018.07.30-03.09.07:910][719]LogMetaData: Removing '/Game/Blueprints/Slingshot_Blueprint.Slingshot_Blueprint:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Blueprints/NewBlueprint.PackageMetaData'
+[2018.07.30-03.09.07:910][719]LogMetaData: Removing '/Game/Blueprints/Slingshot_Blueprint.Slingshot_Blueprint:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Blueprints/NewBlueprint.PackageMetaData'
+[2018.07.30-03.09.08:115][719]LogSavePackage: Save=92.37ms
+[2018.07.30-03.09.08:115][719]LogSavePackage: Moving '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Slingshot_Blueprint82BEE4254C4581FD2B828E82250E5450.tmp' to '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Blueprints/Slingshot_Blueprint.uasset'
+[2018.07.30-03.09.08:124][719]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Blueprints/Slingshot_Blueprint.uasset
+[2018.07.30-03.11.05:644][163]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.30-03.11.17:910][340]LogEditorTransaction: Undo Modify Component(s)
+[2018.07.30-03.11.18:067][340]LogMaterial: Missing cached shader map for material Morph_Band_Material, compiling. 
+[2018.07.30-03.11.18:190][340]LogShaderCompilers: Display: Shaders left to compile 29
+[2018.07.30-03.11.18:190][340]LogShaderCompilers: Display: Shaders left to compile 28
+[2018.07.30-03.11.18:190][340]LogShaderCompilers: Display: Shaders left to compile 27
+[2018.07.30-03.11.18:831][396]LogShaderCompilers: Display: Shaders left to compile 26
+[2018.07.30-03.11.20:271][424]LogShaderCompilers: Display: Shaders left to compile 25
+[2018.07.30-03.11.20:316][424]LogShaderCompilers: Display: Shaders left to compile 24
+[2018.07.30-03.11.20:510][427]LogShaderCompilers: Display: Shaders left to compile 23
+[2018.07.30-03.11.21:025][430]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.07.30-03.11.21:060][430]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.07.30-03.11.21:204][434]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.07.30-03.11.21:976][444]LogShaderCompilers: Display: Shaders left to compile 19
+[2018.07.30-03.11.22:264][448]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.07.30-03.11.22:361][449]LogShaderCompilers: Display: Shaders left to compile 17
+[2018.07.30-03.11.22:755][454]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.07.30-03.11.23:312][461]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.07.30-03.11.23:459][463]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.07.30-03.11.23:943][469]LogShaderCompilers: Display: Shaders left to compile 13
+[2018.07.30-03.11.24:266][473]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.07.30-03.11.25:190][484]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.07.30-03.11.25:231][485]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.07.30-03.11.26:424][499]LogShaderCompilers: Display: Shaders left to compile 9
+[2018.07.30-03.11.26:730][503]LogShaderCompilers: Display: Shaders left to compile 8
+[2018.07.30-03.11.28:290][522]LogShaderCompilers: Display: Shaders left to compile 7
+[2018.07.30-03.11.28:359][523]LogShaderCompilers: Display: Shaders left to compile 6
+[2018.07.30-03.11.29:328][535]LogShaderCompilers: Display: Shaders left to compile 5
+[2018.07.30-03.11.30:678][552]LogShaderCompilers: Display: Shaders left to compile 4
+[2018.07.30-03.11.31:122][557]LogShaderCompilers: Display: Shaders left to compile 3
+[2018.07.30-03.11.31:276][559]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.07.30-03.11.32:619][576]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.07.30-03.11.33:652][588]MaterialEditorStats: Base pass shader: 101 instructions
+[2018.07.30-03.11.33:653][588]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 174 instructions
+[2018.07.30-03.11.33:653][588]MaterialEditorStats: Vertex shader: 43 instructions
+[2018.07.30-03.11.33:653][588]MaterialEditorStats: Texture samplers: 2/16
+[2018.07.30-03.12.07:439][ 73]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.30-03.12.08:949][ 74]LogSavePackage: Save=68.12ms
+[2018.07.30-03.12.08:949][ 74]LogSavePackage: Moving '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Slingshot_BlueprintB57A152542476F036E51708993B32160.tmp' to '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Blueprints/Slingshot_Blueprint.uasset'
+[2018.07.30-03.12.08:954][ 74]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Blueprints/Slingshot_Blueprint.uasset
+[2018.07.30-03.12.24:567][304]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.30-03.12.33:053][580]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.30-03.13.03:092][141]LogEditorTransaction: Undo Modify Component(s)
+[2018.07.30-03.13.03:160][141]LogMaterial: Missing cached shader map for material Morph_Band_Material, compiling. 
+[2018.07.30-03.13.03:301][141]LogShaderCompilers: Display: Shaders left to compile 29
+[2018.07.30-03.13.03:301][141]LogShaderCompilers: Display: Shaders left to compile 28
+[2018.07.30-03.13.03:301][141]LogShaderCompilers: Display: Shaders left to compile 27
+[2018.07.30-03.13.04:031][205]LogShaderCompilers: Display: Shaders left to compile 26
+[2018.07.30-03.13.04:902][225]LogShaderCompilers: Display: Shaders left to compile 25
+[2018.07.30-03.13.06:075][245]LogShaderCompilers: Display: Shaders left to compile 24
+[2018.07.30-03.13.06:283][248]LogShaderCompilers: Display: Shaders left to compile 23
+[2018.07.30-03.13.06:437][250]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.07.30-03.13.07:073][261]LogEditorTransaction: Undo Modify Component(s)
+[2018.07.30-03.13.07:102][261]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.07.30-03.13.07:185][261]LogMaterial: Missing cached shader map for material Morph_Band_Material, compiling. 
+[2018.07.30-03.13.07:333][261]LogShaderCompilers: Display: Shaders left to compile 29
+[2018.07.30-03.13.07:333][261]LogShaderCompilers: Display: Shaders left to compile 28
+[2018.07.30-03.13.07:651][277]LogShaderCompilers: Display: Shaders left to compile 27
+[2018.07.30-03.13.07:672][279]LogShaderCompilers: Display: Shaders left to compile 26
+[2018.07.30-03.13.08:269][333]LogShaderCompilers: Display: Shaders left to compile 25
+[2018.07.30-03.13.09:305][351]LogShaderCompilers: Display: Shaders left to compile 24
+[2018.07.30-03.13.09:420][353]LogShaderCompilers: Display: Shaders left to compile 23
+[2018.07.30-03.13.09:788][359]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.07.30-03.13.10:425][369]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.07.30-03.13.10:523][371]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.07.30-03.13.11:051][378]LogShaderCompilers: Display: Shaders left to compile 19
+[2018.07.30-03.13.11:833][393]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.30-03.13.12:020][398]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.07.30-03.13.12:268][403]LogShaderCompilers: Display: Shaders left to compile 17
+[2018.07.30-03.13.12:636][409]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.07.30-03.13.13:426][422]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.07.30-03.13.13:794][428]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.07.30-03.13.14:196][435]LogShaderCompilers: Display: Shaders left to compile 13
+[2018.07.30-03.13.14:450][436]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.07.30-03.13.15:839][461]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.07.30-03.13.16:003][464]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.07.30-03.13.16:638][474]LogShaderCompilers: Display: Shaders left to compile 9
+[2018.07.30-03.13.17:690][492]LogShaderCompilers: Display: Shaders left to compile 8
+[2018.07.30-03.13.19:662][525]LogShaderCompilers: Display: Shaders left to compile 7
+[2018.07.30-03.13.19:738][527]LogShaderCompilers: Display: Shaders left to compile 6
+[2018.07.30-03.13.20:314][536]LogShaderCompilers: Display: Shaders left to compile 5
+[2018.07.30-03.13.21:235][552]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.30-03.13.22:618][579]LogShaderCompilers: Display: Shaders left to compile 4
+[2018.07.30-03.13.23:278][590]LogShaderCompilers: Display: Shaders left to compile 3
+[2018.07.30-03.13.23:962][602]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.07.30-03.13.25:571][628]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.07.30-03.13.26:889][650]MaterialEditorStats: Base pass shader: 101 instructions
+[2018.07.30-03.13.26:889][650]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 174 instructions
+[2018.07.30-03.13.26:889][650]MaterialEditorStats: Vertex shader: 43 instructions
+[2018.07.30-03.13.26:889][650]MaterialEditorStats: Texture samplers: 2/16
+[2018.07.30-03.13.44:438][972]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.30-03.13.44:694][978]LogSavePackage: Save=21.38ms
+[2018.07.30-03.13.44:694][978]LogSavePackage: Moving '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Slingshot_BlueprintA0115A30468EFB38DF3CACB293EEC47B.tmp' to '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Blueprints/Slingshot_Blueprint.uasset'
+[2018.07.30-03.13.44:697][978]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Blueprints/Slingshot_Blueprint.uasset
+[2018.07.30-03.13.46:286][  9]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.30-03.14.05:092][386]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.30-03.14.11:963][481]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.30-03.14.19:162][583]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.30-03.14.24:985][668]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.30-03.14.30:071][743]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.30-03.15.40:463][ 35]BlueprintLog: New page: Compile Slingshot_Blueprint
+[2018.07.30-03.15.41:950][ 54]LogSavePackage: Save=42.12ms
+[2018.07.30-03.15.41:951][ 54]LogSavePackage: Moving '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Slingshot_Blueprint4086A3B9409CEA5A262E33813B533A70.tmp' to '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Blueprints/Slingshot_Blueprint.uasset'
+[2018.07.30-03.15.41:953][ 54]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Blueprints/Slingshot_Blueprint.uasset
+[2018.07.30-03.19.53:152][636]BlueprintLog: New page: Compile Slingshot_Blueprint
+[2018.07.30-03.19.53:167][636]LogUObjectGlobals: Created PersistentFrame Addr=0x0000029472c5a7b8, Size=56, Default__Slingshot_Blueprint_C Function /Game/Blueprints/Slingshot_Blueprint.Slingshot_Blueprint_C:ExecuteUbergraph_Slingshot_Blueprint
+[2018.07.30-03.19.54:283][651]LogSavePackage: Save=147.03ms
+[2018.07.30-03.19.54:283][651]LogSavePackage: Moving '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Slingshot_BlueprintE64E61384AD29DAFBA8170B7CBD5492B.tmp' to '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Blueprints/Slingshot_Blueprint.uasset'
+[2018.07.30-03.19.54:289][651]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Blueprints/Slingshot_Blueprint.uasset
+[2018.07.30-03.22.46:355][239]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Ball_Setup_Map' took 0.024
+[2018.07.30-03.22.46:436][239]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Slingshot_Blueprint] ([1] browsable assets)...
+[2018.07.30-03.22.46:484][239]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Slingshot_Blueprint.Slingshot_Blueprint]
+[2018.07.30-03.22.46:484][239]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Slingshot_Blueprint]
+[2018.07.30-03.22.46:544][239]LogSavePackage: Save=29.06ms
+[2018.07.30-03.22.46:544][239]LogSavePackage: Moving '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Slingshot_Blueprint_Auto1C2E0078346CB9D689FD27E81C5EC3E91.tmp' to '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Autosaves/Game/Blueprints/Slingshot_Blueprint_Auto1.uasset'
+[2018.07.30-03.22.46:545][239]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Autosaves/Game/Blueprints/Slingshot_Blueprint_Auto1.uasset
+[2018.07.30-03.22.46:545][239]LogFileHelpers: Auto-saving content packages took 0.189
+[2018.07.30-03.25.29:521][946]LogUObjectGlobals: Created PersistentFrame Addr=0x00000294dd9e4ff8, Size=4, Default__SKEL_Slingshot_Blueprint_C Function /Game/Blueprints/Slingshot_Blueprint.SKEL_Slingshot_Blueprint_C:ExecuteUbergraph_Slingshot_Blueprint
+[2018.07.30-03.25.29:531][946]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000294dd9e4ff8, Size=4
+[2018.07.30-03.25.29:531][946]LogUObjectGlobals: Created PersistentFrame Addr=0x00000294dd9e4ff8, Size=4, Default__SKEL_Slingshot_Blueprint_C Function /Engine/Transient.REINST_SKEL_Slingshot_Blueprint_C_63:ExecuteUbergraph_Slingshot_Blueprint
+[2018.07.30-03.25.29:532][946]LogUObjectGlobals: Created PersistentFrame Addr=0x00000294dd9e4e28, Size=4, Default__SKEL_Slingshot_Blueprint_C Function /Game/Blueprints/Slingshot_Blueprint.SKEL_Slingshot_Blueprint_C:ExecuteUbergraph_Slingshot_Blueprint
+[2018.07.30-03.25.35:864][ 80]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000294dd9e4e28, Size=4
+[2018.07.30-03.25.35:865][ 80]LogUObjectGlobals: Created PersistentFrame Addr=0x00000294dd9e4e28, Size=4, Default__SKEL_Slingshot_Blueprint_C Function /Engine/Transient.REINST_SKEL_Slingshot_Blueprint_C_65:ExecuteUbergraph_Slingshot_Blueprint
+[2018.07.30-03.25.35:871][ 80]LogUObjectGlobals: Created PersistentFrame Addr=0x00000294dd9e4098, Size=4, Default__SKEL_Slingshot_Blueprint_C Function /Game/Blueprints/Slingshot_Blueprint.SKEL_Slingshot_Blueprint_C:ExecuteUbergraph_Slingshot_Blueprint
+[2018.07.30-03.26.43:389][299]LogEditorTransaction: Undo Add new track
+[2018.07.30-03.26.43:392][299]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000294dd9e4098, Size=4
+[2018.07.30-03.26.43:393][299]LogUObjectGlobals: Created PersistentFrame Addr=0x00000294deb04af8, Size=4, Default__SKEL_Slingshot_Blueprint_C Function /Engine/Transient.REINST_SKEL_Slingshot_Blueprint_C_67:ExecuteUbergraph_Slingshot_Blueprint
+[2018.07.30-03.26.43:397][299]LogUObjectGlobals: Created PersistentFrame Addr=0x00000294deb04ba8, Size=4, Default__SKEL_Slingshot_Blueprint_C Function /Game/Blueprints/Slingshot_Blueprint.SKEL_Slingshot_Blueprint_C:ExecuteUbergraph_Slingshot_Blueprint
+[2018.07.30-03.26.43:440][299]LogMaterial: Missing cached shader map for material Morph_Band_Material, compiling. 
+[2018.07.30-03.26.43:526][299]LogShaderCompilers: Display: Shaders left to compile 29
+[2018.07.30-03.26.43:526][299]LogShaderCompilers: Display: Shaders left to compile 28
+[2018.07.30-03.26.43:526][299]LogShaderCompilers: Display: Shaders left to compile 27
+[2018.07.30-03.26.44:217][357]LogShaderCompilers: Display: Shaders left to compile 26
+[2018.07.30-03.26.45:438][402]LogShaderCompilers: Display: Shaders left to compile 25
+[2018.07.30-03.26.45:700][407]LogShaderCompilers: Display: Shaders left to compile 24
+[2018.07.30-03.26.45:747][408]LogShaderCompilers: Display: Shaders left to compile 23
+[2018.07.30-03.26.46:311][418]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.07.30-03.26.46:553][423]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.07.30-03.26.46:660][425]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.07.30-03.26.47:156][434]LogShaderCompilers: Display: Shaders left to compile 19
+[2018.07.30-03.26.47:606][443]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.07.30-03.26.47:761][446]LogShaderCompilers: Display: Shaders left to compile 17
+[2018.07.30-03.26.47:931][449]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.07.30-03.26.48:468][462]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.07.30-03.26.49:041][473]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.07.30-03.26.49:144][475]LogShaderCompilers: Display: Shaders left to compile 13
+[2018.07.30-03.26.49:840][489]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.07.30-03.26.50:466][504]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.07.30-03.26.50:992][514]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.07.30-03.26.51:598][526]LogShaderCompilers: Display: Shaders left to compile 9
+[2018.07.30-03.26.52:185][532]LogShaderCompilers: Display: Shaders left to compile 8
+[2018.07.30-03.26.52:553][533]LogShaderCompilers: Display: Shaders left to compile 7
+[2018.07.30-03.26.52:553][533]LogShaderCompilers: Display: Shaders left to compile 6
+[2018.07.30-03.26.52:553][533]LogShaderCompilers: Display: Shaders left to compile 5
+[2018.07.30-03.26.52:871][534]LogShaderCompilers: Display: Shaders left to compile 4
+[2018.07.30-03.26.53:213][535]LogShaderCompilers: Display: Shaders left to compile 3
+[2018.07.30-03.26.53:213][535]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.07.30-03.26.53:213][535]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.07.30-03.26.53:879][536]MaterialEditorStats: Base pass shader: 101 instructions
+[2018.07.30-03.26.53:879][536]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 174 instructions
+[2018.07.30-03.26.53:879][536]MaterialEditorStats: Vertex shader: 43 instructions
+[2018.07.30-03.26.53:880][536]MaterialEditorStats: Texture samplers: 2/16
+[2018.07.30-03.31.35:571][506]BlueprintLog: New page: Compile Slingshot_Blueprint
+[2018.07.30-03.31.35:579][506]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000294deb04ba8, Size=4
+[2018.07.30-03.31.35:579][506]LogUObjectGlobals: Created PersistentFrame Addr=0x00000294dc6972c0, Size=4, Default__SKEL_Slingshot_Blueprint_C Function /Engine/Transient.REINST_SKEL_Slingshot_Blueprint_C_69:ExecuteUbergraph_Slingshot_Blueprint
+[2018.07.30-03.31.35:584][506]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000029472c5a7b8, Size=56
+[2018.07.30-03.31.35:584][506]LogUObjectGlobals: Created PersistentFrame Addr=0x0000029475d7ae80, Size=56, Default__Slingshot_Blueprint_C Function /Engine/Transient.REINST_Slingshot_Blueprint_C_71:ExecuteUbergraph_Slingshot_Blueprint
+[2018.07.30-03.31.35:587][506]LogUObjectGlobals: Created PersistentFrame Addr=0x0000029420fcd760, Size=80, Default__Slingshot_Blueprint_C Function /Game/Blueprints/Slingshot_Blueprint.Slingshot_Blueprint_C:ExecuteUbergraph_Slingshot_Blueprint
+[2018.07.30-03.31.35:812][506]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000294dd9e4ff8, Size=4
+[2018.07.30-03.31.35:812][506]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000294dc6972c0, Size=4
+[2018.07.30-03.31.35:812][506]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000294deb04af8, Size=4
+[2018.07.30-03.31.35:812][506]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000294dd9e4e28, Size=4
+[2018.07.30-03.31.36:587][524]LogSavePackage: Save=26.76ms
+[2018.07.30-03.31.36:587][524]LogSavePackage: Moving '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Slingshot_BlueprintBB2602424A439B895D47BB816C271A02.tmp' to '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Blueprints/Slingshot_Blueprint.uasset'
+[2018.07.30-03.31.36:590][524]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Blueprints/Slingshot_Blueprint.uasset
+[2018.07.30-03.33.05:880][574]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000029475d7ae80, Size=56
+[2018.07.30-03.33.05:880][574]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Ball_Setup_Map' took 0.038
+[2018.07.30-03.33.05:882][574]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Slingshot_Blueprint] ([1] browsable assets)...
+[2018.07.30-03.33.05:922][574]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Slingshot_Blueprint.Slingshot_Blueprint]
+[2018.07.30-03.33.05:922][574]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Slingshot_Blueprint]
+[2018.07.30-03.33.05:979][574]LogSavePackage: Save=32.27ms
+[2018.07.30-03.33.05:979][574]LogSavePackage: Moving '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Slingshot_Blueprint_Auto24338EE714A3A354D8BB55CBF0400F8C5.tmp' to '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Autosaves/Game/Blueprints/Slingshot_Blueprint_Auto2.uasset'
+[2018.07.30-03.33.05:980][574]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Autosaves/Game/Blueprints/Slingshot_Blueprint_Auto2.uasset
+[2018.07.30-03.33.05:980][574]LogFileHelpers: Auto-saving content packages took 0.099
+[2018.07.30-03.38.43:108][801]BlueprintLog: New page: Compile Slingshot_Blueprint
+[2018.07.30-03.38.43:120][801]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000029420fcd760, Size=80
+[2018.07.30-03.38.43:120][801]LogUObjectGlobals: Created PersistentFrame Addr=0x00000294e2fb4130, Size=80, Default__Slingshot_Blueprint_C Function /Engine/Transient.REINST_Slingshot_Blueprint_C_75:ExecuteUbergraph_Slingshot_Blueprint
+[2018.07.30-03.38.43:123][801]LogUObjectGlobals: Created PersistentFrame Addr=0x00000294e2fa4790, Size=104, Default__Slingshot_Blueprint_C Function /Game/Blueprints/Slingshot_Blueprint.Slingshot_Blueprint_C:ExecuteUbergraph_Slingshot_Blueprint
+[2018.07.30-03.38.44:347][820]LogSavePackage: Save=32.33ms
+[2018.07.30-03.38.44:348][820]LogSavePackage: Moving '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Slingshot_Blueprint9CC9E07E4EB4AB437D08F1903E151643.tmp' to '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Blueprints/Slingshot_Blueprint.uasset'
+[2018.07.30-03.38.44:350][820]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Blueprints/Slingshot_Blueprint.uasset
+[2018.07.30-03.39.52:798][215]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/SM_SlingbandMT" FILE="../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Assets/SM_SlingbandMT.uasset" SILENT=true
+[2018.07.30-03.39.52:963][215]LogSavePackage: Save=137.68ms
+[2018.07.30-03.39.52:965][215]LogSavePackage: Moving '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/SM_SlingbandMT547195DE423F1AD6B1769D9EC5AC1242.tmp' to '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Assets/SM_SlingbandMT.uasset'
+[2018.07.30-03.39.52:976][215]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Assets/SM_SlingbandMT.uasset
+[2018.07.30-03.41.12:109][799]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.30-03.43.10:825][356]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.30-03.43.20:490][561]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.30-03.43.32:756][826]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.30-03.43.46:819][120]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.30-03.44.21:339][845]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.30-03.44.43:993][314]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.30-03.45.05:148][768]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.30-03.45.05:311][773]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/SM_SlingbandMT" FILE="../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Assets/SM_SlingbandMT.uasset" SILENT=true
+[2018.07.30-03.45.05:386][773]LogSavePackage: Save=43.07ms
+[2018.07.30-03.45.05:386][773]LogSavePackage: Moving '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/SM_SlingbandMT939BC12F4ED940E8C74697B7F846F882.tmp' to '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Assets/SM_SlingbandMT.uasset'
+[2018.07.30-03.45.05:392][773]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Assets/SM_SlingbandMT.uasset
+[2018.07.30-03.45.34:659][979]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.30-03.45.48:388][270]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.30-03.46.11:625][768]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.30-03.46.11:733][770]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/SM_SlingbandMT" FILE="../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Assets/SM_SlingbandMT.uasset" SILENT=true
+[2018.07.30-03.46.11:764][770]LogSavePackage: Save=7.26ms
+[2018.07.30-03.46.11:764][770]LogSavePackage: Moving '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/SM_SlingbandMT733782DA4D22FD202510CC960C73238E.tmp' to '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Assets/SM_SlingbandMT.uasset'
+[2018.07.30-03.46.11:766][770]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Assets/SM_SlingbandMT.uasset
+[2018.07.30-03.46.17:981][881]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000294e2fb4130, Size=80
+[2018.07.30-03.46.18:069][881]LogSavePackage: Save=58.97ms
+[2018.07.30-03.46.18:069][881]LogSavePackage: Moving '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Ball_Setup_MapFA1364AE43C8E135647E9689E3A2FFD2.tmp' to '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Ball_Setup_Map.umap'
+[2018.07.30-03.46.18:070][881]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Ball_Setup_Map.umap
+[2018.07.30-03.46.18:129][881]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Ball_Setup_Map_BuiltData" FILE="../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Ball_Setup_Map_BuiltData.uasset" SILENT=true
+[2018.07.30-03.46.18:189][881]LogSavePackage: Save=31.66ms
+[2018.07.30-03.46.18:189][881]LogSavePackage: Moving '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Ball_Setup_Map_BuiltData8452B2A949B9031CA8861BB717602F85.tmp' to '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Ball_Setup_Map_BuiltData.uasset'
+[2018.07.30-03.46.18:207][881]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Ball_Setup_Map_BuiltData.uasset
+[2018.07.30-03.46.32:701][ 59]LogEditorViewport: Clicking on Actor (LMB): Bumper_Blueprint_C (Bumper_Blueprint2)
+[2018.07.30-03.46.36:226][105]LogEditorViewport: Clicking on Actor (LMB): Drop_Target_Set_Blueprint_Child_C (Drop_Target_Set_Blueprint_Child)
+[2018.07.30-03.47.01:836][432]LogEditorViewport: Clicking on Actor (LMB): Bumper_Blueprint_C (Bumper_Blueprint2)
+[2018.07.30-03.47.04:797][470]Cmd: DELETE
+[2018.07.30-03.47.04:797][470]Cmd: ACTOR DELETE
+[2018.07.30-03.47.05:124][470]LogEditorActor: Deleted Actor: Bumper_Blueprint_C
+[2018.07.30-03.47.05:179][470]LogEditorActor: Deleted 1 Actors (0.103 secs)
+[2018.07.30-03.47.06:816][494]LogEditorViewport: Clicking on Actor (LMB): Drop_Target_Set_Blueprint_Child_C (Drop_Target_Set_Blueprint_Child)
+[2018.07.30-03.47.24:098][667]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.07.30-03.47.25:305][667]LogD3D11RHI: Error: Result failed 
+ at D:\Build\++UE4+Release-4.19+Compile\Sync\Engine\Source\Runtime\Windows\D3D11RHI\Private\D3D11Viewport.cpp:303 
+ with error DXGI_ERROR_DEVICE_REMOVED DXGI_ERROR_DEVICE_HUNG
+[2018.07.30-03.47.25:976][667]LogWindows: Windows GetLastError: The operation completed successfully. (0)
