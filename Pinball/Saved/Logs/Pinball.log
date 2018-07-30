@@ -480,3 +480,166 @@ LogInit: Object subsystem initialized
 [2018.07.30-08.20.50:699][529]LogSavePackage: Save=260.22ms
 [2018.07.30-08.20.50:699][529]LogSavePackage: Moving '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Ball_Setup_Map_BuiltDataD6175DCB48552FE8680DA89F6AFC5E62.tmp' to '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Ball_Setup_Map_BuiltData.uasset'
 [2018.07.30-08.20.50:704][529]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Ball_Setup_Map_BuiltData.uasset
+[2018.07.30-08.23.02:377][993]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2018.07.30-08.53.34:052][101]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2018.07.30-08.53.39:117][102]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2018.07.30-09.19.09:711][678]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.30-09.21.21:888][529]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.1401 seconds. Added 116 classes and 0 folders.
+[2018.07.30-09.21.27:200][529]LogUObjectGlobals: Created PersistentFrame Addr=0x00000241951f0598, Size=4, Default__SKEL_PROTO_BP_AnimBlueprint_0_C Function /Engine/Transient.SKEL_PROTO_BP_AnimBlueprint_0_C:ExecuteUbergraph_PROTO_BP_AnimBlueprint_0
+[2018.07.30-09.21.27:259][529]LogUObjectGlobals: Created PersistentFrame Addr=0x00000241951f0590, Size=4, Default__PROTO_BP_AnimBlueprint_0_C Function /Engine/Transient.PROTO_BP_AnimBlueprint_0_C:ExecuteUbergraph_PROTO_BP_AnimBlueprint_0
+[2018.07.30-09.21.39:676][529]LogSlate: Took 0.528811 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.07.30-09.22.01:820][636]LogSlate: Took 0.013880 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.07.30-09.22.02:256][681]LogSlate: Window 'Pinball_Player_Controller_Blueprint' being destroyed
+[2018.07.30-09.25.15:655][ 95]LogUObjectGlobals: Created PersistentFrame Addr=0x000002419a058e80, Size=4, Default__SKEL_Pinball_Player_Controller_Blueprint_C Function /Game/Blueprints/Pinball_Player_Controller_Blueprint.SKEL_Pinball_Player_Controller_Blueprint_C:ExecuteUbergraph_Pinball_Player_Controller_Blueprint
+[2018.07.30-09.27.24:233][126]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002419a058e80, Size=4
+[2018.07.30-09.27.24:233][126]LogUObjectGlobals: Created PersistentFrame Addr=0x000002419a058e80, Size=4, Default__SKEL_Pinball_Player_Controller_Blueprint_C Function /Engine/Transient.REINST_SKEL_Pinball_Player_Controller_Blueprint_C_51:ExecuteUbergraph_Pinball_Player_Controller_Blueprint
+[2018.07.30-09.27.24:243][126]LogUObjectGlobals: Created PersistentFrame Addr=0x000002419a058d08, Size=4, Default__SKEL_Pinball_Player_Controller_Blueprint_C Function /Game/Blueprints/Pinball_Player_Controller_Blueprint.SKEL_Pinball_Player_Controller_Blueprint_C:ExecuteUbergraph_Pinball_Player_Controller_Blueprint
+[2018.07.30-09.27.24:277][126]BlueprintLog: New page: Collapse to Function
+[2018.07.30-09.27.24:278][126]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002419a058d08, Size=4
+[2018.07.30-09.27.24:278][126]LogUObjectGlobals: Created PersistentFrame Addr=0x000002419a058d08, Size=4, Default__SKEL_Pinball_Player_Controller_Blueprint_C Function /Engine/Transient.REINST_SKEL_Pinball_Player_Controller_Blueprint_C_53:ExecuteUbergraph_Pinball_Player_Controller_Blueprint
+[2018.07.30-09.27.24:283][126]LogUObjectGlobals: Created PersistentFrame Addr=0x000002419a0584d8, Size=4, Default__SKEL_Pinball_Player_Controller_Blueprint_C Function /Game/Blueprints/Pinball_Player_Controller_Blueprint.SKEL_Pinball_Player_Controller_Blueprint_C:ExecuteUbergraph_Pinball_Player_Controller_Blueprint
+[2018.07.30-09.27.24:291][126]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002419a0584d8, Size=4
+[2018.07.30-09.27.24:292][126]LogUObjectGlobals: Created PersistentFrame Addr=0x000002419a0584d8, Size=4, Default__SKEL_Pinball_Player_Controller_Blueprint_C Function /Engine/Transient.REINST_SKEL_Pinball_Player_Controller_Blueprint_C_55:ExecuteUbergraph_Pinball_Player_Controller_Blueprint
+[2018.07.30-09.27.24:295][126]LogUObjectGlobals: Created PersistentFrame Addr=0x000002419a058138, Size=4, Default__SKEL_Pinball_Player_Controller_Blueprint_C Function /Game/Blueprints/Pinball_Player_Controller_Blueprint.SKEL_Pinball_Player_Controller_Blueprint_C:ExecuteUbergraph_Pinball_Player_Controller_Blueprint
+[2018.07.30-09.27.24:301][126]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002419a058138, Size=4
+[2018.07.30-09.27.24:301][126]LogUObjectGlobals: Created PersistentFrame Addr=0x000002419a058138, Size=4, Default__SKEL_Pinball_Player_Controller_Blueprint_C Function /Engine/Transient.REINST_SKEL_Pinball_Player_Controller_Blueprint_C_57:ExecuteUbergraph_Pinball_Player_Controller_Blueprint
+[2018.07.30-09.27.24:305][126]LogUObjectGlobals: Created PersistentFrame Addr=0x000002419a0596b8, Size=4, Default__SKEL_Pinball_Player_Controller_Blueprint_C Function /Game/Blueprints/Pinball_Player_Controller_Blueprint.SKEL_Pinball_Player_Controller_Blueprint_C:ExecuteUbergraph_Pinball_Player_Controller_Blueprint
+[2018.07.30-09.27.24:310][126]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002419a0596b8, Size=4
+[2018.07.30-09.27.24:311][126]LogUObjectGlobals: Created PersistentFrame Addr=0x000002419a0596b8, Size=4, Default__SKEL_Pinball_Player_Controller_Blueprint_C Function /Engine/Transient.REINST_SKEL_Pinball_Player_Controller_Blueprint_C_59:ExecuteUbergraph_Pinball_Player_Controller_Blueprint
+[2018.07.30-09.27.24:315][126]LogUObjectGlobals: Created PersistentFrame Addr=0x000002419a058198, Size=4, Default__SKEL_Pinball_Player_Controller_Blueprint_C Function /Game/Blueprints/Pinball_Player_Controller_Blueprint.SKEL_Pinball_Player_Controller_Blueprint_C:ExecuteUbergraph_Pinball_Player_Controller_Blueprint
+[2018.07.30-09.27.27:682][511]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002419a058198, Size=4
+[2018.07.30-09.27.27:682][511]LogUObjectGlobals: Created PersistentFrame Addr=0x000002419a058198, Size=4, Default__SKEL_Pinball_Player_Controller_Blueprint_C Function /Engine/Transient.REINST_SKEL_Pinball_Player_Controller_Blueprint_C_61:ExecuteUbergraph_Pinball_Player_Controller_Blueprint
+[2018.07.30-09.27.27:686][511]LogUObjectGlobals: Created PersistentFrame Addr=0x000002419a05a2b0, Size=4, Default__SKEL_Pinball_Player_Controller_Blueprint_C Function /Game/Blueprints/Pinball_Player_Controller_Blueprint.SKEL_Pinball_Player_Controller_Blueprint_C:ExecuteUbergraph_Pinball_Player_Controller_Blueprint
+[2018.07.30-09.28.53:291][ 36]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002419a05a2b0, Size=4
+[2018.07.30-09.28.53:291][ 36]LogUObjectGlobals: Created PersistentFrame Addr=0x000002419a05a2b0, Size=4, Default__SKEL_Pinball_Player_Controller_Blueprint_C Function /Engine/Transient.REINST_SKEL_Pinball_Player_Controller_Blueprint_C_63:ExecuteUbergraph_Pinball_Player_Controller_Blueprint
+[2018.07.30-09.28.53:295][ 36]LogUObjectGlobals: Created PersistentFrame Addr=0x000002419a05a5a8, Size=4, Default__SKEL_Pinball_Player_Controller_Blueprint_C Function /Game/Blueprints/Pinball_Player_Controller_Blueprint.SKEL_Pinball_Player_Controller_Blueprint_C:ExecuteUbergraph_Pinball_Player_Controller_Blueprint
+[2018.07.30-09.29.02:986][168]LogSlate: Took 0.072856 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2018.07.30-09.29.11:417][148]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002419a05a5a8, Size=4
+[2018.07.30-09.29.11:417][148]LogUObjectGlobals: Created PersistentFrame Addr=0x000002419a05a5a8, Size=4, Default__SKEL_Pinball_Player_Controller_Blueprint_C Function /Engine/Transient.REINST_SKEL_Pinball_Player_Controller_Blueprint_C_65:ExecuteUbergraph_Pinball_Player_Controller_Blueprint
+[2018.07.30-09.29.11:419][148]LogUObjectGlobals: Created PersistentFrame Addr=0x000002419a058b50, Size=4, Default__SKEL_Pinball_Player_Controller_Blueprint_C Function /Game/Blueprints/Pinball_Player_Controller_Blueprint.SKEL_Pinball_Player_Controller_Blueprint_C:ExecuteUbergraph_Pinball_Player_Controller_Blueprint
+[2018.07.30-09.30.04:149][922]LogSelectionDetails: Warning: NavigateToFunctionSource:  Unable to find symbols for 'UPrimitiveComponent::AddImpulse' [Element not found.]
+[2018.07.30-09.31.41:207][872]BlueprintLog: New page: Compile Pinball_Player_Controller_Blueprint
+[2018.07.30-09.31.41:261][872]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002419a058b50, Size=4
+[2018.07.30-09.31.41:261][872]LogUObjectGlobals: Created PersistentFrame Addr=0x000002419c4c19a0, Size=4, Default__SKEL_Pinball_Player_Controller_Blueprint_C Function /Engine/Transient.REINST_SKEL_Pinball_Player_Controller_Blueprint_C_68:ExecuteUbergraph_Pinball_Player_Controller_Blueprint
+[2018.07.30-09.31.41:669][872]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002411e8f5e00, Size=504
+[2018.07.30-09.31.41:669][872]LogUObjectGlobals: Created PersistentFrame Addr=0x00000241a1b61400, Size=504, Default__Pinball_Player_Controller_Blueprint_C Function /Engine/Transient.REINST_Pinball_Player_Controller_Blueprint_C_71:ExecuteUbergraph_Pinball_Player_Controller_Blueprint
+[2018.07.30-09.31.41:746][872]LogUObjectGlobals: Created PersistentFrame Addr=0x000002412c83ce00, Size=536, Default__Pinball_Player_Controller_Blueprint_C Function /Game/Blueprints/Pinball_Player_Controller_Blueprint.Pinball_Player_Controller_Blueprint_C:ExecuteUbergraph_Pinball_Player_Controller_Blueprint
+[2018.07.30-09.31.45:380][872]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002419a058e80, Size=4
+[2018.07.30-09.31.45:380][872]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002419a058d08, Size=4
+[2018.07.30-09.31.45:380][872]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002419c4c19a0, Size=4
+[2018.07.30-09.31.48:334][ 73]LogSavePackage: Save=158.11ms
+[2018.07.30-09.31.48:334][ 73]LogSavePackage: Moving '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Pinball_Player_Controller_BlueprC8A774BB442B8A0DF287598E1A52CFC7.tmp' to '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Blueprints/Pinball_Player_Controller_Blueprint.uasset'
+[2018.07.30-09.31.48:382][ 73]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Blueprints/Pinball_Player_Controller_Blueprint.uasset
+[2018.07.30-09.32.56:655][316]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000241a1b61400, Size=504
+[2018.07.30-09.32.56:656][316]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Ball_Setup_Map' took 0.041
+[2018.07.30-09.32.56:732][316]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Pinball_Player_Controller_Blueprint] ([1] browsable assets)...
+[2018.07.30-09.32.56:732][316]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Pinball_Player_Controller_Blueprint]
+[2018.07.30-09.32.56:934][316]LogSavePackage: Save=105.28ms
+[2018.07.30-09.32.56:934][316]LogSavePackage: Moving '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Pinball_Player_Controller_Bluepr066C96B74EB8F6A39CFD98B099777229.tmp' to '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Autosaves/Game/Blueprints/Pinball_Player_Controller_Blueprint_Auto1.uasset'
+[2018.07.30-09.32.56:952][316]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Autosaves/Game/Blueprints/Pinball_Player_Controller_Blueprint_Auto1.uasset
+[2018.07.30-09.32.56:952][316]LogFileHelpers: Auto-saving content packages took 0.295
+[2018.07.30-09.33.31:056][611]BlueprintLog: New page: Compile Pinball_Player_Controller_Blueprint
+[2018.07.30-09.33.31:089][611]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002412c83ce00, Size=536
+[2018.07.30-09.33.31:089][611]LogUObjectGlobals: Created PersistentFrame Addr=0x000002419fb3c680, Size=536, Default__Pinball_Player_Controller_Blueprint_C Function /Engine/Transient.REINST_Pinball_Player_Controller_Blueprint_C_77:ExecuteUbergraph_Pinball_Player_Controller_Blueprint
+[2018.07.30-09.33.31:100][611]LogUObjectGlobals: Created PersistentFrame Addr=0x00000241a16ddf80, Size=568, Default__Pinball_Player_Controller_Blueprint_C Function /Game/Blueprints/Pinball_Player_Controller_Blueprint.Pinball_Player_Controller_Blueprint_C:ExecuteUbergraph_Pinball_Player_Controller_Blueprint
+[2018.07.30-09.33.33:138][808]LogSavePackage: Save=43.56ms
+[2018.07.30-09.33.33:138][808]LogSavePackage: Moving '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Pinball_Player_Controller_BlueprB9CDFCEE4F36CFC63069329198B0AFC6.tmp' to '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Blueprints/Pinball_Player_Controller_Blueprint.uasset'
+[2018.07.30-09.33.33:141][808]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Blueprints/Pinball_Player_Controller_Blueprint.uasset
+[2018.07.30-09.34.16:786][896]LogUObjectGlobals: Created PersistentFrame Addr=0x00000241a7e6cbb0, Size=4, Default__SKEL_Pinball_Game_Mode_Blueprint_C Function /Game/Blueprints/Pinball_Game_Mode_Blueprint.SKEL_Pinball_Game_Mode_Blueprint_C:ExecuteUbergraph_Pinball_Game_Mode_Blueprint
+[2018.07.30-09.34.23:569][667]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000241a7e6cbb0, Size=4
+[2018.07.30-09.34.23:569][667]LogUObjectGlobals: Created PersistentFrame Addr=0x00000241a7e6cbb0, Size=4, Default__SKEL_Pinball_Game_Mode_Blueprint_C Function /Engine/Transient.REINST_SKEL_Pinball_Game_Mode_Blueprint_C_81:ExecuteUbergraph_Pinball_Game_Mode_Blueprint
+[2018.07.30-09.34.23:585][667]LogUObjectGlobals: Created PersistentFrame Addr=0x00000241a7e6d6b8, Size=4, Default__SKEL_Pinball_Game_Mode_Blueprint_C Function /Game/Blueprints/Pinball_Game_Mode_Blueprint.SKEL_Pinball_Game_Mode_Blueprint_C:ExecuteUbergraph_Pinball_Game_Mode_Blueprint
+[2018.07.30-09.34.25:648][898]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000241a7e6d6b8, Size=4
+[2018.07.30-09.34.25:648][898]LogUObjectGlobals: Created PersistentFrame Addr=0x00000241a7e6d6b8, Size=4, Default__SKEL_Pinball_Game_Mode_Blueprint_C Function /Engine/Transient.REINST_SKEL_Pinball_Game_Mode_Blueprint_C_83:ExecuteUbergraph_Pinball_Game_Mode_Blueprint
+[2018.07.30-09.34.25:652][898]LogUObjectGlobals: Created PersistentFrame Addr=0x00000241a7e6c410, Size=4, Default__SKEL_Pinball_Game_Mode_Blueprint_C Function /Game/Blueprints/Pinball_Game_Mode_Blueprint.SKEL_Pinball_Game_Mode_Blueprint_C:ExecuteUbergraph_Pinball_Game_Mode_Blueprint
+[2018.07.30-09.34.40:915][305]BlueprintLog: New page: Compile Pinball_Game_Mode_Blueprint
+[2018.07.30-09.34.41:078][305]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000241a7e6c410, Size=4
+[2018.07.30-09.34.41:078][305]LogUObjectGlobals: Created PersistentFrame Addr=0x00000241a7e6c410, Size=4, Default__SKEL_Pinball_Game_Mode_Blueprint_C Function /Engine/Transient.REINST_SKEL_Pinball_Game_Mode_Blueprint_C_89:ExecuteUbergraph_Pinball_Game_Mode_Blueprint
+[2018.07.30-09.34.42:244][305]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002416ae191c0, Size=320
+[2018.07.30-09.34.42:244][305]LogUObjectGlobals: Created PersistentFrame Addr=0x00000241aa4dec00, Size=320, Default__Pinball_Game_Mode_Blueprint_C Function /Engine/Transient.REINST_Pinball_Game_Mode_Blueprint_C_99:ExecuteUbergraph_Pinball_Game_Mode_Blueprint
+[2018.07.30-09.34.42:277][305]LogUObjectGlobals: Created PersistentFrame Addr=0x00000241aa54b4c0, Size=320, Default__Pinball_Game_Mode_Blueprint_C Function /Game/Blueprints/Pinball_Game_Mode_Blueprint.Pinball_Game_Mode_Blueprint_C:ExecuteUbergraph_Pinball_Game_Mode_Blueprint
+[2018.07.30-09.34.42:468][305]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000241a7e6c410, Size=4
+[2018.07.30-09.34.42:468][305]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000241a7e6d6b8, Size=4
+[2018.07.30-09.34.42:468][305]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000241a7e6cbb0, Size=4
+[2018.07.30-09.34.42:468][305]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002419fb3c680, Size=536
+[2018.07.30-09.34.47:491][850]LogSavePackage: Save=52.99ms
+[2018.07.30-09.34.47:491][850]LogSavePackage: Moving '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Pinball_Game_Mode_Blueprint35A791614AE39B7BF6EB77A8F77DA80C.tmp' to '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Blueprints/Pinball_Game_Mode_Blueprint.uasset'
+[2018.07.30-09.34.47:493][850]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Blueprints/Pinball_Game_Mode_Blueprint.uasset
+[2018.07.30-09.35.29:593][ 72]BlueprintLog: New page: Compile Pinball_Game_Mode_Blueprint
+[2018.07.30-09.35.29:650][ 72]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000241aa54b4c0, Size=320
+[2018.07.30-09.35.29:651][ 72]LogUObjectGlobals: Created PersistentFrame Addr=0x00000241a797aac0, Size=320, Pinball_Game_Mode_Blueprint_C_15 Function /Engine/Transient.REINST_Pinball_Game_Mode_Blueprint_C_115:ExecuteUbergraph_Pinball_Game_Mode_Blueprint
+[2018.07.30-09.35.29:657][ 72]LogUObjectGlobals: Created PersistentFrame Addr=0x00000241a7e36d40, Size=320, Default__Pinball_Game_Mode_Blueprint_C Function /Game/Blueprints/Pinball_Game_Mode_Blueprint.Pinball_Game_Mode_Blueprint_C:ExecuteUbergraph_Pinball_Game_Mode_Blueprint
+[2018.07.30-09.35.29:820][ 72]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000241aa4dec00, Size=320
+[2018.07.30-09.37.25:090][586]BlueprintLog: New page: Compile Pinball_Game_Mode_Blueprint
+[2018.07.30-09.37.25:148][586]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000241a7e36d40, Size=320
+[2018.07.30-09.37.25:148][586]LogUObjectGlobals: Created PersistentFrame Addr=0x000002416d6e4900, Size=320, Default__Pinball_Game_Mode_Blueprint_C Function /Engine/Transient.REINST_Pinball_Game_Mode_Blueprint_C_131:ExecuteUbergraph_Pinball_Game_Mode_Blueprint
+[2018.07.30-09.37.25:155][586]LogUObjectGlobals: Created PersistentFrame Addr=0x00000241a837eac0, Size=320, Default__Pinball_Game_Mode_Blueprint_C Function /Game/Blueprints/Pinball_Game_Mode_Blueprint.Pinball_Game_Mode_Blueprint_C:ExecuteUbergraph_Pinball_Game_Mode_Blueprint
+[2018.07.30-09.37.26:045][648]LogSavePackage: Save=55.48ms
+[2018.07.30-09.37.26:046][648]LogSavePackage: Moving '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Pinball_Game_Mode_BlueprintF7C756884AA0C80BBEFF66BD8E19C07F.tmp' to '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Blueprints/Pinball_Game_Mode_Blueprint.uasset'
+[2018.07.30-09.37.26:048][648]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Blueprints/Pinball_Game_Mode_Blueprint.uasset
+[2018.07.30-09.37.27:999][877]BlueprintLog: New page: Compile Pinball_Player_Controller_Blueprint
+[2018.07.30-09.37.28:037][877]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000241a16ddf80, Size=568
+[2018.07.30-09.37.28:037][877]LogUObjectGlobals: Created PersistentFrame Addr=0x00000241a7d0ee80, Size=568, Default__Pinball_Player_Controller_Blueprint_C Function /Engine/Transient.REINST_Pinball_Player_Controller_Blueprint_C_137:ExecuteUbergraph_Pinball_Player_Controller_Blueprint
+[2018.07.30-09.37.28:048][877]LogUObjectGlobals: Created PersistentFrame Addr=0x00000241aa453880, Size=568, Default__Pinball_Player_Controller_Blueprint_C Function /Game/Blueprints/Pinball_Player_Controller_Blueprint.Pinball_Player_Controller_Blueprint_C:ExecuteUbergraph_Pinball_Player_Controller_Blueprint
+[2018.07.30-09.37.28:206][877]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002416d6e4900, Size=320
+[2018.07.30-09.37.28:856][936]LogSavePackage: Save=43.38ms
+[2018.07.30-09.37.28:857][936]LogSavePackage: Moving '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Pinball_Player_Controller_Bluepr50D7CECE41D83CD22F9896B423BB247E.tmp' to '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Blueprints/Pinball_Player_Controller_Blueprint.uasset'
+[2018.07.30-09.37.28:859][936]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Blueprints/Pinball_Player_Controller_Blueprint.uasset
+[2018.07.30-09.41.06:340][999]BlueprintLog: New page: Compile Pinball_Player_Controller_Blueprint
+[2018.07.30-09.41.06:384][999]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000241aa453880, Size=568
+[2018.07.30-09.41.06:384][999]LogUObjectGlobals: Created PersistentFrame Addr=0x00000241a1436200, Size=568, Pinball_Player_Controller_Blueprint_C_1 Function /Engine/Transient.REINST_Pinball_Player_Controller_Blueprint_C_143:ExecuteUbergraph_Pinball_Player_Controller_Blueprint
+[2018.07.30-09.41.06:396][999]LogUObjectGlobals: Created PersistentFrame Addr=0x00000241a7f9fd80, Size=568, Default__Pinball_Player_Controller_Blueprint_C Function /Game/Blueprints/Pinball_Player_Controller_Blueprint.Pinball_Player_Controller_Blueprint_C:ExecuteUbergraph_Pinball_Player_Controller_Blueprint
+[2018.07.30-09.41.06:562][999]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000241a7d0ee80, Size=568
+[2018.07.30-09.41.07:195][ 59]LogSavePackage: Save=42.40ms
+[2018.07.30-09.41.07:195][ 59]LogSavePackage: Moving '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Pinball_Player_Controller_Bluepr907C7198447B8D188091EF843683B484.tmp' to '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Blueprints/Pinball_Player_Controller_Blueprint.uasset'
+[2018.07.30-09.41.07:198][ 59]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Blueprints/Pinball_Player_Controller_Blueprint.uasset
+[2018.07.30-09.42.30:627][564]LogUObjectGlobals: Created PersistentFrame Addr=0x00000241a7e6e158, Size=4, Default__SKEL_Pinball_Player_Controller_Blueprint_C Function /Game/Blueprints/Pinball_Player_Controller_Blueprint.SKEL_Pinball_Player_Controller_Blueprint_C:ExecuteUbergraph_Pinball_Player_Controller_Blueprint
+[2018.07.30-09.42.52:129][369]BlueprintLog: New page: Compile Pinball_Player_Controller_Blueprint
+[2018.07.30-09.42.52:145][369]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000241a7e6e158, Size=4
+[2018.07.30-09.42.52:145][369]LogUObjectGlobals: Created PersistentFrame Addr=0x0000024129627ad0, Size=4, Default__SKEL_Pinball_Player_Controller_Blueprint_C Function /Engine/Transient.REINST_SKEL_Pinball_Player_Controller_Blueprint_C_148:ExecuteUbergraph_Pinball_Player_Controller_Blueprint
+[2018.07.30-09.42.52:162][369]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000241a7f9fd80, Size=568
+[2018.07.30-09.42.52:162][369]LogUObjectGlobals: Created PersistentFrame Addr=0x00000241a962c180, Size=568, Default__Pinball_Player_Controller_Blueprint_C Function /Engine/Transient.REINST_Pinball_Player_Controller_Blueprint_C_151:ExecuteUbergraph_Pinball_Player_Controller_Blueprint
+[2018.07.30-09.42.52:173][369]LogUObjectGlobals: Created PersistentFrame Addr=0x00000241a7d0e480, Size=568, Default__Pinball_Player_Controller_Blueprint_C Function /Game/Blueprints/Pinball_Player_Controller_Blueprint.Pinball_Player_Controller_Blueprint_C:ExecuteUbergraph_Pinball_Player_Controller_Blueprint
+[2018.07.30-09.42.52:406][369]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000241a1436200, Size=568
+[2018.07.30-09.42.52:406][369]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000024129627ad0, Size=4
+[2018.07.30-09.42.53:089][416]LogSavePackage: Save=80.35ms
+[2018.07.30-09.42.53:089][416]LogSavePackage: Moving '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Pinball_Player_Controller_Bluepr19133DF4439FA7C5B86B23881F43000A.tmp' to '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Blueprints/Pinball_Player_Controller_Blueprint.uasset'
+[2018.07.30-09.42.53:091][416]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Blueprints/Pinball_Player_Controller_Blueprint.uasset
+[2018.07.30-09.44.24:430][845]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000241a962c180, Size=568
+[2018.07.30-09.44.24:431][845]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Ball_Setup_Map' took 0.029
+[2018.07.30-09.44.24:432][845]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Pinball_Player_Controller_Blueprint] ([1] browsable assets)...
+[2018.07.30-09.44.24:432][845]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Pinball_Player_Controller_Blueprint]
+[2018.07.30-09.44.24:517][845]LogSavePackage: Save=49.88ms
+[2018.07.30-09.44.24:517][845]LogSavePackage: Moving '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Pinball_Player_Controller_BlueprE84BD2234386CB9B99B0E097C75099E6.tmp' to '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Autosaves/Game/Blueprints/Pinball_Player_Controller_Blueprint_Auto2.uasset'
+[2018.07.30-09.44.24:532][845]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Autosaves/Game/Blueprints/Pinball_Player_Controller_Blueprint_Auto2.uasset
+[2018.07.30-09.44.24:533][845]LogFileHelpers: Auto-saving content packages took 0.101
+[2018.07.30-09.44.35:242][134]BlueprintLog: New page: Compile Pinball_Player_Controller_Blueprint
+[2018.07.30-09.44.35:277][134]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000241a7d0e480, Size=568
+[2018.07.30-09.44.35:277][134]LogUObjectGlobals: Created PersistentFrame Addr=0x00000241ad5d5800, Size=568, Default__Pinball_Player_Controller_Blueprint_C Function /Engine/Transient.REINST_Pinball_Player_Controller_Blueprint_C_157:ExecuteUbergraph_Pinball_Player_Controller_Blueprint
+[2018.07.30-09.44.35:289][134]LogUObjectGlobals: Created PersistentFrame Addr=0x00000241a20db380, Size=568, Default__Pinball_Player_Controller_Blueprint_C Function /Game/Blueprints/Pinball_Player_Controller_Blueprint.Pinball_Player_Controller_Blueprint_C:ExecuteUbergraph_Pinball_Player_Controller_Blueprint
+[2018.07.30-09.44.36:458][237]LogSavePackage: Save=49.74ms
+[2018.07.30-09.44.36:458][237]LogSavePackage: Moving '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Pinball_Player_Controller_Bluepr9885EF964AD8F30682F026BE8B644CC1.tmp' to '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Blueprints/Pinball_Player_Controller_Blueprint.uasset'
+[2018.07.30-09.44.36:461][237]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Blueprints/Pinball_Player_Controller_Blueprint.uasset
+[2018.07.30-09.45.08:004][806]LogSlate: Window 'Pick Parent Class' being destroyed
+[2018.07.30-09.47.33:206][531]BlueprintLog: New page: Compile Tilt_Shake_Blueprint
+[2018.07.30-09.47.33:310][531]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000241ad5d5800, Size=568
+[2018.07.30-09.47.34:254][614]LogSavePackage: Save=23.43ms
+[2018.07.30-09.47.34:254][614]LogSavePackage: Moving '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Tilt_Shake_Blueprint4DB878164D4BF264BA405A9FE8DE4126.tmp' to '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Blueprints/Tilt_Shake_Blueprint.uasset'
+[2018.07.30-09.47.34:259][614]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Blueprints/Tilt_Shake_Blueprint.uasset
+[2018.07.30-09.47.49:983][775]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.07.30-09.53.27:772][621]BlueprintLog: New page: Compile Pinball_Player_Controller_Blueprint
+[2018.07.30-09.53.27:827][621]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000241a20db380, Size=568
+[2018.07.30-09.53.27:827][621]LogUObjectGlobals: Created PersistentFrame Addr=0x00000241bae26c00, Size=568, Default__Pinball_Player_Controller_Blueprint_C Function /Engine/Transient.REINST_Pinball_Player_Controller_Blueprint_C_169:ExecuteUbergraph_Pinball_Player_Controller_Blueprint
+[2018.07.30-09.53.27:841][621]LogUObjectGlobals: Created PersistentFrame Addr=0x00000241a0c5c680, Size=568, Default__Pinball_Player_Controller_Blueprint_C Function /Game/Blueprints/Pinball_Player_Controller_Blueprint.Pinball_Player_Controller_Blueprint_C:ExecuteUbergraph_Pinball_Player_Controller_Blueprint
+[2018.07.30-09.53.28:821][687]LogSavePackage: Save=52.52ms
+[2018.07.30-09.53.28:821][687]LogSavePackage: Moving '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Pinball_Player_Controller_Bluepr738BAB134832082D582FD18D2D02705E.tmp' to '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Blueprints/Pinball_Player_Controller_Blueprint.uasset'
+[2018.07.30-09.53.28:823][687]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Blueprints/Pinball_Player_Controller_Blueprint.uasset
+[2018.07.30-09.56.35:612][708]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000241bae26c00, Size=568
+[2018.07.30-09.56.36:142][708]LogSavePackage: Save=290.83ms
+[2018.07.30-09.56.36:142][708]LogSavePackage: Moving '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Ball_Setup_Map638771D74CEDD29FD83F4FB1AA9BA812.tmp' to '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Ball_Setup_Map.umap'
+[2018.07.30-09.56.36:148][708]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Ball_Setup_Map.umap
+[2018.07.30-09.56.36:307][708]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Ball_Setup_Map_BuiltData" FILE="../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Ball_Setup_Map_BuiltData.uasset" SILENT=true
+[2018.07.30-09.56.36:652][708]LogSavePackage: Save=192.01ms
+[2018.07.30-09.56.36:652][708]LogSavePackage: Moving '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Ball_Setup_Map_BuiltData46982FBB47D3903EB5C40290683106BE.tmp' to '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Ball_Setup_Map_BuiltData.uasset'
+[2018.07.30-09.56.36:656][708]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Ball_Setup_Map_BuiltData.uasset
+[2018.07.30-09.56.45:717][544]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
