@@ -569,3 +569,71 @@ LogInit: Object subsystem initialized
 [2018.07.30-04.05.18:555][949]LogSavePackage: Save=19.82ms
 [2018.07.30-04.05.18:556][949]LogSavePackage: Moving '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Ball_Setup_Map_BuiltData373490884DD28BED70344B99F2F85B85.tmp' to '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Ball_Setup_Map_BuiltData.uasset'
 [2018.07.30-04.05.18:557][949]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Ball_Setup_Map_BuiltData.uasset
+[2018.07.30-04.07.50:076][493]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.30-04.08.38:201][749]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.30-04.08.45:107][945]LogAudioDerivedData: Display: Building compressed audio format OGG wave victoryMusic_loop_01_01...
+[2018.07.30-04.08.47:187][945]LogAudioDerivedData: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/Assets/Sounds/victoryMusic_loop_01_01.victoryMusic_loop_01_01.
+[2018.07.30-04.08.52:221][ 56]LogSavePackage: Save=94.92ms
+[2018.07.30-04.08.52:223][ 56]LogSavePackage: Moving '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/victoryMusic_loop_01_0120883B7D441B5852A6A6AE87423A86AA.tmp' to '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Assets/Sounds/victoryMusic_loop_01_01.uasset'
+[2018.07.30-04.08.52:236][ 56]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Assets/Sounds/victoryMusic_loop_01_01.uasset
+[2018.07.30-04.09.56:892][701]BlueprintLog: New page: Compile Pinball_Game_Mode_Blueprint
+[2018.07.30-04.09.57:042][701]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000019b6d58df80, Size=320
+[2018.07.30-04.09.57:042][701]LogUObjectGlobals: Created PersistentFrame Addr=0x0000019bc29bccc0, Size=320, Default__Pinball_Game_Mode_Blueprint_C Function /Engine/Transient.REINST_Pinball_Game_Mode_Blueprint_C_59:ExecuteUbergraph_Pinball_Game_Mode_Blueprint
+[2018.07.30-04.09.57:049][701]LogUObjectGlobals: Created PersistentFrame Addr=0x0000019bbf896980, Size=320, Default__Pinball_Game_Mode_Blueprint_C Function /Game/Blueprints/Pinball_Game_Mode_Blueprint.Pinball_Game_Mode_Blueprint_C:ExecuteUbergraph_Pinball_Game_Mode_Blueprint
+[2018.07.30-04.09.59:206][722]LogSavePackage: Save=268.59ms
+[2018.07.30-04.09.59:206][722]LogSavePackage: Moving '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Pinball_Game_Mode_BlueprintC3B64EA74527AB9BD6CBC4A7D6A36294.tmp' to '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Blueprints/Pinball_Game_Mode_Blueprint.uasset'
+[2018.07.30-04.09.59:212][722]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Blueprints/Pinball_Game_Mode_Blueprint.uasset
+[2018.07.30-04.10.02:324][781]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000019bc29bccc0, Size=320
+[2018.07.30-04.10.02:427][781]LogSavePackage: Save=76.81ms
+[2018.07.30-04.10.02:427][781]LogSavePackage: Moving '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Ball_Setup_MapF6ED9C094477278EAB09AF95BE1770AD.tmp' to '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Ball_Setup_Map.umap'
+[2018.07.30-04.10.02:430][781]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Ball_Setup_Map.umap
+[2018.07.30-04.10.02:473][781]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Ball_Setup_Map_BuiltData" FILE="../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Ball_Setup_Map_BuiltData.uasset" SILENT=true
+[2018.07.30-04.10.02:515][781]LogSavePackage: Save=15.14ms
+[2018.07.30-04.10.02:515][781]LogSavePackage: Moving '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Ball_Setup_Map_BuiltDataB56154A646B1A1429BC75BAC6CA6A436.tmp' to '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Ball_Setup_Map_BuiltData.uasset'
+[2018.07.30-04.10.02:517][781]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Ball_Setup_Map_BuiltData.uasset
+[2018.07.30-04.10.04:109][804]LogTemp: Repeating last play command: Standalone Game
+[2018.07.30-04.14.49:207][108]LogSavePackage: Save=4.68ms
+[2018.07.30-04.14.49:207][108]LogSavePackage: Moving '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Pinball_SoundAttenuation457C540242F950E3DD174C9356265EEA.tmp' to '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Assets/Sounds/Pinball_SoundAttenuation.uasset'
+[2018.07.30-04.14.49:213][108]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Assets/Sounds/Pinball_SoundAttenuation.uasset
+[2018.07.30-04.14.52:458][176]LogSavePackage: Save=6.69ms
+[2018.07.30-04.14.52:459][176]LogSavePackage: Moving '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Pinball_SoundAttenuation03F943F1414328555A33BF8229995C2F.tmp' to '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Assets/Sounds/Pinball_SoundAttenuation.uasset'
+[2018.07.30-04.14.52:460][176]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Assets/Sounds/Pinball_SoundAttenuation.uasset
+[2018.07.30-04.15.26:371][828]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Sounds/Bumper_Hit" FILE="../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Assets/Sounds/Bumper_Hit.uasset" SILENT=true
+[2018.07.30-04.15.26:491][828]LogSavePackage: Save=91.47ms
+[2018.07.30-04.15.26:491][828]LogSavePackage: Moving '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Bumper_Hit58CB701645B79518DC44B385925C9CA9.tmp' to '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Assets/Sounds/Bumper_Hit.uasset'
+[2018.07.30-04.15.26:497][828]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Assets/Sounds/Bumper_Hit.uasset
+[2018.07.30-04.16.29:618][889]LogAudioDerivedData: Display: Building compressed audio format OGG wave Pinball_BallLoose...
+[2018.07.30-04.16.29:688][889]LogAudioDerivedData: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/Assets/Sounds/Pinball_BallLoose.Pinball_BallLoose.
+[2018.07.30-04.17.15:013][ 58]LogSavePackage: Save=5.42ms
+[2018.07.30-04.17.15:014][ 58]LogSavePackage: Moving '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Pinball_BallLoose_Cue956311A44480CA1A566AADB1E91F3D1B.tmp' to '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Assets/Sounds/Pinball_BallLoose_Cue.uasset'
+[2018.07.30-04.17.15:016][ 58]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Assets/Sounds/Pinball_BallLoose_Cue.uasset
+[2018.07.30-04.19.02:385][147]BlueprintLog: New page: Compile Ball_Blueprint
+[2018.07.30-04.19.02:435][147]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000019b70955780, Size=368
+[2018.07.30-04.19.02:435][147]LogUObjectGlobals: Created PersistentFrame Addr=0x0000019bc037ae00, Size=368, Default__Ball_Blueprint_C Function /Engine/Transient.REINST_Ball_Blueprint_C_71:ExecuteUbergraph_Ball_Blueprint
+[2018.07.30-04.19.02:438][147]LogUObjectGlobals: Created PersistentFrame Addr=0x0000019b945b5a80, Size=376, Default__Ball_Blueprint_C Function /Game/Blueprints/Ball_Blueprint.Ball_Blueprint_C:ExecuteUbergraph_Ball_Blueprint
+[2018.07.30-04.19.03:552][199]LogSavePackage: Save=161.79ms
+[2018.07.30-04.19.03:552][199]LogSavePackage: Moving '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Ball_BlueprintC6FEEA514D9944BBFE008A9E328AD074.tmp' to '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Blueprints/Ball_Blueprint.uasset'
+[2018.07.30-04.19.03:556][199]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Blueprints/Ball_Blueprint.uasset
+[2018.07.30-04.20.03:654][ 89]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000019bc037ae00, Size=368
+[2018.07.30-04.20.03:655][ 89]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Ball_Setup_Map' took 0.034
+[2018.07.30-04.20.03:752][ 89]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Pinball_Game_Mode_Blueprint] ([1] browsable assets)...
+[2018.07.30-04.20.03:752][ 89]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Pinball_Game_Mode_Blueprint]
+[2018.07.30-04.20.03:993][ 89]LogSavePackage: Save=170.78ms
+[2018.07.30-04.20.03:993][ 89]LogSavePackage: Moving '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Pinball_Game_Mode_Blueprint_AutoB34FD8134676212E94309D8C5AF4189B.tmp' to '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Autosaves/Game/Blueprints/Pinball_Game_Mode_Blueprint_Auto1.uasset'
+[2018.07.30-04.20.04:001][ 89]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Autosaves/Game/Blueprints/Pinball_Game_Mode_Blueprint_Auto1.uasset
+[2018.07.30-04.20.04:001][ 89]LogFileHelpers: Auto-saving content packages took 0.346
+[2018.07.30-04.21.25:166][674]BlueprintLog: New page: Compile Pinball_Game_Mode_Blueprint
+[2018.07.30-04.21.25:232][674]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000019bbf896980, Size=320
+[2018.07.30-04.21.25:232][674]LogUObjectGlobals: Created PersistentFrame Addr=0x0000019bc6c1bc40, Size=320, Default__Pinball_Game_Mode_Blueprint_C Function /Engine/Transient.REINST_Pinball_Game_Mode_Blueprint_C_87:ExecuteUbergraph_Pinball_Game_Mode_Blueprint
+[2018.07.30-04.21.25:242][674]LogUObjectGlobals: Created PersistentFrame Addr=0x0000019bc6c1b740, Size=320, Default__Pinball_Game_Mode_Blueprint_C Function /Game/Blueprints/Pinball_Game_Mode_Blueprint.Pinball_Game_Mode_Blueprint_C:ExecuteUbergraph_Pinball_Game_Mode_Blueprint
+[2018.07.30-04.21.26:241][729]LogSavePackage: Save=141.81ms
+[2018.07.30-04.21.26:241][729]LogSavePackage: Moving '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Pinball_Game_Mode_BlueprintC3FBE04A4656A9A2BE5F3287FDA88BCD.tmp' to '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Blueprints/Pinball_Game_Mode_Blueprint.uasset'
+[2018.07.30-04.21.26:246][729]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Blueprints/Pinball_Game_Mode_Blueprint.uasset
+[2018.07.30-04.21.49:185][235]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000019bc6c1bc40, Size=320
+[2018.07.30-04.21.49:269][235]LogSavePackage: Save=57.12ms
+[2018.07.30-04.21.49:269][235]LogSavePackage: Moving '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Ball_Setup_MapF66317124FBC5CE3034B248D00BFE102.tmp' to '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Ball_Setup_Map.umap'
+[2018.07.30-04.21.49:270][235]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Ball_Setup_Map.umap
+[2018.07.30-04.21.49:304][235]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Ball_Setup_Map_BuiltData" FILE="../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Ball_Setup_Map_BuiltData.uasset" SILENT=true
+[2018.07.30-04.21.49:347][235]LogSavePackage: Save=14.99ms
+[2018.07.30-04.21.49:347][235]LogSavePackage: Moving '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Ball_Setup_Map_BuiltData33717CA04E408DDFFDC8D3886D03D849.tmp' to '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Ball_Setup_Map_BuiltData.uasset'
+[2018.07.30-04.21.49:348][235]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Ball_Setup_Map_BuiltData.uasset
