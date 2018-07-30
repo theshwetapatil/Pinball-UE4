@@ -104,5 +104,7 @@ Click+3- To add curve to the timeline keyframes
 -----------------
 For effective collisions, enable CCD(Continuous Collision Detection) in Collision section of the entity
 and increase Position Solver Item and Velocity Solver Item in Physics section of the entity
-
+-----------------
+To add Decal- Search Deferred Decal in Places
+Decal can modify color, metalic and roughness(using dbuffer decal).
 
