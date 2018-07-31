@@ -695,3 +695,525 @@ LogInit: Object subsystem initialized
 [2018.07.31-05.34.09:054][239]LogSavePackage: Save=106.19ms
 [2018.07.31-05.34.09:054][239]LogSavePackage: Moving '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Ball_Setup_Map_BuiltData53362AF54897391E02E9A7B256C91CD1.tmp' to '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Ball_Setup_Map_BuiltData.uasset'
 [2018.07.31-05.34.09:055][239]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Ball_Setup_Map_BuiltData.uasset
+[2018.07.31-05.39.38:952][737]LogContentBrowser: Native class hierarchy updated for 'Cascade' in 0.0019 seconds. Added 2 classes and 2 folders.
+[2018.07.31-05.40.18:994][913]LogSlate: Window 'Bumper_Sparks_ParticleSystem*' being destroyed
+[2018.07.31-05.40.40:361][291]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.31-05.41.31:327][130]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.31-05.41.47:907][528]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.31-05.42.17:166][256]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.31-05.42.45:672][573]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.31-05.43.03:903][300]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.31-05.43.16:399][ 25]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.31-05.43.51:532][331]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.31-05.44.18:026][654]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.31-05.44.18:123][654]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Ball_Setup_Map' took 0.041
+[2018.07.31-05.44.18:183][654]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Bumper_Sparks_ParticleSystem] ([1] browsable assets)...
+[2018.07.31-05.44.18:219][654]OBJ SavePackage:     Rendered thumbnail for [ParticleSystem /Game/Assets/Bumper_Sparks_ParticleSystem.Bumper_Sparks_ParticleSystem]
+[2018.07.31-05.44.18:219][654]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Bumper_Sparks_ParticleSystem]
+[2018.07.31-05.44.18:317][654]LogSavePackage: Save=92.72ms
+[2018.07.31-05.44.18:317][654]LogSavePackage: Moving '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Bumper_Sparks_ParticleSystem_Aut93C5BA5D4978CD9B6FD88EAE98D07311.tmp' to '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Autosaves/Game/Assets/Bumper_Sparks_ParticleSystem_Auto1.uasset'
+[2018.07.31-05.44.18:318][654]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Autosaves/Game/Assets/Bumper_Sparks_ParticleSystem_Auto1.uasset
+[2018.07.31-05.44.18:318][654]LogFileHelpers: Auto-saving content packages took 0.194
+[2018.07.31-05.44.19:738][739]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.31-05.44.59:997][816]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.31-05.45.11:920][262]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.31-05.45.27:439][477]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.31-05.45.39:653][197]LogParticles: Warning: MaxCount =  502 for Emitter ParticleSpriteEmitter_0 (/Game/Assets/Bumper_Sparks_ParticleSystem.Bumper_Sparks_ParticleSystem)
+[2018.07.31-05.46.03:504][609]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.31-05.46.15:956][953]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.31-05.46.30:202][318]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.31-05.46.30:268][318]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.31-05.46.35:111][608]LogParticles: Warning: MaxCount =  502 for Emitter ParticleSpriteEmitter_0 (/Game/Assets/Bumper_Sparks_ParticleSystem.Bumper_Sparks_ParticleSystem)
+[2018.07.31-05.46.48:708][831]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.31-05.46.51:973][ 26]LogParticles: Warning: MaxCount =  502 for Emitter ParticleSpriteEmitter_0 (/Game/Assets/Bumper_Sparks_ParticleSystem.Bumper_Sparks_ParticleSystem)
+[2018.07.31-05.46.54:072][150]LogParticles: Warning: MaxCount =  502 for Emitter ParticleSpriteEmitter_0 (/Game/Assets/Bumper_Sparks_ParticleSystem.Bumper_Sparks_ParticleSystem)
+[2018.07.31-05.47.19:413][907]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.31-05.47.35:223][380]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.31-05.47.37:340][507]LogParticles: Warning: MaxCount =  502 for Emitter ParticleSpriteEmitter_0 (/Game/Assets/Bumper_Sparks_ParticleSystem.Bumper_Sparks_ParticleSystem)
+[2018.07.31-05.48.07:264][271]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.31-05.48.33:411][509]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.31-05.48.37:052][727]LogParticles: Warning: MaxCount =  502 for Emitter ParticleSpriteEmitter_0 (/Game/Assets/Bumper_Sparks_ParticleSystem.Bumper_Sparks_ParticleSystem)
+[2018.07.31-05.49.13:433][ 45]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.31-05.49.13:627][ 55]LogSavePackage: Save=11.66ms
+[2018.07.31-05.49.13:627][ 55]LogSavePackage: Moving '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Bumper_Sparks_ParticleSystem734F98E04061E5201FC65BB0AA4D68BD.tmp' to '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Assets/Bumper_Sparks_ParticleSystem.uasset'
+[2018.07.31-05.49.13:632][ 55]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Assets/Bumper_Sparks_ParticleSystem.uasset
+[2018.07.31-05.49.31:333][294]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.31-05.49.48:200][783]LogMaterial: Missing cached shader map for material Simple_Spot_Material, compiling. 
+[2018.07.31-05.49.50:243][783]LogMaterial: Missing cached shader map for material Simple_Spot_Material, compiling. 
+[2018.07.31-05.49.50:479][783]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.07.31-05.49.50:479][783]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.07.31-05.49.50:479][783]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.07.31-05.49.50:488][783]LogMaterial: Missing cached shader map for material Simple_Spot_Material, compiling. 
+[2018.07.31-05.49.54:675][797]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.07.31-05.49.54:675][797]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.07.31-05.49.54:675][797]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.07.31-05.49.55:028][798]LogShaderCompilers: Display: Shaders left to compile 13
+[2018.07.31-05.49.55:028][798]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.07.31-05.49.55:028][798]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.07.31-05.49.55:336][799]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.07.31-05.49.55:336][799]LogShaderCompilers: Display: Shaders left to compile 9
+[2018.07.31-05.49.55:336][799]LogShaderCompilers: Display: Shaders left to compile 8
+[2018.07.31-05.49.55:336][799]LogShaderCompilers: Display: Shaders left to compile 7
+[2018.07.31-05.49.55:662][800]LogShaderCompilers: Display: Shaders left to compile 6
+[2018.07.31-05.49.55:989][801]LogShaderCompilers: Display: Shaders left to compile 5
+[2018.07.31-05.49.55:989][801]LogShaderCompilers: Display: Shaders left to compile 4
+[2018.07.31-05.49.56:346][802]LogShaderCompilers: Display: Shaders left to compile 3
+[2018.07.31-05.49.56:346][802]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.07.31-05.49.56:346][802]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.07.31-05.49.57:676][805]MaterialEditorStats: Base pass shader: 99 instructions
+[2018.07.31-05.49.57:676][805]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 172 instructions
+[2018.07.31-05.49.57:676][805]MaterialEditorStats: Vertex shader: 34 instructions
+[2018.07.31-05.49.57:676][805]MaterialEditorStats: Texture samplers: 2/16
+[2018.07.31-05.50.07:794][930]LogMaterial: Missing cached shader map for material Simple_Spot_Material, compiling. 
+[2018.07.31-05.50.07:817][931]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.07.31-05.50.07:817][931]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.07.31-05.50.07:817][931]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.07.31-05.50.10:623][ 53]LogShaderCompilers: Display: Shaders left to compile 13
+[2018.07.31-05.50.10:667][ 55]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.07.31-05.50.10:844][ 63]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.07.31-05.50.12:354][131]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.07.31-05.50.12:377][132]LogShaderCompilers: Display: Shaders left to compile 9
+[2018.07.31-05.50.12:505][138]LogShaderCompilers: Display: Shaders left to compile 8
+[2018.07.31-05.50.14:076][208]LogShaderCompilers: Display: Shaders left to compile 7
+[2018.07.31-05.50.15:822][285]LogShaderCompilers: Display: Shaders left to compile 6
+[2018.07.31-05.50.16:018][293]LogShaderCompilers: Display: Shaders left to compile 5
+[2018.07.31-05.50.16:362][308]LogShaderCompilers: Display: Shaders left to compile 4
+[2018.07.31-05.50.18:264][391]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.31-05.50.18:356][397]LogShaderCompilers: Display: Shaders left to compile 3
+[2018.07.31-05.50.18:465][401]LogMaterial: Missing cached shader map for material Simple_Spot_Material, compiling. 
+[2018.07.31-05.50.18:680][412]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.07.31-05.50.19:525][450]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.07.31-05.50.20:767][504]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.07.31-05.50.21:001][514]LogShaderCompilers: Display: Shaders left to compile 13
+[2018.07.31-05.50.21:319][528]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.07.31-05.50.22:615][585]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.07.31-05.50.22:710][589]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.31-05.50.22:806][595]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.07.31-05.50.22:823][596]LogShaderCompilers: Display: Shaders left to compile 9
+[2018.07.31-05.50.22:855][597]LogMaterial: Missing cached shader map for material Simple_Spot_Material, compiling. 
+[2018.07.31-05.50.23:808][641]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.07.31-05.50.24:346][665]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.07.31-05.50.24:570][675]LogMaterial: Missing cached shader map for material Simple_Spot_Material, compiling. 
+[2018.07.31-05.50.25:142][702]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.07.31-05.50.25:296][709]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.07.31-05.50.26:015][741]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.07.31-05.50.27:465][803]LogShaderCompilers: Display: Shaders left to compile 13
+[2018.07.31-05.50.27:908][820]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.07.31-05.50.28:003][824]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.07.31-05.50.28:443][841]LogMaterial: Missing cached shader map for material Simple_Spot_Material, compiling. 
+[2018.07.31-05.50.28:468][842]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.07.31-05.50.28:720][855]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.07.31-05.50.28:770][857]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.07.31-05.50.30:482][932]LogShaderCompilers: Display: Shaders left to compile 13
+[2018.07.31-05.50.30:797][946]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.07.31-05.50.30:932][952]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.07.31-05.50.32:475][ 19]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.07.31-05.50.32:571][ 23]LogShaderCompilers: Display: Shaders left to compile 9
+[2018.07.31-05.50.32:731][ 30]LogShaderCompilers: Display: Shaders left to compile 8
+[2018.07.31-05.50.34:478][107]LogShaderCompilers: Display: Shaders left to compile 7
+[2018.07.31-05.50.36:750][205]LogShaderCompilers: Display: Shaders left to compile 6
+[2018.07.31-05.50.36:820][208]LogShaderCompilers: Display: Shaders left to compile 5
+[2018.07.31-05.50.37:001][216]LogShaderCompilers: Display: Shaders left to compile 4
+[2018.07.31-05.50.37:937][256]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.31-05.50.38:201][266]LogMaterial: Missing cached shader map for material Simple_Spot_Material, compiling. 
+[2018.07.31-05.50.38:332][272]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.07.31-05.50.39:943][343]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.07.31-05.50.40:852][381]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.07.31-05.50.41:054][389]LogShaderCompilers: Display: Shaders left to compile 13
+[2018.07.31-05.50.41:512][395]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.07.31-05.50.41:513][395]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.07.31-05.50.41:513][395]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.07.31-05.50.41:857][396]LogShaderCompilers: Display: Shaders left to compile 9
+[2018.07.31-05.50.41:857][396]LogShaderCompilers: Display: Shaders left to compile 8
+[2018.07.31-05.50.41:857][396]LogShaderCompilers: Display: Shaders left to compile 7
+[2018.07.31-05.50.42:193][397]LogShaderCompilers: Display: Shaders left to compile 6
+[2018.07.31-05.50.42:194][397]LogShaderCompilers: Display: Shaders left to compile 5
+[2018.07.31-05.50.42:194][397]LogShaderCompilers: Display: Shaders left to compile 4
+[2018.07.31-05.50.42:532][398]LogShaderCompilers: Display: Shaders left to compile 3
+[2018.07.31-05.50.42:863][399]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.07.31-05.50.42:863][399]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.07.31-05.50.43:870][401]MaterialEditorStats: Base pass shader: 99 instructions
+[2018.07.31-05.50.43:870][401]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 172 instructions
+[2018.07.31-05.50.43:870][401]MaterialEditorStats: Vertex shader: 34 instructions
+[2018.07.31-05.50.43:870][401]MaterialEditorStats: Texture samplers: 2/16
+[2018.07.31-05.51.45:954][901]LogMaterial: Missing cached shader map for material Simple_Spot_Material, compiling. 
+[2018.07.31-05.51.46:644][902]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.07.31-05.51.46:644][902]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.07.31-05.51.46:644][902]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.07.31-05.51.46:696][902]LogMaterial: Missing cached shader map for material Material_0, compiling. 
+[2018.07.31-05.51.49:192][961]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.07.31-05.51.49:226][963]LogShaderCompilers: Display: Shaders left to compile 17
+[2018.07.31-05.51.49:226][963]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.07.31-05.51.49:761][986]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.07.31-05.51.49:798][988]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.07.31-05.51.49:817][989]LogShaderCompilers: Display: Shaders left to compile 13
+[2018.07.31-05.51.50:932][ 21]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.07.31-05.51.50:932][ 21]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.07.31-05.51.50:932][ 21]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.07.31-05.51.51:229][ 22]LogShaderCompilers: Display: Shaders left to compile 9
+[2018.07.31-05.51.51:696][ 23]LogShaderCompilers: Display: Shaders left to compile 8
+[2018.07.31-05.51.52:034][ 24]LogShaderCompilers: Display: Shaders left to compile 7
+[2018.07.31-05.51.52:034][ 24]LogShaderCompilers: Display: Shaders left to compile 6
+[2018.07.31-05.51.52:351][ 25]LogShaderCompilers: Display: Shaders left to compile 5
+[2018.07.31-05.51.52:675][ 25]MaterialEditorStats: Base pass shader: 99 instructions
+[2018.07.31-05.51.52:675][ 25]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 172 instructions
+[2018.07.31-05.51.52:675][ 25]MaterialEditorStats: Vertex shader: 34 instructions
+[2018.07.31-05.51.52:675][ 25]MaterialEditorStats: Texture samplers: 2/16
+[2018.07.31-05.52.24:782][370]LogMaterial: Missing cached shader map for material Simple_Spot_Material, compiling. 
+[2018.07.31-05.52.24:803][371]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.07.31-05.52.24:803][371]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.07.31-05.52.24:803][371]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.07.31-05.52.28:462][531]LogShaderCompilers: Display: Shaders left to compile 13
+[2018.07.31-05.52.28:480][532]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.07.31-05.52.28:551][535]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.07.31-05.52.30:615][622]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.07.31-05.52.30:839][627]LogShaderCompilers: Display: Shaders left to compile 9
+[2018.07.31-05.52.30:943][629]LogShaderCompilers: Display: Shaders left to compile 8
+[2018.07.31-05.52.31:959][664]LogShaderCompilers: Display: Shaders left to compile 7
+[2018.07.31-05.52.33:983][749]LogMaterial: Missing cached shader map for material Simple_Spot_Material, compiling. 
+[2018.07.31-05.52.34:037][750]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.07.31-05.52.34:152][757]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.07.31-05.52.34:211][759]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.07.31-05.52.34:432][771]LogShaderCompilers: Display: Shaders left to compile 13
+[2018.07.31-05.52.34:502][775]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.07.31-05.52.34:535][777]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.07.31-05.52.34:788][792]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.07.31-05.52.34:859][796]LogShaderCompilers: Display: Shaders left to compile 9
+[2018.07.31-05.52.34:859][796]LogShaderCompilers: Display: Shaders left to compile 8
+[2018.07.31-05.52.35:068][808]LogShaderCompilers: Display: Shaders left to compile 7
+[2018.07.31-05.52.35:476][832]LogShaderCompilers: Display: Shaders left to compile 6
+[2018.07.31-05.52.35:494][833]LogShaderCompilers: Display: Shaders left to compile 5
+[2018.07.31-05.52.35:543][836]LogShaderCompilers: Display: Shaders left to compile 4
+[2018.07.31-05.52.36:137][861]LogShaderCompilers: Display: Shaders left to compile 3
+[2018.07.31-05.52.36:137][861]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.07.31-05.52.36:137][861]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.07.31-05.52.36:265][861]LogMaterial: Missing cached shader map for material Simple_Spot_Material, compiling. 
+[2018.07.31-05.52.36:392][861]LogMaterial: Missing cached shader map for material Simple_Spot_Material, compiling. 
+[2018.07.31-05.52.36:434][861]LogMaterial: Missing cached shader map for material Simple_Spot_Material, compiling. 
+[2018.07.31-05.52.36:458][861]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.07.31-05.52.36:458][861]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.07.31-05.52.36:534][862]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.07.31-05.52.37:469][902]LogShaderCompilers: Display: Shaders left to compile 19
+[2018.07.31-05.52.37:611][908]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.07.31-05.52.37:802][916]LogShaderCompilers: Display: Shaders left to compile 17
+[2018.07.31-05.52.38:619][950]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.07.31-05.52.40:163][ 14]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.07.31-05.52.40:530][ 17]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.07.31-05.52.40:530][ 17]LogShaderCompilers: Display: Shaders left to compile 13
+[2018.07.31-05.52.40:895][ 18]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.07.31-05.52.40:895][ 18]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.07.31-05.52.41:555][ 19]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.07.31-05.52.41:556][ 19]LogShaderCompilers: Display: Shaders left to compile 9
+[2018.07.31-05.52.41:925][ 21]LogShaderCompilers: Display: Shaders left to compile 8
+[2018.07.31-05.52.41:926][ 21]LogShaderCompilers: Display: Shaders left to compile 7
+[2018.07.31-05.52.42:304][ 22]LogShaderCompilers: Display: Shaders left to compile 6
+[2018.07.31-05.52.42:614][ 23]LogShaderCompilers: Display: Shaders left to compile 5
+[2018.07.31-05.52.42:614][ 23]LogShaderCompilers: Display: Shaders left to compile 4
+[2018.07.31-05.52.42:614][ 23]LogShaderCompilers: Display: Shaders left to compile 3
+[2018.07.31-05.52.42:952][ 24]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.07.31-05.52.42:952][ 24]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.07.31-05.52.43:951][ 26]MaterialEditorStats: Base pass shader: 80 instructions
+[2018.07.31-05.52.43:951][ 26]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 101 instructions
+[2018.07.31-05.52.43:951][ 26]MaterialEditorStats: Vertex shader: 113 instructions
+[2018.07.31-05.52.43:951][ 26]MaterialEditorStats: Texture samplers: 3/16
+[2018.07.31-05.52.43:951][ 26]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.07.31-05.53.04:592][178]LogMaterial: Missing cached shader map for material Simple_Spot_Material, compiling. 
+[2018.07.31-05.53.04:624][178]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.07.31-05.53.04:624][178]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.07.31-05.53.04:624][178]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.07.31-05.53.05:326][218]LogShaderCompilers: Display: Shaders left to compile 19
+[2018.07.31-05.53.05:376][221]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.07.31-05.53.05:393][222]LogShaderCompilers: Display: Shaders left to compile 17
+[2018.07.31-05.53.05:813][246]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.07.31-05.53.06:257][272]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.07.31-05.53.06:274][273]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.07.31-05.53.06:791][293]LogMaterial: Missing cached shader map for material Simple_Spot_Material, compiling. 
+[2018.07.31-05.53.06:808][293]LogShaderCompilers: Display: Shaders left to compile 8
+[2018.07.31-05.53.06:808][293]LogShaderCompilers: Display: Shaders left to compile 7
+[2018.07.31-05.53.06:826][293]LogMaterial: Missing cached shader map for material Simple_Spot_Material, compiling. 
+[2018.07.31-05.53.06:832][293]LogShaderCompilers: Display: Shaders left to compile 8
+[2018.07.31-05.53.06:889][293]LogMaterial: Missing cached shader map for material Simple_Spot_Material, compiling. 
+[2018.07.31-05.53.07:219][305]LogShaderCompilers: Display: Shaders left to compile 8
+[2018.07.31-05.53.07:506][317]LogShaderCompilers: Display: Shaders left to compile 7
+[2018.07.31-05.53.07:700][325]LogShaderCompilers: Display: Shaders left to compile 6
+[2018.07.31-05.53.08:400][342]LogShaderCompilers: Display: Shaders left to compile 5
+[2018.07.31-05.53.08:400][342]LogShaderCompilers: Display: Shaders left to compile 4
+[2018.07.31-05.53.08:400][342]LogShaderCompilers: Display: Shaders left to compile 3
+[2018.07.31-05.53.08:401][342]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.07.31-05.53.08:737][343]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.07.31-05.53.09:731][345]MaterialEditorStats: Base pass shader without light map: 60 instructions
+[2018.07.31-05.53.09:732][345]MaterialEditorStats: Vertex shader: 113 instructions
+[2018.07.31-05.53.09:732][345]MaterialEditorStats: Texture samplers: 3/16
+[2018.07.31-05.53.09:732][345]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.07.31-05.53.40:284][820]LogMaterial: Missing cached shader map for material Simple_Spot_Material, compiling. 
+[2018.07.31-05.53.40:392][821]LogShaderCompilers: Display: Shaders left to compile 8
+[2018.07.31-05.53.40:392][821]LogShaderCompilers: Display: Shaders left to compile 7
+[2018.07.31-05.53.40:392][821]LogShaderCompilers: Display: Shaders left to compile 6
+[2018.07.31-05.53.40:428][821]LogSlate: Took 0.028136 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.07.31-05.53.42:086][895]LogShaderCompilers: Display: Shaders left to compile 5
+[2018.07.31-05.53.42:116][897]LogShaderCompilers: Display: Shaders left to compile 4
+[2018.07.31-05.53.42:189][899]LogShaderCompilers: Display: Shaders left to compile 3
+[2018.07.31-05.53.42:399][912]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.07.31-05.53.42:720][929]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.07.31-05.53.45:372][ 65]LogMaterial: Missing cached shader map for material Simple_Spot_Material, compiling. 
+[2018.07.31-05.53.45:388][ 66]LogShaderCompilers: Display: Shaders left to compile 8
+[2018.07.31-05.53.45:388][ 66]LogShaderCompilers: Display: Shaders left to compile 7
+[2018.07.31-05.53.45:388][ 66]LogShaderCompilers: Display: Shaders left to compile 6
+[2018.07.31-05.53.46:119][ 97]LogShaderCompilers: Display: Shaders left to compile 5
+[2018.07.31-05.53.46:267][103]LogShaderCompilers: Display: Shaders left to compile 4
+[2018.07.31-05.53.46:801][127]LogShaderCompilers: Display: Shaders left to compile 3
+[2018.07.31-05.53.47:710][166]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.07.31-05.53.48:861][215]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.07.31-05.53.50:049][225]MaterialEditorStats: Base pass shader without light map: 61 instructions
+[2018.07.31-05.53.50:049][225]MaterialEditorStats: Vertex shader: 113 instructions
+[2018.07.31-05.53.50:049][225]MaterialEditorStats: Texture samplers: 3/16
+[2018.07.31-05.53.50:049][225]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.07.31-05.54.24:407][836]LogMaterial: Missing cached shader map for material Simple_Spot_Material, compiling. 
+[2018.07.31-05.54.24:437][836]LogMaterial: Missing cached shader map for material Simple_Spot_Material, compiling. 
+[2018.07.31-05.54.24:485][837]LogShaderCompilers: Display: Shaders left to compile 8
+[2018.07.31-05.54.24:485][837]LogShaderCompilers: Display: Shaders left to compile 7
+[2018.07.31-05.54.24:485][837]LogShaderCompilers: Display: Shaders left to compile 6
+[2018.07.31-05.54.27:018][947]LogShaderCompilers: Display: Shaders left to compile 5
+[2018.07.31-05.54.27:070][950]LogShaderCompilers: Display: Shaders left to compile 4
+[2018.07.31-05.54.27:121][953]LogShaderCompilers: Display: Shaders left to compile 3
+[2018.07.31-05.54.27:362][967]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.07.31-05.54.27:569][978]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.07.31-05.54.27:956][  1]LogMaterial: Missing cached shader map for material Simple_Spot_Material, compiling. 
+[2018.07.31-05.54.27:961][  1]LogShaderCompilers: Display: Shaders left to compile 8
+[2018.07.31-05.54.27:961][  1]LogShaderCompilers: Display: Shaders left to compile 7
+[2018.07.31-05.54.29:263][ 57]LogShaderCompilers: Display: Shaders left to compile 6
+[2018.07.31-05.54.29:305][ 59]LogShaderCompilers: Display: Shaders left to compile 5
+[2018.07.31-05.54.29:592][ 76]LogShaderCompilers: Display: Shaders left to compile 4
+[2018.07.31-05.54.29:625][ 78]LogShaderCompilers: Display: Shaders left to compile 3
+[2018.07.31-05.54.29:709][ 83]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.07.31-05.54.30:092][105]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.07.31-05.54.31:674][194]LogMaterial: Missing cached shader map for material Simple_Spot_Material, compiling. 
+[2018.07.31-05.54.31:692][195]LogShaderCompilers: Display: Shaders left to compile 8
+[2018.07.31-05.54.31:692][195]LogShaderCompilers: Display: Shaders left to compile 7
+[2018.07.31-05.54.31:692][195]LogShaderCompilers: Display: Shaders left to compile 6
+[2018.07.31-05.54.32:332][226]LogShaderCompilers: Display: Shaders left to compile 5
+[2018.07.31-05.54.32:349][227]LogShaderCompilers: Display: Shaders left to compile 4
+[2018.07.31-05.54.32:435][232]LogShaderCompilers: Display: Shaders left to compile 3
+[2018.07.31-05.54.32:589][241]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.07.31-05.54.32:917][260]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.07.31-05.54.35:617][356]MaterialEditorStats: Base pass shader without light map: 61 instructions
+[2018.07.31-05.54.35:617][356]MaterialEditorStats: Vertex shader: 113 instructions
+[2018.07.31-05.54.35:617][356]MaterialEditorStats: Texture samplers: 3/16
+[2018.07.31-05.54.35:617][356]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.07.31-05.54.37:079][360]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Ball_Setup_Map' took 0.071
+[2018.07.31-05.54.37:081][360]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Simple_Spot_Material] ([1] browsable assets)...
+[2018.07.31-05.54.37:132][360]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Assets/Simple_Spot_Material.Simple_Spot_Material]
+[2018.07.31-05.54.37:132][360]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Simple_Spot_Material]
+[2018.07.31-05.54.37:179][360]LogSavePackage: Save=41.78ms
+[2018.07.31-05.54.37:179][360]LogSavePackage: Moving '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Simple_Spot_Material_Auto2EA27017E4A99718923DBC9A3A18E4B43.tmp' to '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Autosaves/Game/Assets/Simple_Spot_Material_Auto2.uasset'
+[2018.07.31-05.54.37:180][360]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Autosaves/Game/Assets/Simple_Spot_Material_Auto2.uasset
+[2018.07.31-05.54.37:181][360]LogFileHelpers: Auto-saving content packages took 0.100
+[2018.07.31-05.54.45:682][452]LogMaterialEditor: Applying material Simple_Spot_Material
+[2018.07.31-05.54.50:900][452]LogMaterial: Missing cached shader map for material Simple_Spot_Material, compiling. 
+[2018.07.31-05.54.50:929][452]LogShaderCompilers: Display: Shaders left to compile 8
+[2018.07.31-05.54.50:929][452]LogShaderCompilers: Display: Shaders left to compile 7
+[2018.07.31-05.54.50:929][452]LogShaderCompilers: Display: Shaders left to compile 6
+[2018.07.31-05.54.50:983][452]LogMaterial: Missing cached shader map for material Simple_Spot_Material, compiling. 
+[2018.07.31-05.54.50:996][452]LogMaterial: Missing cached shader map for material Simple_Spot_Material, compiling. 
+[2018.07.31-05.54.51:187][452]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.07.31-05.54.51:187][452]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.07.31-05.54.51:229][452]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.07.31-05.54.51:229][452]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Simple_Spot_Material, compiling. 
+[2018.07.31-05.54.51:772][452]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.07.31-05.54.51:772][452]LogShaderCompilers: Display: Shaders left to compile 13
+[2018.07.31-05.54.51:772][452]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.07.31-05.54.51:772][452]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.07.31-05.54.51:804][452]TextureStreamingBuild: Display: Compiling optional shaders took 0.616 seconds.
+[2018.07.31-05.54.51:928][452]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.07.31-05.54.53:603][510]LogMaterialEditor: Saving and Compiling material Simple_Spot_Material
+[2018.07.31-05.54.54:796][510]LogSavePackage: Save=13.84ms
+[2018.07.31-05.54.54:796][510]LogSavePackage: Moving '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Simple_Spot_MaterialBB50BEDE4751F4B5E4E005ADBF8F0FB9.tmp' to '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Assets/Simple_Spot_Material.uasset'
+[2018.07.31-05.54.54:800][510]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Assets/Simple_Spot_Material.uasset
+[2018.07.31-05.54.54:807][510]MaterialEditorStats: Base pass shader without light map: 61 instructions
+[2018.07.31-05.54.54:807][510]MaterialEditorStats: Vertex shader: 113 instructions
+[2018.07.31-05.54.54:807][510]MaterialEditorStats: Texture samplers: 3/16
+[2018.07.31-05.54.54:807][510]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.07.31-05.55.10:861][862]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.31-05.55.29:867][563]LogParticles: Warning: MaxCount =  502 for Emitter ParticleSpriteEmitter_0 (/Game/Assets/Bumper_Sparks_ParticleSystem.Bumper_Sparks_ParticleSystem)
+[2018.07.31-05.55.29:891][563]LogMaterial: Warning: Material /Game/Assets/Simple_Spot_Material.Simple_Spot_Material needed to have new flag set bUsedWithParticleSprites !
+[2018.07.31-05.55.29:891][563]LogMaterial: Warning: Material /Engine/Transient.Simple_Spot_Material needed to have new flag set bUsedWithParticleSprites !
+[2018.07.31-05.55.29:940][563]LogMaterial: Missing cached shader map for material Simple_Spot_Material, compiling. 
+[2018.07.31-05.55.29:971][563]LogShaderCompilers: Display: Shaders left to compile 8
+[2018.07.31-05.55.29:971][563]LogShaderCompilers: Display: Shaders left to compile 7
+[2018.07.31-05.55.29:971][563]LogShaderCompilers: Display: Shaders left to compile 6
+[2018.07.31-05.55.29:971][563]LogMaterial: Missing cached shader map for material Simple_Spot_Material, compiling. 
+[2018.07.31-05.55.32:154][671]LogShaderCompilers: Display: Shaders left to compile 32
+[2018.07.31-05.55.32:294][679]LogShaderCompilers: Display: Shaders left to compile 31
+[2018.07.31-05.55.32:811][691]LogShaderCompilers: Display: Shaders left to compile 30
+[2018.07.31-05.55.32:811][691]LogShaderCompilers: Display: Shaders left to compile 29
+[2018.07.31-05.55.32:811][691]LogShaderCompilers: Display: Shaders left to compile 28
+[2018.07.31-05.55.33:165][692]LogShaderCompilers: Display: Shaders left to compile 27
+[2018.07.31-05.55.33:165][692]LogShaderCompilers: Display: Shaders left to compile 17
+[2018.07.31-05.55.33:476][693]LogShaderCompilers: Display: Shaders left to compile 7
+[2018.07.31-05.55.37:911][705]MaterialEditorStats: Base pass shader without light map: 61 instructions
+[2018.07.31-05.55.37:911][705]MaterialEditorStats: Vertex shader: 113 instructions
+[2018.07.31-05.55.37:911][705]MaterialEditorStats: Texture samplers: 7/16
+[2018.07.31-05.55.37:911][705]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.07.31-05.55.50:947][919]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.31-05.57.07:615][ 45]LogParticles: Warning: MaxCount =  502 for Emitter ParticleSpriteEmitter_0 (/Game/Assets/Bumper_Sparks_ParticleSystem.Bumper_Sparks_ParticleSystem)
+[2018.07.31-05.57.12:778][354]LogParticles: Warning: MaxCount =  502 for Emitter ParticleSpriteEmitter_0 (/Game/Assets/Bumper_Sparks_ParticleSystem.Bumper_Sparks_ParticleSystem)
+[2018.07.31-05.57.17:057][610]LogParticles: Warning: MaxCount =  502 for Emitter ParticleSpriteEmitter_0 (/Game/Assets/Bumper_Sparks_ParticleSystem.Bumper_Sparks_ParticleSystem)
+[2018.07.31-05.58.14:084][852]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.31-05.58.33:673][240]LogParticles: Warning: MaxCount =  502 for Emitter ParticleSpriteEmitter_0 (/Game/Assets/Bumper_Sparks_ParticleSystem.Bumper_Sparks_ParticleSystem)
+[2018.07.31-05.58.46:957][593]LogParticles: Warning: MaxCount =  502 for Emitter ParticleSpriteEmitter_0 (/Game/Assets/Bumper_Sparks_ParticleSystem.Bumper_Sparks_ParticleSystem)
+[2018.07.31-05.59.13:141][ 33]LogParticles: Warning: MaxCount =  502 for Emitter ParticleSpriteEmitter_0 (/Game/Assets/Bumper_Sparks_ParticleSystem.Bumper_Sparks_ParticleSystem)
+[2018.07.31-05.59.45:441][518]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.31-06.00.07:430][728]LogParticles: Warning: MaxCount =  502 for Emitter ParticleSpriteEmitter_0 (/Game/Assets/Bumper_Sparks_ParticleSystem.Bumper_Sparks_ParticleSystem)
+[2018.07.31-06.00.38:562][126]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.31-06.00.45:173][507]LogParticles: Warning: MaxCount =  502 for Emitter ParticleSpriteEmitter_0 (/Game/Assets/Bumper_Sparks_ParticleSystem.Bumper_Sparks_ParticleSystem)
+[2018.07.31-06.00.46:783][602]LogParticles: Warning: MaxCount =  502 for Emitter ParticleSpriteEmitter_0 (/Game/Assets/Bumper_Sparks_ParticleSystem.Bumper_Sparks_ParticleSystem)
+[2018.07.31-06.01.18:216][148]LogParticles: Warning: MaxCount =  502 for Emitter ParticleSpriteEmitter_0 (/Game/Assets/Bumper_Sparks_ParticleSystem.Bumper_Sparks_ParticleSystem)
+[2018.07.31-06.01.19:959][251]LogParticles: Warning: MaxCount =  502 for Emitter ParticleSpriteEmitter_0 (/Game/Assets/Bumper_Sparks_ParticleSystem.Bumper_Sparks_ParticleSystem)
+[2018.07.31-06.01.24:137][501]LogParticles: Warning: MaxCount =  502 for Emitter ParticleSpriteEmitter_0 (/Game/Assets/Bumper_Sparks_ParticleSystem.Bumper_Sparks_ParticleSystem)
+[2018.07.31-06.01.27:233][686]LogParticles: Warning: MaxCount =  502 for Emitter ParticleSpriteEmitter_0 (/Game/Assets/Bumper_Sparks_ParticleSystem.Bumper_Sparks_ParticleSystem)
+[2018.07.31-06.01.43:118][917]LogSavePackage: Save=211.04ms
+[2018.07.31-06.01.43:119][917]LogSavePackage: Moving '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Bumper_Sparks_ParticleSystem3A8C2042414E65640336A6B572552DF1.tmp' to '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Assets/Bumper_Sparks_ParticleSystem.uasset'
+[2018.07.31-06.01.43:137][917]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Assets/Bumper_Sparks_ParticleSystem.uasset
+[2018.07.31-06.01.46:467][ 86]LogMaterialEditor: Saving and Compiling material Simple_Spot_Material
+[2018.07.31-06.01.46:529][ 86]LogSavePackage: Save=8.12ms
+[2018.07.31-06.01.46:529][ 86]LogSavePackage: Moving '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Simple_Spot_Material4B3298164A9BFDA49ED08A8F969E287B.tmp' to '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Assets/Simple_Spot_Material.uasset'
+[2018.07.31-06.01.46:531][ 86]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Assets/Simple_Spot_Material.uasset
+[2018.07.31-06.05.36:489][693]LogMaterial: Missing cached shader map for material Simple_Spot_Material, compiling. 
+[2018.07.31-06.05.36:524][693]LogMaterial: Missing cached shader map for material Simple_Spot_Material, compiling. 
+[2018.07.31-06.05.36:536][693]LogShaderCompilers: Display: Shaders left to compile 8
+[2018.07.31-06.05.36:536][693]LogShaderCompilers: Display: Shaders left to compile 7
+[2018.07.31-06.05.36:536][693]LogShaderCompilers: Display: Shaders left to compile 6
+[2018.07.31-06.05.36:570][693]LogMaterial: Missing cached shader map for material Simple_Spot_Material, compiling. 
+[2018.07.31-06.05.39:367][810]LogShaderCompilers: Display: Shaders left to compile 8
+[2018.07.31-06.05.39:509][816]LogShaderCompilers: Display: Shaders left to compile 7
+[2018.07.31-06.05.39:798][828]LogShaderCompilers: Display: Shaders left to compile 6
+[2018.07.31-06.05.40:446][854]LogShaderCompilers: Display: Shaders left to compile 5
+[2018.07.31-06.05.40:557][859]LogShaderCompilers: Display: Shaders left to compile 4
+[2018.07.31-06.05.41:102][884]LogShaderCompilers: Display: Shaders left to compile 3
+[2018.07.31-06.05.41:147][886]LogMaterialEditor: Saving and Compiling material Simple_Spot_Material
+[2018.07.31-06.05.41:856][886]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.07.31-06.05.41:856][886]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.07.31-06.05.41:872][886]LogMaterial: Missing cached shader map for material Simple_Spot_Material, compiling. 
+[2018.07.31-06.05.41:887][886]LogShaderCompilers: Display: Shaders left to compile 8
+[2018.07.31-06.05.41:888][886]LogShaderCompilers: Display: Shaders left to compile 7
+[2018.07.31-06.05.41:934][886]LogMaterial: Missing cached shader map for material Simple_Spot_Material, compiling. 
+[2018.07.31-06.05.41:998][886]LogMaterial: Missing cached shader map for material Simple_Spot_Material, compiling. 
+[2018.07.31-06.05.42:070][886]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Simple_Spot_Material, compiling. 
+[2018.07.31-06.05.42:756][886]LogShaderCompilers: Display: Shaders left to compile 34
+[2018.07.31-06.05.42:757][886]LogShaderCompilers: Display: Shaders left to compile 33
+[2018.07.31-06.05.42:757][886]LogShaderCompilers: Display: Shaders left to compile 32
+[2018.07.31-06.05.42:757][886]LogShaderCompilers: Display: Shaders left to compile 31
+[2018.07.31-06.05.42:757][886]LogShaderCompilers: Display: Shaders left to compile 30
+[2018.07.31-06.05.42:757][886]LogShaderCompilers: Display: Shaders left to compile 29
+[2018.07.31-06.05.42:757][886]LogShaderCompilers: Display: Shaders left to compile 28
+[2018.07.31-06.05.42:757][886]LogShaderCompilers: Display: Shaders left to compile 27
+[2018.07.31-06.05.42:757][886]LogShaderCompilers: Display: Shaders left to compile 17
+[2018.07.31-06.05.42:758][886]TextureStreamingBuild: Display: Compiling optional shaders took 0.695 seconds.
+[2018.07.31-06.05.45:632][886]LogShaderCompilers: Display: Shaders left to compile 7
+[2018.07.31-06.05.45:746][886]LogSavePackage: Save=40.71ms
+[2018.07.31-06.05.45:746][886]LogSavePackage: Moving '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Simple_Spot_MaterialBDBFC42846923E9FF155A79927CD0997.tmp' to '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Assets/Simple_Spot_Material.uasset'
+[2018.07.31-06.05.45:749][886]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Assets/Simple_Spot_Material.uasset
+[2018.07.31-06.05.45:755][886]MaterialEditorStats: Base pass shader without light map: 61 instructions
+[2018.07.31-06.05.45:755][886]MaterialEditorStats: Vertex shader: 113 instructions
+[2018.07.31-06.05.45:755][886]MaterialEditorStats: Texture samplers: 7/16
+[2018.07.31-06.05.45:755][886]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.07.31-06.05.47:276][957]LogMaterialEditor: Saving and Compiling material Simple_Spot_Material
+[2018.07.31-06.05.47:328][957]LogSavePackage: Save=7.67ms
+[2018.07.31-06.05.47:328][957]LogSavePackage: Moving '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Simple_Spot_Material8A2D2C5F4D904F5A00E6B49899882CA0.tmp' to '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Assets/Simple_Spot_Material.uasset'
+[2018.07.31-06.05.47:329][957]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Assets/Simple_Spot_Material.uasset
+[2018.07.31-06.07.00:365][582]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.31-06.07.05:974][910]LogParticles: Warning: MaxCount =  502 for Emitter ParticleSpriteEmitter_0 (/Game/Assets/Bumper_Sparks_ParticleSystem.Bumper_Sparks_ParticleSystem)
+[2018.07.31-06.07.17:721][360]LogParticles: Warning: MaxCount =  502 for Emitter ParticleSpriteEmitter_0 (/Game/Assets/Bumper_Sparks_ParticleSystem.Bumper_Sparks_ParticleSystem)
+[2018.07.31-06.07.44:329][562]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Ball_Setup_Map' took 0.022
+[2018.07.31-06.07.44:331][562]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Bumper_Sparks_ParticleSystem] ([1] browsable assets)...
+[2018.07.31-06.07.44:336][562]OBJ SavePackage:     Rendered thumbnail for [ParticleSystem /Game/Assets/Bumper_Sparks_ParticleSystem.Bumper_Sparks_ParticleSystem]
+[2018.07.31-06.07.44:336][562]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Bumper_Sparks_ParticleSystem]
+[2018.07.31-06.07.44:389][562]LogSavePackage: Save=11.06ms
+[2018.07.31-06.07.44:389][562]LogSavePackage: Moving '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Bumper_Sparks_ParticleSystem_AutB885B5B3431AFC477C598FA2C2E5085A.tmp' to '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Autosaves/Game/Assets/Bumper_Sparks_ParticleSystem_Auto3.uasset'
+[2018.07.31-06.07.44:391][562]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Autosaves/Game/Assets/Bumper_Sparks_ParticleSystem_Auto3.uasset
+[2018.07.31-06.07.44:391][562]LogFileHelpers: Auto-saving content packages took 0.060
+[2018.07.31-06.07.50:536][689]LogCascade: Non-seeded module ParticleModuleRequired
+[2018.07.31-06.09.01:319][906]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.31-06.09.32:104][463]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.31-06.09.49:598][901]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.31-06.09.51:074][988]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.31-06.09.55:233][230]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.31-06.10.07:425][957]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.31-06.10.17:312][150]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.31-06.10.19:858][302]LogParticles: Warning: MaxCount = 1502 for Emitter ParticleSpriteEmitter_0 (/Game/Assets/Bumper_Sparks_ParticleSystem.Bumper_Sparks_ParticleSystem)
+[2018.07.31-06.10.51:872][618]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.31-06.11.03:875][965]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.31-06.11.06:098][ 70]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.31-06.11.45:081][314]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.31-06.11.51:362][440]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.31-06.11.52:654][516]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.31-06.11.55:176][665]LogParticles: Warning: MaxCount =  752 for Emitter ParticleSpriteEmitter_0 (/Game/Assets/Bumper_Sparks_ParticleSystem.Bumper_Sparks_ParticleSystem)
+[2018.07.31-06.12.07:034][894]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.07.31-06.12.08:942][  5]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.31-06.12.10:269][ 84]LogParticles: Warning: MaxCount =  752 for Emitter ParticleSpriteEmitter_0 (/Game/Assets/Bumper_Sparks_ParticleSystem.Bumper_Sparks_ParticleSystem)
+[2018.07.31-06.12.32:588][426]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.31-06.12.32:994][436]LogSavePackage: Save=191.08ms
+[2018.07.31-06.12.32:997][436]LogSavePackage: Moving '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Bumper_Sparks_ParticleSystem570D62C94453FB6DF5358AA27B770ABE.tmp' to '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Assets/Bumper_Sparks_ParticleSystem.uasset'
+[2018.07.31-06.12.33:005][436]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Assets/Bumper_Sparks_ParticleSystem.uasset
+[2018.07.31-06.12.34:178][501]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.31-06.12.35:739][575]LogMaterialEditor: Saving and Compiling material Simple_Spot_Material
+[2018.07.31-06.12.35:796][575]LogSavePackage: Save=7.83ms
+[2018.07.31-06.12.35:796][575]LogSavePackage: Moving '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Simple_Spot_MaterialDF9E9AAC47599CE0A0B9C0980D51EB63.tmp' to '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Assets/Simple_Spot_Material.uasset'
+[2018.07.31-06.12.35:797][575]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Assets/Simple_Spot_Material.uasset
+[2018.07.31-06.12.37:790][636]LogSavePackage: Save=134.38ms
+[2018.07.31-06.12.37:790][636]LogSavePackage: Moving '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Ball_Setup_Map289832C348269F5AB983F1B010B94A0D.tmp' to '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Ball_Setup_Map.umap'
+[2018.07.31-06.12.37:791][636]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Ball_Setup_Map.umap
+[2018.07.31-06.12.37:827][636]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Ball_Setup_Map_BuiltData" FILE="../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Ball_Setup_Map_BuiltData.uasset" SILENT=true
+[2018.07.31-06.12.38:329][636]LogSavePackage: Save=235.05ms
+[2018.07.31-06.12.38:329][636]LogSavePackage: Moving '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Ball_Setup_Map_BuiltDataA11B6FB24B427FBF012DBB98CB82AD09.tmp' to '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Ball_Setup_Map_BuiltData.uasset'
+[2018.07.31-06.12.38:330][636]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Ball_Setup_Map_BuiltData.uasset
+[2018.07.31-06.12.40:381][654]PIE: Warning: Constraint in '/Engine/Transient.World_12:PersistentLevel.Spinner_Blueprint_C_0.PhysicsConstraint' attempting to create a joint between objects that are both static.  No joint created.
+[2018.07.31-06.16.16:752][385]BlueprintLog: New page: Compile Bumper_Blueprint
+[2018.07.31-06.16.16:938][385]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000219bc310a40, Size=288
+[2018.07.31-06.16.16:938][385]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021a428a7c40, Size=288, Default__Bumper_Blueprint_C Function /Engine/Transient.REINST_Bumper_Blueprint_C_56:ExecuteUbergraph_Bumper_Blueprint
+[2018.07.31-06.16.16:974][385]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021a428a74c0, Size=304, Default__Bumper_Blueprint_C Function /Game/Blueprints/Bumper_Blueprint.Bumper_Blueprint_C:ExecuteUbergraph_Bumper_Blueprint
+[2018.07.31-06.16.20:974][460]LogSavePackage: Save=159.12ms
+[2018.07.31-06.16.20:974][460]LogSavePackage: Moving '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Bumper_Blueprint8C393DE2469DDA0ED2D70098A23C81AA.tmp' to '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Blueprints/Bumper_Blueprint.uasset'
+[2018.07.31-06.16.20:979][460]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Blueprints/Bumper_Blueprint.uasset
+[2018.07.31-06.16.37:369][717]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021a428a7c40, Size=288
+[2018.07.31-06.16.37:484][717]LogSavePackage: Save=84.38ms
+[2018.07.31-06.16.37:484][717]LogSavePackage: Moving '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Ball_Setup_MapAF0A02C34D6CAA348F4BD7BAF0ACA031.tmp' to '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Ball_Setup_Map.umap'
+[2018.07.31-06.16.37:486][717]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Ball_Setup_Map.umap
+[2018.07.31-06.16.37:519][717]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Ball_Setup_Map_BuiltData" FILE="../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Ball_Setup_Map_BuiltData.uasset" SILENT=true
+[2018.07.31-06.16.37:671][717]LogSavePackage: Save=112.03ms
+[2018.07.31-06.16.37:671][717]LogSavePackage: Moving '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Ball_Setup_Map_BuiltDataA9ACD3D14F197681127F2F86BD853B29.tmp' to '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Ball_Setup_Map_BuiltData.uasset'
+[2018.07.31-06.16.37:672][717]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Ball_Setup_Map_BuiltData.uasset
+[2018.07.31-06.16.47:505][945]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.31-06.16.56:284][ 46]LogRenderer: Reallocating scene render targets to support 1016x612 Format 10 NumSamples 1 (Frame:1).
+[2018.07.31-06.17.06:014][235]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/SM_SpinnerTile" FILE="../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Assets/SM_SpinnerTile.uasset" SILENT=true
+[2018.07.31-06.17.06:192][235]LogSavePackage: Save=130.43ms
+[2018.07.31-06.17.06:192][235]LogSavePackage: Moving '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/SM_SpinnerTile427F9D8646452E2DD0EF9B9B547DA4F8.tmp' to '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Assets/SM_SpinnerTile.uasset'
+[2018.07.31-06.17.06:198][235]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Assets/SM_SpinnerTile.uasset
+[2018.07.31-06.17.14:715][365]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.31-06.17.22:768][674]LogSavePackage: Save=98.64ms
+[2018.07.31-06.17.22:768][674]LogSavePackage: Moving '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Ball_Setup_MapD68119CF4E5A2A33C2676A9885D5B9C9.tmp' to '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Ball_Setup_Map.umap'
+[2018.07.31-06.17.22:770][674]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Ball_Setup_Map.umap
+[2018.07.31-06.17.22:802][674]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Ball_Setup_Map_BuiltData" FILE="../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Ball_Setup_Map_BuiltData.uasset" SILENT=true
+[2018.07.31-06.17.22:961][674]LogSavePackage: Save=108.45ms
+[2018.07.31-06.17.22:961][674]LogSavePackage: Moving '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Ball_Setup_Map_BuiltDataF47E5ECF4A2AE22C631855B626EBD854.tmp' to '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Ball_Setup_Map_BuiltData.uasset'
+[2018.07.31-06.17.22:962][674]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Ball_Setup_Map_BuiltData.uasset
+[2018.07.31-06.18.19:582][121]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.31-06.18.36:020][762]LogParticles: Warning: MaxCount =  751 for Emitter ParticleSpriteEmitter_0 (/Game/Assets/Bumper_Sparks_ParticleSystem.Bumper_Sparks_ParticleSystem)
+[2018.07.31-06.19.26:789][201]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.07.31-06.19.32:923][568]LogParticles: Warning: MaxCount =  751 for Emitter ParticleSpriteEmitter_0 (/Game/Assets/Bumper_Sparks_ParticleSystem.Bumper_Sparks_ParticleSystem)
+[2018.07.31-06.19.33:184][575]LogSavePackage: Save=37.43ms
+[2018.07.31-06.19.33:185][575]LogSavePackage: Moving '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Bumper_Sparks_ParticleSystemA0CE8A5D450043F621082BA035A18D68.tmp' to '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Assets/Bumper_Sparks_ParticleSystem.uasset'
+[2018.07.31-06.19.33:190][575]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Assets/Bumper_Sparks_ParticleSystem.uasset
+[2018.07.31-06.20.45:084][ 58]LogSavePackage: Save=86.31ms
+[2018.07.31-06.20.45:085][ 58]LogSavePackage: Moving '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Ball_Setup_MapA54701E7467C7AC2F5554EB1F6F91208.tmp' to '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Ball_Setup_Map.umap'
+[2018.07.31-06.20.45:086][ 58]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Ball_Setup_Map.umap
+[2018.07.31-06.20.45:120][ 58]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Ball_Setup_Map_BuiltData" FILE="../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Ball_Setup_Map_BuiltData.uasset" SILENT=true
+[2018.07.31-06.20.45:267][ 58]LogSavePackage: Save=109.20ms
+[2018.07.31-06.20.45:267][ 58]LogSavePackage: Moving '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Saved/Ball_Setup_Map_BuiltDataBEC1CC6F4E76706FD38C2BABB9B4F185.tmp' to '../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Ball_Setup_Map_BuiltData.uasset'
+[2018.07.31-06.20.45:268][ 58]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Shweta/Documents/GitHub/theshwetapatil/Pinball-UE4/Pinball/Content/Ball_Setup_Map_BuiltData.uasset
+[2018.07.31-06.20.48:108][113]LogCascade: Quitting Cascade. FXSystem=0x00000219D4C3DA80
+[2018.07.31-06.20.48:556][113]LogSlate: Window 'Pinball - Unreal Editor' being destroyed
+[2018.07.31-06.20.48:651][113]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.07.31-06.20.57:749][114]Cmd: QUIT_EDITOR
+[2018.07.31-06.21.02:664][114]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2018.07.31-06.21.02:755][114]LogExit: Preparing to exit.

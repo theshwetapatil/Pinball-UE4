@@ -15,3 +15,6 @@ https://docs.unrealengine.com/en-us/Engine/Physics/Constraints/ConstraintsUserGu
 
 Official Unreal Engine Documentation on Fonts
 https://docs.unrealengine.com/en-us/Engine/UMG/UserGuide/Fonts
+
+Official Unreal Engine Documentation on Cascade Particle Systems
+https://docs.unrealengine.com/en-us/Engine/Rendering/ParticleSystems
