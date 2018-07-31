@@ -13,3 +13,5 @@ https://docs.unrealengine.com/en-us/Engine/Blueprints/UserGuide/EventDispatcher
 Official Unreal Engine Documentation on Physics Constraints
 https://docs.unrealengine.com/en-us/Engine/Physics/Constraints/ConstraintsUserGuide
 
+Official Unreal Engine Documentation on Fonts
+https://docs.unrealengine.com/en-us/Engine/UMG/UserGuide/Fonts
